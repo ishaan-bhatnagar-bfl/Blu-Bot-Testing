@@ -1,5 +1,6 @@
 # CAI
 Consumer AI Platform
+
 Overview
 CAI stands for Consumer AI Platform.
 It is not designed as a finance app or a chatbot.
