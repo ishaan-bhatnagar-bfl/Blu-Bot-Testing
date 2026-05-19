@@ -41,7 +41,7 @@ node --version
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ishaan-bhatnagar-bfl/CAI.git
+git clone https://github.com/ishaan-bhatnagar-bfl/Blu-Bot---UAT-Testing.git
 cd CAI
 ```
 
