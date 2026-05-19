@@ -1,17 +1,16 @@
 'use strict';
 /**
- * BLU UAT v3.5 - Message Count Fix
+ * BLU UAT v3.6 - Complete Fix Package
  * 
- * v3.5: Get count before relation click, skip retry if bot already answered
- * v3.4: Only poll retry during relation selection
- * v3.3: Polls retry for 30s cooldown
+ * v3.6: Product-aware follow-ups, module filtering, context-aware scoring
+ * v3.5: Message count before relation click
  */
 
 const { test, expect } = require('@playwright/test');
 const fs   = require('fs');
 const path = require('path');
 
-const VERSION = 'v3.5';
+const VERSION = 'v3.6';
 
 const cfg = JSON.parse(fs.readFileSync(path.resolve('run_config.json'), 'utf-8'));
 const allCases = JSON.parse(fs.readFileSync(path.resolve('data/blu_test_cases_v3.json'), 'utf-8'));
@@ -50,21 +49,49 @@ function needsFollowUp(botReply) {
 function generateFollowUpData(botReply) {
   const lower = botReply.toLowerCase();
   
+  // EMI Card specific
+  if (lower.includes('emi card') || lower.includes('emi network')) {
+    if (lower.includes('card number') || lower.includes('provide')) {
+      return 'EMI Card number 5412 3456 7890 1234';
+    }
+    if (lower.includes('limit') || lower.includes('amount')) {
+      return 'EMI Card limit 50000';
+    }
+  }
+  
+  // Health Card specific
+  if (lower.includes('health card')) {
+    if (lower.includes('card number')) {
+      return 'Health Card number 6234 5678 9012 3456';
+    }
+  }
+  
+  // Fixed Deposit specific
+  if (lower.includes('fixed deposit') || lower.includes('fd')) {
+    if (lower.includes('amount') || lower.includes('tenure')) {
+      return 'Fixed Deposit amount 10 lakh, tenure 5 years';
+    }
+  }
+  
+  // Loan variant selection
   if (lower.includes('variant')) {
     return 'Flexi Hybrid Term Loan';
   }
   
+  // Loan type selection
   if (lower.includes('specify') || lower.includes('which')) {
     if (lower.includes('product') || lower.includes('loan')) {
       return 'Personal Loan';
     }
   }
   
+  // Loan details (default)
   if (lower.includes('you') && lower.includes('need')) {
     return 'Loan amount 5 lakh, interest rate 12%, tenure 3 years';
   }
   
-  if (lower.includes('loan amount') || lower.includes('interest') || lower.includes('tenure') || lower.includes('chahiye')) {
+  if (lower.includes('loan amount') || lower.includes('interest') || 
+      lower.includes('tenure') || lower.includes('chahiye')) {
     return 'Loan amount 5 lakh, interest rate 12%, tenure 3 years';
   }
   
@@ -472,6 +499,7 @@ test('BLU UAT', async ({ page, context }) => {
   const BATCH_SIZE  = parseInt(process.env.BATCH_SIZE      || cfg.BATCH_SIZE);
   const FILTER_L1   = process.env.FILTER_L1       || cfg.FILTER_L1        || '';
   const FILTER_VAR  = process.env.FILTER_VARIATION || cfg.FILTER_VARIATION || '';
+  const FILTER_MOD  = process.env.FILTER_MODULE   || '';
   const DELAY_MS    = parseInt(process.env.DELAY_MS || cfg.DELAY_BETWEEN_MSGS_MS);
   const BOT_TIMEOUT = parseInt(cfg.BOT_REPLY_TIMEOUT_MS);
 
@@ -483,6 +511,10 @@ test('BLU UAT', async ({ page, context }) => {
   
   if (FILTER_VAR) {
     filtered = filtered.filter(tc => tc.variation_type === FILTER_VAR);
+  }
+  
+  if (FILTER_MOD) {
+    filtered = filtered.filter(tc => tc.module === FILTER_MOD);
   }
   
   filtered = filtered.slice(0, BATCH_SIZE);
@@ -656,6 +688,13 @@ test('BLU UAT', async ({ page, context }) => {
   runResults.passed    = passed;
   runResults.failed    = failed;
   runResults.pass_rate = `${((passed / filtered.length) * 100).toFixed(1)}%`;
+  
+  // Standalone pass rate (excludes context-dependent)
+  const standalone = runResults.results.filter(r => !allCases.find(tc => tc.id === r.tc_id)?.requires_context);
+  const standalonePassed = standalone.filter(r => r.overall === 'Pass').length;
+  runResults.standalone_pass_rate = `${((standalonePassed / standalone.length) * 100).toFixed(1)}%`;
+  runResults.standalone_total = standalone.length;
+  
   fs.writeFileSync(RESULTS_FILE, JSON.stringify(runResults, null, 2));
 
   console.log(`\n${'═'.repeat(50)}`);

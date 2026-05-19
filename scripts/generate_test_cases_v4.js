@@ -217,6 +217,31 @@ function inferL1(query) {
   return best[1] > 0 ? best[0] : null;
 }
 
+// Reject mappings where query is clearly about a different domain than the matched JSON entry.
+// Prevents short/ambiguous queries (e.g. "bank account change") from mapping to wrong L2.
+const CROSS_MODULE_REJECTS = [
+  // Profile/mandate queries must not map to Cards or Loan
+  { queryPattern: /mobile number change|number change|bank account change|account change|mandate change|change mobile|change bank/i,
+    rejectL2:     /emi network card|health emi|personal flexi|two wheeler|consumer loan/i },
+  // Pure UPI queries must not map to Loan
+  { queryPattern: /upi|bhim|vpa|p2p transfer|p2m/i,
+    rejectL2:     /personal flexi|consumer loan|two wheeler/i },
+  // Pure wallet queries must not map to Loan
+  { queryPattern: /wallet|topup|top up|cashback/i,
+    rejectL2:     /personal flexi|consumer loan|gold loan/i },
+  // BBPS / bill pay must not map to Loan or Cards
+  { queryPattern: /electricity bill|gas bill|water bill|broadband bill|recharge/i,
+    rejectL2:     /personal flexi|consumer loan|emi network card/i },
+];
+
+function isCrossModuleReject(query, matchedL2) {
+  const lower = query.toLowerCase();
+  const l2lower = matchedL2.toLowerCase();
+  return CROSS_MODULE_REJECTS.some(rule =>
+    rule.queryPattern.test(lower) && rule.rejectL2.test(l2lower)
+  );
+}
+
 function isRelational(answer) {
   return /customer_data/i.test(answer) ||
          /check.*before.*answer/i.test(answer) ||
@@ -407,6 +432,12 @@ uniqueQueries.forEach(query => {
 
   if (!bestEntry) {
     unmapped.push({ utterance: query, reason: 'No keyword overlap' });
+    return;
+  }
+
+  // Reject if query is clearly from a different domain than the matched L2
+  if (isCrossModuleReject(query, bestEntry.l2)) {
+    unmapped.push({ utterance: query, reason: 'Cross-module reject' });
     return;
   }
 
