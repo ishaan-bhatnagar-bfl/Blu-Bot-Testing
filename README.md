@@ -175,4 +175,4 @@ Export copies to clipboard (paste into ADO) + downloads as `.txt`.
 
 ## Maintainer
 
-Ishaan Bhatnagar — CAI Team, Bajaj Finance / The Gradient
+Ishaan Bhatnagar — CAI Team, Bajaj Finance
