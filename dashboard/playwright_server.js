@@ -82,21 +82,40 @@ async function dismissRetryCard(maxWaitMs = 45000) {
   return false
 }
 
+// ── SCROLL TO COMPOSER ───────────────────────────────
+// Scrolls textarea into view — called after page load and before typing
+async function scrollToComposer() {
+  try {
+    await page.evaluate(() => {
+      const selectors = ['textarea','input[type="text"]','[contenteditable="true"]','[class*="input"]','[class*="composer"]','[class*="footer"]']
+      for (const sel of selectors) {
+        const el = document.querySelector(sel)
+        if (el) { el.scrollIntoView({ behavior: 'instant', block: 'center' }); return }
+      }
+      window.scrollTo(0, document.body.scrollHeight)
+    })
+  } catch {}
+}
+
 // ── TEXTAREA HELPER ────────────────────────────────
 async function getVisibleTextarea() {
+  // Wait for textarea to appear
   await page.waitForSelector('textarea', { timeout: 15000 }).catch(() => {})
-  await page.evaluate(() => {
-    const ta = document.querySelector('textarea')
-    if (ta) { ta.scrollIntoView({ behavior: 'instant', block: 'end' }); ta.focus() }
-  }).catch(() => {})
-  await page.waitForTimeout(300)
+  // Scroll it into view
+  await scrollToComposer()
+  await page.waitForTimeout(400)
+  // Verify visible
   const visible = await page.evaluate(() => {
-    const ta   = document.querySelector('textarea')
+    const ta = document.querySelector('textarea')
     if (!ta) return false
     const rect = ta.getBoundingClientRect()
     return rect.width > 0 && rect.height > 0
   }).catch(() => false)
-  if (!visible) throw new Error('textarea not visible after scroll')
+  if (!visible) {
+    // One more attempt — scroll entire page and wait
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight))
+    await page.waitForTimeout(800)
+  }
   return 'textarea'
 }
 
@@ -318,7 +337,7 @@ async function startLogin(env, url, mobile) {
   console.log('🌐 Navigating to', botUrl)
   await page.goto(botUrl, { waitUntil: 'domcontentloaded' })
   await page.waitForTimeout(4000)
-  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight))
+  await scrollToComposer()
   await page.waitForTimeout(500)
   console.log('📱 Sending mobile:', MOBILE)
   await typeAndSend(MOBILE, true)
@@ -489,32 +508,15 @@ async function startServer() {
     args: ['--remote-debugging-port=9222'],
     slowMo: 60
   })
-  // FIX: wider viewport so bot UI renders fully and composer is always visible
-  ctx  = await browser.newContext({
-    viewport: { width: 500, height: 1000 },
-    // Emulate mobile so the bot renders its mobile layout correctly
-    userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1',
-    isMobile: true,
-    hasTouch: true,
-  })
+  ctx  = await browser.newContext({ viewport: { width: 480, height: 900 } })
   page = await ctx.newPage()
 
-  // After every navigation, scroll to bottom so composer is in viewport
-  page.on('domcontentloaded', async () => {
-    await page.waitForTimeout(800)
-    await page.evaluate(() => {
-      // Scroll the chat container, not just window
-      const containers = [
-        document.querySelector('.blu-chat-container'),
-        document.querySelector('[class*="chat"]'),
-        document.querySelector('[class*="message"]'),
-        document.body
-      ]
-      for (const el of containers) {
-        if (el) { el.scrollTop = el.scrollHeight; break }
-      }
-      window.scrollTo(0, document.body.scrollHeight)
-    }).catch(() => {})
+  // Scroll composer into view after every page load
+  page.on('load', async () => {
+    try {
+      await page.waitForTimeout(1500)
+      await scrollToComposer()
+    } catch {}
   })
 
   console.log('✅ Browser launched')
