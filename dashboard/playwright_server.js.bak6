@@ -1,19 +1,19 @@
-// BLU Playwright Bridge Server v3.0
-// Phase 1 fixes:
-//   - Retry card race condition: global lock + message queue
-//   - Re-auth after auto-reset: detects mobile screen, re-logs silently
-//   - Virtual scroll prep: bulk run respects queue ordering
+// BLU Playwright Bridge Server v2.2
+// Patches v2.1: retry card dismiss, input scroll-into-view, viewport bump
+// Patches v2.2: verdict engine integration, double-bubble capture,
+//               chip response tagged to test case, sourcing skip,
+//               module passed through RUN_CASE/BULK_RUN
 
 const { chromium } = require('playwright')
 const { WebSocketServer } = require('ws')
 const fs   = require('fs')
 const path = require('path')
 
+// ── VERDICT ENGINE ─────────────────────────────────
 const { runVerdict } = require('./verdict_engine')
 
 const PORT = 3001
 let MOBILE = '9953333141'
-let STORED_OTP = ''  // stored for re-auth after reset
 const SCREENSHOTS_DIR = path.join(__dirname, '..', 'automation', 'test-output', 'screenshots')
 const LOG_PATH        = path.join(__dirname, '..', 'automation', 'test-output', 'session_log.json')
 
@@ -31,28 +31,6 @@ let currentChatId = null
 let currentEnv    = 'N2P'
 let msgCount      = 0
 
-// ── CONCURRENCY CONTROL ────────────────────────────
-// Single mutex — only one operation touches the bot at a time.
-// Queued messages wait their turn instead of colliding.
-let botLock    = false   // true = bot is busy (test running OR retry in progress)
-let msgQueue   = []      // queued {msg, ws} pairs waiting for lock
-
-function acquireLock() { botLock = true }
-function releaseLock() {
-  botLock = false
-  drainQueue()
-}
-async function drainQueue() {
-  if (botLock || msgQueue.length === 0) return
-  const next = msgQueue.shift()
-  await handleMessage(next.msg, next.ws)
-}
-function enqueue(msg, ws) {
-  console.log(`⏸  Queued (bot busy): ${msg.type}${msg.id ? ' #'+msg.id : ''}`)
-  if (activeWs) activeWs.send(JSON.stringify({ type: 'QUEUED', msgType: msg.type, id: msg.id }))
-  msgQueue.push({ msg, ws })
-}
-
 // ── SESSION LOG ────────────────────────────────────
 function logEntry(entry) {
   const ts  = new Date().toISOString()
@@ -63,30 +41,22 @@ function logEntry(entry) {
 }
 
 // ── RETRY CARD HANDLER ─────────────────────────────
-// acquires lock so no new messages fire during countdown wait
 async function dismissRetryCard(maxWaitMs = 45000) {
   const start = Date.now()
-  let retryDetected = false
-
   while (Date.now() - start < maxWaitMs) {
     const retryState = await page.evaluate(() => {
-      const bodyText     = document.body.innerText || ''
+      const bodyText   = document.body.innerText || ''
       const hasRetryCard = /we.re facing a temporary issue/i.test(bodyText)
       if (!hasRetryCard) return { hasRetry: false }
-      const retryBtns   = Array.from(document.querySelectorAll('button'))
+      const retryBtns  = Array.from(document.querySelectorAll('button'))
         .filter(b => /^retry$/i.test(b.innerText.trim()))
-      const activeBtn   = retryBtns.find(b => !b.disabled && b.offsetParent !== null)
+      const activeBtn  = retryBtns.find(b => !b.disabled && b.offsetParent !== null)
       const countdownEl = document.querySelector('[class*="countdown"], [class*="remaining"]')
-      const countdown   = countdownEl?.innerText?.trim() || ''
+      const countdown  = countdownEl?.innerText?.trim() || ''
       return { hasRetry: true, canClick: !!activeBtn, countdown }
     }).catch(() => ({ hasRetry: false }))
 
-    if (!retryState.hasRetry) {
-      if (retryDetected) console.log('✅ Retry card dismissed')
-      return true
-    }
-
-    retryDetected = true
+    if (!retryState.hasRetry) return true
 
     if (retryState.canClick) {
       console.log('🔄 Retry card — clicking Retry')
@@ -99,72 +69,26 @@ async function dismissRetryCard(maxWaitMs = 45000) {
       const stillThere = await page.evaluate(() =>
         /we.re facing a temporary issue/i.test(document.body.innerText || '')
       ).catch(() => false)
-      if (!stillThere) { console.log('✅ Retry card dismissed'); return true }
+      if (!stillThere) return true
     } else {
       if (retryState.countdown) {
-        console.log(`⏳ Retry countdown: ${retryState.countdown} — holding queue`)
-        if (activeWs) activeWs.send(JSON.stringify({
-          type: 'RETRY_WAIT',
-          countdown: retryState.countdown,
-          queueLength: msgQueue.length
-        }))
+        console.log(`⏳ Retry countdown: ${retryState.countdown}`)
+        if (activeWs) activeWs.send(JSON.stringify({ type: 'RETRY_WAIT', countdown: retryState.countdown }))
       }
       await page.waitForTimeout(3000)
     }
   }
-  console.log('⚠️  Retry card did not dismiss — proceeding anyway')
+  console.log('⚠️  Retry card did not dismiss within timeout')
   return false
 }
 
-// ── RE-AUTH DETECTION ──────────────────────────────
-// Checks if bot has reset to mobile input screen (post-30-msg reset on N2P)
-async function isBotOnLoginScreen() {
-  return page.evaluate(() => {
-    const text = document.body.innerText || ''
-    return /please enter your mobile number/i.test(text) &&
-           !!/input[type="tel"], input[placeholder*="mobile"], textarea/
-  }).catch(() => false)
-}
-
-async function reAuthIfNeeded() {
-  const onLogin = await isBotOnLoginScreen()
-  if (!onLogin) return false
-
-  console.log('🔑 Bot reset to login screen — re-authenticating')
-  if (activeWs) activeWs.send(JSON.stringify({ type: 'REAUTH_START' }))
-
-  // Re-send mobile
-  await typeAndSend(MOBILE, true)
-  await page.waitForTimeout(1000)
-
-  if (currentEnv === 'UAT') {
-    // UAT: use standard OTP directly
-    await typeAndSend('123465', true)
-  } else {
-    // N2P: need real OTP — pause bulk run and ask dashboard
-    if (activeWs) activeWs.send(JSON.stringify({ type: 'REAUTH_OTP_NEEDED', mobile: MOBILE }))
-    // Wait up to 120s for OTP to be submitted via dashboard
-    let waited = 0
-    while (waited < 120000) {
-      await page.waitForTimeout(2000)
-      waited += 2000
-      const stillOnLogin = await isBotOnLoginScreen()
-      if (!stillOnLogin) break
-    }
-  }
-
-  await page.waitForTimeout(2000)
-  await captureChatId()
-  msgCount = 0
-  console.log('✅ Re-auth complete — resuming')
-  if (activeWs) activeWs.send(JSON.stringify({ type: 'REAUTH_DONE' }))
-  return true
-}
-
-// ── SCROLL TO COMPOSER ───────────────────────────────────────────────────────
+// ── SCROLL TO COMPOSER ───────────────────────────────
+// Scrolls textarea into view — called after page load and before typing
 async function scrollToComposer() {
   try {
     await page.evaluate(() => {
+      // BLU bot uses position:fixed for the bottom bar — scrolling doesn't help.
+      // Instead ensure the fixed element and its parents are visible.
       const fixTargets = [
         '.blu-bottom-glow', '.blu-bottom-wrapper',
         '[class*="bottom"]', '[class*="input-wrap"]'
@@ -172,23 +96,31 @@ async function scrollToComposer() {
       fixTargets.forEach(sel => {
         const el = document.querySelector(sel)
         if (el) {
-          el.style.overflow  = 'visible'
+          el.style.overflow = 'visible'
           el.style.visibility = 'visible'
-          el.style.opacity   = '1'
-          el.style.zIndex    = '9999'
+          el.style.opacity = '1'
+          el.style.zIndex = '9999'
         }
       })
+      // Also focus the textarea to bring it into view
       const ta = document.querySelector('textarea')
-      if (ta) { ta.style.visibility = 'visible'; ta.style.opacity = '1'; ta.focus() }
+      if (ta) {
+        ta.style.visibility = 'visible'
+        ta.style.opacity = '1'
+        ta.focus()
+      }
     })
   } catch {}
 }
 
-// ── TEXTAREA HELPER ──────────────────────────────────────────────────────────
+// ── TEXTAREA HELPER ────────────────────────────────
 async function getVisibleTextarea() {
+  // Wait for textarea to appear
   await page.waitForSelector('textarea', { timeout: 15000 }).catch(() => {})
+  // Scroll it into view
   await scrollToComposer()
   await page.waitForTimeout(400)
+  // Verify visible
   const visible = await page.evaluate(() => {
     const ta = document.querySelector('textarea')
     if (!ta) return false
@@ -196,15 +128,20 @@ async function getVisibleTextarea() {
     return rect.width > 0 && rect.height > 0
   }).catch(() => false)
   if (!visible) {
+    // One more attempt — scroll entire page and wait
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight))
     await page.waitForTimeout(800)
   }
   return 'textarea'
 }
 
-// ── SMART WAIT — ALL BUBBLES SETTLE ─────────────────────────────────────────
+// ── SMART WAIT — ALL BUBBLES SETTLE ───────────────
+// FIX: waits for count AND text to fully stabilise across ALL new bubbles,
+// not just the first one. Captures double-bubble responses correctly.
 async function waitForBotToSettle(countBefore, maxMs = 30000) {
   const start = Date.now()
+
+  // Phase 1: wait for at least one new bubble
   while (Date.now() - start < maxMs) {
     await page.waitForTimeout(800)
     const countNow = await page.evaluate(() =>
@@ -212,6 +149,9 @@ async function waitForBotToSettle(countBefore, maxMs = 30000) {
     ).catch(() => 0)
     if (countNow > countBefore) break
   }
+
+  // Phase 2: wait for ALL bubbles to stop changing
+  // Polls every 1s — if full DOM snapshot is same 4 times in a row, settled
   let prev = '', stable = 0
   while (stable < 4 && Date.now() - start < maxMs) {
     await page.waitForTimeout(1000)
@@ -219,8 +159,8 @@ async function waitForBotToSettle(countBefore, maxMs = 30000) {
       const msgs = Array.from(document.querySelectorAll('div.blu-bot-message'))
       return msgs.map(m => m.innerText.trim()).join('|||')
     }).catch(() => '')
-    const lastPart  = snapshot.split('|||').pop() || ''
-    const loading   = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
+    const loading = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
+    const lastPart = snapshot.split('|||').pop() || ''
     if (loading.some(p => lastPart.toLowerCase().startsWith(p))) {
       stable = 0; prev = snapshot; continue
     }
@@ -230,10 +170,9 @@ async function waitForBotToSettle(countBefore, maxMs = 30000) {
   return true
 }
 
-// ── TYPE AND SEND ────────────────────────────────────────────────────────────
+// ── TYPE AND SEND ──────────────────────────────────
 async function typeAndSend(text, waitForResponse = true) {
   try {
-    // Only dismiss retry if not already inside a retry-dismiss cycle
     await dismissRetryCard()
     const sel         = await getVisibleTextarea()
     const countBefore = await page.evaluate(() =>
@@ -253,7 +192,7 @@ async function typeAndSend(text, waitForResponse = true) {
   }
 }
 
-// ── CAPTURE CHAT ID ──────────────────────────────────────────────────────────
+// ── CAPTURE CHAT ID ────────────────────────────────
 async function captureChatId() {
   try {
     const bluHeader = await page.$('.blu-header-title, .blu-header-wrapper, h1, .blu-header-title h1')
@@ -278,21 +217,29 @@ async function captureChatId() {
         } catch {
           if (clipText.length > 5 && clipText.length < 50 && !clipText.includes(' ')) {
             currentChatId = clipText.trim()
+            console.log(`🆔 Chat ID (plain): ${currentChatId}`)
             if (activeWs) activeWs.send(JSON.stringify({ type: 'CHAT_ID', chatId: currentChatId }))
             return currentChatId
           }
         }
       }
     }
-  } catch (e) { console.log('⚠️  Chat ID capture error:', e.message) }
+    console.log('ℹ️  Chat ID not captured')
+  } catch (e) {
+    console.log('⚠️  Chat ID capture error:', e.message)
+  }
   return currentChatId
 }
 
-// ── GET ALL NEW BOT RESPONSES ────────────────────────────────────────────────
+// ── GET ALL NEW BOT RESPONSES ──────────────────────
+// FIX: captures ALL bubbles added since countBefore, merges into one response.
+// This fixes the double-bubble issue where bot sends two messages rapidly.
 async function getNewBotResponses(countBefore) {
-  const start   = Date.now()
+  const start = Date.now()
+
+  // Wait for loading phrases to clear on the LAST bubble
   const LOADING = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
-  let loadWait  = 0
+  let loadWait = 0
   while (loadWait < 20000) {
     const lastText = await page.evaluate(() => {
       const msgs = document.querySelectorAll('div.blu-bot-message')
@@ -302,44 +249,77 @@ async function getNewBotResponses(countBefore) {
     await page.waitForTimeout(1500)
     loadWait += 1500
   }
+  if (loadWait > 0) console.log(`⏳ Waited ${loadWait}ms for loading`)
+
   try {
     const result = await page.evaluate((before) => {
       const allBotMsgs = Array.from(document.querySelectorAll('div.blu-bot-message'))
+
+      // Collect all NEW bubbles (index > countBefore-1)
       const newBubbles = allBotMsgs.slice(before)
-      if (!newBubbles.length) newBubbles.push(allBotMsgs[allBotMsgs.length - 1])
+      if (!newBubbles.length) {
+        // Fallback: just use last bubble
+        newBubbles.push(allBotMsgs[allBotMsgs.length - 1])
+      }
+
+      // Merge all new bubble texts
       const texts = newBubbles.flatMap(bubble => {
         const ps = Array.from(bubble.querySelectorAll('p.blu-text-message-text'))
           .map(p => p.innerText.trim()).filter(Boolean)
         return ps.length ? ps : [bubble.innerText.trim()]
       }).filter(Boolean)
       const text = texts.join('\n\n')
+
+      // Chips from last bubble only
       const chipEls = Array.from(document.querySelectorAll(
         'button.overlap:not([disabled]), div[class*="chip"] button, div[class*="quick"] button'
       )).filter(el => el.offsetParent !== null)
       const chips = chipEls.map(el => el.innerText.trim()).filter(Boolean).slice(0, 10)
+
+      // CTAs from all new bubbles
       const ctaEls = newBubbles.flatMap(b =>
         Array.from(b.querySelectorAll('a, button[class*="cta"], div[class*="cta"]'))
       )
       const ctaLabels = ctaEls.map(el => el.innerText.trim()).filter(Boolean)
-      return { text, bubbleCount: newBubbles.length, chips, hasCTA: ctaLabels.length > 0, ctaLabels }
+
+      return {
+        text,
+        bubbleCount: newBubbles.length,
+        chips,
+        hasCTA: ctaLabels.length > 0,
+        ctaLabels
+      }
     }, countBefore)
 
     const elapsed    = ((Date.now() - start) / 1000).toFixed(1)
     const isHinglish = detectHinglish(result.text)
-    if (result.bubbleCount > 1) console.log(`🤖 ${result.bubbleCount} bubbles (${elapsed}s): ${result.text.substring(0,100)}`)
-    else console.log(`🤖 Response (${elapsed}s): ${result.text.substring(0,100)}`)
-    if (result.chips.length) console.log(`  💬 Chips: ${result.chips.join(' | ')}`)
-    if (result.hasCTA)       console.log(`  🔗 CTAs: ${result.ctaLabels.join(' | ')}`)
-    if (isHinglish)          console.log(`  🌐 Hinglish detected`)
-    return { response: result.text || '(response not captured)', bubbleCount: result.bubbleCount,
-             chips: result.chips, hasCTA: result.hasCTA, ctaLabels: result.ctaLabels,
-             elapsed, isHinglish, chatId: currentChatId }
-  } catch (e) { console.log('⚠️  Response capture error:', e.message) }
-  return { response: '(response not captured)', bubbleCount: 0, chips: [], hasCTA: false,
-           ctaLabels: [], elapsed: '?', isHinglish: false, chatId: null }
+
+    if (result.bubbleCount > 1) {
+      console.log(`🤖 Captured ${result.bubbleCount} bubbles (${elapsed}s): ${result.text.substring(0, 100)}`)
+    } else {
+      console.log(`🤖 Response (${elapsed}s): ${result.text.substring(0, 100)}`)
+    }
+    if (result.chips.length)  console.log(`  💬 Chips: ${result.chips.join(' | ')}`)
+    if (result.hasCTA)        console.log(`  🔗 CTAs: ${result.ctaLabels.join(' | ')}`)
+    if (isHinglish)           console.log(`  🌐 Hinglish detected`)
+
+    return {
+      response: result.text || '(response not captured)',
+      bubbleCount: result.bubbleCount,
+      chips:       result.chips,
+      hasCTA:      result.hasCTA,
+      ctaLabels:   result.ctaLabels,
+      elapsed,
+      isHinglish,
+      chatId: currentChatId
+    }
+  } catch (e) {
+    console.log('⚠️  Response capture error:', e.message)
+  }
+  return { response: '(response not captured)', bubbleCount: 0, chips: [], hasCTA: false, ctaLabels: [], elapsed: '?', isHinglish: false, chatId: null }
 }
 
-// ── HINGLISH DETECTION ───────────────────────────────────────────────────────
+// ── HINGLISH DETECTION ─────────────────────────────
 function detectHinglish(text) {
   const words = ['karo','karna','chahiye','hai','hain','nahi','nhin','aap','mera','meri',
     'muje','apna','apni','bata','dena','lena','milega','hoga','karega','karein','kijiye',
@@ -348,7 +328,7 @@ function detectHinglish(text) {
   return words.filter(w => lower.includes(w)).length >= 2
 }
 
-// ── SCREENSHOT ───────────────────────────────────────────────────────────────
+// ── SCREENSHOT ─────────────────────────────────────
 async function takeScreenshot(label) {
   const ts    = new Date().toISOString().replace(/[:.]/g, '-')
   const fname = `${label}_${ts}.png`
@@ -358,10 +338,13 @@ async function takeScreenshot(label) {
     fs.writeFileSync(fpath, buf)
     console.log(`📸 Screenshot: ${fname}`)
     return { path: fpath, name: fname, b64: buf.toString('base64') }
-  } catch (e) { console.log('⚠️  Screenshot failed:', e.message); return null }
+  } catch (e) {
+    console.log('⚠️  Screenshot failed:', e.message)
+    return null
+  }
 }
 
-// ── LOGIN ────────────────────────────────────────────────────────────────────
+// ── LOGIN ──────────────────────────────────────────
 async function startLogin(env, url, mobile) {
   if (mobile) MOBILE = mobile.replace(/\D/g, '')
   currentEnv = env
@@ -379,7 +362,6 @@ async function startLogin(env, url, mobile) {
 }
 
 async function submitOTP(otp) {
-  STORED_OTP = otp  // store for re-auth
   console.log('🔑 Sending OTP:', otp)
   await typeAndSend(otp, true)
   await page.waitForTimeout(2000)
@@ -390,12 +372,9 @@ async function submitOTP(otp) {
   startMessageObserver()
 }
 
-// ── SEND MESSAGE ─────────────────────────────────────────────────────────────
+// ── SEND MESSAGE ───────────────────────────────────
 async function sendMessage(question, caseId = null, expectedBehaviour = '', module = '') {
   console.log('💬 Sending:', question.substring(0, 70))
-
-  // Check for re-auth need before every message
-  await reAuthIfNeeded()
 
   const countBefore = await page.evaluate(() =>
     document.querySelectorAll('div.blu-bot-message').length
@@ -408,47 +387,60 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
              elapsed: '?', isHinglish: false, verdict: emptyVerdict, chatId: null }
   }
 
+  // FIX: pass countBefore so we capture ALL new bubbles
   const result  = await getNewBotResponses(countBefore)
-  const verdict = runVerdict({
-    question, response: result.response, chips: result.chips,
-    hasCTA: result.hasCTA, ctaLabels: result.ctaLabels,
-    isHinglish: result.isHinglish, module, expectedBehaviour,
-  })
-  result.verdict   = verdict
-  result.autoScore = { score: verdict.verdict, confidence: verdict.confidence,
-                       reasons: verdict.rules.map(r => r.reason) }
 
-  // Screenshot on hard FAIL only
+  // ── VERDICT ENGINE (replaces autoScore) ───────────
+  const verdict = runVerdict({
+    question,
+    response:          result.response,
+    chips:             result.chips,
+    hasCTA:            result.hasCTA,
+    ctaLabels:         result.ctaLabels,
+    isHinglish:        result.isHinglish,
+    module,
+    expectedBehaviour,
+  })
+  result.verdict    = verdict
+  result.autoScore  = { score: verdict.verdict, confidence: verdict.confidence, reasons: verdict.rules.map(r => r.reason) }
+
+  // Screenshot only on hard FAIL (not REVIEW or SOURCING_SKIP)
   let screenshot = null
   if (verdict.verdict === 'FAIL') {
-    screenshot = await takeScreenshot(caseId ? `fail_case_${caseId}` : 'fail_direct')
+    const label = caseId ? `fail_case_${caseId}` : 'fail_direct'
+    screenshot  = await takeScreenshot(label)
   }
   result.screenshot = screenshot ? { name: screenshot.name, b64: screenshot.b64 } : null
 
   logEntry({
-    type: 'TEST', caseId, module, question,
-    response: result.response, elapsed: result.elapsed,
-    verdict: verdict.verdict, verdictRules: verdict.rules,
-    hasCTA: result.hasCTA, isHinglish: result.isHinglish,
-    chatId: currentChatId, chips: result.chips
+    type:        'TEST',
+    caseId,
+    module,
+    question,
+    response:    result.response,
+    elapsed:     result.elapsed,
+    verdict:     verdict.verdict,
+    verdictRules: verdict.rules,
+    hasCTA:      result.hasCTA,
+    isHinglish:  result.isHinglish,
+    chatId:      currentChatId,
+    chips:       result.chips
   })
 
-  // Auto-reset check
   msgCount++
   if (msgCount >= 30) {
-    console.log('🔄 Auto-reset: 30 messages reached — re-auth will trigger on next message')
+    console.log('🔄 Auto-reset: 30 messages reached')
     await page.goto(BOT_URLS[currentEnv] || '', { waitUntil: 'domcontentloaded' })
     await page.waitForTimeout(3000)
     msgCount = 0
     if (activeWs) activeWs.send(JSON.stringify({ type: 'SESSION_RESET' }))
-    // Re-auth immediately so next message doesn't fail
-    await reAuthIfNeeded()
   }
 
   return result
 }
 
-// ── CLICK CHIP ───────────────────────────────────────────────────────────────
+// ── CLICK CHIP ─────────────────────────────────────
+// FIX: tagged to caseId so dashboard associates chip response with correct test
 async function clickChip(chipText, caseId = null) {
   try {
     const countBefore = await page.evaluate(() =>
@@ -471,9 +463,11 @@ async function clickChip(chipText, caseId = null) {
   return null
 }
 
-// ── PASSIVE MESSAGE OBSERVER ─────────────────────────────────────────────────
-// Only fires when bot lock is NOT held — avoids racing with active test runs
+// ── PASSIVE MESSAGE OBSERVER ───────────────────────
+// FIX: skips messages that are already being handled by sendMessage/clickChip
+// by checking if a test is "in flight". Avoids double-logging.
 let observerActive = false
+let testInFlight   = false
 
 async function startMessageObserver() {
   if (observerActive) return
@@ -483,7 +477,7 @@ async function startMessageObserver() {
   console.log('👁️  Message observer started')
 
   const interval = setInterval(async () => {
-    if (!page || !activeWs || botLock) return  // respect lock
+    if (!page || !activeWs || testInFlight) return
     try {
       const result = await page.evaluate(() => {
         const msgs     = Array.from(document.querySelectorAll('div.blu-bot-message'))
@@ -502,14 +496,17 @@ async function startMessageObserver() {
         const loading = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
         if (!loading.some(p => result.text.toLowerCase().startsWith(p))) {
           if (result.lastUser) console.log(`👆 User selected: ${result.lastUser}`)
-          console.log(`👁️  Observer (${result.count}): ${result.text.substring(0,80)}`)
+          console.log(`👁️  Observer captured (${result.count}): ${result.text.substring(0,80)}`)
           lastText  = result.text
           lastCount = result.count
           activeWs.send(JSON.stringify({
-            type: 'PASSIVE_RESPONSE', response: result.text,
-            userAction: result.lastUser, chips: result.chips, elapsed: '—'
+            type:       'PASSIVE_RESPONSE',
+            response:   result.text,
+            userAction: result.lastUser,
+            chips:      result.chips,
+            elapsed:    '—'
           }))
-          logEntry({ type: 'passive', question: result.lastUser||'(chip/action)', response: result.text })
+          logEntry({ type: 'passive', question: result.lastUser||'(chip click)', response: result.text })
         }
       } else if (result.count > lastCount) {
         lastCount = result.count
@@ -520,81 +517,7 @@ async function startMessageObserver() {
   page.once('close', () => { clearInterval(interval); observerActive = false })
 }
 
-// ── CENTRAL MESSAGE HANDLER ──────────────────────────────────────────────────
-// All incoming WS messages go through here.
-// Lock-requiring operations acquire the lock; others run freely.
-async function handleMessage(msg, ws) {
-  const lockRequired = ['RUN_CASE','DIRECT_SEND','CLICK_CHIP','BULK_RUN']
-
-  if (lockRequired.includes(msg.type)) {
-    if (botLock) { enqueue(msg, ws); return }
-    acquireLock()
-    try {
-      if (msg.type === 'RUN_CASE') {
-        const result = await sendMessage(msg.question, msg.id, msg.expectedBehaviour || '', msg.module || '')
-        ws.send(JSON.stringify({ type: 'RESPONSE', id: msg.id, ...result }))
-      }
-      else if (msg.type === 'DIRECT_SEND') {
-        const result = await sendMessage(msg.question, null, '', msg.module || '')
-        ws.send(JSON.stringify({ type: 'DIRECT_RESPONSE', ...result, ts: msg.ts }))
-      }
-      else if (msg.type === 'CLICK_CHIP') {
-        const result = await clickChip(msg.chip, msg.caseId || null)
-        ws.send(JSON.stringify({ type: 'CHIP_RESPONSE', chip: msg.chip, caseId: msg.caseId, ...result }))
-      }
-      else if (msg.type === 'BULK_RUN') {
-        const cases = msg.cases || []
-        const delay = msg.delay || 3000
-        for (const c of cases) {
-          const result = await sendMessage(c.question, c.id, c.expectedBehaviour || '', c.module || '')
-          ws.send(JSON.stringify({ type: 'RESPONSE', id: c.id, ...result }))
-          // Brief release between cases — lets queued single messages sneak in
-          releaseLock()
-          await page.waitForTimeout(delay)
-          acquireLock()
-        }
-        ws.send(JSON.stringify({ type: 'BULK_RUN_DONE', count: cases.length }))
-      }
-    } finally {
-      releaseLock()
-    }
-    return
-  }
-
-  // Non-lock operations
-  if (msg.type === 'START_LOGIN') {
-    await startLogin(msg.env, msg.url, msg.mobile)
-  }
-  else if (msg.type === 'SUBMIT_OTP') {
-    await submitOTP(msg.otp)
-  }
-  else if (msg.type === 'SCREENSHOT') {
-    const shot = await takeScreenshot(msg.label || 'manual')
-    ws.send(JSON.stringify({ type: 'SCREENSHOT_DONE', ...shot }))
-  }
-  else if (msg.type === 'GET_CHAT_ID') {
-    await captureChatId()
-  }
-  else if (msg.type === 'END_SESSION') {
-    msgQueue = []  // clear queue on session end
-    if (page) await page.goto('about:blank').catch(() => {})
-    msgCount = 0
-    botLock  = false
-    console.log('🔒 Session ended — queue cleared')
-  }
-  // Re-auth OTP submitted from dashboard during N2P re-auth wait
-  else if (msg.type === 'REAUTH_OTP') {
-    STORED_OTP = msg.otp
-    await typeAndSend(msg.otp, true)
-    await page.waitForTimeout(2000)
-    await captureChatId()
-    msgCount = 0
-    console.log('✅ Re-auth OTP submitted')
-    ws.send(JSON.stringify({ type: 'REAUTH_DONE' }))
-  }
-}
-
-// ── START SERVER ─────────────────────────────────────────────────────────────
+// ── START SERVER ───────────────────────────────────
 async function startServer() {
   browser = await chromium.launch({
     headless: false,
@@ -604,24 +527,30 @@ async function startServer() {
   ctx  = await browser.newContext({ viewport: { width: 480, height: 820 } })
   page = await ctx.newPage()
 
+  // After load: fix overflow:hidden on bottom bar, resize window to match viewport
   page.on('load', async () => {
     try {
       await page.waitForTimeout(1500)
+      // Fix the fixed-position bottom bar being clipped
       await page.evaluate(() => {
+        // Force the bottom glow container to be visible
         const fixedEls = [
           document.querySelector('.blu-bottom-glow'),
           document.querySelector('.blu-bottom-wrapper'),
           document.querySelector('[class*="bottom"]'),
           document.querySelector('[class*="input"]'),
+          document.querySelector('[class*="composer"]'),
         ]
         fixedEls.forEach(el => {
           if (!el) return
-          el.style.overflow   = 'visible'
+          el.style.overflow = 'visible'
           el.style.visibility = 'visible'
-          el.style.opacity    = '1'
-          el.style.zIndex     = '9999'
+          el.style.opacity = '1'
+          el.style.display = 'flex'
+          el.style.zIndex = '9999'
         })
       }).catch(() => {})
+      // Resize the actual browser window to match viewport
       await page.setViewportSize({ width: 480, height: 820 })
     } catch {}
   })
@@ -634,22 +563,67 @@ async function startServer() {
   wss.on('connection', ws => {
     activeWs   = ws
     sessionLog = []
-    msgQueue   = []
-    botLock    = false
     console.log('🔌 Dashboard connected')
 
     ws.on('message', async raw => {
       let msg
       try { msg = JSON.parse(raw) } catch { return }
       console.log('📨', msg.type, msg.env || '', msg.id ? `#${msg.id}` : '')
-      await handleMessage(msg, ws)
+
+      if (msg.type === 'START_LOGIN') {
+        await startLogin(msg.env, msg.url, msg.mobile)
+      }
+      else if (msg.type === 'SUBMIT_OTP') {
+        await submitOTP(msg.otp)
+      }
+      else if (msg.type === 'RUN_CASE') {
+        testInFlight = true
+        // FIX: module now passed from dashboard
+        const result = await sendMessage(msg.question, msg.id, msg.expectedBehaviour || '', msg.module || '')
+        ws.send(JSON.stringify({ type: 'RESPONSE', id: msg.id, ...result }))
+        testInFlight = false
+      }
+      else if (msg.type === 'DIRECT_SEND') {
+        testInFlight = true
+        const result = await sendMessage(msg.question, null, '', msg.module || '')
+        ws.send(JSON.stringify({ type: 'DIRECT_RESPONSE', ...result, ts: msg.ts }))
+        testInFlight = false
+      }
+      else if (msg.type === 'CLICK_CHIP') {
+        // FIX: pass caseId so chip response tagged to test
+        testInFlight = true
+        const result = await clickChip(msg.chip, msg.caseId || null)
+        ws.send(JSON.stringify({ type: 'CHIP_RESPONSE', chip: msg.chip, caseId: msg.caseId, ...result }))
+        testInFlight = false
+      }
+      else if (msg.type === 'SCREENSHOT') {
+        const shot = await takeScreenshot(msg.label || 'manual')
+        ws.send(JSON.stringify({ type: 'SCREENSHOT_DONE', ...shot }))
+      }
+      else if (msg.type === 'GET_CHAT_ID') {
+        await captureChatId()
+      }
+      else if (msg.type === 'BULK_RUN') {
+        const cases = msg.cases || []
+        const delay = msg.delay || 3000
+        for (const c of cases) {
+          testInFlight = true
+          // FIX: pass module per case
+          const result = await sendMessage(c.question, c.id, c.expectedBehaviour || '', c.module || '')
+          ws.send(JSON.stringify({ type: 'RESPONSE', id: c.id, ...result }))
+          testInFlight = false
+          await page.waitForTimeout(delay)
+        }
+        ws.send(JSON.stringify({ type: 'BULK_RUN_DONE', count: cases.length }))
+      }
+      else if (msg.type === 'END_SESSION') {
+        if (page) await page.goto('about:blank').catch(() => {})
+        msgCount = 0
+        console.log('🔒 Session ended')
+      }
     })
 
-    ws.on('close', () => {
-      console.log('🔌 Dashboard disconnected')
-      botLock  = false
-      msgQueue = []
-    })
+    ws.on('close', () => { console.log('🔌 Dashboard disconnected'); testInFlight = false })
     ws.on('error', () => {})
   })
 }

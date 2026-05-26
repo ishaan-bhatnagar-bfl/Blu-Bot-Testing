@@ -77,7 +77,6 @@ input,textarea{font-family:var(--font)}
 /* RETRY WAIT BANNER */
 .retry-banner{display:none;align-items:center;gap:8px;padding:6px 18px;background:var(--amber-dim);border-bottom:1px solid rgba(245,158,11,0.3);font-size:11px;color:var(--amber)}
 .retry-banner.show{display:flex}
-.reauth-banner-show{display:flex!important}
 .toolbar{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg-surface);border-bottom:1px solid var(--border);flex-wrap:wrap}
 .filter-pills{display:flex;gap:4px}
 .fpill{font-size:11px;font-weight:500;padding:4px 11px;border-radius:20px;border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer;transition:all var(--transition);white-space:nowrap}
@@ -334,14 +333,6 @@ input,textarea{font-family:var(--font)}
     <div class="retry-banner" id="retryBanner">
       ⏳ <span id="retryCountdown">Bot retry countdown active — waiting…</span>
     </div>
-    <!-- REAUTH BANNER -->
-    <div class="retry-banner" id="reauthBanner" style="background:rgba(99,102,241,0.12);border-bottom-color:rgba(99,102,241,0.3);color:var(--accent);display:none">
-      🔑 <span>Session reset — re-authenticating</span>
-      <span id="reauthOtpWrap" style="display:none;margin-left:auto;display:flex;gap:6px;align-items:center">
-        <input id="reauthOtpIn" placeholder="Enter OTP" maxlength="6" style="width:100px;padding:3px 8px;border-radius:4px;border:1px solid var(--accent-border);background:var(--bg-raised);color:var(--text-primary);font-family:var(--font-mono);text-align:center;font-size:13px;outline:none">
-        <button onclick="submitReauthOTP()" style="padding:3px 12px;border-radius:4px;border:none;background:var(--accent);color:#fff;font-size:12px;font-weight:600;cursor:pointer">Submit</button>
-      </span>
-    </div>
 
     <div class="toolbar">
       <div class="filter-pills" id="typeFilters">
@@ -560,59 +551,15 @@ function verdictRulesHTML(v){
     <table class="verdict-table">${rows}</table>`
 }
 
-// ── VIRTUAL SCROLL ──
-// Renders only visible rows + buffer. Handles 129K rows without freezing.
-const VS = { rowH: 72, buffer: 20, start: 0 }
-let vsScrollListener = null
-
+// ── RENDER ──
 function renderList(){
   const el=document.getElementById('testList')
-  if(!filteredCases.length){
-    el.innerHTML='<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-text">No test cases match the current filters.</div></div>'
-    return
-  }
-  // For small sets (<500) render all — no virtual scroll needed
-  if(filteredCases.length < 500){
-    renderRows(el, 0, filteredCases.length)
-    return
-  }
-  // Virtual scroll setup
-  if(vsScrollListener){ el.removeEventListener('scroll', vsScrollListener) }
-  const totalH = filteredCases.length * VS.rowH
-  // Spacer div makes scrollbar correct size
-  el.innerHTML = `<div id="vsSpacer" style="height:${totalH}px;position:relative"></div>`
-  const spacer = document.getElementById('vsSpacer')
-  vsScrollListener = () => {
-    const scrollTop = el.scrollTop
-    const visStart  = Math.max(0, Math.floor(scrollTop / VS.rowH) - VS.buffer)
-    const visEnd    = Math.min(filteredCases.length, visStart + Math.ceil(el.clientHeight / VS.rowH) + VS.buffer * 2)
-    if(visStart === VS.start && document.getElementById('vsRows')) return
-    VS.start = visStart
-    renderVSRows(spacer, visStart, visEnd, scrollTop)
-  }
-  el.addEventListener('scroll', vsScrollListener)
-  vsScrollListener()  // initial render
-}
-
-function renderVSRows(spacer, start, end, scrollTop){
-  let existing = document.getElementById('vsRows')
-  if(!existing){ existing = document.createElement('div'); existing.id='vsRows'; spacer.appendChild(existing) }
-  existing.style.position  = 'absolute'
-  existing.style.top       = (start * VS.rowH) + 'px'
-  existing.style.width     = '100%'
-  existing.innerHTML       = filteredCases.slice(start, end).map((c,i)=>rowHTML(c, start+i)).join('')
-}
-
-function renderRows(el, start, end){
-  el.innerHTML = filteredCases.slice(start, end).map((c,i)=>rowHTML(c, start+i)).join('')
-}
-
-// rowHTML — single row HTML for virtual scroll and direct render
-function rowHTML(c, i){
-  const bugShow=(results[c.id]==='fail'||(verdicts[c.id]?.verdict==='FAIL'))?'show':''
-  const ss=screenshots[c.id],resp=responses[c.id]||''
-  const v=verdicts[c.id]
-  return `<div class="test-item">
+  if(!filteredCases.length){el.innerHTML='<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-text">No test cases match the current filters.</div></div>';return}
+  el.innerHTML=filteredCases.map((c,i)=>{
+    const bugShow=(results[c.id]==='fail'||(verdicts[c.id]?.verdict==='FAIL'))?'show':''
+    const ss=screenshots[c.id],resp=responses[c.id]||''
+    const v=verdicts[c.id]
+    return `<div class="test-item">
       <div class="test-main" id="row-${c.id}" onclick="toggleResp(${c.id})">
         <div class="t-idx">${String(i+1).padStart(3,'0')}</div>
         <div class="t-content">
@@ -641,11 +588,16 @@ function rowHTML(c, i){
           <div class="diff-col diff-expected"><div class="diff-col-label">Expected</div>${esc(c['Expected Behaviour'])}</div>
           <div class="diff-col diff-actual"><div class="diff-col-label">Actual</div>${esc(resp)}</div>
         </div>`:''}
-        ${v?`<div class="resp-section-title" style="margin-top:14px">Verdict Breakdown</div>${verdictRulesHTML(v)}`:''}        <div class="resp-meta" id="meta-${c.id}"></div>
-        ${ss?`<div class="resp-screenshot"><img src="data:image/png;base64,${ss.b64}" onclick="window.open('data:image/png;base64,${ss.b64}')"></div>`:''}        `:`<div class="resp-text loading" id="resp-${c.id}">—</div>`}
+        ${v?`<div class="resp-section-title" style="margin-top:14px">Verdict Breakdown</div>${verdictRulesHTML(v)}`:''}
+        <div class="resp-meta" id="meta-${c.id}"></div>
+        ${ss?`<div class="resp-screenshot"><img src="data:image/png;base64,${ss.b64}" onclick="window.open('data:image/png;base64,${ss.b64}')"></div>`:''}
+        `:`<div class="resp-text loading" id="resp-${c.id}">—</div>`}
       </div>
     </div>`
+  }).join('')
+  updateStats()
 }
+function toggleResp(id){document.getElementById('panel-'+id)?.classList.toggle('open')}
 
 function mark(e,id,res){
   e.stopPropagation();results[id]=res
@@ -890,36 +842,10 @@ function connectWS(){
         }
         else if(msg.type==='LOG_ENTRY'){const v=msg.entry?.verdict;addLog({type:v==='FAIL'?'fail':'test',q:msg.entry?.question,r:msg.entry?.response,t:msg.entry?.elapsed,s:v||msg.entry?.autoScore})}
         else if(msg.type==='SESSION_RESET')addLog({type:'login',q:'Auto-reset (30 msg limit)',r:''})
-        else if(msg.type==='REAUTH_START'){
-          const b=document.getElementById('reauthBanner')
-          b.style.display='flex';b.classList.add('show')
-          addLog({type:'login',q:'Re-auth triggered — session reset',r:''})
-        }
-        else if(msg.type==='REAUTH_OTP_NEEDED'){
-          document.getElementById('reauthOtpWrap').style.display='flex'
-          setTimeout(()=>document.getElementById('reauthOtpIn').focus(),100)
-          addLog({type:'login',q:'N2P re-auth: enter OTP in banner',r:''})
-        }
-        else if(msg.type==='REAUTH_DONE'){
-          const b=document.getElementById('reauthBanner')
-          b.style.display='none';b.classList.remove('show')
-          document.getElementById('reauthOtpWrap').style.display='none'
-          document.getElementById('reauthOtpIn').value=''
-          addLog({type:'login',q:'Re-auth complete — session resumed',r:''})
-        }
-        else if(msg.type==='QUEUED'){
-          addLog({type:'login',q:`Queued (bot busy): ${msg.msgType}${msg.id?' #'+msg.id:''}`,r:''})
-        }
       }catch{}
     }
     playwrightWS.onerror=()=>{}
   }catch{}
-}
-function submitReauthOTP(){
-  const otp=document.getElementById('reauthOtpIn').value.trim()
-  if(otp.length<4){alert('Enter valid OTP');return}
-  sendToPlaywright({type:'REAUTH_OTP',otp})
-  document.getElementById('reauthOtpIn').value=''
 }
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 document.getElementById('otpInput').addEventListener('keydown',e=>{if(e.key==='Enter')otpAction()})
