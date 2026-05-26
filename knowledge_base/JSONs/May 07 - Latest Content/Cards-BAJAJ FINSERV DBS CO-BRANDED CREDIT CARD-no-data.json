@@ -1,0 +1,16 @@
+[{
+    "l1category": "Cards",
+    "l2category": "Bajaj Finserv DBS Co-branded Credit Card",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me customer care number",
+    "answer": " Sorry I am unable to provide you customer care number,I can provide resolution to your card related queries on text messages.",
+    "chatbot-flag": "yes"
+},
+{
+    "l1category": "Cards",
+    "l2category": "Bajaj Finserv DBS Co-branded Credit Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please call me",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.",
+    "chatbot-flag": "yes"
+}]

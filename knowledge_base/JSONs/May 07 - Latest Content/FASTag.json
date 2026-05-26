@@ -1,0 +1,1306 @@
+ [
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I modify or cancel my Bajaj Pay fastag purchase?",
+    "answer": "<p>Unfortunately, you cannot modify or cancel your Bajaj Pay fastag purchase order once you've authenticated the payment.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What does Tag status as 'Blacklisted'/'Low Balance'/'Hot listed' mean for my Bajaj Pay fastag?",
+    "answer": "If your Bajaj Pay fastag status is shown as 'Blacklisted/Low Balance/Hot listed', you will not be able to use the fastag to pay tolls at fastag-enabled toll plazas. If you are facing any such issue, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to report a fraud.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on Report a fraud in the Help & Support section.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I would like to update my fastag with permanent vehicle number",
+    "answer": "Kindly share the following documents in order to proceed with the updation of the VRN against the FASTag issued. 1) Old Temporary number 2) VRN to be updated 3) RC of the vehicle. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My FASTag is created on temporary number, please help to update my permanent vehicle number",
+    "answer": "Kindly share the following documents in order to proceed with the updation of the VRN against the FASTag issued. 1) Old Temporary number 2) VRN to be updated 3) RC of the vehicle. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My FASTag balance is not refunded post closing FASTag",
+    "answer": "Security deposit gets refunded in 3 days post FASTag is closed If the time has crossed and you have still not received the refund, Please help to raise a request with us and we would get this issue checked. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please return my security deposit as I have closed my FASTag",
+    "answer": "Security deposit gets refunded in 3 days post FASTag is closed If the time has crossed and you have still not received the refund, Please help to raise a request with us and we would get this issue checked. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have paid twice for FASTag purchase/ I have paid extra for FASTag purchase",
+    "answer": "We would like to inform you that the FASTag charges are INR 800 (i.e., 200 – Security Deposit, 100 issuance fees & 500 wallet balance). Furthermore, we would request you to share the payment receipt where the excess amount has been charged during issuance to get this checked further. Request you to raise a request with us. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where is my manage fastag section?",
+    "answer": "Click here to go to Manage FASTag page. CTA Label: Manage FASTag , CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why my FASTag is showing closed",
+    "answer": "Let us get this checked for you, you can raise a request with us. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to apply for new Fastag.",
+    "answer": "1. Click on the mentioned link 2. Accurately enter your vehicle registration number, vehicle details, and delivery address. In case you don't have a Bajaj Pay Wallet, you need to create one before purchasing Bajaj Pay fastag. 3. Enter the make and model of your vehicle. If your vehicle details are not fetched automatically, you might need to upload a copy of the physical Registration Certificate (RC) of your vehicle for validation. 4. Accept the Bajaj Pay “Terms of Use “and click on “Buy Now”. 5. Choose your payment method to complete the transaction. 6. After your order is placed successfully, your fastag will be delivered to you in 7 days on the registered address. 7. You can track the delivery of your fastag purchase on the success screen. If you have any issues with your fastag purchase or delivery, you can contact our customer support on the toll-free number. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to change my fastag mobile number.",
+    "answer": "I would like to confirm you that you cannot change your mobile number connected to FASTag.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to do KYV?",
+    "answer": "To avoid service disruption, please upload a clear photo of the FASTag affixed to your vehicle’s windshield. Kindly take the photo from inside the vehicle to ensure proper visibility. CTA Label: Manage FASTag , CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have lost my fastag.",
+    "answer": "I am sorry to know that your FASTag is lost, you can place a replacement order: Click on below link Select the 'Vehicle number/ order' in 'Manage FASTag' Click on 'Replace FASTag' tab Please note that a fee of ₹100 will be charged for the replacement. CTA Label: Manage FASTag , CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to download fastag statement?",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: Click the below link Scroll down to the bottom page to check the 'Recent Toll Transactions' and the 'Download statement' option. Select the date range against which the statement is required & click on Download. CTA Label: Manage FASTag , CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know fastag history.",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: Click the below link Scroll down to the bottom page to check the 'Recent Toll Transactions' and the 'Download statement' option. Select the date range against which the statement is required & click on Download. CTA Label: Manage FASTag , CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to download fastag history transaction.",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: Click the below link Scroll down to the bottom page to check the 'Recent Toll Transactions' and the 'Download statement' option. Select the date range against which the statement is required & click on Download. CTA Label: Manage FASTag , CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to check fastag balance",
+    "answer": "Click here to check FASTag balance. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can I see fastag details?",
+    "answer": "Click here to check FASTag balance. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why have you closed my fastag?",
+    "answer": "Let us get this checked for you, you can raise a request with us. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is fastag annual pass? ",
+    "answer": "The FASTag Annual Pass activated on the FASTag allows free passage of private car/jeep/van at designated National Highway (NH) and National Expressway (NE) fee plazas for one year or 200 trips (whichever is earlier), without per-trip user fee charges. The Annual Pass will be effective from 15th August 2025.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can I purchase the Annual Pass?",
+    "answer": "You can purchase and activate the Annual Pass only through the Rajmargyatra mobile app or the official NHAI website.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How will the annual pass be activated? ",
+    "answer": "The Annual Pass will be activated after verifying the eligibility of vehicle and associated FASTag. Upon successful verification, the user must make a payment of ₹3,000 for the respective year through Rajmargyatra mobile application or NHAI website. Once payment is confirmed, the Annual Pass will be activated to registered FASTag within 72 hours.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "If I already have a FASTag, do I need to buy a new one for the Annual Pass?",
+    "answer": "No. You do not need to purchase a new FASTag. The Annual Pass can be activated on your existing FASTag provided it meets eligibility criteria i.e., it is an eligible private car/jeep/van with valid registration number, not blacklisted or blocked vehicle number etc.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Which Fee Plazas are covered under the Annual Pass?",
+    "answer": "It is valid only at National Highway (NH) and National Expressway (NE) fee plazas, at fee plazas on Expressways, State Highways (SH), etc., managed by state governments or private entities are not covered under this pass unless specifically notified by NHAI and applicable user charges may apply.",
+    "chatbot-flag": "Yes"
+  }, 
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How long is the annual pass valid? ",
+    "answer": "The annual pass is valid for one year from date of activation or up to maximum limit of trips(200 trips), whichever comes first.",
+    "chatbot-flag": "Yes"
+  }, 
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I use the Annual Pass on any vehicle?",
+    "answer": "No. The Annual Pass is applicable only for the registered private car/jeep/van after checking through VAHAN database. Use in any other vehicle type will be considered invalid and may attract penalties.",
+    "chatbot-flag": "Yes"
+  }, 
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I transfer the Annual Pass to another vehicle?",
+    "answer": "No, the pass is non-transferable and can be used only with the registered vehicle and its FASTag affixed to its windshield. Using it on another vehicle will be considered invalid and may attract penalties.",
+    "chatbot-flag": "Yes"
+  }, 
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How quickly will the Annual Pass be activated after payment?",
+    "answer": "Yes, The Annual Pass will be activated on FASTag affixed on your car’s windshield of the registered vehicle upon successful verification of documents by Rajmargyatra mobile application or NHAI website within 2 hours of payment confirmation.",
+    "chatbot-flag": "Yes"
+  }, 
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What if I change my car after purchasing the Annual Pass?",
+    "answer": "No, The Annual Pass issued on FASTag is registered against a specific Vehicle ID (VID) which cannot be transferred to another Vehicle ID (VID). In case you change your car then new annual pass needs to be purchased for new VID.",
+    "chatbot-flag": "Yes"
+  }, 
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How is a trip counted under the Annual Pass?",
+    "answer": "For point-based fee plazas: Each section between two toll plazas counts as one trip.For closed loop fee plazas: Each entry-exit combination at toll plaza counts as one trip.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Will I receive notifications about my Annual Pass?",
+    "answer": "Yes, By activating this feature you can allow Rajmargyatra to send SMS notifications related to your registered mobile number about renewal reminders & status updates regarding annual pass activation/deactivation etc.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What happens if I exceed the 200 trip limit before one year?",
+    "answer": "Once the 200 trip limit is reached, the Annual Pass will expire even if the one-year period is not over. Regular toll charges will apply thereafter.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I renew the Annual Pass after expiry?",
+    "answer": "Yes, you can renew the Annual Pass through the Rajmargyatra mobile application or NHAI website after expiry.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "EMI Card required.",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to get Bajaj EMI card?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My card is blocked.",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can we make bill payment with EMI card?",
+    "answer": "Payment mode varies basis on the bill payment category selected, you can check this while making a payment. For other EMI Card related query, you can chat with us by selecting card from menu icon available in bottom left side.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What should I do if I’ve made an advance EMI payment but the balance isn’t updated?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "EMI payment related.",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to check EMI payment status?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to check my EMI statement to know how many EMIs are left?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My current EMI amount and Loan balance",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My next EMI payment due date",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I get topup loan?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I update my account details or change the linked bank account for EMI payments?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I get assistance if my loan amount or EMI status isn’t updated after payment?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I set up or cancel auto-pay for my EMI payments?",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I change or reschedule my EMI repayment date?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What happens if I want to pay my EMI in advance, how is my schedule adjusted?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I close my EMI auto-debit (autopay) setup?",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the minimum or maximum loan amount I can apply for?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the process to obtain a no-due certificate after closing my loan?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I transfer funds from my EMI card to my bank account or digital wallet?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I use my EMI card for UPI transactions?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my EMI card balance not reflecting in my bank account after a transfer?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What charges and fees apply to my first EMI card transaction?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI is due, but it hasn’t been deducted?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why has the EMI amount been debited twice from my account?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have paid the EMI twice.",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI is deducted two times.",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my paid EMI not showing ?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why my EMI is showing overdue?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "When will my first EMI start if I start today.",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I transfer money from my EMI card to pay someone else’s dues?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "EMI history",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I use EMI card for UPI payment?",
+    "answer": "For any EMI Card Related query, please select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the Outstanding Amount shown in my Bajaj Pay Wallet and why is it there?",
+    "answer": "<p>The outstanding amount in your wallet refers to any unpaid or pending balance that you owe. It could be due to toll transactions you made but have not yet cleared or been deducted from your wallet balance because of insufficient funds. In either case, you need to make sure to add sufficient balance to your wallet to clear the outstanding amount.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the delivery and activation process for Bajaj Pay fastag?",
+    "answer": "<p>1. Your fastag will be activated only after the validation of your vehicle's RC.</p><p>2. After activation, an applicable security deposit amount of 200/- will be blocked.</p><p>3. Once activated, your fastag will be delivered to the registered address within 7 days.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the fastag security deposit?",
+    "answer": "<p>The amount of Rs. 200/- is taken as a security deposit for fastag which is fully refundable with no dues at the closure of the Bajaj Pay fastag Account. The security deposit amount is implicit in the cost paid by the customer at the time of purchasing the Bajaj Pay fastag. In case of insufficient funds in the fastag account, the security deposit might be used by BFL to adjust any outstanding toll charges.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What do I do if my Bajaj Pay fastag is not working at fastag enabled Toll Plazas?",
+    "answer": "Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+  "chatbot-flag": "Yes"
+   },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-transactions",
+    "question": "Incorrect Amount Charged at the Toll Plaza",
+    "answer": "Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+  "chatbot-flag": "Yes"
+   },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-order",
+    "question": "fastag order is successfully placed, but fastag is not delivered yet?",
+    "answer": "Please visit Manage fastag section, and click on given Vehicle number to check the delivery status. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-order",
+    "question": "fastag order has failed, but amount has been deducted?",
+    "answer": "If amount is deducted for failed transaction, it should be refunded. Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-order",
+    "question": "What should I do if status of my fastag registration transaction is pending?",
+    "answer": "Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-order",
+    "question": "Why is my fastag registration transaction pending?",
+    "answer": "<p>In rare cases, the fastag registration transaction may be marked as pending due to payment processing or technical issues. It is recommended that you wait for 48 hours from the time of payment to receive the final status.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-order",
+    "question": "How do I cancel my pending payment ?",
+    "answer": "<p>Once transactions are initiated, they cannot be cancelled or reversed. However, we assure you that your funds are secure. Please be informed that the status can either change to success or fail. For failed transactions, a refund will be initiated.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-order",
+    "question": "What if my payment is pending for more than 48 hours ?",
+    "answer": "If your payment is pending for more than 48 hours, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "What do I do if I paid in cash, but the amount was also deducted from my Bajaj Pay Wallet?",
+    "answer": "Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+ "chatbot-flag": "Yes"
+   },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "How will I know the amount of toll charges debited from my Bajaj Pay Wallet?",
+    "answer": "<p>As soon as the toll transaction is made, the Wallet holder will receive an SMS with all the transaction details on their registered mobile number. Alternatively, you can also view all the toll transaction details in the passbook section of the Bajaj Finserv App.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "RFID/handheld Scanner not working at Toll?",
+    "answer": "Let us get this checked, please help to raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "Is there a missed call balance check number for Bajaj Pay fastag?",
+    "answer": "<p>Yes, there is a dedicated number - 7065233535 - available for Bajaj Pay fastag customers to check their wallet balance by giving a missed call on the same number using their registered mobile number.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "How do I install Bajaj Pay fastag?",
+    "answer": "1. Click on the mentioned link 2. Accurately enter your vehicle registration number, vehicle details, and delivery address. In case you don't have a Bajaj Pay Wallet, you need to create one before purchasing Bajaj Pay fastag. 3. Enter the make and model of your vehicle. If your vehicle details are not fetched automatically, you might need to upload a copy of the physical Registration Certificate (RC) of your vehicle for validation. 4. Accept the Bajaj Pay “Terms of Use “and click on “Buy Now”. 5. Choose your payment method to complete the transaction. 6. After your order is placed successfully, your fastag will be delivered to you in 7 days on the registered address. 7. You can track the delivery of your fastag purchase on the success screen. If you have any issues with your fastag purchase or delivery, you can contact our customer support on the toll-free number. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "How do I close my FasTag?",
+    "answer": "We request you to raise a request with us along with an confirmation of the tag to be torn (split in half) to proceed further. Please ensure that the tag is torn as it will be required for proceeding futher. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "What do I do if my Bajaj Pay fastag is damaged or not working?",
+    "answer": "If your Bajaj Pay fastag is damaged or not working, you can replace it with a new fastag after paying the applicable charges. Scenarios, where you can opt for Tag replacement include a broken windshield, tear of the tag, etc. To raise a replacement request, follow these steps: 1. Click on the link below 2. Go to Replace “fastag” 3. Enter the required details and click on Proceed to pay the issuance fees. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "How to raise Queries related to cashback/voucher etc?",
+    "answer": "<p>'Rewards In Process' refers to the rewards that are initially locked and get unlocked only after you complete the 'Offer Activity' successfully.</p><p>For example, 'Rewards in Process' cashback for wallet creation gets unlocked only after you make your first wallet load*</p><p>*Minimum wallet load amount applicable.<br></p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "Where can I see my Vouchers, Cashback and Bajaj Coins?",
+    "answer": "<p>To view your Vouchers, Cashback and Bajaj Coins, please go to 'My Rewards&quot; section and click on the reward type- Vouchers, Cashback or Bajaj Coins, to view the details.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "My Bajaj Coins have expired. Can I get them restored?",
+    "answer": "<p>You cannot redeem expired Bajaj Coins.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "Can I transfer my cashback to a bank account? Is there any charge for the same?",
+    "answer": "<p>Rewards cashback cannot be transferred to a bank account. However, you can use your rewards cashback for making payment transactions with us.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "My voucher has expired. Can I activate it again?",
+    "answer": "<p>Vouchers are provided with a clearly mentioned expiry date and they cannot be re-activated. Kindly refer to the voucher T&amp;C for more details.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "Where can I use my Bajaj Coins?",
+    "answer": "<p>You can use your Bajaj Coins to:</p><p>1. Purchasing vouchers of various brands on Bajaj Dealz</p><p>2. To make bill payments</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "I made a transaction but didn't receive any Bajaj Coins for the same. What should I do?",
+    "answer": "<p>We regret the inconvenience caused. There may be a delay due to some technical issues. We request you wait for some time and re-check the 'Bajaj Coins' section of the app.</p><p>However, if you still can't find your Bajaj Coins, please Raise A Request/Complaint with us by following these steps:</p><p>1. Go to the 'Menu' on the home page</p><p>2. Select 'Help &amp; Support'</p><p>3. Click on 'Raise A New Request'</p><p>4. Select the category for which you want to raise a request.</p>",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-registration",
+    "question": "How do I buy a Bajaj Pay fastag?",
+    "answer": "1. Click on the mentioned link 2. Accurately enter your vehicle registration number, vehicle details, and delivery address. In case you don't have a Bajaj Pay Wallet, you need to create one before purchasing Bajaj Pay fastag. 3. Enter the make and model of your vehicle. If your vehicle details are not fetched automatically, you might need to upload a copy of the physical Registration Certificate (RC) of your vehicle for validation. 4. Accept the Bajaj Pay “Terms of Use “and click on “Buy Now”. 5. Choose your payment method to complete the transaction. 6. After your order is placed successfully, your fastag will be delivered to you in 7 days on the registered address. 7. You can track the delivery of your fastag purchase on the success screen. If you have any issues with your fastag purchase or delivery, you can contact our customer support on the toll-free number. CTA Label: Manage FASTage, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "fastag-registration",
+    "question": "FASTag - empty/ torn package",
+    "answer": "We request you to raise a request with us along with an confirmation of the Empty or Torn package/Fastag to proceed further. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+"chatbot-flag": "Yes"
+ },
+ {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issue with transaction",
+    "question": "Vehicle in Exempted List/I should not be charged for crossing fastag",
+    "answer": "We would like to inform you that the exemption is provided to The Central and State armed forces in uniform only if the vehicle is used for official purpose. In case it is used for official purpose, we request you raise a request with us with the following documents: 1. Declaration of use of vehicle for official duties; by competent authority of the concerned department. 2. Registration Certificate of the Vehicle/s for which NETC Fastag are to be issued. 3. Copy of vendor agreement in case of hired vehicles. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myac ountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issue with transaction",
+    "question": "I have been charged at local toll Plaza",
+    "answer": "We request you to contact the particular toll for this as they would only be able to help in this case.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issue with transaction",
+    "question": "I have recharged for fastag but it has not been updated yet",
+    "answer": "We would request you to select wallet intent from menu button available in right bottom corner of screen and select the relevant transaction. If you have made the recharge through a third-party application, we request you to connect with them for resolution.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have got a message stating FASTag will be hotlisted, please upload details. What should I do?",
+    "answer": "To avoid service disruption, please upload a clear photo of the FASTag affixed to your vehicle’s windshield. Kindly take the photo from inside the vehicle to ensure proper visibility. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to update my FASTag vehicle details/KYV details?",
+    "answer": "To avoid service disruption, please upload a clear photo of the FASTag affixed to your vehicle’s windshield. Kindly take the photo from inside the vehicle to ensure proper visibility. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am unable to use FASTag as it is showing hotlisted.",
+    "answer": "To avoid service disruption, please upload a clear photo of the FASTag affixed to your vehicle’s windshield. Kindly take the photo from inside the vehicle to ensure proper visibility. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am unable to use FASTag as it is showing hotlisted, I have tried adding but still facing issue.",
+    "answer": "Let us get this checked for you, request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the status of my FASTag",
+    "answer": "You can check status of FASTag from mentioned link. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Amount debited twice at toll plaza",
+    "answer": "As you have informed that your amount has been debited twice at toll plaza, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Excess amount debited at toll plaza",
+    "answer": "As you have informed that excess amount has been debited at tol plaza, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I paid in cash but my FASTag wallet was also debited",
+    "answer": "As you have informed that you have paid cash but amount has been debited from wallet as well, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My FASTag is not working",
+    "answer": "As you have informed that your FASTag is not working, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My FASTag is showing blacklisted",
+    "answer": "As you have informed that your FASTag is showing blacklisted, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Amount Debited from wallet Without Crossing Toll",
+    "answer": "As you have informed that amount has been debited without crossing toll, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My Toll payment is pending",
+    "answer": "As you have informed that your FASTag toll payment is pending, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to cancel my pending toll payment",
+    "answer": "You would not be able to cancel a successful paymnet",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My FASTag is blocked",
+    "answer": "As you have informed that your FASTag is showing blocked, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My Toll payment is failed but amount debited",
+    "answer": "As you have informed that your FASTag toll payment is failed but amount is debited, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I paid twice for this toll",
+    "answer": "As you have informed that you have paid twice for this toll, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Transaction successful, no confirmation on FASTag.",
+    "answer": "We request you to raise a request with us to know about FASTag status. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "When Will I get my FASTag",
+    "answer": "We request you to raise a request with us to know about FASTag status. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I charged Issuance fees?",
+    "answer": "Issuance fee is a one time fee charged for issuance for Bajaj FASTag, it is non-refundable. It is implicit of the cost paid by you at the time of purchasing the Bajaj FASTag.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have paid twice for FASTag purchase",
+    "answer": "We would like to inform you that the FASTag charges are INR 800 (i.e., 200 – Security Deposit, 100 issuance fees & 500 wallet balance). Furthermore, we would request you to share the payment receipt where the excess amount has been charged during issuance to get this checked further. You can raise a request with us attaching the receipt and our team will get back to you within 48 hours. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My transaction is pending but amount debited",
+    "answer": "As you have informed that your amount has been debited but transaction is pending, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to cancel my FASTag pending transaction",
+    "answer": "You would not be able to cancel a processed payment, to know about status of transaction, request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "FASTag transaction failed but amount debited",
+    "answer": "As you have confirmed that the transaction has failed but amount debited, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have not received the refund for a failed transaction",
+    "answer": "As you have confirmed that you have not received refund yet, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I charged security deposit?",
+    "answer": "The security deposit is an amount that is fully refundable with no dues at the closure of the Bajaj Pay Fastag Account. The security deposit amount is implicit in the cost paid by the you at the time of purchasing the Bajaj Pay FASTag. In case of insufficient funds in the FASTag account, the security deposit might be used by BFL to adjust any outstanding toll charges.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is this payment reversed?",
+    "answer": "This transaction is amount reversal for the Issuance fee you had provided at the time of purchasing the Bajaj FASTag.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I purchase FASTag again?",
+    "answer": "You can go to Manage FASTag page and purchase new FASTag. CTA Lable: Manage FASTag, Android CTA link: bajajsuperapp://bflfastag/Home, IOS CTA link: bajajsuperapp://bflfastag/Home, Web CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is this payment released?",
+    "answer": "This transaction is amount released for the security deposit you had provided at the time of purchasing the Bajaj FASTag.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Transaction successful, no confirmation on FASTag replacement.",
+    "answer": "We request you to raise a request with us to know about FASTag status. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "When Will I get my FASTag replacement",
+    "answer": "We request you to raise a request with us to know about FASTag status. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the FASTag balance",
+    "answer": "You can check FASTag balance by clicking here. CTA Label: Manage FASTag, CTA link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What are the FASTag charges",
+    "answer": "We would like to inform you that the FASTag charges are INR 800 (i.e., 200 – Security Deposit, 100 issuance fees & 500 wallet balance).",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to raise dispute/chargeback for my toll transaction",
+    "answer": "We request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "Why my FASTag is hotlisted",
+    "answer": "Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want FASTag customer care number.",
+    "answer": "You can reach out to us on our fastag Toll free number - 18002100260 and we will assist you.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "What is the FASTag Wallet?",
+    "answer": "The FASTag Wallet is a dedicated wallet created exclusively for toll payments via FASTag. It operates separately from your main wallet, with funds usable only for FASTag toll deductions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Why are you moving to a separate FASTag Wallet?",
+    "answer": "This is being done as per NPCI and IHMCL compliance to enhance FASTag security and ensure better segregation of toll funds.",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Will my existing FASTag balance be migrated automatically?",
+    "answer": "Yes. During migration, your current FASTag balance (up to ₹5,000) will be transferred securely into the new FASTag Wallet.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Do I have to create the FASTag Wallet manually?",
+    "answer": "No. The FASTag Wallet will be created automatically for you during migration. You’ll only need to access it post-migration via your existing credentials.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Will I need a new username / password?",
+    "answer": "No. You will use your existing login credentials. The FASTag Wallet is integrated under the same account, just as a separate balance.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can I still use the main wallet for other payments?",
+    "answer": "Yes. Your main wallet continues to function for all payments except FASTag tolls, which will draw from the FASTag Wallet.",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "How can I check my FASTag Wallet balance?",
+    "answer": "Within the wallet app or portal, go to the FASTag section — the FASTag Wallet balance will be clearly shown.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Will I receive notifications for FASTag transactions?",
+    "answer": "Yes. Each toll deduction or related transaction will generate real-time alerts (SMS/Notification) from the FASTag Wallet.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Is the FASTag Wallet secure?",
+    "answer": "Absolutely. The FASTag Wallet follows the same stringent security and compliance as your main wallet, ensuring fund safety.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can I use FASTag Wallet funds for other than toll payments?",
+    "answer": "No. Funds in the FASTag Wallet can only be used for toll payments. They cannot be used for bill payments, recharges, shopping, etc.",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can I transfer funds from FASTag Wallet back to main wallet?",
+    "answer": "No. Once funds are moved into the FASTag Wallet, they cannot be moved back out. Please transfer only the amount you expect to use for tolls.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Will toll charges be deducted automatically from the FASTag Wallet?",
+    "answer": "Yes. When you pass through a FASTag toll plaza, the applicable toll will be automatically debited from your FASTag Wallet balance.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "What happens if my FASTag Wallet has insufficient balance?",
+    "answer": "If your balance is insufficient, the toll deduction will fail, and access may be denied. You’ll need to top up the FASTag Wallet (from main wallet or other allowed funding) before retrying.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "How do I recharge / top up my FASTag Wallet?",
+    "answer": "You can top up using the same methods you currently use (UPI, netbanking, credit/debit cards, wallet funds, etc.).",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Are there limits on top-up (min / max) for FASTag Wallet?",
+    "answer": "Yes. Minimum top-up amount is ₹100. For minimum KYC, the top-up limit is ₹10,000, and for full KYC, the top-up limit is ₹2,00,000.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can I withdraw or refund unused funds in FASTag Wallet?",
+    "answer": "No. Unused funds in the FASTag Wallet cannot be withdrawn. They can only be used for toll payments.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Payment PDP",
+    "question": "Why my FASTag is hotlisted",
+    "answer": "Let us get this checked for you, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want FASTag customer care number.",
+    "answer": "You can reach out to us on our fastag Toll free number - 18002100260 and we will assist you.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can full-KYC users transfer balance to bank?",
+    "answer": "Before migration, full-KYC users may transfer funds from the main wallet to their bank (subject to applicable fees). FASTag Wallet funds cannot be withdrawn.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Post migration, can funds move from FASTag Wallet to main wallet?",
+    "answer": "No. Once migration is complete, FASTag Wallet funds cannot be transferred back to the main wallet.",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can I move FASTag Wallet funds to other users’ FASTags?",
+    "answer": "No. FASTag Wallet funds are strictly non-transferable to other users or accounts.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Are there any additional charges for FASTag Wallet use?",
+    "answer": "No. Toll deductions will follow the same fee structure as existing FASTag usage. There are no extra charges for FASTag Wallet operations.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "What happens when I close my FASTag?",
+    "answer": "On closure, the remaining balance from the FASTag Wallet (if any) will be handled as per the standard closure policy (refunds, etc.).",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "If I sell my vehicle, what happens to my FASTag Wallet balance?",
+    "answer": "In such cases, you should close your FASTag as per policy. Any usable balance will be handled according to closure/refund rules.",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "If I update my vehicle / KYC details, will that impact the FASTag Wallet?",
+    "answer": "No. Your FASTag Wallet remains unaffected by KYC or RC updates. However, pending KYC issues may affect tag activation.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Whom do I contact for FASTag Wallet related queries?",
+    "answer": "For any queries about your FASTag Wallet, contact customer support by raising a Service Request.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "What if I do not want my balance auto-migrated?",
+    "answer": "If you prefer not to migrate funds, please spend or transfer excess funds before migration begins. For queries, reach out to customer service.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "What is the FASTag Wallet limit for my FASTag account?",
+    "answer": "The FASTag Wallet limit is determined by your KYC status, in line with the wallet limit policy.",
+    "chatbot-flag": "Yes"
+  },
+    {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "What happens when I recharge my FASTag through any third party app?",
+    "answer": "If you recharge FASTag through any third-party app or platform (e.g., Paytm, PhonePe, GPay, etc.), the amount will be credited directly to the FASTag Wallet.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "fastag",
+    "l2category": "GenericfastagQueries",
+    "l3category": "FASTag sub wallet",
+    "question": "Can I link multiple FASTags to the same sub-wallet?",
+    "answer": "Yes. Multiple FASTags (for different vehicles) can be managed through a single sub-wallet, simplifying account management.",
+    "chatbot-flag": "Yes"
+  }
+ ]

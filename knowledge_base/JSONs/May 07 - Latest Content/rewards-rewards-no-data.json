@@ -1,0 +1,543 @@
+[
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "What is cashback?",
+    "answer": "<p>Cashback is a cash reward that can be earned by making transactions, availing services or paying fees associated with our lending products.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Financial transactions and Actions",
+    "question": "Ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make/arragne calls, I can give resolution on your queries on text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "Earn",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am not getting proper resolution, please call me",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "Cashback not received",
+    "answer": "We regret the inconvenience caused. Please wait for sometime and re-check the 'Rewards' section. CTA Label: Rewards, Android CTA link: bajajsuperapp://rewards/home, IOS CTA link: bajajsuperapp://rewards/home, Web CTA link https://www.bajajfinserv.in/webform/rewards/rewards-home In case, you still need assistance, please raise a request with us."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "Reward not received",
+    "answer": "We regret the inconvenience caused. Please wait for sometime and re-check the 'Rewards' section. CTA Label: Rewards, Android CTA link: bajajsuperapp://rewards/home, IOS CTA link: bajajsuperapp://rewards/home, Web CTA link https://www.bajajfinserv.in/webform/rewards/rewards-home In case, you still need assistance, please raise a request with us."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "Less cashback received",
+    "answer": "We regret the inconvenience caused. Please wait for sometime and re-check the 'Rewards' section. CTA Label: Rewards, Android CTA link: bajajsuperapp://rewards/home, IOS CTA link: bajajsuperapp://rewards/home, Web CTA link https://www.bajajfinserv.in/webform/rewards/rewards-home In case, you still need assistance, please raise a request with us."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "Rewards not Received after making a transcation",
+    "answer": "We regret the inconvenience caused. Please wait for sometime and re-check the 'Rewards' section. CTA Label: Rewards, Android CTA link: bajajsuperapp://rewards/home, IOS CTA link: bajajsuperapp://rewards/home, Web CTA link https://www.bajajfinserv.in/webform/rewards/rewards-home In case, you still need assistance, please raise a request with us."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "What should I do if I have made a transaction but didn't receive any Reward?",
+    "answer": "We regret the inconvenience caused. Please wait for sometime and re-check the 'Rewards' section. CTA Label: Rewards, Android CTA link: bajajsuperapp://rewards/home, IOS CTA link: bajajsuperapp://rewards/home, Web CTA link https://www.bajajfinserv.in/webform/rewards/rewards-home In case, you still need assistance, please raise a request with us."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "How can I earn rewards?",
+    "answer": "You can earn rewards by making payments or transactions with us. Note: Rewards are subject to offer terms and conditions."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "What are the different rewards that I can earn while making transactions?",
+    "answer": "Customers can earn different types of rewards like cashback, Bajaj Coins and vouchers on their transactions."
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "What is the maximum cashback I can get for a transaction?",
+    "answer": "<p>The amount of cashback depends on the amount of your transaction. The more you transact, the more you earn. To explore, please refer to the terms and conditions by clicking on the button below.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Cashback",
+    "question": "Can I transfer my cashback to a bank account? Is there any charge for the same?",
+    "answer": "<p>The cashback won cannot be transferred to your bank account. However, you can use your cashback for making payments and availing services.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Credit Card Points",
+    "question": "What are credit card points?",
+    "answer": "<p>Credit card points are rewards that you earn on transactions made with your credit card.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Credit Card Points",
+    "question": "Where can I use my credit card points?",
+    "answer": "<p>You can redeem your credit card points for a wide range of consumer products, brand vouchers, flight tickets and much more.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Credit Card Points",
+    "question": "Can I convert my credit card points to wallet money?",
+    "answer": "<p>You can only convert your BFL points into wallet cash.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "What are vouchers?",
+    "answer": "<p>Vouchers are rewards that can be earned by making transactions, availing services or paying fees associated with our lending products.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "Though my voucher has not expired, it shows as invalid. Why is this?",
+    "answer": "<p>In that case, please raise a request/complaint with us by following these steps:</p><p>- Go to the menu at the top left of the home page<br></p><p>- Select 'Help and Support'</p><p>- Click on 'Raise A Request' at the bottom of the screen</p><p>- Select the category for which you want to raise a request</p><p>- Click on 'Proceed'</p><p>- Type your query and sub query</p><p>- Go through the FAQs</p><p>- If not satisfied, click on 'Still Have A Query'</p><p>- Fill in required details</p><p>- Click on 'Submit'</p><p>To go to the 'Help and Support' screen now, please click on the button below.<br></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "Can I use my BFL points to buy vouchers?",
+    "answer": "<p>Yes, you can buy vouchers with your BFL points. For this, you need a minimum of 500 BFL points to purchase a voucher at Voucher World. To explore more, please click on the button below.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "What are the minimum BFL points needed to buy a voucher?",
+    "answer": "<p>You need a minimum of 500 BFL points to purchase a voucher at Voucher World.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "My voucher is locked. How can I unlock it?",
+    "answer": "<p>A few vouchers, such as 'Rewards In Process', get unlocked only after you complete the 'Offer Activity'. For example, ‘Rewards In Process’ vouchers for loan disbursement get unlocked only after you make 3 successful EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "Can I use multiple vouchers for a transaction?",
+    "answer": "<p>Unfortunately, you can only use one voucher per transaction.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Vouchers",
+    "question": "My voucher has expired. Can I activate it again?",
+    "answer": "<p>Vouchers are provided with a clearly mentioned expiry date and they cannot be re-activated.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Bajaj Coins",
+    "question": "Can I convert my Bajaj Coins to wallet money?",
+    "answer": "<p>Yes, but you can do so only after you have accumulated a minimum amount of Bajaj Coins. However, the converted cashback cannot be transferred to your linked bank account.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Bajaj Coins",
+    "question": "I made a transaction but didn't receive any reward for the same. What should I do?",
+    "answer": "<p>We regret the inconvenience caused. There may be a delay due to some technical issues. We request you to wait for some time and re-check the 'Rewards In Process' section of the app.</p><p>However, if you still can't find your rewards, please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Menu' at the top left of the home page</p><p>- Select 'Help &amp; Support'</p><p>- Click on 'Raise A Request' at the bottom of the screen</p><p>- Select the category for which you want to raise a request</p><p>- Click on 'Proceed'</p><p>- Select your query and sub-query</p><p>- Go through the FAQs</p><p>- If not satisfied, click on 'Still Have A Query'</p><p>- Select your relation with us</p><p>- Click on transactional &amp; rewards related</p><p>- Identify your transaction that you wish to raise a query for</p><p>- Fill in the required details</p><p>- Click on 'Submit'</p><p>To go to the 'Help &amp; Support' screen now, please <a href=\"bajajsuperapp://helpsupport\">click here</a></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Bajaj Coins",
+    "question": "Is there a limit on the Bajaj Coins I can earn on a transaction?",
+    "answer": "<p>Yes, the Bajaj Coins are subject to Terms &amp; Conditions.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Bajaj Coins",
+    "question": "When do my Bajaj Coins expire?",
+    "answer": "<p>Your Bajaj Coins get expired within 12 months from the date of its accrual. Terms &amp; Conditions apply</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Bajaj Coins",
+    "question": "My Bajaj Coins have expired. Can I get them restored?",
+    "answer": "<p>You cannot restore the expired Bajaj Coins.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Bajaj Coins",
+    "question": "I am unable to view my Bajaj Coins. What should I do?",
+    "answer": "<p>There may be some technical issues due to which you are unable to view your Bajaj Coins. We request you to wait for some time and re-check the 'My Rewards' section of the app.</p><p>However, if you still can't find your Bajaj Coins, please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Menu' at the top left of the home page</p><p>- Select 'Help &amp; Support'</p><p>- Click on 'Raise A Request' at the bottom of the screen</p><p>- Select the category for which you want to raise a request</p><p>- Click on 'Proceed'</p><p>- Select your query and sub-query</p><p>- Go through the FAQs</p><p>- If not satisfied, click on 'Still Have A Query'</p><p>- Select your relation with us</p><p>- Click on transactional &amp; rewards related</p><p>- Identify your transaction that you wish to raise a query for</p><p>- Fill in the required details</p><p>- Click on 'Submit'</p><p>To go to the 'Help &amp; Support' screen now, please <a href=\"bajajsuperapp://helpsupport\">click here</a></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Cashback",
+    "question": "What is cashback?",
+    "answer": "<p>Cashback is a cash reward that can be earned by making payment transactions with us.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Cashback",
+    "question": "What is the maximum or minimum cashback I can get for a transaction?",
+    "answer": "<p>The amount of cashback depends on the amount of your transaction. The more you transact, the more you earn. Terms &amp; Conditions apply</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Cashback",
+    "question": "Can I transfer my cashback to a bank account? Is there any charge for the same?",
+    "answer": "<p>The Cashback won cannot be transferred to your bank account. However, you can use your cashback for making payment transactions.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "What are vouchers?",
+    "answer": "<p>Vouchers are rewards that can be earned by making payment transactions with us</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "Though my voucher has not expired, it shows as invalid. Why is this?",
+    "answer": "<p>In that case, please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Menu' at the top left of the home page</p><p>- Select 'Help &amp; Support'</p><p>- Click on 'Raise A Request' at the bottom of the screen</p><p>- Select the category for which you want to raise a request</p><p>- Click on 'Proceed'</p><p>- Select your query and sub-query</p><p>- Go through the FAQs</p><p>- If not satisfied, click on 'Still Have A Query'</p><p>- Select your relation with us</p><p>- Click on transactional &amp; rewards related</p><p>- Identify your transaction that you wish to raise a query for</p><p>- Fill in the required details</p><p>- Click on 'Submit'</p><p>To go to the 'Help &amp; Support' screen now, please <a href=\"bajajsuperapp://helpsupport\">click here</a></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "Can I use my Bajaj Coins to buy vouchers?",
+    "answer": "<p>Yes, you can buy vouchers with your Bajaj Coins. For this, you need a minimum of 100 Bajaj Coins to purchase a voucher at Bajaj Dealz.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "What is the minimum Bajaj Coins needed to buy a voucher?",
+    "answer": "<p>You need a minimum of 100 Bajaj Coins to purchase a voucher at Bajaj Dealz.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "My voucher is locked. How can I unlock it?",
+    "answer": "<p>A few vouchers, such as 'Rewards In Process', get unlocked only after you complete the 'Offer Activity'.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "Can I use multiple vouchers for a transaction?",
+    "answer": "<p>Unfortunately, you can only use one voucher per transaction.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Earn Vouchers",
+    "question": "My voucher has expired. Can I activate it again?",
+    "answer": "<p>Vouchers are provided with a clearly mentioned expiry date and they cannot be re-activated. Kindly refer to the voucher T&amp;C for more details.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "How can I earn Triple Rewards?",
+    "answer": "<p>You can earn Triple Rewards by purchasing anything of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "What kinds of vouchers can I get in Triple Rewards?",
+    "answer": "<p>You can earn two types of next purchase vouchers:</p><p>Discount: You will get a fixed discount if you spend above a certain amount as described in voucher details offered by the store owner.</p><p>Freebie:&nbsp; It is a gift given by the store owner to the customers on the minimum purchase amount.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "What is a Next-Purchase Voucher?",
+    "answer": "<p>You can redeem your Next-Purchase voucher by purchasing again from the same store &amp; avail additional benefits.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "Where can I check the expiry date of my voucher?",
+    "answer": "<p>You can check the expiry date of the vouchers by visiting 'My Vouchers' section.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "Why haven't I received triple reward?",
+    "answer": "<p>You have to make a purchase of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App. Triple rewards will be given to you if your transaction fits the eligibility criteria.</p><p>If your transaction is of Rs. 100 or above but you still didn't receive Triple Rewards, you will be credited with equivalent Bajaj Coins within 6-7 working days.</p><p>If you still didn't receive Bajaj coins, then you can raise a request with us by following the steps below:</p><p>- Tap on the 'Passbook' option on HomePage</p><p>- Tap on Transaction against which you want to raise a request&nbsp;</p><p>- Tap on Quick Help/FAQs option available in footer</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Still Have a Query'</p><p>- Tap on 'Query related to rewards'&nbsp;</p><p>- Select your query and sub-query</p><p>- Tap on 'Proceed'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>In case if you have done a transaction using EPI (EQUATED PERIODIC INSTALMENT (EPI)), follow below steps to raise a request-<br></p><p>- Tap on the 'Help &amp; Support' section in the app menu</p><p>- Tap on 'Raise a Request'&nbsp;</p><p>- Tap on EPI (EQUATED PERIODIC INSTALMENT (EPI)) Transaction against which you want to raise a request&nbsp;</p><p>- Select the category of the service request</p><p>- Tap on 'Proceed'</p><p>- Select your query as 'Reward/Bajaj Coins Related' or 'Rewards related' and sub-query</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Proceed to enter details'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>You can check the status of your request through the 'Help &amp; Support' section.<br></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "Why I have not received any cashback for Triple Rewards?",
+    "answer": "<p>You can earn Triple Rewards by purchasing anything of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "I have made a transaction of more than Rs. 100, yet I have not received any voucher. What should I do?",
+    "answer": "<p>You have to make a purchase of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App. Triple rewards will be given to you if your transaction fits the eligibility criteria.</p><p>If your transaction is of Rs. 100 or above but you still didn't receive Triple Rewards, you will be credited with equivalent Bajaj Coins within 6-7 working days.</p><p>If you still didn't receive Bajaj coins, then you can raise a request with us by following the steps below:</p><p>- Tap on the 'Passbook' option on HomePage</p><p>- Tap on Transaction against which you want to raise a request&nbsp;</p><p>- Tap on Quick Help/FAQs option available in footer</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Still Have a Query'</p><p>- Tap on 'Query related to rewards'&nbsp;</p><p>- Select your query and sub-query</p><p>- Tap on 'Proceed'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>In case if you have done a transaction using EPI (EQUATED PERIODIC INSTALMENT (EPI)), follow below steps to raise a request-<br></p><p>- Tap on the 'Help &amp; Support' section in the app menu</p><p>- Tap on 'Raise a Request'&nbsp;</p><p>- Tap on EPI (EQUATED PERIODIC INSTALMENT (EPI)) Transaction against which you want to raise a request&nbsp;</p><p>- Select the category of the service request</p><p>- Tap on 'Proceed'</p><p>- Select your query as 'Reward/Bajaj Coins Related' or 'Rewards related' and sub-query</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Proceed to enter details'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>You can check the status of your request through the 'Help &amp; Support' section.<br></p><p>&nbsp;</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "What should I do if I haven't received the next purchase voucher? ",
+    "answer": "<p>You have to make a purchase of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App. Triple rewards will be given to you if your transaction fits the eligibility criteria.</p><p>If your transaction is of Rs. 100 or above but you still didn't receive Triple Rewards, you will be credited with equivalent Bajaj Coins within 6-7 working days.</p><p>If you still didn't receive Bajaj coins, then you can raise a request with us by following the steps below:</p><p>- Tap on the 'Passbook' option on HomePage<br></p><p>- Tap on Transaction against which you want to raise a request&nbsp;</p><p>- Tap on Quick Help/FAQs option available in footer</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Still Have a Query'</p><p>- Tap on 'Query related to rewards'&nbsp;</p><p>- Select your query and sub-query</p><p>- Tap on 'Proceed'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>In case if you have done a transaction using EPI (EQUATED PERIODIC INSTALMENT (EPI)), follow below steps to raise a request-<br></p><p>- Tap on the 'Help &amp; Support' section in the app menu</p><p>- Tap on 'Raise a Request'&nbsp;</p><p>- Tap on EPI (EQUATED PERIODIC INSTALMENT (EPI)) Transaction against which you want to raise a request&nbsp;</p><p>- Select the category of the service request</p><p>- Tap on 'Proceed'</p><p>- Select your query as 'Reward/Bajaj Coins Related' or 'Rewards related' and sub-query</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Proceed to enter details'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>You can check the status of your request through the 'Help &amp; Support' section.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Triple rewards",
+    "question": "What should I do if I haven't received service voucher?",
+    "answer": "<p>You have to make a purchase of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App.Triple rewards will be given to you if your transaction fits the eligibility criteria.</p><p>If your transaction is of Rs. 100 or above but you still didn't receive Triple Rewards, you will be credited with equivalent Bajaj Coins within 6-7 working days.</p><p>If you still didn't receive Bajaj coins, then you can raise a request with us by following the steps below:</p><p>- Tap on the 'Passbook' option on HomePage<br></p><p>- Tap on Transaction against which you want to raise a request&nbsp;</p><p>- Tap on Quick Help/FAQs option available in footer</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Still Have a Query'</p><p>- Tap on 'Query related to rewards'&nbsp;</p><p>- Select your query and sub-query</p><p>- Tap on 'Proceed'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>In case if you have done a transaction using EPI (EQUATED PERIODIC INSTALMENT (EPI)), follow below steps to raise a request-<br></p><p>- Tap on the 'Help &amp; Support' section in the app menu</p><p>- Tap on 'Raise a Request'&nbsp;</p><p>- Tap on EPI (EQUATED PERIODIC INSTALMENT (EPI)) Transaction against which you want to raise a request&nbsp;</p><p>- Select the category of the service request</p><p>- Tap on 'Proceed'</p><p>- Select your query as 'Reward/Bajaj Coins Related' or 'Rewards related' and sub-query</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Proceed to enter details'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>You can check the status of your request through the 'Help &amp; Support' section.<br></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Summer Fest",
+    "question": "When will my Locked Card get Unlocked?",
+    "answer": "<p>Your Locked card will get unlocked once loan processing is completed. You will receive push notification for the same post unlocking</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Summer Fest",
+    "question": "How do I get Cashback under Summer Fest?",
+    "answer": "<p>You will receive cashback on successful loan disbursal on purchase of AC &amp; Refrigerator.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Summer Fest",
+    "question": "I did not get Locked Card as communicated by sales person. What should I do?",
+    "answer": "<p>You should go to &quot;Help &amp; Support&quot; section under Hamburger menu. Under your loan, you can raise a request against your Loan Account Number.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Summer Fest",
+    "question": "Where will I see my Cashback Scratch card?",
+    "answer": "<p>Once your locked card is unlocked, your Scratch card will be visible under Cashback tab in My Rewards section. You can go to the Cashback section &amp; scratch the available Scratch card to get cashback deposited in your Bajaj Pay Wallet</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Summer Fest",
+    "question": "Does my Cashback Scratch Card expire?",
+    "answer": "<p>Post unlock, your scratch card will expire after 30 days. Hence, you need to ensure any scratch card that you receive is scratched before that</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Earn",
+    "l3category": "Summer Fest",
+    "question": "My Loan got rejected. Will I still receive the Cashback?",
+    "answer": "<p>In case your loan gets rejected or cancelled, you will not be eligible to receive cashback.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Cashback",
+    "question": "Where can I use my cashback?",
+    "answer": "<p>You can use your cashback for making payments transaction with us.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Cashback",
+    "question": "Can I transfer the cashback to my savings account?",
+    "answer": "<p>Rewards Cashback cannot be transferred to a bank account. However, you can use your rewards cashback for making payment transactions with us</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Bajaj Coins",
+    "question": "Where can I use my Bajaj Coins?",
+    "answer": "<p>You can use your Bajaj Coins for:</p><p>- Availing services (convert to cash)</p><p>- Purchasing vouchers of various brands and much more</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Bajaj Coins",
+    "question": "Can I use my Bajaj Coins while making transactions using a debit/credit card/UPI/PPI?",
+    "answer": "<p>Yes, you can. However, please keep in mind that you will not be eligible to earn Bajaj Coins on such transactions.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Bajaj Coins",
+    "question": "My Bajaj Coins are redeemed but I haven't got my E-Gift Cards/Vouchers. What should I do?",
+    "answer": "<p>To know more about your transaction:</p><p>-Please visit Bajaj Dealz<br></p><p>-Click on &quot;Transaction Summary&quot;</p><p>-Check the transaction against which you redeemed your Bajaj Coins</p><p>- Check your details</p><p>- If transaction is not found</p><p>- Click on &quot;&quot;Manage Request&quot;&quot;</p><p>- Select your query type</p><p>- Mention description of your query</p><p>- Click on &quot;Submit&quot;</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Vouchers",
+    "question": "Where can I redeem my vouchers?",
+    "answer": "<p>To get complete details of the Terms &amp; Conditions of your vouchers, please visit the 'My Voucher' section of the app for more details.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Others",
+    "question": "I have not used my rewards but they show as redeemed. What should I do?",
+    "answer": "<p>In that case, please Raise a Request/Complaint with us by following these steps:</p><p>- Go to the 'Menu' at the top left of the home page</p><p>- Select 'Help &amp; Support'</p><p>- Click on 'Raise A Request' at the bottom of the screen</p><p>- Select the category for which you want to raise a request</p><p>- Click on 'Proceed'</p><p>- Select your query and sub-query</p><p>- Go through the FAQs</p><p>- If not satisfied, click on 'Still Have A Query'</p><p>- Select your relation with us</p><p>- Click on transactional &amp; rewards related</p><p>- Identify your transaction that you wish to raise a query for</p><p>- Fill in the required details</p><p>- Click on 'Submit'</p><p>To go to the 'Help &amp; Support' screen now, please <a href=\"bajajsuperapp://helpsupport\">click here</a></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Others",
+    "question": "Can I transfer my Bajaj Coins to someone else?",
+    "answer": "<p>Bajaj Coins are non- transferable. However, you can always use your rewards to buy vouchers and gift them to family and friends.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "How do I access my voucher code?",
+    "answer": "<p>You can check for the voucher code under 'My Vouchers' section.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "How do I redeem a Discounted OTT voucher?",
+    "answer": "<p>You can redeem voucher of any brand by following the steps below-</p><p>- Visit the application or website of the OTT brand voucher<br></p><p>- Choose the products of your choice from that app or website</p><p>- Apply the voucher code on the checkout page</p><p>Once you have followed the steps, you will receive discounted benefits based on your eligibility criteria.<br></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "How do I redeem any brand voucher received in Triple Rewards?",
+    "answer": "<p>You can redeem voucher of any brand by following the steps below-</p><p>- Visit the store of the particular voucher you wish to redeem </p><p>- Choose the products of your choice from that store</p><p>- Show the voucher code to the store owner</p><p>- Get discount &amp; benefits based on the eligibility criteria</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "What should I do if in case my voucher expires?",
+    "answer": "<p>The expiry date is mentioned on the voucher. Once expired, you cannot avail the benefits.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "Can I use my next purchase voucher at any brand store?",
+    "answer": "<p>No, you can only redeem the voucher at that particular brand store.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "Store owner says that the voucher is no more valid or facing issues while processing. What is the solution?",
+    "answer": "<p>You can ask the store owner to check the expiration date or the validity of the voucher. In case of any issue, please raise a request with us by following the steps below:</p><p>- Tap on the 'Passbook' option on HomePage<br></p><p>- Tap on Transaction against which you want to raise a request&nbsp;</p><p>- Tap on Quick Help/FAQs option available in footer</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Still Have a Query'</p><p>- Tap on 'Query related to rewards'&nbsp;</p><p>- Select your query and sub-query</p><p>- Tap on 'Proceed'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>In case if you have done a transaction using EPI (EQUATED PERIODIC INSTALMENT (EPI)), follow below steps to raise a request-<br></p><p>- Tap on the 'Help &amp; Support' section in the app menu</p><p>- Tap on 'Raise a Request'&nbsp;</p><p>- Tap on EPI (EQUATED PERIODIC INSTALMENT (EPI)) Transaction against which you want to raise a request&nbsp;</p><p>- Select the category of the service request</p><p>- Tap on 'Proceed'</p><p>- Select your query as 'Reward/Bajaj Coins Related' or 'Rewards related' and sub-query</p><p>- Read FAQs and in case you don't get the answer to your question,&nbsp; tap on 'Proceed to enter details'</p><p>- Fill the details</p><p>- Tap on 'Submit'</p><p>You can check the status of your request through the 'Help &amp; Support' section.<br></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "Burn",
+    "l3category": "Triple rewards",
+    "question": "What should I do if my Discounted OTT voucher reflects invalid on application?",
+    "answer": "<p>You can check the expiry date of the voucher by visiting 'My Vouchers' section. If the voucher is expired, you cannot avail it's benefits.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "Type of Rewards",
+    "question": "What are the different rewards I can earn when making transactions?",
+    "answer": "<p>You can earn the following rewards on your transaction:</p><p>- Cashback</p><p>- Bajaj Coins</p><p>- Vouchers</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "Type of Rewards",
+    "question": "What is 'Rewards In Process'?",
+    "answer": "<p>Rewards In Process' refer to rewards that are initially locked and get unlocked only after you complete the 'Offer Activity' successfully.</p><p>For example,''Rewards in Process&quot; cashback for wallet creation gets unlocked only after you make your first wallet load*</p><p>*Minimum wallet load amount applicable</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "About Rewards",
+    "question": "How can I earn rewards?",
+    "answer": "<p>You can earn rewards by making payment transactions with us</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "About Rewards",
+    "question": "Do I get rewards for all the products I purchase?",
+    "answer": "<p>You can earn rewards only on selected transactions.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "About Rewards",
+    "question": "Where can I see my vouchers and cashback?",
+    "answer": "<p>To view your vouchers or cashback, please go to 'My Rewards' and click on the reward type, such as Cashback or Vouchers, for which you want to view details.</p><p>To go to the 'My Rewards' screen now.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "About Rewards",
+    "question": "What does 'Rewards In Process' consist of?",
+    "answer": "<p>'Rewards In Process' comprises Vouchers, Cashbacks, Bajaj Coins and promocodes. They are initially locked and get unlocked only after you complete the 'Offer Activity' successfully.</p><p>For example,''Rewards in Process&quot; cashback for wallet creation gets unlocked only after you make your first wallet load*</p><p>*Minimum wallet load amount applicable</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "About Rewards",
+    "question": "I have made a BBPS. When can I see cashback for the same in my wallet?",
+    "answer": "<p>Your cashback gets credited to your wallet within 24 to 48 hours or after the fulfilment of the Terms &amp; Conditions.</p><p>However, if you still can't find the cashback in your wallet, please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Menu' at the top left of the home page</p><p>- Select 'Help &amp; Support'</p><p>- Click on 'Raise A Request' at the bottom of the screen</p><p>- Select the category for which you want to raise a request</p><p>- Click on 'Proceed'</p><p>- Select your query and sub-query</p><p>- Go through the FAQs</p><p>- If not satisfied, click on 'Still Have A Query'</p><p>- Select your relation with us</p><p>- Click on transactional &amp; rewards related</p><p>- Identify your transaction that you wish to raise a query for</p><p>- Fill in the required details</p><p>- Click on 'Submit'</p><p>To go to the 'Help &amp; Support' screen now, please <a href=\"bajajsuperapp://helpsupport\">click here</a></p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "About Rewards",
+    "question": "What is Triple Rewards?",
+    "answer": "<p>Under Triple Rewards, if you make a purchase of Rs. 100 or above by scanning through Bajaj Pay QR code in Bajaj Finserv App , you will receive three exciting rewards after you make the transaction.</p><p>The three rewards consists of:</p><p>Cashback amount: This cashback amount gets directly credited into your wallet<br></p><p>Next-purchase voucher: Shop more from the same store by using the next purchase voucher which is offered by the store owner</p><p>Discounted OTT voucher: Get the benefit of services at a discounted rate.</p>"
+  },
+  {
+    "l1category": "Rewards",
+    "l2category": "General",
+    "l3category": "Summer Fest",
+    "question": "What is Summer Fest?",
+    "answer": "<p>Summer Fest comprises of exciting offers on selected product categories on select BFL Partner Merchants. To avail, simply visit your nearest BFL partner Merchant now</p>"
+  }
+]

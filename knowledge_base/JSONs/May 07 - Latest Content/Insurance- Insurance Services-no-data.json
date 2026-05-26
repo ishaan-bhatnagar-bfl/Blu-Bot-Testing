@@ -1,0 +1,282 @@
+[
+    
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Cancellation",
+        "question": "How can I cancel my insurance policy after its Free Look Period (FLP) has ended?",
+        "answer": "Free Look Period (FLP) is a trial period that starts on the day your insurance policy is issued. It allows you to assess the policy and its benefits before deciding whether to continue or cancel it. You cannot cancel a policy after its Free Look Period (FLP) is over. However, you can surrender it, and the membership fee or premium amount will be refunded on a pro-rata basis. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Cancellation",
+        "question": "How long does it take to get a refund of the premium amount after cancelling my insurance policy?",
+        "answer": "<p>The membership fee/premium amount will be refunded to your registered bank account within 7 business days. However, if you have taken any loan from Bajaj Finance, your premium amount will be adjusted towards the outstanding loan amount.</p><p>If you surrender your policy after its Free Look Period (FLP) is over, the membership fee/premium amount will be refunded on a pro-rata basis. It can also be adjusted towards your outstanding loan amount within 7 business days from the date of the request raised (if any).</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Cancellation",
+        "question": "How can I receive a refund of the premium amount after cancelling my insurance policy?",
+        "answer": "<p>A refund (if applicable) will be made to your transaction source as per bank details registered with us. For example, if you paid through your registered bank account, the refund will be credited to the same source.</p><p>In case you have taken any loan from Bajaj Finance Ltd., the premium amount will be adjusted towards your outstanding loan amount if any.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Cancellation",
+        "question": "Cancel insurance?",
+        "answer": "You can cancel your insurance policy only up to 30 days from issuance which is known as the free look period. However, I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy. You can raise a request if you still wants to cancel or surrender your insurance policy by cliking on the link below. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38 if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d,if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, If insurance_type is other than above given conditions then do not suggest the customer to watch videos"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Cancellation",
+        "question": "What is the difference between insurance surrender and insurance cancellation?",
+        "answer": "<p>An insurance policy can be cancelled only within the Free Look Period (FLP). As for \u2018Insurance Surrender, some life insurance and health insurance policies may acquire a surrender value once the Free Look Period is over.</p><p>Once surrendered, you will receive the surrender value as per the policy terms and conditions but would no longer enjoy the benefits associated with the policy.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Raise a Claim",
+        "question": "How can I raise an insurance claim with Bajaj Finserv?",
+        "answer": "To raise an insurance claim request for medical reimbursement, please click the button below. Then, go to the Insurance and VAS section, select your insurance, and complete the process., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Raise a Claim",
+        "question": "Do I need to upload any documents to raise an insurance claim?",
+        "answer": "<p>You will need to upload scanned copies of relevant documents to raise a claim, depending on the insurance policy/value-added service you have availed. The required list of documents will be shared with you once you initiate the claim request.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Raise a Claim",
+        "question": "How long does it take for an insurance claim settlement with Bajaj Finserv?",
+        "answer": "<p>The claim settlement process takes up to 30 business days. However, please note that claim settlement is subject to verification of the documents you have submitted.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Raise a Claim",
+        "question": "How can I receive my insurance claim amount?",
+        "answer": "<p>Your claim amount will be credited to the bank account registered with us once the settlement process is completed.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Raise a Claim",
+        "question": "How can I get a cashless facility on my insurance policy?",
+        "answer": "<p>You can only avail cashless facility on your insurance policy if the treating hospital is part of the insurer's partner network.&nbsp;</p><p>Please check the list of network hospitals under cashless tie-up shared by the insurance company and keep your insurance policy or cashless card handy.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Certificate of Insurance COI",
+        "question": "How can I download my Certificate of Insurance (COI) and what to do if I am unable to find it?",
+        "answer": "You can download your Certificate of Insurance (COI)/membership document in a few simple steps:</p>1. Go to '<a href=\"bajajsuperapp://relations/insurance\">Your relations</a>' and scroll to 'Insurance/ Value Added Services'</p>2. Select your insurance policy and click on 'View Documents'</p>3. Choose whether you want to download or share the document</p>If your Certificate of Insurance is unavailable, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Certificate of Insurance COI",
+        "question": "How can I change the incorrect details in my Certificate of Insurance (COI)?",
+        "answer": "To make corrections in the Certificate of Insurance/membership document, please follow these steps:</p>1. Go to 'Your relations' and scroll to 'Insurance/ Value Added Services'</p>2. Select your insurance policy and click on 'Update Policy Details'</p>3. After this, you will be redirected to our 'Raise a Request' page</p>4. Select 'Query Type' and 'Sub Query Type'</p>5. Share a few details about your query</p>6. Upload supporting documents and click on 'Submit'</p>To make corrections in COI now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Insurance Renewal",
+        "question": "How can I renew my health insurance policy?",
+        "answer": "<p>When your health insurance policy is up for renewal, you will receive a notification stating the same. This will be done 45 days before the policy renewal date.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Surrender Policy",
+        "question": "How can I discontinue or surrender my insurance policy?",
+        "answer": "To discontinue or surrender your insurance policy, go to the 'Insurance & VAS tab', select “Surrendered” with your active relation, add your comments, and proceed. Please note that surrender fees may apply. If you still wish to surrender your policy, click the button below., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Cancellation",
+        "question": "How can I cancel my insurance policy?",
+        "answer": "You can cancel your insurance policy if it is within the Free Look Period (FLP). Please be aware that cancellation fees may be applied depending on the terms of your policy. To cancel your policy, please follow the steps below: 1. Go to 'Your relations' and scroll to 'Insurance/ Value Added Services' 2. Select your insurance and click on 'Cancel Policy' 3. Share the details for cancellation and proceed. If your Free Look Period (FLP) has ended, please raise a request by selecting ‘Surrender Related’ under the Insurance tab in the Help and Support section to proceed with your request., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Surrender Policy",
+        "question": "How long does it take to get a refund of the premium amount after surrendering my policy?",
+        "answer": "<p>If you surrender your insurance policy after the Free Look Period (FLP) is over, the membership fee/premium amount will be refunded on a pro-rata basis or adjusted towards any outstanding loan amount within 7 business days from the date of request for surrender.</p>"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "Insurance Services",
+        "l3category": "Personal Details",
+        "question": "Why are the updated personal details not reflected in my insurance policy?",
+        "answer": "<p>If you are not able to see your updated personal details, please raise your concern with the respective insurance company.</p>"
+    },
+    {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Will the premium amount be deducted as a monthly EMI?",
+    "answer": "If you've opted for insurance bundled with your loan, the premium has already been deducted upfront as a one-time charge from your loan amount. This means you don’t need to make any separate payments for it. However, if you’ve purchased insurance independently, the payment structure may differ. Depending on the plan you chose at the time of purchase, premiums could be charged on a monthly or annual basis.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Can I pay the premium amount on a monthly basis?",
+    "answer": "If you've opted for insurance bundled with your loan, the premium has already been deducted upfront as a one-time charge from your loan amount. This means you don’t need to make any separate payments for it. However, if you’ve purchased insurance independently, the payment structure may differ. Depending on the plan you chose at the time of purchase, premiums could be charged on a monthly or annual basis.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "What is Bajaj Prime?",
+    "answer": "Bajaj Prime offers an exclusive membership program through which you get rewarded with cashbacks for payments and purchases on your favourite brands. With Bajaj Prime you can enjoy access to a diverse array of welcome benefits, including free subscriptions, deals on popular OTT platforms and offers on a variety of brands across multiple categories.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "What are the benefits of Bajaj Prime membership?",
+    "answer": "Bajaj Prime member shall get the following exclusive benefits:- Rs. 1,000 Cashback upon in-store purchases made after availing finance facility using Bajaj Finserv EMI Network Card within 90 days of availing Bajaj Prime Membership. 5% Cashback on Bill payments using Bajaj Pay UPI Free & Discounted Subscriptions worth Rs. 1,200- 5% Cashback on PVR movie tickets, Zomato, and Ajio orders using Bajaj Pay UPI Discounted vouchers for 50+ Brands Note: Rewards can be redeemed in accordance with the Bajaj Prime Terms and Conditions.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "How can I become a Bajaj Prime member?",
+    "answer": "Please follow the steps to become a Bajaj Prime member:- 1. Visit the Bajaj Finserv app or website and click on the bajaj prime section 2. Click on 'Join Bajaj Prime' button 3. View your membership plan and click on 'Make Payment' 4. Select a suitable payment method to complete the payment After successful payment, your Bajaj Prime membership will be activated.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "What are the available payment options for availing Bajaj Prime Membership?",
+    "answer": "You can use the following payment modes to avail Bajaj Prime membership:- UPI Credit card - Debit card - Net banking",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the Bajaj Prime subscription remains pending?",
+    "answer": "In most cases, the issue regarding the pending payments gets resolved within 48 hours. You may raise a service request with us if the payment is still pending. Please follow these simple steps to :-1. Go to the ‘Main Menu’ and click on 'Help and Support' 2. Click on 'New Request' and select the relation 3. Select your 'Query type' and 'Sub-query type', then click on 'Proceed' 4. Share details about your query and attach the supporting documents (if required) 5. Click on 'Submit'  Once you have submitted your request, you will receive a 'Service Request Number', which will help you track your request.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the transaction is unsuccessful for Bajaj Prime subscription?",
+    "answer": "If your payment fails and funds are deducted from your bank account or credit card, there is no need to worry about the safety of your money. Usually, your bank will refund the amount within 3 to 5 business days.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "How do I earn cashback as a Bajaj Prime member?",
+    "answer": "As a Bajaj Prime member, you will be rewarded with cashback for making the following transactions:- Earn 5% Cashback by paying utility bills (electricity, mobile postpaid, mobile prepaid, DTH, broadband postpaid, piped gas, LPG gas cylinder, and Fastag). Earn 5% Cashback on movie ticket bookings through the PVR app (once a month). Earn 5% Cashback on Zomato, and Ajio app (only for the first three orders in a month). Earn Rs. 1,000 cashback on in-store EMI transactions at 15+ Brands till 90 days from purchase of Bajaj Prime.Please note: The cashback shall be rewarded only when the above transactions are carried out using Bajaj Pay UPI as a payment mode, subject to Bajaj Prime Terms and Conditions.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "Cancel my BAJAJ PRIME Membership",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "General Queries",
+    "question": "Once purchased, can I cancel my Bajaj Prime Membership?",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Is this policy active or closed?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Why is the policy showing active even though it has expired?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "When did my insurance policy start?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Till when is this policy valid?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Why is the insurance active after the loan is closed?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "I did not take this policy. Why is it showing as active?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "The app shows the policy as active.  Is this correct?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "What is the expiry date of this policy?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "Insurance Services",
+    "l3category": "Insurance related complaints and disputes",
+    "question": "Is this policy still running or already closed?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  }
+]

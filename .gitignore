@@ -21,3 +21,10 @@ package-lock.json
 ../dashboard/node_modules/
 ../dashboard/session_state.json
 test-output/*.json
+data/
+results/
+node_modules/
+*.csv
+run_config.json
+.DS_Store
+test-results/

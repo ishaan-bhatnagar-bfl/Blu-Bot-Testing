@@ -1,0 +1,479 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "When can I expect the drawdown facility on my Flexi Hybrid term Loan account to be unblocked?",
+    "answer": "<p>The Flexi drawdown facility can be unblocked by consistently making your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments on time. Our team will review your credit and repayment records in the upcoming quarter, and the block may be automatically removed based on their evaluation.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "Why is my drawdown facility for the Flexi Hybrid term Loan is blocked?",
+    "answer": "<p>Your Flexi drawdown facility for Flexi Hybrid term Loan can get blocked due to many reasons, such as: - Overdue on your loan account: Please clear all dues before requesting a Flexi drawdown. - This facility can be blocked due to our internal risk policy basis parameters like CIBIL Score, credit behaviour across financial institutions, repayment history, bounced EMIs, and other factors that are checked by our risk team. - The amount requested is higher than your current available limit. -If your re-KYC is incomplete, your fund withdrawal will be blocked, and you must complete the re-KYC process. You can also type your query below in case you are facing any issues in completing your re-KYC.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "What should I do if I have not received funds from Bajaj Finserv despite placing a drawdown request for personal flexi loan?",
+    "answer": "<p>Once you place the Flexi drawdown request, the amount gets credited to your registered bank account within 2 hours. However, for requests placed on weekends and national holidays, the amount may get credited on the next business day.</p><p>In case of any delay, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "Do I need to pay any charges to drawdown funds from my Flexi Hybrid term Loan account?",
+    "answer": "<p>You don't need to pay any charges to Flexi drawdown funds from your Flexi Hybrid term Loan account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "How many times can I drawdown funds from my Flexi Hybrid term Loan account?",
+    "answer": "<p>There are no restrictions on the frequency of drawdowns. However, you can withdraw until a minimum of Rs. 1000 is available in your limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "How do I drawdown funds from my Flexi Hybrid term Loan account?",
+    "answer": "<p>Follow the steps below to Flexi drawdown funds from your Flexi Hybrid term Loan account:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'</p><p>2. Select the 'Loan Account Number' for which you wish to initiate the Flexi drawdown</p><p>3. Click on Withdraw / Flexi drawdown</p><p>4. Enter the Amount and click on OTP</p><p>5. Enter OTP and Submit</p><p>Please note: The minimum amount that can be withdrawn is Rs. 1000.</p><p>Once you place the Flexi drawdown request the amount gets credited to your registered bank account within 2 hours. However, for requests placed on weekends and national holidays, the amount may get credited on the next business day.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Drawdown",
+    "question": "Why am I getting an error message stating 'Exceeds the Available Limit' while trying to drawdown funds from my Flexi Hybrid term Loan account?",
+    "answer": "<p>If the Flexi drawdown amount requested is higher than the limit in your flexi loan account, this error message will appear while trying to withdraw funds. Please enter an amount within the available limit and try again.</p><p>You can go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' to check your current available limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Fees and Charges",
+    "question": "What fees and charges are applied to my Flexi Hybrid term Loan?",
+    "answer": "<p>Basis the loan type, the fees and charges may vary. You can check the specific charges applicable to your loan by visiting the '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' section and selecting your Loan Account Number (LAN).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Fees and Charges",
+    "question": "What is an annual maintenance charge for Flexi Hybrid term Loan?",
+    "answer": "<p>Annual Maintenance Charge (AMC) is a fee levied on flexi Loans on an annual basis. This flexi facility enables multiple withdrawals and/or repayments on your loan account from time to time within the overall sanctioned Limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Fees and Charges",
+    "question": "When and how can I pay my annual maintenance charge for Flexi Hybrid term Loan?",
+    "answer": "<p>The Annual Maintenance Charges (AMC) for the flexi loan account are to be paid annually, as mentioned in your loan agreement. For your convenience, effective from April 2023, AMC charges will be adjusted from your unutilized loan limit for cases disbursed in January 2022 onwards. Consequently, your principal amount in the flexi loan limit will increase accordingly. In case the flexi loan limit is insufficient or the Flexi loan was disbursed in December 2021 or prior, Bajaj Finance Limited will recover the dues from your registered bank account via ECS or NACH facility. To avoid any interest on the said dues, part payment for the same can be made without any additional charges with your Flexi loan.</p><p>Please note: AMC will be charged every year on the anniversary month, and it will be communicated to you on your registered mobile number.<br></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "What happens to my EMIs if my Flexi Hybrid term Loan gets converted from initial loan tenure to subsequent tenure?",
+    "answer": "<p>If your Flexi Hybrid term Loan gets converted from initial loan tenure to subsequent tenure, the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount changes as the subsequent loan tenure includes interest and principal amount.</p><p>Please <a href=\"bajajsuperapp://relations/loan\">click here</a> to check your EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "What is the difference between an initial loan tenure and a subsequent loan tenure for Flexi Hybrid term Loan?",
+    "answer": "<p>The difference lies in the EMIs you pay on the borrowed money. For the initial loan tenure, your EMIs include only the interest amount. However, for the subsequent loan tenure, the EPI (EQUATED PERIODIC INSTALMENT (EPI)) comprises of the principal and interest amount.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "What benefits do I get on my Flexi Hybrid term Loan?",
+    "answer": "<p>You get the following benefits on your Flexi Hybrid term Loans:</p><p>- No collateral is needed for getting a flexi loan.</p><p>- You don't need to pay interest on the full loan amount, but only on the amount you withdraw.</p><p>- You can make seamless, easy, and hassle-free online transactions like part-prepayments and drawdowns without any extra charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "What are the different types of Bajaj Finserv Flexi Loans?",
+    "answer": "<p>There are two types of Flexi Loans:</p><p>- Flexi Hybrid Loan: It is a type of loan where your EPI (EQUATED PERIODIC INSTALMENT (EPI)) includes only the interest payment during the initial tenure. However, during the subsequent tenure, your EPI (EQUATED PERIODIC INSTALMENT (EPI)) consists of both interest and principal, based on the loan amount you utilise. This helps you reduce your cash outflow for the first few years.</p><p>- Flexi Term Loan: It is a type of loan that is repaid in regular payments over a set period of time. Here, your EPI (EQUATED PERIODIC INSTALMENT (EPI)) includes principal and interest payments. You are assigned a loan limit and you can withdraw or part-prepay as many times as you wish.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "What is a Flexi Hybrid term Loan?",
+    "answer": "<p>Flexi Hybrid term Loan is a unique facility offered by Bajaj Finance Limited that lets you:</p><p>- Pre-pay your loans in parts at zero additional cost.</p><p>- Pay interest only on the amount you have utilised.</p><p>- Flexi drawdown money from your account as per your requirement.</p><p>- Access your loan account details anywhere and anytime.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "Do my EMIs remain constant throughout the loan tenure for Flexi Hybrid term Loan?",
+    "answer": "<p>Yes, the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount for Flexi Hybrid term Loan changes based on the loan amount that you utilise.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "What is the Flexi Hybrid term Loan transaction cut-off period/freezing period?",
+    "answer": "<p>In a flexi loan, your EPI (EQUATED PERIODIC INSTALMENT (EPI)) gets calculated based on the amount you Flexi drawdown from the available loan limit. Since you are allowed to Flexi drawdown funds any time before your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, there is a cut-off period/freezing period to calculate EMIs.</p><p>This period starts 5 business days before your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date. The impact of any transaction like part-prepayments or drawdowns made during this period is considered in the upcoming month and not in the current month.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi Loan Information",
+    "question": "How is the principal component treated for a Flexi Term Loan or during the subsequent period of a Hybrid Flexi Loan?",
+    "answer": "<p>The following components are considered for a Flexi Term Loan or during the subsequent period of a Hybrid Flexi Loan:</p><p>- If you have a sufficient loan limit to cover the principal amount, we'll subtract that principal amount from your available limit. Your EPI (EQUATED PERIODIC INSTALMENT (EPI)) will only include the interest, not any additional principal repayment.<br></p><p>- If your loan limit is nil or insufficient, we'll still subtract the principal amount from your available limit. But in this case, your remaining principal amount will include the interest and some of the principal you'll need to repay over time.<br></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "How do I generate my foreclosure letter for Flexi Hybrid term Loan?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan foreclosure letter:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Foreclosure Letter' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "Why is my loan status showing as 'Active' when I have foreclosed my Flexi Hybrid term Loan?",
+    "answer": "<p>After paying the foreclosure amount, it takes up to 24 hours for the amount to reflect in your Statement of Account (SOA).</p><p>However, if you still cannot see the updated loan details, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "When can I expect the refund of the EMI amount that got debited despite foreclosing my Flexi Hybrid term Loan?",
+    "answer": "<p>The EPI (EQUATED PERIODIC INSTALMENT (EPI)) being debited from your bank is because the foreclosure payment is made after the 22nd of the month, and your current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)) is already under presentation. The amount will be refunded to your registered bank account within 5 business days. </p><p>Please check your <a href=\"bajajsuperapp://documenation/documentcenter\">Statement of Account (SOA)</a> for the updated details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "How can I foreclose my Flexi Hybrid term Loan if bounce/overdue charges are applied?",
+    "answer": "Your foreclosure amount includes charges such as bounce fees, overdue charges, and other applicable fees. To make the foreclosure payment by clicking link below. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "What charges do I need to pay if I want to foreclose my Flexi Hybrid term Loan?",
+    "answer": "<p>To view the foreclosure charges applicable on your Flexi Hybrid term Loan, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "When can I foreclose my Flexi Hybrid term Loan?",
+    "answer": "<p>You can foreclose a Flexi Hybrid term Loan at any time after clearing your first EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan foreclosure",
+    "question": "Does my CIBIL Score get impacted if I foreclose a Flexi Hybrid term Loan?",
+    "answer": "<p>Foreclosing your loan has no impact on your CIBIL Score. Once you foreclose a loan, the same will be reported to CIBIL as 'closed' along with zero outstanding.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Interest Calculator",
+    "question": "How is my interest rate calculated for Flexi Hybrid term Loan?",
+    "answer": "<p>Your interest is calculated on a daily basis. The lender determines your daily interest rate based on your annual interest rate, and this rate is applied to the outstanding balance each day.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Interest Calculator",
+    "question": "How do you calculate the principal amount for repayment of my Flexi Hybrid term Loan?",
+    "answer": "<p>The principal amount refers to the total amount you borrow from us and must repay. This amount reduces when you make part-payments and increases when you Flexi drawdown money from your flexi loan account.</p><p>- Principal amount: It is the initial total amount that you borrow from us, and it is the basis for calculating your interest and determining your repayment schedule.</p><p>- Changes in principal amount: The principal amount can change over the course of your flexi loan. It decreases when you make part-payments, effectively reducing your outstanding debt. On the other hand, it increases when you draw down additional funds from your flexi loan account.</p><p>- Viewing principal amount calculation: To understand the calculation of your principal amount, you can refer to your loan statements, loan agreement or repayment schedule.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan details",
+    "question": "How does the dropline limit apply to my Flexi Hybrid term Loan?",
+    "answer": "<p>The dropline limit, if not utilised, gets reduced every month. This reduction takes place on your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date and is equivalent to the principal amount of your EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan details",
+    "question": "What do you mean by the principal outstanding/utilised amount for Flexi Hybrid term Loan?",
+    "answer": "<p>The principal outstanding/utilised amount refers to the amount disbursed to you which is outstanding.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan details",
+    "question": "What are the dropline limit, available limit and utilised limit for Flexi Hybrid term Loan?",
+    "answer": "<p>You can find the meaning of these terms below:</p><p>- Total limit/dropline limit – Refers to the limit assigned to you for making transactions at any given time.</p><p>- Available limit – Refers to an unutilised loan amount available for Flexi drawdown/withdrawal at any time.</p><p>- Utilised limit – Refers to the loan amount on which you pay interest.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Loan details",
+    "question": "Why is the available limit of my Flexi Hybrid term Loan been reduced?",
+    "answer": "<p>This may be due to any of the two reasons given below:</p><p>- You may have withdrawn money from the available limit.</p><p>- You may have opted for a flexi loan, where the principal component of the EPI (EQUATED PERIODIC INSTALMENT (EPI)) gets reduced month-on-month from your available limit.</p><p>For more details, please visit <a href=\"bajajsuperapp://documenation/documentcenter\">document centre</a> to download and read your loan agreement.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Missed EMI or Overdue Payment",
+    "question": "Can Bajaj Finance Limited waive off the bounce charges on my personal flexi loan account?",
+    "answer": "<p>Based on our internal policy, we cannot waive bounce charges. Hence, we suggest clearing the dues to avoid affecting your CIBIL Score.<br /></p><p>Note: Please keep sufficient funds in your bank account to avoid such charges.</p><p>To clear your dues now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.<br /></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Missed EMI or Overdue Payment",
+    "question": "Why did my EMI payment bounce for the Flexi Hybrid term Loan despite having a sufficient balance in my bank account?",
+    "answer": "<p>If your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment bounced despite having a sufficient balance in the bank account, please connect with your bank immediately.<br /></p><p>However, if your bank confirms that there are no issues from their end, then your EPI (EQUATED PERIODIC INSTALMENT (EPI)) might have bounced due to mandate-related issues. In such a scenario, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Missed EMI or Overdue Payment",
+    "question": "How can I clear my overdue amount for the Flexi Hybrid term Loan?",
+    "answer": "<p>You can clear your overdue amount by following these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'Make Payments'</p><p>3. Choose 'Missed EMIs/Other Overdues' as your payment option</p><p>4. Enter the required details and proceed to pay</p><p>If you are overdue on more than a single loan, you can select multiple loan accounts for making payments in one go by visiting 'Loan Payments' from the main menu.<br /></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Missed EMI or Overdue Payment",
+    "question": "What are the charges applicable for bounced and overdue payments for the Flexi Hybrid term Loan?",
+    "answer": "<p>To check the charges applicable for your bounced and overdue payments, please follow these steps and download Statement of Account:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Statement of Account</p><p>To know about overdue and bounced charges now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Will my EMI amount change after making a part-prepayment for Flexi Hybrid term Loan? ",
+    "answer": "Yes, your installment amount will reduce after you make a part-prepayment on your Flexi Loan. To check the updated amount, go to the ‘Relations’ section and select your Loan Account Number (LAN). CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan , IOS CTA link: bajajsuperapp://relations/loan , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Are there any charges applicable for making a part-prepayment towards my Flexi Hybrid term Loan?",
+    "answer": "<p>No part-prepayment charges are applicable on the Flexi Hybrid term Loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "How long will it take for a part-prepayment to get adjusted towards my existing Flexi Hybrid term Loan?",
+    "answer": "After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards the existing loan.</p><p>To check your Repayment Schedule for updated loan details, follow the steps below:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">Your Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Repayment Schedule</p><p>To continue enjoying flexi loan benefits and to keep your loan account active, please maintain a minimum principal amount of Rs. 100 or Rs. 1000, as specified in your loan agreement.</p><p>Note: The cheques and demand drafts clearance process will take approximately 3 business days."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Why am I unable to make part-prepayment for my Flexi Hybrid term Loan?",
+    "answer": "<p>We apologise for the inconvenience caused. There are several reasons due to which you may be unable to part-prepay like:</p><p>- There is an overdue amount on your loan account that needs to be cleared.</p><p>- If your last EPI (EQUATED PERIODIC INSTALMENT (EPI)) is pending, in this case, proceed directly for foreclosure.</p><p>- The part-prepayment amount exceeds the NEFT limit pre-defined by your bank. In this case, please check with your bank.</p><p>- If there are network issues, please wait for some time before re-trying.</p><p>If you still have queries, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Why has my part-prepayment not been adjusted towards my Flexi Hybrid term Loan account?",
+    "answer": "After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards its Flexi Hybrid term Loan account.</p><p>Note: The cheques and demand drafts clearance process will take approximately 3 business days.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Where can I check my updated loan details after part-prepaying the Flexi Hybrid term Loan?",
+    "answer": "You can refer to the Repayment Schedule or Statement of Account (SOA) to check your updated loan details after making a part-prepayment. Please note that it takes up to 48 hours for the amount to get adjusted towards your loan.</p><p>To check your part-prepayment details, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Statement of Account</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Part Pre-payment",
+    "question": "When can I make a part-prepayment towards my Flexi Hybrid term Loan?",
+    "answer": "<p>When making a part-prepayment towards your existing loan, certain conditions apply, which are stated below:</p><p>- You can make a part-prepayment once the loan is disbursed in your bank account.</p><p>- The part-prepayment amount should be more than or equal to Rs. 100 or Rs. 1000, as specified in your loan agreement.</p><p>- No part-prepayment charges are applicable on the Flexi Hybrid term Loan.</p><p>To part-prepay your loan, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.<br /></p>"
+  },
+  
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Payment through UPI",
+    "question": "What should I do if my payment through UPI doesn't get updated against my Flexi Hybrid term Loan? ",
+    "answer": "<p>Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.</p><p>If your payment made through UPI is not updated towards its Flexi Hybrid term Loan account, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Payment through VAN",
+    "question": "Why has my payment made through the Virtual Account Number (VAN) not been updated towards its Flexi Hybrid term Loan account?",
+    "answer": "<p>Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.</p><p>If your payment made through the Virtual Account Number (VAN) is not updated towards its Flexi Hybrid term Loan account, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Flexi Hybrid term Loan agreement?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan agreement:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Loan Agreement' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Flexi Hybrid term Loan application form?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan application form:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Application Form' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Flexi Hybrid term Loan consent form?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan consent form:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Consent Form' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Flexi Hybrid term Loan no dues certificate (NDC)?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan no dues certificate (NDC):</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'No Dues Certificate' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Flexi Hybrid term Loan repayment schedule?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan repayment schedule:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Repayment Schedule' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Flexi Hybrid term Loan statement of account (SOA)?",
+    "answer": "<p>Please follow these simple steps to get your Flexi Hybrid term Loan statement of account:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Statement of Account' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Collection related (debt management)",
+    "question": "Why am I receiving calls for making payment of my outstanding dues for the Flexi Hybrid term Loan?",
+    "answer": "<p>Please check your '<a href=\"bajajsuperapp://documenation/documentcenter\">Statement of Account</a>' and make payments towards your overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges, if any. To avoid calls in the future, kindly make your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment on time.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Collection related (debt management)",
+    "question": "Why am I receiving EMI re-payment calls for the Flexi Hybrid term Loan when my payment is updated in the Statement of Account (SOA)?",
+    "answer": "<p>We apologise for the inconvenience. If your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment is updated and you are still getting calls, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Favorites transaction",
+    "question": "What is the 'Add Favourites' option under 'Enter your drawdown amount' on the drawdown page?",
+    "answer": "<p>It is an option to save a frequently preferred Flexi drawdown amount. It will help you easily and quickly enter an amount without having to enter it manually. You can select between Rs. 1,000 and the maximum amount of your available loan limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Favorites transaction",
+    "question": "Why can't I edit the first two Bajaj Finserv Flexi Lite amounts under 'Favourites'?",
+    "answer": "<p>Those amounts are populated based on the most frequently drawn amount by the customers of your segment. It is based on historical records and will be changed periodically.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Favorites transaction",
+    "question": "Does setting a favorite amount restrict the withdrawal limit for Bajaj Finserv Flexi Lite or does it lock the limit?",
+    "answer": "<p>Adding a favourite amount will not affect the limit. You will be able to Flexi drawdown the amount to the maximum of your loan's available limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Favorites transaction",
+    "question": "Why am I unable to drawdown after selecting the pre-populated favourite amounts from my Bajaj Finserv Flexi Lite loan?",
+    "answer": "<p>We request that you check your available loan limit. You may encounter this issue when your Flexi drawdown amount exceeds your available loan limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Favorites transaction",
+    "question": "What are the minimum and maximum amounts I can set as my favourite transaction for my Bajaj Finserv Flexi Lite loan?",
+    "answer": "<p>The minimum amount that you can set as your favourite transaction is Rs. 1,000 and the maximum amount is up to your available limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "What is the flexi lite drawdown for Flexi Hybrid term Loan?",
+    "answer": "<p>The Bajaj Finserv Flexi Lite Flexi drawdown is a withdrawal facility offered on your Flexi Term Loan and Flexi Hybrid Loans. You can withdraw an amount up to Rs. 5000 without submitting an OTP.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "How can I set up the Bajaj Finserv Flexi Lite Drawdown?",
+    "answer": "<p>To set up flexi lite Flexi drawdown for Flexi Hybrid term Loan, please follow these simple steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Select 'Set up Flexi Lite'</p><p>3. Choose your flexi lite limit or enter any amount from Rs. 1000 to Rs. 5000</p><p>4. Click on 'Get OTP' and enter OTP sent on your registered mobile number and submit</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "What are the extra charges to drawdown money under flexi lite from my Flexi Hybrid term Loan account? ",
+    "answer": "<p>You do not need to pay any extra charges for making flexi Flexi drawdown under the flexi lite facility.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "What is the minimum or maximum amount that I can withdraw with flexi lite drawdown?",
+    "answer": "<p>The minimum amount that can be withdrawn is Rs. 1,000, while the maximum amount that can be withdrawn under flexi lite is Rs. 5,000. No OTP is required for these transactions. However, it is important to note that the maximum amount that can be withdrawn using flexi lite in a day is Rs. 15,000.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "What should I do if I need to make a drawdown request of more than Rs. 5,000?",
+    "answer": "<p>You can request a Flexi drawdown from the 'Flexi drawdown' section of your Flexi Hybrid term Loan. If you're withdrawing an amount over Rs. 5000, you'll need to validate it using an OTP. Also, you can only withdraw up to your available limit.</p><p>In case you do make a Flexi drawdown, the amount you withdraw will be considered a regular Bajaj Finserv Flexi Loan, not a Flexi Lite Loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "What happens if I exceed the daily limit of Rs. 15,000 in flexi lite?",
+    "answer": "<p>If you exceed the daily limit of Rs. 15000, you can still raise a Flexi drawdown request up to your available limit with OTP validation.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "Why am I not getting OTP for the Bajaj Finserv Flexi Lite set up?",
+    "answer": "<p>You will receive the OTP on your registered mobile number. If you have not received the OTP, we request you to kindly check your mobile network or try to do it after some time.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "When will I receive the amount after placing a flexi lite drawdown request?",
+    "answer": "<p>Once you place the Flexi drawdown request, the amount gets credited to your registered bank account within 2 hours. However, for requests placed on weekends and national holidays, the amount may get credited by the next business day.</p><p>In case of any delay, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with the bank statement.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "How often can I drawdown money under the flexi lite from my Flexi Hybrid term Loan account?",
+    "answer": "<p>There are no restrictions on the frequency of Flexi drawdown requests under the flexi lite Flexi drawdown. However, the maximum amount you can withdraw using flexi lite in a day is Rs. 15,000.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "How can I drawdown money from my Bajaj Finserv Flexi Term Loan and Hybrid Flexi Loan account using flexi lite?",
+    "answer": "<p>To Flexi drawdown money from your Bajaj Finserv Flexi Loan account, please follow the below-given steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'Flexi drawdown'</p><p>3. Enter any amount between ₹1000 and ₹5000</p><p>4. Verify your bank account details, as the amount will be credited to this account</p><p>5. Click on 'Submit'</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Flexi lite drawdown",
+    "question": "How can I drawdown money from my flexi variant loan account under the flexi lite using a different bank account? ",
+    "answer": "<p>Yes, you can. However, you must update your bank account details with Bajaj Finance Limited (BFL) to the new account before initiating a Flexi drawdown/withdrawal request.</p><p>To change or update your bank account details, please follow the below-given steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'Flexi drawdown Bank Change'</p><p>3. Submit the OTP sent to your registered mobile number</p><p>4. Enter new bank details and click on 'Verify'</p><p>5. Check new bank details on the screen and click on 'Proceed'</p><p>6. You will be redirected to DigiLocker, then select your Aadhaar Card or Driving License</p><p>7. Validate the details and click on confirm</p><p>Please note: If you are a corporate account holder, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with a copy of a cancelled cheque.</p>"
+  }
+]

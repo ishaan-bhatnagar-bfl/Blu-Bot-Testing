@@ -1,0 +1,458 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the steps to foreclose a loan?",
+    "answer": "<p>You can foreclose loan from loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Amount issue",
+    "question": "Extra amount debited.",
+    "answer": "<p>To find out why extra amount has been deducted please refer to your respective statement of account which contain details of all transaction. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to cancel my loan",
+    "answer": "You can cancel your loan within 1 day of disbursement by selecting the loan in 'Your Relations,' clicking 'Cancel Loan,' choosing your cancellation reason, and if any disbursement was received, returning the amount by making a payment through your preferred method. If you are unable to cancel the loan online, you will need to raise a request with us. If the cancel option is unavailable, you are not eligible for loan cancellation. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "CIBIL Update",
+    "question": "EMI not debited on time",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "CIBIL Update",
+    "question": "I want top up on my Tractor Loan. ",
+    "answer": "You can apply and check offers for top up Loan from loan page. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why my emi not deducted yet?",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "CIBIL Update",
+    "question": "EMI not debited on time, my account has suffiecient balance",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "CIBIL Update",
+    "question": "EMI not debited on time, my account has suffiecient money",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I download my KFS?",
+    "answer": "Please visit the Document Center page. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I download my Key Fact Statement (KFS)?",
+    "answer": "Please visit the Document Center page. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I update my mandate bank account details?",
+    "answer": "<p>You can change the mandate bank account details from Mandate management page. CTA Label: Mandate Management page, Android CTA link: bajajsuperapp://documenation/mandatemanagement, IOS CTA link: bajajsuperapp://documenation/mandatemanagement, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Mandate</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I update my drawdown bank account details?",
+    "answer": "You can change the drawdown bank by visiting the Mandate management page. CTA label: Mandate management, Android CTA Link: bajajsuperapp://documenation/mandatemanagement, IOS CTA Link: bajajsuperapp://documenation/mandatemanagement, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Mandate",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What is the procedure to get a refund for a late fee?",
+    "answer": "<p>For this query, Please raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I change my bank account details for repayment?",
+    "answer": "<p>Sure, I understand that you'd like to change the bank account linked to your mandate. You can change the mandate bank account details from Mandate management page. CTA Label: Mandate Management page, Android CTA link: bajajsuperapp://documenation/mandatemanagement, IOS CTA link: bajajsuperapp://documenation/mandatemanagement, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Mandate</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the charges for loan foreclosure?",
+    "answer": "<p>I understand you're seeking to download a foreclosure letter. You can visit document center to view your foreclosure letter. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why was a late fee deducted despite having a sufficient balance?",
+    "answer": "<p>To help us address your issue efficiently, we kindly request you to raise a query using the link provided below. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "When can I pay my advance EMI?",
+    "answer": "<p>You have the option to make an advance payment towards your loan. Please note, if you make this payment before the 28th of each month, it will be adjusted against your upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)). However, if the payment is made between the 28th and the 1st, it will be adjusted in your EPI (EQUATED PERIODIC INSTALMENT (EPI)) for the following month.\n\nTo proceed with an advance payment, kindly use the link provided below. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the ECS return charges?",
+    "answer": "We understand your concern regarding ECS return charges. These charges are applied by your bank, not Bajaj Finance, when a transaction processed through ECS is returned or rejected due to insufficient balance in your bank account. For further clarification on these charges, we kindly recommend reaching out to your bank directly. They will be able to provide you with more detailed information.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I know about my bounce charges?",
+    "answer": "<p>For information about bounce charges, You can visit the loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How does a part payment affect my loan?",
+    "answer": "<p>Making part payment will either reduce the tenure of your loan or the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount in subsequent EMIs.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can I change the due date of my EMI?",
+    "answer": "<p>I'm sorry for any inconvenience, but the EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date of your loan is fixed and cannot be changed.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can I split my next month's EMI into two installments?",
+    "answer": "<p>I apologize for any inconvenience, but the option to split your EPI (EQUATED PERIODIC INSTALMENT (EPI)) is not available.</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the fees and charges associated with my loan?",
+    "answer": "<p>For information about fees and charges related to your loans, you can go to loan details page and visit fees and charges section. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I get a No Dues Certificate for my loan?",
+    "answer": "<p>Please understand that No Dues Certificate (NDC) is provided for closed loans only. To get the No Dues Certificate (NDC) for your closed loan, kindly visit Document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why can't I pay an advanced EMI?",
+    "answer": "Please note that during the EIP period, the Advance Instalment option is disabled if you try to pay your monthly EMI. To ensure a smooth process, kindly maintain sufficient funds in your registered bank account for the EMI auto-debit. You may also make an advance payment towards your loan if done before the 28th of the month., CTA Label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I get details of my closed loans?",
+    "answer": "<p>To access all your loan-related information, please follow the link provided below. It will direct you to 'Your Relations' page where you can view all the details related to your loans. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+  "chatbot-flag": "Yes"
+},
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I get a refund for an excess payment?",
+    "answer": "<p>To help us address your issue efficiently, Please raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What is the penalty for loan foreclosure?",
+    "answer": "<p>There is no penalty on foreclosing your loan but you need to pay foreclosure charges, to know the foreclosure charges please download foreclosure letter by visiting document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can I get a foreclosure letter?",
+    "answer": "<p>For downloading the foreclosure letter, please visit the Document Center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I reduce my loan tenure?",
+    "answer": "<p>Making part payments can effectively reduce your EPI (EQUATED PERIODIC INSTALMENT (EPI)) tenure. To proceed with a part payment, kindly visit Loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I pay my EMI?",
+    "answer": "<p>To make a payment for your EPI (EQUATED PERIODIC INSTALMENT (EPI)), please visit the loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I know the total number of transactions I've made?",
+    "answer": "<p>To view your transaction details, charges, and EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments, you need to download your Statement of Account. Please follow the link provided below to visit the Document Center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I repay my loan amount?",
+    "answer": "To make a payment for your EPI (EQUATED PERIODIC INSTALMENT (EPI)), please visit the loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I get a statement for my active loan?",
+    "answer": "To download the statement of account (SOA), please follow the link provided below and visit the Document Center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I cancel my loan?",
+    "answer": "You can cancel your loan within 1 day of disbursement by selecting the loan in 'Your Relations,' clicking 'Cancel Loan,' choosing your cancellation reason, and if any disbursement was received, returning the amount by making a payment through your preferred method. If you are unable to cancel the loan online, you will need to raise a request with us. If the cancel option is unavailable, you are not eligible for loan cancellation. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the charges debited from my bank account?",
+    "answer": "To view your transaction details, charges, and EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments, you need to download your Statement of Account. Please follow the link provided below to visit the Document Center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How many EMIs do I need to pay?",
+    "answer": "To access all your loan-related information, please follow the link provided below. It will direct you to 'Your Relations' page where you can view all the details related to your loans. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+  "chatbot-flag": "Yes"
+},
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I request a reduction in my Rate of Interest?",
+    "answer": "Sorry, but you cannot reduce the interest rate on your loan.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I make a payment against the principal amount?",
+    "answer": "To make a payment for your EPI (EQUATED PERIODIC INSTALMENT (EPI)), please visit the loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I check the updated loan details after making a part prepayment?",
+    "answer": "Please note that it may take up to 48 hours for your Statement of Account to be updated. You can download the updated Statement of Account from the Document Center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why was ECS hit multiple times in a month?",
+    "answer": "If there isn't enough money in your account to cover ECS payment, attempts may be made multiple times to debit your account. It's important to ensure you have sufficient funds in your account to avoid such situations.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I swap my mandate?",
+    "answer": "You can change the mandate bank account details from Mandate management page. CTA Label: Mandate Management page, Android CTA link: bajajsuperapp://documenation/mandatemanagement, IOS CTA link: bajajsuperapp://documenation/mandatemanagement, Web CTA link :https://bajajfinserv.in/myaccountlogin?Source=Mandate",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give number of your agent to talk",
+    "answer": "I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me phone number to contact your team",
+    "answer": "<p>I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Arrange a call with customer care",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have applied loan, when it will be approved",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have applied loan, what is its status",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Already applied loan but nothing happened after that.",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Applied for new loan but I have not received money till now.",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I pay bounce fee charges?",
+    "answer": "To pay the bounce charge fee, please select the Loan account number and overdue as the Payment option for which you want to make the payment after clicking the below given link., CTA label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Until when can I pay my EMI in advance?",
+    "answer": "You may make an advance payment toward your loan before the 28th of the month. This amount will be adjusted against your upcoming instalment. To proceed, please click the button below and follow the instructions., CTA Label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I get TDS certificate for loan?",
+    "answer": "To get your TDS certificate for applicable loans, simply click the 'Raise a Request' button below. Service executive will contact you shortly to assist with the next steps. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the current overdue amount on my loan account?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can you please tell me how much overdue amount is pending on my EMI?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Is there any overdue amount on my loan? If yes, how much do I need to pay?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please share the details of my overdue amount, including any charges.",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Tractor Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How much is my total overdue amount, and what does it include (late payment or bounce charges)?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  }
+]

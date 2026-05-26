@@ -1,0 +1,1129 @@
+[
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to block my emi card",
+    "answer": "Check customer_data before answer, if card_status is 'Inactive' in customer_data, inform the customer that the selected card is already blocked. If the card_status is 'Active' in customer_data, attempt to convince the customer not to block their card by highlighting the benefits of the EMI card like Experience the convenience of splitting your purchases into affordable installments, enjoying exclusive discounts on a wide range of products, and having access to a seamless shopping experience. The Bajaj Finserv EMI Card is your key to financial flexibility and smarter spending. If the customer is convinced and decides not to block their card, express gratitude for choosing to stay with the Bajaj EMI card. If the customer still wants to block the card, provide the following response direct user to EMI Card page, CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to change my mandate bank.",
+    "answer": "You can change the Mandate bank by visiting the Mandate management page. CTA label: Mandate management, Android CTA Link: bajajsuperapp://documenation/mandatemanagement , IOS CTA Link: bajajsuperapp://documenation/mandatemanagement",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to change my mobile number.",
+    "answer": "To update your mobile number, navigate to the profile details page using the link below. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/Mob_Update , IOS CTA Link: bajajsuperapp://profile/Mob_Update , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can I purchase two wheeler ev scooter from EMI Card?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for any vehicle financing loans. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want physical card.",
+    "answer": "We’re excited to inform you that your EMI Card is now digital! This means no more physical cards—your EMI Card is now easily accessible online. All you need to shop at our authorized partner stores is your EMI Card number and registered mobile number. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. Note: If you already have a physical card, you can continue using it until its expiry. CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "How to order physical card?",
+    "answer": "We’re excited to inform you that your EMI Card is now digital! This means no more physical cards—your EMI Card is now easily accessible online. All you need to shop at our authorized partner stores is your EMI Card number and registered mobile number. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. Note: If you already have a physical card, you can continue using it until its expiry. CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I do recharge/bill payment using my EMI card?",
+    "answer": "Your EMI Card is not a credit card, smart card, stored value card, or charge card. It is a digital EMI card using which you can shop for electronics, gadgets, home décor, furnishing, fashion products, and more on No Cost EMIs.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I do recharge and other bill payment using EMI card?",
+    "answer": "Your EMI Card is not a credit card, smart card, stored value card, or charge card. It is a digital EMI card using which you can shop for electronics, gadgets, home décor, furnishing, fashion products, and more on No Cost EMIs.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please transfer my EMI card money to my bank account.",
+    "answer": "Your EMI Card is not a credit card, smart card, stored value card, or charge card. It is a digital EMI card using which you can shop for electronics, gadgets, home décor, furnishing, fashion products, and more on No Cost EMIs.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "How to receive my EMI card money in my bank account?",
+    "answer": "Your EMI Card is not a credit card, smart card, stored value card, or charge card. It is a digital EMI card using which you can shop for electronics, gadgets, home décor, furnishing, fashion products, and more on No Cost EMIs.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can I use EMI card to buy two wheeler?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for any vehicle financing loans. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can I purchase bike from EMI card?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for any vehicle financing loans. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can I use digital card to buy two wheeler",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for any vehicle financing loans. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can I buy gold jewellery using emi card?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for Gold Jewellery. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "How to use the emi card when I purchase the gold jewellery?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for Gold Jewellery. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can we use this EMI Card use for gold purchase?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for Gold Jewellery. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Can I use digital card to buy vehicles?",
+    "answer": "EMI cards are great for online shopping on platforms like Amazon, Flipkart, MakeMyTrip, and Goibibo, where you can easily choose the EMI option. For offline purchases, you can visit partner stores like Croma, Vijay Sales, Reliance Digital, and Sargam Electronics. However, please note that EMI cards cannot be used for any vehicle financing loans. Happy shopping!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my transaction failed",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Need to change the bank account.",
+    "answer": "To change your bank account details, please click on below button. CTA Label: Bank Account change, Android CTA link: bajajsuperapp://documenation/mandatemanagement, IOS CTA link: bajajsuperapp://documenation/mandatemanagement, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Mandate",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Bank account change",
+    "answer": "To change your bank account details, please click on below button. CTA Label: Bank Account change, Android CTA link: bajajsuperapp://documenation/mandatemanagement, IOS CTA link: bajajsuperapp://documenation/mandatemanagement, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Mandate",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Please Help me",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I need your help",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why are my transactions failing?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my online transaction fail on Flipkart?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my card transaction fail?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my recent transaction fail?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why is my online payment not going through?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why was my payment declined?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why can’t I complete my online purchase?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why is my EMI Card transaction being rejected?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why is my EMI card transaction failing?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why is my payment not being processed?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my online shopping payment fail?",
+    "answer": "It looks like you’re having trouble with your Bajaj Finserv EMI Card transaction. Here are some possible reasons and solutions: First Loan Requirement: Your first loan needs to be booked at a partner store with your KYC documents. Online transactions will be enabled after your first EMI is cleared. You can find the nearest store here. Credit Inline Policy: Your card might be temporarily ineligible due to our credit policy. Please wait for our next review. CIBIL Score: Your CIBIL score might not meet the criteria. To improve it, make timely payments, offer amountcredit utilization, and clear existing debts. Re-KYC: If your re-KYC is incomplete, you won’t be able to make transactions. Please complete the re-KYC process. If you need help, type your query below. You can also check the reason for the transaction failure on the history page. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why is my card not working for online transactions?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why can’t I make a payment online?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why is my card being declined for no reason?",
+    "answer": "Check the customer’s transaction data before answering the question and provide an answer basis below condition: Condition 1: if the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time. Condition 3: If no data is available in transaction_status then inform the customer that you may not able to make transaction due to the following reason: First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared. Eligibility Review: Your card might be temporarily ineligible due to our credit policy. Please wait for our upcoming review. CIBIL Score: If your CIBIL score isn't meeting the criteria, you can improve it by making timely payments, limiting credit use, and clearing existing debts. Re-KYC Process: Ensure your re-KYC is complete to enable transactions. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my payment get rejected?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why did my online transaction fail on Amazon?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I am unable to make any transaction through my EMI Card",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "Why my EMI card is blocked?",
+    "answer": "If card status is 'Inactive' and click to action is No, provide the customer with information regarding the Block reason. If card status is 'Inactive' and click to action is Yes or Null then inform customer that his card is blocked due to Block reason, Timeline and unblock reason, he can visit EMI card page and try unblocking his card by clicking the unblock card button. Also inform the customer that he cannot utilize the Available loan offer amount and Total loan offer amount if card status is Inactive, and cards which are blocked due to our internal credit policy cannot be unblocked. If Customer wants to unblock his EMI card or looking for card block reason If the card status is 'Active' inform the customer that his card is Active. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to know the block reason of my EMI Card",
+    "answer": "If card status is 'Inactive' and click to action is No, provide the customer with information regarding the Block reason. If card status is 'Inactive' and click to action is Yes or Null then inform customer that his card is blocked due to Block reason, Timeline and unblock reason, he can visit EMI card page and try unblocking his card by clicking the unblock card button. Also inform the customer that he cannot utilize the Available loan offer amount and Total loan offer amount if card status is Inactive, and cards which are blocked due to our internal credit policy cannot be unblocked. If Customer wants to unblock his EMI card or looking for card block reason If the card status is 'Active' inform the customer that his card is Active. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to know why my emi card transaction is declined?",
+    "answer": "Refer to EMI_Network_Card_emi_card_transaction_history_details for answering the transaction related queries. When reviewing EMI_Network_Card_emi_card_transaction_history_details, always prioritize and reference the latest available data basis transaction_Date_Time by comparing it with EMI_Network_Card_today_date unless the customer asks for transactions from a specific date or merchant. Condition 1: If the transaction_status is 00 then it means that customer’s transaction is either successful or it has been cancelled by the customer. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.  Condition 2: if the transaction_status is non-zero then it means that the transaction is failed. Refer to Transaction_Description for more clarity. Explain the customer about transaction description, Transaction_Amount and transaction_Date_Time.Answer should be in the below given format: Merchant: <Merchant Name>\n Date: <Date>\n Amount: <Amount>\n Status: <Status>\n Description: <Transaction Description>\nNote:<If you believe this is not your most recent transaction, it's likely that the product or service you're trying to purchase isn't eligible for EMI Card payment. We recommend selecting a different option that supports the EMI Card payment feature.> Condition 3: If no data is available in transaction_status then inform the customer that you may not be able to make transaction due to the following reason: 1. First Loan: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared.\n 2. Product Eligibility: The product or service you are trying to purchase may not be eligible through EMI Card payment option. We kindly request you to choose a different product or service that is available with the EMI Card payment option.\n 3. Transaction History: Check your transaction history on EMI Card Page for specific failure reasons., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to increase my card limit",
+    "answer": "You can try increasing your EMI Card Loan Offer Amount by visiting the EMI Card page and using the quick actions link. If eligible, your offer amountwill be increased based on factors like your CIBIL Score, EMI payment history, and overall credit performance. Please note that offer amountchanges are at Bajaj Finance Limited's discretion and subject to its policies. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What steps do I need to take to enhance my card limit?",
+    "answer": "You can try increasing your EMI Card Loan Offer Amount by visiting the EMI Card page and using the quick actions link. If eligible, your offer amountwill be increased based on factors like your CIBIL Score, EMI payment history, and overall credit performance. Please note that offer amountchanges are at Bajaj Finance Limited's discretion and subject to its policies. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want upgrade my card limit",
+    "answer": "You can try increasing your EMI Card Loan Offer Amount by visiting the EMI Card page and using the quick actions link. If eligible, your offer amountwill be increased based on factors like your CIBIL Score, EMI payment history, and overall credit performance. Please note that offer amountchanges are at Bajaj Finance Limited's discretion and subject to its policies. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want enhance my card limit",
+    "answer": "You can try increasing your EMI Card Loan Offer Amount by visiting the EMI Card page and using the quick actions link. If eligible, your offer amountwill be increased based on factors like your CIBIL Score, EMI payment history, and overall credit performance. Please note that offer amountchanges are at Bajaj Finance Limited's discretion and subject to its policies. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "My loan is closed but limit not reinstated",
+    "answer": "If your loan is closed but the Loan offer amount has not been reinstated, you can raise a request with us. Please click on the button below to submit your request. Our team will review it and get back to you within 2 working days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Can I shop online through my EMI Card",
+    "answer": "You can use the Bajaj Finserv Insta EMI Card for online as well as offline transactions at our 1.5 lakh+ partner stores. For online transactions, you can use e-commerce platforms such as Amazon, Flipkart, MakeMyTrip, Goibibo, Reliance Digital, etc. For offline purchases, you can use your card across our offline partner stores like Croma, Vijay Sales, Reliance Digital, Sargam Electronics, etc. With this card, you can purchase a wide range of products including mobiles, computing devices, retail fashion, travel and holiday packages, education expenses, and much more. To view our partner stores near you, please click here. CTA Label: Store Locator, Android CTA link: bajajsuperapp://storeLocator, IOS CTA link: bajajsuperapp://storeLocator, Web CTA link:https://www.bajajfinserv.in/locator,",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Can I shop on online platforms like Flipkart and Amazon using my EMI Card",
+    "answer": "You can use the Bajaj Finserv Insta EMI Card for both online and offline transactions at over 1.5 lakh partner stores across India. For online purchases, you can shop on platforms such as Amazon, Flipkart, MakeMyTrip, Goibibo, Reliance Digital, and more. For offline purchases, the card can be used at stores like Croma, Vijay Sales, Reliance Digital, Sargam Electronics, and others. With this card, you can buy a wide variety of products — from mobiles, computing devices, and retail fashion to travel packages, education expenses, and much more. Note: If your EMI Card has been recently activated, you are advised to make an offline transaction first before using it for online purchases. To find partner stores near you, click on the button below., CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storelocator/storelocatorlaun, IOS CTA link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I did not take any loan still getting calls from the recovery department.",
+    "answer": "We apologize for any inconvenience. Please Raise a Request with us and we'll do our best to address the issue promptly. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:  https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will complain to Local Authorities.",
+    "answer": "We are sorry for the trouble. We recommend you Raise a Request with us first so we can internally resolve the issue. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will complain to Government Authority.",
+    "answer": "We understand your concerns. Before you approach government authorities, please Raise a Request with us so we can address the issue. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will file a Police Complaint.",
+    "answer": "We regret any inconvenience caused. We encourage you to Raise a Request with us first. We will do our best to resolve the issue promptly. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How to transact using EMI card?",
+    "answer": "You can use the Bajaj Finserv Insta EMI Card for both online and offline transactions at over 1.5 lakh partner stores across India. For online purchases, you can shop on platforms such as Amazon, Flipkart, MakeMyTrip, Goibibo, Reliance Digital, and more. For offline purchases, the card can be used at stores like Croma, Vijay Sales, Reliance Digital, Sargam Electronics, and others. With this card, you can buy a wide variety of products — from mobiles, computing devices, and retail fashion to travel packages, education expenses, and much more. Note: If your EMI Card has been recently activated, you are advised to make an offline transaction first before using it for online purchases. To find partner stores near you, click on the button below., CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storelocator/storelocatorlaun, IOS CTA link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will go to court.",
+    "answer": "We are sorry to hear about your intentions. However, we request you to Raise a Request first, and we assure you we will address the issue. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will file a legal complaint.",
+    "answer": "We're sorry to hear that you're facing this issue. We recommend you to Raise a Request with us so we can resolve the issue internally before you proceed with a legal complaint. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "Give number of your agent to talk",
+    "answer": "I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "Give me phone number to contact your team",
+    "answer": "I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "Arrange a call with customer care",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I want to Register for 'Do not call' services and I do not want to receive any promotional call from Bajaj in future what can I do?",
+    "answer": "You can opt for do not call services by visiting Do not Call page. CTA Label: Do Not Disturb, Android CTA link: bajajsuperapp://openbrowser/  https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, IOS CTA link: bajajsuperapp://openbrowser/ https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?source=DNC",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I want to view my card statement",
+    "answer": "You can view your Statement of Account from Document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I want to change EMI due date.",
+    "answer": "At the moment, we do not have the option to change the installment due date. We kindly request you to continue with the current due date of your loan.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "Bajaj is a fraud",
+    "answer": "We apologize for any inconvenience. Please Raise a Request with us with the details of the issue that you are facing. We will look into the matter and resolve your queries. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will complain to RBI",
+    "answer": "We apologize for any inconvenience. Please Raise a Request with us with the details of the issue that you are facing. We will look into the matter and resolve your queries. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "I will raise this to RBI",
+    "answer": "We apologize for any inconvenience. Please Raise a Request with us with the details of the issue that you are facing. We will look into the matter and resolve your queries. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How can I get my Financial Fitness Report?",
+    "answer": "To view or download your Financial Fitness Report, visit the document center and select your loan number. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How can I get my charge slip?",
+    "answer": "Simply click the link below to visit our Document Centre and select the loan account you would like to view, and you will be able to download your charge slip easily., CTA label: Document center , Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document,",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How can I get my EW/Insurance Certificate?",
+    "answer": "To view or download your EW/Insurance Certificate, please visit the document center. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How can I get my invoice?",
+    "answer": "To view or download your Invoice, please visit the document center. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "What is meant by KYC?",
+    "answer": "KYC is the short form for 'Know Your Customer'. KYC means identifying the applicant and obtaining an address by way of collecting officially valid documents. KYC is mandatory as per the Reserve Bank of India (RBI) guidelines for availing a loan, placing FD, etc.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "What is meant by full KYC?",
+    "answer": "Full KYC means obtaining the Officially Valid Documents (OVD) for Proof of Identity (POI) and Proof of Address (POA) as specified in the Reserve Bank of India (RBI) guidelines.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "What is meant by digilocker?",
+    "answer": "Also known as Digital Locker, the objective here is going paperless. Digilocker offers the following benefits- Digital documents can be accessed shared by citizens anytime, anywhere. The process is convenient and time-saving- Reduces administrative costs that are otherwise unavoidable when using paper - Helps in validating the authenticity of these documents easily as they are issued to registered users directly.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How can one complete their KYC online?",
+    "answer": "There are two processes to complete KYC online – Downloading KYC documents from Central KYC Registry of customer having KYC identifier (KIN), Offline verification of Aadhaar number.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Statements",
+    "question": "How do I know if my bank is eligible for e-mandates or e-NACH?",
+    "answer": "Please go to the website https://www.npci.org.in/ to visit the National Payments Corporation of India (NPCI) website and check whether your bank is registered for the e-mandate process.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to Increase my card limt",
+    "answer": "Several factors are taken into consideration when increasing the card loan offer amount, such as:</p><p>- CIBIL Score</p><p>- EMI payment history</p><p>- Overall credit performance across lenders</p><p>We review the pre-approved card loan offer amount available to our customers periodically and make changes (either increase or decrease) if needed. These changes are communicated to you on your registered mobile number through an SMS.</p><p>Note: Insta EMI Card loan offer amount changes are at the discretion of Bajaj Finance Limited and are subject to its policies.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "My loan is closed but card limit is not reinstated",
+    "answer": "If your loan is closed but the Loan offer amount has not been reinstated, you can raise a request with us. Please click on the button below to submit your request. Our team will review it and get back to you within 2 working days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me customer care number",
+    "answer": " Sorry I am unable to provide you customer care number,I can provide resolution to your card related queries on text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have cancelled my emi card but I have not got any refund.",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I report a fraud transaction in my EMI card transactions?",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Report fraud transaction in EMI card",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I renew my emi card?",
+    "answer": "Your EMI card will be automatically renewed for your convenience. You don't have to worry about manually renewing it yourself.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want to cancel my emi card transaction.",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have cancelled the loan taken from emi card but loan is still booked please help.",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have paid all my EMIs but still my card limit is not refreshed.",
+    "answer": "If your loan is closed but the Loan offer amount has not been reinstated, you can raise a request with us. Please click on the button below to submit your request. Our team will review it and get back to you within 2 working days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am currently dealing with a collection agent who is using abusive language",
+    "answer": "I am really sorry for the inconvenience, we do not allow such behavior. Please raise a request for any further assistance. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am being harrassed by a collection agent",
+    "answer": "I am really sorry for the inconvenience, we do not allow such behavior. Please raise a request for any further assistance. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am experiencing misbehaviour from a collection agent.",
+    "answer": "I am really sorry for the inconvenience, we do not allow such behavior. Please raise a request for any further assistance. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Transaction was cancelled but card limit is not refreshed.",
+    "answer": "We regret the inconvenience caused. If your transcation was cancelled, but your Card Loan Offer Amount is still not updated, please raise a request with us. Our team will review the issue and revert you. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR,",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why have you reduced my EMI card limit?",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why I am still getting calls of your collection agent when I have cleared all my dues?",
+    "answer": "We request you to please raise a request with us. CTA lable: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have not recevied any resolution of my request even after two days",
+    "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "Where can I view the details of my Bajaj Finserv Insta EMI Card?",
+    "answer": "<p>To view and access important details of your Insta EMI Card, such as card number, status, available loan offer amount, total loan offer amount, and validity date, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/cards\">Your Relations</a>' and scroll to the 'Cards' section</p><p>2. Select the EMI Card for which you wish to view the details</p><p>3. You will be able to view your card number, status, available loan offer amount, total loan offer amount, and validity date</p>",
+  "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Urgent call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want to see offers on my emi card.",
+    "answer": "To view offers on your EMI card please visit our offer page. CTA label: Card Offers, Android CTA link: bajajsuperapp://cardoffers/Card Offers/EMI Network Card, IOS CTA link: bajajsuperapp://cardoffers/Card Offers/EMI Network Card , Web CTA link: https://www.bajajfinserv.in/card-offers",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want to see my emi card statement.",
+    "answer": "To view statement of your EMI card, please visit document center page. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "I wants to know how much amount  will be financed by Bajaj through EMI card",
+    "answer": "Please visit our EMI finance calculator page. CTA label: EMI card finance calculator, Android CTA link: bajajsuperapp://trycalculator/downPayment, IOS CTA link: bajajsuperapp://trycalculator/downPayment, Web CTA link: https://www.bajajfinserv.in/EMI-network-calculator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial transactions and Actions",
+    "question": "Ask your agent to call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Unblock EMI card",
+    "question": "I want to unblock my emi card",
+    "answer": "If card status is 'Inactive' and click to action is No, provide the customer with information regarding the Block reason. If card status is 'Inactive' and click to action is Yes or Null then inform customer that his card is blocked due to Block reason, Timeline and unblock reason, he can visit EMI card page and try unblocking his card by clicking the unblock card button. Also inform the customer that he cannot utilize the Available loan offer amount and Total loan offer amount if card status is Inactive, and cards which are blocked due to our internal credit policy cannot be unblocked. If Customer wants to unblock his EMI card or looking for card block reason If the card status is 'Active' inform the customer that his card is Active. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Unblock EMI card",
+    "question": "When will my EMI card unblock",
+    "answer": "If card status is 'Inactive' and click to action is No, provide the customer with information regarding the Block reason. If card status is 'Inactive' and click to action is Yes or Null then inform customer that his card is blocked due to Block reason, Timeline and unblock reason, he can visit EMI card page and try unblocking his card by clicking the unblock card button. Also inform the customer that he cannot utilize the Available loan offer amount and Total loan offer amount if card status is Inactive, and cards which are blocked due to our internal credit policy cannot be unblocked. If Customer wants to unblock his EMI card or looking for card block reason If the card status is 'Active' inform the customer that his card is Active. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "financial transactions and actions",
+    "question": "I want to cancel loan taken using my emi card",
+    "answer": "We request you to please raise a request with us for this issue. Your issue will be answered within 2 working days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if EMI card was cancelled but refund is not received",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "Apply for EMI Network Card",
+    "answer": "You can apply for EMI Card by visiting the below given link and follow the instructions provided. Alternatively, you can also visit a partner store near you and apply for the Insta EMI Card. Our store representative will guide you through the process. CTA Label: Apply EMI Card, Android CTA Link: bajajsuperapp://emicard, IOS CTA Link: bajajsuperapp://emicard, Web CTA Link: https://www.bajajfinserv.in/insta-emi-card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if  I want to renew my emi card?",
+    "answer": "Your EMI card will be automatically renewed for your convenience. You don't have to worry about manually renewing it yourself.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if I have done payments of my emi card but I have not received it",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if  I have cleared all my emis or have cancelled the transaction but still card offer amountis not updated",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if I had cancelled the order but still loan is booked?",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "I have cleared my dues but I am still getting calls from collection agent.What should I do?",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "financial transactions and actions",
+    "question": "I want to change my EMI card pin",
+    "answer": "To change your PIN, please follow these steps: 1. Go to Your relations and select the EMI Network Card for which you wish to update the PIN 2. Click on 'Forgot PIN' 3. Enter and then re-enter your new PIN 4. Enter the OTP sent to your registered mobile number and click on 'Submit'. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "Unable to view add-on card?",
+    "answer": "<p>The number of your Bajaj Finserv Insta EMI Card can be found on the front of your digital card. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How can I know if my Bajaj Finserv Insta EMI Card is active?",
+    "answer": "You can easily check the status of your Bajaj Finserv Insta EMI Card by clicking on the button below., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "What should I do if I tried to change my Bajaj Finserv Insta EMI Card PIN but was unsuccessful?",
+    "answer": "<p>Your attempt to change your EMI Network Card PIN could be unsuccessful due to the following reasons:</p><p>- Network Issues.</p><p>- Incorrect values entered in the fields.</p><p>- The 'New PIN' entered the second time did not match the first entry of the 'New PIN' entered</p><p>We request that you try again by following the given steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/cards\">Your Relations</a>' and select the EMI Network Card for which you wish to update the PIN</p><p>2. Click on 'Forgot PIN’</p><p>3. Enter and then re-enter your new PIN</p><p>4. Enter the OTP sent to your registered mobile number and click on 'Submit'</p><p>Kindly connect with us on our IVR Number 8698010101 for further assistance.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How can I view my Bajaj Finserv Insta EMI Card number?",
+    "answer": "Your Bajaj Finserv Insta EMI Card number is visible on the front of your digital card. To view your EMI Network Card number, please click the button below., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+  "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How to check Bajaj Finserv Insta EMI card's CVV number?",
+    "answer": "Bajaj Finserv Insta EMI Card, being digital does not have a CVV at the back. However, you can view other details such as card number, expiry, card status, etc by selecting your Insta EMI Card from 'Your relations' section.</p>You will receive an OTP on your registered mobile number for all transactions and do not require a CVV number.</p>Note: You can still view the CVV in case you have the physical Bajaj Finserv EMI Network Card.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block Related",
+    "question": "What should I do if I suspect fraudulent activities on my Bajaj Finserv Insta EMI Card?",
+    "answer": "In case you suspect any fraudulent activity on your Bajaj Finserv Insta EMI Card, you can self-block it by following the steps below:</p>1. Go to 'Your relations', scroll to the 'Cards' section, and select the EMI Card you want to block</p>2. Click on 'Block Card'</p>3. Select 'Fraud attempt on the card' as the reason for blocking your card and click on 'Proceed'</p>4. Enter the OTP sent to your registered mobile number and click on 'Submit'</p>You can also <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>Note: In case you are blocking the card from Bajaj Finserv App, then you do not need to enter the OTP.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Limit",
+    "question": "Will my Insta EMI Card limit be increased if I submit my financial documents to Bajaj Finance Limited?",
+    "answer": "<p>No, your Card Loan Offer Amount cannot be increased by submitting any financial documents. We review your Card Loan Offer Amount periodically, and the limit is enhanced on the basis of Bajaj Finance Limited policies.</p><p>Eligible customers can now increase their Card Loan Offer Amount by following the below-mentioned process:</p><p>1. Go to 'Your Relations' and scroll to the 'Cards' section</p><p>2. Select your 'EMI Card'</p><p>3. Click on 'Limit Enhancement' and follow the instructions provided</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if I want to renew my emi card?",
+    "answer": "Your EMI card will be automatically renewed for your convenience. You don't have to worry about manually renewing it yourself.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if My card limit got reduced ",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "What should I do if I had cancelled the order but still loan is booked ?",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "I have cleared my dues but I am still getting calls from collection agent. What should I do?",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "Show me nearby Stores where I can use EMI card.",
+    "answer": "Please visit our store locator page to view nearby EMI card stores where you can use your EMI card. CTA Label: Store Locator, Android CTA link: bajajsuperapp://storeLocator, IOS CTA link: bajajsuperapp://storeLocator, Web CTA link: https://www.bajajfinserv.in/locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Complaints and Dispute related to EMI card",
+    "question": "Where I can use EMI card in my locality?",
+    "answer": "Please visit our store locator page to view nearby EMI card stores where you can use your EMI card. CTA Label: Store Locator, Android CTA link: bajajsuperapp://storeLocator, IOS CTA link: bajajsuperapp://storeLocator, Web CTA link:https://www.bajajfinserv.in/locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "financial transactions and actions",
+    "question": "I want to see my EMI card number",
+    "answer": "The number of your Bajaj Finserv Insta EMI Card can be found on the front of your digital card. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: · Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. · Proceed by clicking on the 'View' option. · Authenticate by verifying the OTP sent to your registered mobile number. · Once verified, your 16-digit EMI Card number will be displayed for your viewing. · Click on below View EMI Card Button. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "financial transactions and actions",
+    "question": "What is internal credit policy?",
+    "answer": " Internal credit policy refers to the guidelines and criteria set by Bajaj Finserv to assess the creditworthiness of customers. This may include factors like credit score, payment history, and overall financial behavior. If your card is blocked due to internal credit policy, it means that it does not meet the necessary criteria for active usage.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Limit",
+    "question": "Will my Insta EMI Card offer amountbe increased if I submit my financial documents to Bajaj Finance Limited?",
+    "answer": "No, your Card Loan Offer Amount cannot be increased by submitting any financial documents. We review your Card Loan Offer Amount periodically, and the offer amountis enhanced on the basis of Bajaj Finance Limited policies. Eligible customers can now increase their Card Loan Offer Amount by following the below-mentioned process:- 1. Go to 'Your Relations' and scroll to the 'Cards' section 2. Select your 'EMI Card' 3. Click on 'Limit Enhancement' and follow the instructions provided. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Limit",
+    "question": "How can I increase the pre-approved loan offer amount on my Bajaj Finserv Insta EMI Card?",
+    "answer": "Several factors are taken into consideration when increasing the card loan offer amount, such as:- CIBIL Score - EMI payment history - Overall credit performance across lenders. We review the pre-approved card loan offer amount available to our customers periodically and make changes (either increase or decrease) if needed. These changes are communicated to you on your registered mobile number through an SMS. Note: Insta EMI Card loan offer amount changes are at the discretion of Bajaj Finance Limited and are subject to its policies., CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to increase my card limit",
+    "answer": "You can try increasing your EMI Card Loan Offer Amount by visiting the EMI Card page and using the quick actions link. If eligible, your offer amountwill be increased based on factors like your CIBIL Score, EMI payment history, and overall credit performance. Please note that offer amount changes are at Bajaj Finance Limited's discretion and subject to its policies. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block EMI card",
+    "question": "I want to Increase my card limt",
+    "answer": "Several factors are taken into consideration when increasing the card loan offer amount, such as:- CIBIL Score - EMI payment history - Overall credit performance across lenders We review the pre-approved card loan offer amount available to our customers periodically and make changes (either increase or decrease) if needed. These changes are communicated to you on your registered mobile number through an SMS. Note: Insta EMI Card loan offer amount changes are at the discretion of Bajaj Finance Limited and are subject to its policies. CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Usage",
+    "question": "Can I allow someone else to use my Bajaj Finserv Insta EMI Card?",
+    "answer": "We do not suggest or encourage our customers to use the Bajaj Finserv Insta EMI Card to make purchases in the name of their relatives or friends. As the card is in your name, any products purchased using it will be billed against your name. For safety and security purposes, we recommend that only the cardholder should use the Bajaj Finserv Insta EMI Card for making purchases. Note: The liability of the loan taken using the Bajaj Finserv Insta EMI Card rests solely with the cardholder.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Usage",
+    "question": "Can I buy a product in my friend's or relatives' name using my Bajaj Finserv Insta EMI Card?",
+    "answer": "We do not suggest or encourage our customers to use the Bajaj Finserv Insta EMI Card to make purchases in the name of their relatives or friends. As the card is in your name, any products purchased using it will be billed against your name. For safety and security purposes, we recommend that only the cardholder should use the Bajaj Finserv Insta EMI Card for making purchases. Note: The liability of the loan taken using the Bajaj Finserv Insta EMI Card rests solely with the cardholder.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Usage",
+    "question": "Where can I use my Bajaj Finserv Insta EMI Card?",
+    "answer": "You can use the Bajaj Finserv Insta EMI Card for both online and offline transactions at over 1.5 lakh partner stores across India. For online purchases, you can shop on platforms such as Amazon, Flipkart, MakeMyTrip, Goibibo, Reliance Digital, and more. For offline purchases, the card can be used at stores like Croma, Vijay Sales, Reliance Digital, Sargam Electronics, and others. With this card, you can buy a wide variety of products — from mobiles, computing devices, and retail fashion to travel packages, education expenses, and much more. Note: If your EMI Card has been recently activated, you are advised to make an offline transaction first before using it for online purchases. To find partner stores near you, click on the button below., CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storelocator/storelocatorlaun, IOS CTA link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Usage",
+    "question": "Can I use my EMI card to book flight tickets, train tickets, and hotel reservations?",
+    "answer": "Yes, you can book your flights, train tickets, and hotel stays using your EMI card. This convenient facility is available on popular travel platforms such as Goibibo and MakeMyTrip.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How do I generate or change the PIN for my Bajaj Finserv Insta EMI Card?",
+    "answer": "<p>To generate or change your EMI Network Card PIN, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/cards\">Your Relations</a>' and select the EMI Network Card for which you wish to update the PIN</p><p>2. Click on 'Forgot PIN'</p><p>3. Enter and then re-enter your new PIN</p><p>4. Enter the OTP sent to your registered mobile number and click on 'Submit'</p>",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How can I change my Bajaj Finserv Insta EMI Card PIN?",
+    "answer": "<p>To change your PIN, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/cards\">Your Relations</a>' and select the EMI Network Card for which you wish to update the PIN</p><p>2. Click on 'Forgot PIN'</p><p>3. Enter and then re-enter your new PIN</p><p>4. Enter the OTP sent to your registered mobile number and click on 'Submit'</p>",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How to check Bajaj Finserv Insta EMI card's CVV number?",
+    "answer": "<p>Bajaj Finserv Insta EMI Card, being digital does not have a CVV at the back. However, you can view other details such as card number, expiry, card status, etc by selecting your Insta EMI Card from 'Your Relations' section.</p><p>You will receive an OTP on your registered mobile number for all transactions and do not require a CVV number.</p><p>Note: You can still view the CVV in case you have the physical Bajaj Finserv EMI Network Card.</p>",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block Related",
+    "question": "What should I do if I suspect fraudulent activities on my Bajaj Finserv Insta EMI Card?",
+    "answer": "<p>In case you suspect any fraudulent activity on your Bajaj Finserv Insta EMI Card, you can self-block it by following the steps below:</p><p>1. Go to 'Your Relations', scroll to the 'Cards' section, and select the EMI Card you want to block</p><p>2. Click on 'Block Card'</p><p>3. Select 'Fraud attempt on the card' as the reason for blocking your card and click on 'Proceed'</p><p>4. Enter the OTP sent to your registered mobile number and click on 'Submit'</p><p>You can also <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p><p>Note: In case you are blocking the card from Bajaj Finserv App, then you do not need to enter the OTP.</p>",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Block Related",
+    "question": "How can I get my Bajaj Finserv Insta EMI Card account statement (SOA)?",
+    "answer": "You can obtain the account statement for your latest loan by typing “SOA” and sending an SMS to 9227564444 from your registered mobile number. However, if you wish to get the account statements for all loans availed through your EMI Card, go to the Document Centre, select the Loan Account Number (LAN) for the loan you need, choose “Statement of Account”, and then view or download., CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "How is Bajaj Finserv EMI Network Card different from Insta EMI Card?",
+    "answer": "The features, benefits, and usage of both cards are the same. Bajaj Finserv EMI Network Card used to be issued as a physical card, while Bajaj Finserv Insta EMI Card is its new digital variant. Once activated, the Bajaj Finserv Insta EMI Card will be accessible on your Bajaj Finserv app.If you are an existing cardholder with a physical EMI Network Card, you can also view your card details by clicking on the button below., CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Apply for EMI Network Card",
+    "question": "When will I receive my Bajaj Finserv EMI Network Card?",
+    "answer": "We are glad to inform you that we have moved your Insta EMI Card to a digital platform. Since it is a digital card now, physical cards will not be issued anymore.All you need is your Insta EMI Card number and your registered mobile number to shop at all our authorised partner stores, online partners, and e-commerce sites for purchases.Note: If you already have a physical card, you can continue to use it until its expiry, after which your reissued card will be digital.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Usage",
+    "question": "With the Bajaj Finserv EMI Network Card now digitised, can I continue to use my physical EMI card?",
+    "answer": "Definitely, if you have a valid physical Bajaj Finserv EMI Network Card, you can continue to use it for transactions across our authorised stores, online partners, and e-commerce websites.You can also view the digital version of your current card under the 'Account' section. Once your physical card expires, you will be reissued a digital Bajaj Finserv Insta EMI Card.Tip: Please cut or shred your physical card on its expiry.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "EMI Network Card",
+    "l3category": "Card Information",
+    "question": "Video KYC",
+    "answer": "You can raise a request with us for Video KYC (V‑KYC) by clicking on the button below. You will receive a callback within 2 working days. Alternatively, you can also visit your nearest Bajaj Finance branch to complete the KYC process in person., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+  "chatbot-flag": "Yes"
+  }
+]

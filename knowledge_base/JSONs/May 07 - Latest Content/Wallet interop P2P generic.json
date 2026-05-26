@@ -1,0 +1,722 @@
+[
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "How can i talk to a customer care executive",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How to raise service request?",
+    "answer": "You can raise a request with us by clicking below link. Our representative will respond you within 48 hours. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I have already raised a request with you/please help to share status of my already raised request",
+    "answer": "If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I need to send money to bank account",
+    "answer": "A full KYC customer can transfer amount to bank account by following mentioned steps: 1. Click on Bajaj Pay on Home Page 2. Go to wallets 3. Click on the sent to bank option 4. Add details and pay. If you are Min KYC, request you to upgrade your KYC.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Can I transfer money from rewards",
+    "answer": "You cannot transfer money from rewards, you would be able to use the reward balance by making bill payments only",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Why my FASTag is Hotlisted ",
+    "answer": "FASTag gets hotlist or Low Balance if you have negative balance or zero Balance. Request you to recharge the FASTag to update the status. CTA Label: FASTag Recharge, CTA link: bajajsuperapp://initBBPSSDK/CATEGORY_ID/6",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to know about prime",
+    "answer": "For any Prime related offer, you can directly check details by clicking on the prime option on the top right corner on home page",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to purchase prime, what is the amount charged for prime",
+    "answer": "For any Prime related offer, you can directly check details by clicking on the prime option on the top right corner on home page",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I need change in limit/limit increase",
+    "answer": "Wallet limits, however, are different and detailed below: Wallet Load Limits Full KYC (FKYC): Minimum transaction amount: ₹1 Maximum transaction amount: ₹1,00,000 Daily limit: 100 transactions, up to ₹1,00,000 Monthly limit: 500 transactions, up to ₹2,00,000 Maximum wallet balance: ₹2,00,000 Minimum KYC (MKYC): Minimum transaction amount: ₹1 Maximum transaction amount: ₹10,000 Monthly limit: 500 transactions, up to ₹10,000 Maximum wallet balance: ₹10,000 Also,  FKYC user can have a maximum wallet balance of Rs.2,00,000/- and MKYC user can have a maximum wallet balance of Rs.10,000/-",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I am not getting prime benefits for bill payments/zomato offer/ajio offer",
+    "answer": "If the transaction is successfully done and as you are stating that you have not received the cashback, request you to raise a request with us. We request you to check the terms and conditions of the offer for eligibility and review the rewards section to see if you have already received the cashback for the transaction, if eligible, before raising a request. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I have an issue with the bill/amount displayed of the bill generated/EMI shown",
+    "answer": "If there is any issue with the amount/details displayed of bill/EMI, you can contact the merchant directly. If the merchant is Bajaj Finserv, request you to click on menu button and select the relavant Intent for which you have any issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to update my wallet details updated earlier",
+    "answer": "If you want to modify or remove details from wallet, you would have to deactivate wallet and create it again with updated details.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Want a FASTag/apply for FASTag",
+    "answer": "If you want to purchase Bajaj FASTag, please follow below steps: 1. Click on below link 2. Click on 'Click here to buy FASTag' 3. Add required vehicle Details 4. Pay for the FASTag. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+  "chatbot-flag": "yes"
+},
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "My account is not updated to Bajaj prime yet/purchase Bajaj prime but not got services",
+    "answer": "If your account is not showing as Bajaj Prime, you can raise a request with us. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "When I am upgrading the KYC, it is showing PAN Card already exist",
+    "answer": "If your PAN card is showing as already existing, you need to deactivate the wallet associated with the other account where the PAN card is linked. Once deactivated, you can proceed to add your PAN card here. Please note that a PAN card can be linked to only one number for wallet creation. For any further details, you can raise a request with us. Our representative will respond you within 48 hours. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Can we make bill payment with EMI card",
+    "answer": "Payment mode varies basis on the bill payment category selected, you can check this while making a payment. For other EMI  Card related query, you can raise a chat with us by selecting EMI  card option",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want statement of the Bajaj FASTag",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: Click the below link Scroll down to the bottom page to check the 'Recent Toll Transactions' and the 'Download statement' option. Select the date range against which the statement is required & click on Download. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to download history of Bajaj FASTag",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: Click the below link Scroll down to the bottom page to check the 'Recent Toll Transactions' and the 'Download statement' option. Select the date range against which the statement is required & click on Download. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What is Sub Wallet",
+    "answer": "Sub wallet is where cashback amount and Gift card amount is credited. It is a part of Bajaj Pay wallet which can be used for bill payments only",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Is there a single Beneficiary transfer limit",
+    "answer": "The wallet limits remain the same, whether used for a single beneficiary or multiple beneficiaries. These limits apply on both a daily and monthly basis.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Is there any charges for making Credit Card bill payment",
+    "answer": "There is no extra charge made on payments for credit card bill",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What is the validity of wallet amount",
+    "answer": "There is no validity of amount available in wallet. You can use the amount anytime you require.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to close my FASTag",
+    "answer": "To close a FASTag, please ensure that it does not have a balance of 0 or a negative amount, as it cannot be closed under such conditions. We request you to torn FASTag before submitting your request to us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to know about my loan payment",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to cancel autopay",
+    "answer": "Please note that not all autopay requests can be revoked. If your request pertains to a loan-related autopay, we recommend contacting the respective loan issuer directly for assistance. However, if your concern is related to a Bajaj Loan autopay, please follow these steps: \n1. Visit the Loan Details section on the Help and Support page.\n2. Initiate a chat to resolve your query regarding your loan autopay.\nFor revoking other autopay requests, you can follow these simple steps: \n1. Go to the Home Page and click on UPI.\n2. Open Settings.\n3. Click on Autopay Settings.\n4. Navigate to the Active page.\n5. Select the Revoke button next to the autopay you wish to cancel.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to know status of Autopay/Is any autopay active",
+    "answer": "You can check autopay anytime by following mentioned steps:\n1. Click on Settings in UPI option.\n2. Go on Autopay settings.\n3. Click on autopay you want to view.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Where can I see my transactions",
+    "answer": "You can see your transactions under the passbook section in Bajaj Pay.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I see wallet balance",
+    "answer": "You can see your wallet balance in the wallet section under Bajaj pay option.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I use this app",
+    "answer": "You can use various features of our app:\nYou can make any bill payments, use wallet or UPI mode through our app for making payments.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How to use Bajaj Coins",
+    "answer": "You can use your Bajaj coins balance for making bill payments post converting it to cash through our app.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I use cashback amount/cashback wallet",
+    "answer": "You can use your cashback balance for making bill payments through our app.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How to check FASTag Balance",
+    "answer": "You can check your balance anytime:\nClick on Bajaj pay on Home page\nClick on FASTag\nAvailable Balance will be shown in the upper corner of the FASTag page.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Financial Actions and Transactions",
+    "question": "I want to withdraw money from this wallet",
+    "answer": "A full KYC customer can transfer amount to bank account by following mentioned steps: 1. Click on Bajaj Pay on Home Page 2. Go to wallets 3. Click on the sent to bank option 4. Add details and pay. If you are Min KYC, request you to upgrade your KYC.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "How to create Wallet UPI ID?",
+    "answer": "<p>To create your wallet UPI ID, please follow these steps:</p><p>1. Click on '<a href=\"bajajsuperapp://initBajajPay/0\">Wallet</a>' under 'Bajaj Pay'</p><p>2. Click on 'Activate Now'</p><p>3. Select the 'SIM Card' linked to your Bajaj Pay wallet and click on 'Proceed'</p><p>4. Your wallet UPI ID will be generated within a few seconds</p><p>Alternatively, you can also:</p><p>1. Click on the 'Settings' on the Wallet Homescreen</p><p>2. Click on ‘Link Bajaj Pay Wallet with UPI’</p><p>3. Select the 'SIM Card' linked to your Bajaj Pay wallet and click on 'Proceed'</p><p>4. Your wallet UPI ID will be generated within a few seconds</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "How can I update my mobile number?",
+    "answer": "To change or Update mobile number, request you to click on Menu button on Home Page, go to Profile and click on Personal Information. Click Edit option beside Mobile number and continue with shown procedures and submit.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Bank Transfer generic",
+    "question": "Who has done this payment as I have not done any such transaction?",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Bank Transfer generic",
+    "question": "Why did my payment failed",
+    "answer": "We regret to inform you that the failure can happen due to various issues like network issue, insufficient balance etc., request you select the transaction from passbook and then start Chat with us to get exact details.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Bank Transfer generic",
+    "question": "Why should I wait for 48 hours for RAR resolution",
+    "answer": "This time is taken to validate the issue so that we can assist you with the best possible resolution. Request you to wait",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "I suspect that someone else is using my account to make transactions without my consent. What should I do?",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "I want to report a fraud.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "I have not done this payment/transaction.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Call me its urgent",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "How can I contact customer support for a UPI transaction issue?",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Why should I raise a request?",
+    "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "How much time you take to resolve a query if I raise a request with you",
+    "answer": "If you are raising a request with us, our representative will reply to you within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "What will be the resolution provided if I will raise a request with you",
+    "answer": "Our representative will get the details validated and will help you with the correct and complete details.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Why should I raise a request when I am already conversing over the chat with you",
+    "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "What If I didn't got the resolution post TAT",
+    "answer": "Please be assured, our representative will help you with the correct and complete details available with us.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make/arragne calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Please share customer executive mobile number",
+    "answer": "As an virtual agent I am unable to make calls or share mobile number of our service agents, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us.CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "I am not getting proper resolution, please call me",
+     "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Please ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Unable to use Wallet from your app",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "I am unable to use Wallet",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Getting error message while paying bill from wallet",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "Unable to use wallet for bill payments",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Interop P2P",
+    "l3category": "Interop P2P generic",
+    "question": "I have not received my resolution please arrange a call back",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "My auto requests are failing",
+    "answer": "For better details, we request you to contact your bank linked to the UPI with which auto mandate is active.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "I want to know status of the autopay",
+    "answer": "If you want to know auto pay deduction status, request you to directly contact bank. For auto pay active status, request you to follow mentioned steps: i)Go to the Home Page and click on UPI.ii)Open Settings.iii)Click on Autopay Settings.iv)Navigate to the Active page.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I apply for a new EMI card?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What is the process for obtaining a Bajaj EMI card?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "My EMI card isn’t active—how do I activate or unblock it?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Why does my EMI card not have a CVV, and how can I use it for online purchases?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Why isn’t my EMI payment getting updated even though I paid?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How can I verify if my advance EMI payment was successful?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What should I do if I’ve made an advance EMI payment but the balance isn’t updated?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I check if my recent EMI payment has been processed?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How can I view my EMI statement and find out how many EMIs are left?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What is my current EMI amount and remaining loan balance?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "When is my next EMI due, and how do I check the payment date?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I access my overall loan statement and payment history?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I check the status of my loan disbursement or closure?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Why is my personal loan application still pending approval?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How can I request a loan top-up or term loan top-up?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I update my account details or change the linked bank account for EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I get assistance if my loan amount or EMI status isn’t updated after payment?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I set up or cancel auto-pay for my EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How can I change or reschedule my EMI repayment date?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What happens if I want to pay my EMI in advance—how is my schedule adjusted?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I close my EMI auto-debit (autopay) setup?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What is the minimum or maximum loan amount I can apply for?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What is the process to obtain a no-due certificate after closing my loan?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Can I transfer funds from my EMI card to my bank account or digital wallet?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I use my EMI card for UPI transactions?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Why is my EMI card balance not reflecting in my bank account after a transfer?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How do I transfer money from my EMI card to pay someone else’s dues?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "What charges and fees apply to my first EMI card transaction?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Why am I unable to use my EMI card for online shopping or at partner stores?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "How can I check my available credit limit and overall credit health?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Bank Transfer",
+    "l3category": "Bank Transfer generic",
+    "question": "Why am I being charged processing fees or AMC charges on my loan?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen..",
+    "chatbot-flag": "yes"
+  }
+]

@@ -1,0 +1,850 @@
+[
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can i talk to a customer care executive",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I want to report a fraud.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How to raise service request?.",
+    "answer": "You can raise a request with us by clicking below link. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps:1. Go to home page\n2. Click on Menu button in right bottom corner\n3. Scroll down to Help and support\n4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I have already raised a request with you/please help to share status of my already raised request",
+    "answer": "If you have already raised a request with us you can check the status by following mentioned steps:\n1. Go to home page\n2. Click on Menu button in right bottom corner\n3. Scroll down to Help and support\n4. Click on \"Click here to view all raised requests\"",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I need change in limit/limit increase",
+    "answer": "For payments made via UPI or bank account, please contact your bank for any concerns related to transaction limits.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Please close UPI lite/I want to close UPI Lite",
+    "answer": "You can close your UPI lite by following mentioned steps: 1. Click on link below 2. Go to settings 3. Scroll to the Close UPI lite option and click 4. Click on Revoke. CTA Label: UPI Lite, CTA link: bajajsuperapp://openUPI/upilite",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Where can i see my transactions",
+    "answer": "You can see your transactions under passbook section in Bajaj Pay",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I use this app",
+    "answer": "You can use various features of our app:\nYou can make any bill payments, use wallet or UPI mode through our app for making payments.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why am I not receiving an OTP while setting up UPI pin?",
+    "answer": "If you are not receiving an OTP while setting up a UPI PIN, it could be due to a network issue or a delay at the bank's end in sending the OTP SMS.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How do I send money to a bank account?",
+    "answer": "In the UPI section, you can use the &quot;send to bank&quot; feature, where you will need to enter the bank account number and IFSC code of the payee to initiate the transfer.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How do I revoke an AutoPay I have authorised using Bajaj Finserv App on an external merchant platform?",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How do I modify an AutoPay I have authorised using Bajaj Finserv App on an external merchant platform?",
+    "answer": "A UPI mandate cannot be modify by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on modify Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How do I pause/unpause an AutoPay I have authorised using Bajaj Finserv App on an external merchant platform?",
+    "answer": "A UPI mandate cannot be paused by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on modify Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What are reccurance pattern for each mandate?",
+    "answer": " All the mandates have a frequency of execution, and the frequency is defined as recurrence pattern for each mandate. The frequency will be setup by the initiating PSP for mandates as per the user/merchant requirement basis confirmation from the user.   “Recurrence Value” parameter is required to be referred in the API for applicability of the executions as per the defined recurrence patterns.   Below are the types of possible recurrence patterns-   1. One time   2. Daily   3. Weekly   4. Fortnightly   5. Monthly   6. Bi-monthly   7. Quarterly   8. Halif-yearly   9. Yearly   10. As presented: As Presented recurrence pattern refers execution of mandate by the payer PSP whenever Payee PSP presents for execution.  ",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What is UPI International?",
+    "answer": "UPI International is a new feature where a user can make a payment outside india using Indian Bank account. Payments can be made through UPI QR and Collect request. It is not live currently.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "In which countries can I use this UPI International?",
+    "answer": "Below are the list of countries where UPI is acceptable.  - UAE  - Singapore  - Bhutan  - Nepal  - France.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Error while registering UPI on my device",
+    "answer": "We request you to please raise a request with us along with the error menssage that your are getting. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I cannot see \"Activate\" button for UPI International?",
+    "answer": "The reason could be either your bank account or bank is not eligible for International payments or your bank account is not activated for International payments at your bank. Please check with your bank.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I am getting error while using UPI.",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Error on UPI register",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Registering UPI and getting error",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Unable to send money through UPI.",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How many transactions can I do from my UPI",
+    "answer": "You can make 20 person to person transactions per day to same payee, limit will reset within 24 hours.There is no daily limit on merchant transactions",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What is limit of using UPI as payment mode?",
+    "answer": "You can make 20 person to person transactions per day to same payee, limit will reset within 24 hours.There is no daily limit on merchant transactions",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why is my money deducted for failed payments?",
+    "answer": " When a payment is made, the amount is debited from one bank account and it is credited to another bank account. However, sometimes the amount is debited but not credited due to issues such as bank server problems, network issues, or delayed responses from the bank. We apologise for any inconvenience caused in such cases.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Will I be charged for activating additional UPI IDs?",
+    "answer": " No, there are no charges for activating additional UPI IDs. However, there is a maximum limit of 3 UPI IDs.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What can I do if my bank account is not getting linked?",
+    "answer": " If you are facing issues in linking your bank account, please check with your bank to verify if they are blocking the account from registering for the UPI.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I change my Bajaj Pay UPI ID?",
+    "answer": " In the UPI section of the Bajaj Finserv App, you can manage your profile and create up to 3 UPI IDs. While making payments, you can use the default UPI ID, but any of the 3 can be used to receive payments.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I deactivate my Bajaj Pay UPI ID?",
+    "answer": " To deactivate or de-register your UPI ID, please follow the below-given steps:   1. Click on the '<a href=\"bajajsuperapp://paymentUpi\">UPI</a>' section of the Bajaj Finserv App   2. Click on 'Profile Manager'   3. Click on the option to de-register your UPI ID  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What is the process of creating or changing a Bajaj Pay UPI PIN?",
+    "answer": " To change your Bajaj Pay UPI PIN, please follow the below-given steps:   1. Click on the '<a href=\"bajajsuperapp://paymentUpi\">UPI</a>' section of the Bajaj Finserv App   2. Click on 'Profile Manager'   3. Scroll down to your bank account(s), and find the option to change your UPI PIN   If you are registering your UPI for the first time, our app will guide you through the process of creating a UPI PIN using your debit card details and OTP authentication.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I update my mobile number?",
+    "answer": " We regret to inform you that this functionality is currently not available. Rest assured, we will update you once it becomes live.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Can I set up my UPI PIN if I don’t have a debit card?",
+    "answer": " No, debit card details are required for creating a UPI PIN.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why am I not receiving an OTP while setting up my UPI PIN?",
+    "answer": " If you are not receiving an OTP while setting up your UPI PIN, it could be due to a network issue or because of some delay at the bank's end in sending the OTP SMS. We recommend you try again after some time.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I send money using a phone number, UPI ID or UPI number?",
+    "answer": " To send money using a phone number or UPI ID, please follow these simple steps:   1. Click on the '<a href=\"bajajsuperapp://paymentUpi\">UPI</a>' section of the Bajaj Finserv App   2. You will see the option to 'Pay to a Contact' using their phone number or UPI number or send money to a bank account or UPI ID   3. Select your preferred mode and fill in the details to send money  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why did my UPI payment fail?",
+    "answer": " There are multiple reasons why your UPI payment might have failed. Some common reasons include entering the wrong PIN, insufficient balance in the payer's account, the payer/payee's account being frozen, blocked, or blacklisted, technical issues such as delayed bank response or network problems, or certain transaction types not being allowed.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Please Resolve the issue of my UPI transaction failing repeatedly.",
+    "answer": " There are multiple reasons why your UPI payment might have failed. Some common reasons include entering the wrong PIN, insufficient balance in the payer's account, the payer/payee's account being frozen, blocked, or blacklisted, technical issues such as delayed bank response or network problems, or certain transaction types not being allowed.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why is my UPI payment pending?",
+    "answer": " Your UPI payment must be facing some technical issues. However, we recommend you wait for 48 hours to know the actual status of your payment.  ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Not able to register UPI to this device",
+    "answer": "We request you to please raise a request with us along with the error menssage that your are getting. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How do I request money from someone?",
+    "answer": "To request money from someone, go to the manage profile page in the UPI section, click on &quot;Payment Request,&quot; and then use the &quot;Request&quot; button in the Sent tab. You can search for the payee using their UPI ID or mobile number.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I am trying to change my upi pin but I am unable to update it, please help me.",
+    "answer": "If UPI_created is N then user has not created a UPI. If UPI_Created is Y then UPI is creatred, user can change the UPI in from the UPI section of the Bajaj Finserv app, you can click on Profile Manager, scroll down to your bank account(s), and find the option to change your UPI PIN. If you are registering for UPI for the first time, the app will guide you through the process of creating a UPI PIN using your debit card details and OTP authentication.If the issue still persist please raise a request with us. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Give me mobile number",
+    "answer": "As a virtual agent I am unable to make any calls or provide any other details like mobile number, I can assist you with your query on messages, please type your query. You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I am unable to change my UPI pin.",
+    "answer": "If UPI_created is N then user has not created a UPI. If UPI_Created is Y then UPI is creatred, user can change the UPI in from the UPI section of the Bajaj Finserv app, you can click on Profile Manager, scroll down to your bank account(s), and find the option to change your UPI PIN. If you are registering for UPI for the first time, the app will guide you through the process of creating a UPI PIN using your debit card details and OTP authentication.If the issue still persist please raise a request with us. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I am unable to link my bank account with my upi.",
+    "answer": "You can link maximum 3 bank accounts with your upi,please check if you already have 3 bank accounts linked to your upi. You will not be able to add same bank account more than 3 times within 24 hours. Please check if your bank is listed in our application. If the issue still persist we request you to please raise a request. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I want to change my UPI ID",
+    "answer": "In the UPI section of the Bajaj Finserv app, you can manage your profile and create up to 3 UPI IDs. While making payments, you can use the default UPI ID, but any of the three can be used to receive payments.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Unable to use UPI from your app",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Getting error when I try to do UPI payment from your app",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Not able to do any UPI transaction",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "UPI is not working",
+    "answer": "I understand that you're experiencing an error when trying to use your upi for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "when I can deactivate the UPI International?",
+    "answer": "You can deactivate UPI International any time you want.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Call me its urgent",
+     "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I contact customer support for a UPI transaction issue?",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why should I raise a request?",
+    "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How much time you take to resolve a query if I raise a request with you",
+    "answer": "If you are raising a request with us, our representative will reply to you within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What will be the resolution provided if I will raise a request with you",
+    "answer": "Our representative will get the details validated and will help you with the correct and complete details.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Why should I raise a request when I am already conversing over the chat with you",
+    "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What If I didn't got the resolution post TAT",
+    "answer": "Please be assured, our representative will help you with the correct and complete details available with us.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make/arragne calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Please share customer executive mobile number",
+    "answer": "As an virtual agent I am unable to make calls or share mobile number of our service agents, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I am not getting proper resolution, please call me",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Please ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I have not received my resolution please arrange a call back",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I need limit increase",
+    "answer": "You can contact your bank for UPI limit related query",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I would like to remove my autopay",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Limit enhancement",
+    "answer": "You can contact your bank for UPI limit related query",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How can I pay through UPI",
+    "answer": "Please follow mentioned steps for making a payment using UPI: 1. Click on UPI option available on homepage 2. You can Scan a QR, Pay to saved mobile number (Select mobile number), Pay to UPI accordingly as per options provided 3. Punch amount and select bank account 4. Add UPI PIN and submit",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I don't receive any notification about transaction offer or recharge offer",
+    "answer": "Notifications are sent basis required updates on offer and your app features. If you are not receiving notification, Request you to check settings of app, if the notifications are off or not. If your notifications are on request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How to make payment",
+    "answer": "Please follow mentioned steps for making a payment using UPI: 1. Click on UPI option available on homepage 2. You can Scan a QR, Pay to saved mobile number (Select mobile number), Pay to UPI accordingly as per options provided 3. Punch amount and select bank account 4. Add UPI PIN and submit",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I want to daily transaction notification received",
+    "answer": "Notifications are sent basis required updates on offer and your app features. If you are not receiving notification, Request you to check settings of app, if the notifications are off or not. If your notifications are on request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Can I pay my electricity bill",
+    "answer": "You can simply pay bill and recharges by using the simple steps: 1. Click on Bill and recharges in Bajaj Pay option 2. Select the option for which you want to pay bill/recharge (mobile prepaid, landline etc) 3. Add required details and pay the amount with any of the available options 4. Submit",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "How to pay mobile recharge",
+    "answer": "You can simply pay bill and recharges by using the simple steps: 1. Click on Bill and recharges in Bajaj Pay option 2. Select the option for which you want to pay bill/recharge (mobile prepaid, landline etc) 3. Add required details and pay the amount with any of the available options 4. Submit",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "I want to deactivate bank account",
+    "answer": "To deactivate UPI - please follow mentioned steps: 1. Click on UPI 2. Select settings option 3. Click on deactivate",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "Want limit increase",
+    "answer": "You can contact your bank for UPI limit related query",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "P2P",
+    "l3category": "P2P generic",
+    "question": "What are the limits of UPI Lite",
+    "answer": "Limit per transaction: ₹1,000 Overall UPI Lite Balance Limit: ₹5,000 Daily Spending Cap: ₹10,000",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "My auto requests are failing",
+    "answer": "For better details, we request you to contact your bank linked to the UPI with which auto mandate is active.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "I want to know status of the autopay",
+    "answer": "If you want to know auto pay deduction status, request you to directly contact bank. For auto pay active status, request you to follow mentioned steps: i)Go to the Home Page and click on UPI.ii)Open Settings.iii0Click on Autopay Settings.iv)Navigate to the Active page.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I apply for a new EMI card?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What is the process for obtaining a Bajaj EMI card?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "My EMI card isn’t active—how do I activate or unblock it?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Why does my EMI card not have a CVV, and how can I use it for online purchases?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Why isn’t my EMI payment getting updated even though I paid?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How can I verify if my advance EMI payment was successful?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What should I do if I’ve made an advance EMI payment but the balance isn’t updated?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I check if my recent EMI payment has been processed?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How can I view my EMI statement and find out how many EMIs are left?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What is my current EMI amount and remaining loan balance?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "When is my next EMI due, and how do I check the payment date?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I access my overall loan statement and payment history?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI  Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I check the status of my loan disbursement or closure?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Why is my personal loan application still pending approval?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How can I request a loan top-up or term loan top-up?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I update my account details or change the linked bank account for EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I get assistance if my loan amount or EMI status isn’t updated after payment?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I set up or cancel auto-pay for my EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How can I change or reschedule my EMI repayment date?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What happens if I want to pay my EMI in advance—how is my schedule adjusted?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I close my EMI auto-debit (autopay) setup?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What is the minimum or maximum loan amount I can apply for?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What is the process to obtain a no-due certificate after closing my loan?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Can I transfer funds from my EMI card to my bank account or digital wallet?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I use my EMI card for UPI transactions?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Why is my EMI card balance not reflecting in my bank account after a transfer?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How do I transfer money from my EMI card to pay someone else’s dues?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "What charges and fees apply to my first EMI card transaction?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Why am I unable to use my EMI card for online shopping or at partner stores?",
+    "answer": "For any EMI  Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "How can I check my available credit limit and overall credit health?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "UPI",
+    "l2category": "GenericUpiQueries",
+    "l3category": "UPI related issues",
+    "question": "Why am I being charged processing fees or AMC charges on my loan?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  }
+]

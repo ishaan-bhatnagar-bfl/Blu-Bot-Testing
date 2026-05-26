@@ -1,0 +1,401 @@
+[
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "What is the refer and earn offer on the Bajaj Finance app?",
+        "answer": "<p>With the refer and earn offer by Bajaj Finance, you can refer your friend to create their Bajaj Pay UPI ID, and both of you can earn exciting rewards.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "I want to contact customer care agent.",
+        "answer": "As an virtual agent I am here to provide resolution to your queries."
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "What is Hamaramall?",
+        "answer": "Hamara Mall is owned by NStore Retech Pvt LTD, which is a network participant of ONDC. You can navigate through various categories like Fashion, Food and Beverages, Grocery, Beauty and Personal care, Electronics etc. to place order and have a good shopping experience. CTA lable: Hamara Mall, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com?, iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com?, Web CTA link: https://hamaramall.com/?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "How can I place an order on Hamaramall?",
+        "answer": "Hamara Mall is owned by NStore Retech Pvt LTD which allows you to shop for food, electronics, fashion, and more. To place an order on the Hamara Mall app, please follow these steps:1. Select a category from the category icon on the Buyer app homepage 2. Browse through the offerings and add your items to the cart 3. Choose a specific product or store from the list 4. Complete the payment to place your order. CTA lable: Hamara Mall, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com?, iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com?, Web CTA link: https://hamaramall.com/?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "How can I cancel an order on Hamaramall?",
+        "answer": "If you need to cancel an order on the Hamara Mall app, please follow these steps: 1. Go to the 'My Orders' section in the Hamara Mall Buyer app 2. Select the order you wish to cancel 3. Choose the 'Cancel Order' option and follow the prompts to confirm the cancellation. Please note that cancellation policies may vary depending on the seller and product type. CTA lable: Support, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support?, iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support?, Web CTA link: https://hamaramall.com/support?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "Are there any delivery charges applicable when using Hamaramall?",
+        "answer": "Delivery charges on Hamara Mall vary based on the seller, order size, and your location. The applicable delivery fee, if any, will be clearly mentioned at the checkout stage before completing the transaction. CTA lable: Support, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support?, iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support?, Web CTA link: https://hamaramall.com/support?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "How do I return or exchange a product on Hamaramall?",
+        "answer": "To return or exchange an order on the Hamara Mall app, please follow these steps: 1. Go to the 'My Orders' section in the Hamara Mall Buyer app 2. Select the order you wish to return or exchange 3. Follow the return or exchange process as per the seller's policy Some products may not be eligible for returns, so be sure to review the product’s return policy before making the purchase. Your refund will be processed as per applicable polices. CTA lable: Support, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support?, iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support?, Web CTA link: https://hamaramall.com/support?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "Is Cash on Delivery (COD) applicable on Hamaramall?",
+        "answer": "Hamara Mall offers various payment options like credit cards, debit cards and UPI. Availability of Cash on Delivery (COD) depends on the seller and location. Check available payment methods at checkout. CTA lable: Support, Android CTA link:bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support? , iOS CTA link:bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support? , Web CTA link:https://hamaramall.com/support?sso-module=ondc "
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "Can I apply discount codes or coupons on Hamaramall?",
+        "answer": "Yes, Hamaramall provides an option to apply discount codes or coupons during the checkout process. Simply enter the valid promo code on the checkout page to avail of discounts before completing your payment. CTA Label: Support, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support/?, iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support/?, Web CTA link: https://hamaramall.com/support?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "How do I reach out to service team?",
+        "answer": "Please click on below link and we will redirect you to connect with the Hamara Mall support team. CTA lable: Support, Android CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support? , iOS CTA link: bajajsuperapp://ondc/openondcactivity/293/https://hamaramall.com/support? , Web CTA link: https://hamaramall.com/support?sso-module=ondc"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "How do I earn a reward through the refer and earn feature on the Bajaj Finance app?",
+        "answer": "<p>You can follow these steps to earn rewards with the refer and earn offer. Before that, please ensure you have created your UPI ID on the Bajaj Finance app.</p><p>1. Click on 'Refer and Earn' under 'Bajaj Pay'</p><p>2. Click on the share icon to share your referral code</p><p>3. Ensure that your friend has created their Bajaj Pay UPI ID using the referral code on the Bajaj Finance app</p><p>4. Both will be rewarded once your friend makes their first transaction</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "Where can I find my referral code?",
+        "answer": "<p>You can find your referral code under the 'Bajaj Pay' section of your home screen. You just need to click on the refer and earn option to find your unique referral code.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "When will I receive the reward for referring someone?",
+        "answer": "<p>You will receive your reward once your referred friend has successfully created their Bajaj UPI ID using the referral code and makes their first transaction before the offer expires.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "Does the person I invite also get a reward?",
+        "answer": "<p>Yes the person whom you have invited will also get a reward once they create their Bajaj UPI ID using the referral code and makes their first transaction based on offer terms &amp; conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "How many times can I avail this offer ?",
+        "answer": "<p>You can refer to as many people as you like. However, you will be rewarded only for the first 10 people who will use your referral code to create Bajaj Pay UPI ID.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "Refer and earn",
+        "question": "Why haven't I received any reward after being referred by someone?",
+        "answer": "<p>Please ensure the following things:</p><p>- You have created your Bajaj UPI ID using the referral code.</p><p>- Your referral code has been verified.</p><p>- You have made your first transaction using the Bajaj Finance app.</p><p>If you have done the above, please click on '<a href=\"bajajsuperapp://rewards/rewardsInProcess\">Rewards in Process</a>' to check for locked cards under the 'Rewards' section.</p><p>Still, if you cannot see your rewards, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "About Rewards",
+        "question": "What are the different rewards that I can earn while making transactions?",
+        "answer": "<p>Customers can earn different types of rewards like cashback, Bajaj Coins and vouchers on their transactions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "About Rewards",
+        "question": "How can I earn rewards?",
+        "answer": "<p>You can earn rewards by making payments or transactions with us.</p><p>Note: Rewards are subject to offer terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "About Rewards",
+        "question": "What is 'Rewards In Process'?",
+        "answer": "<p>The 'Rewards in Process' section refers to the initially locked rewards that get unlocked only after you successfully complete the 'Offer Activity'.</p><p>For example, 'Rewards in Process' cashback for wallet creation gets unlocked only after you make your first wallet load*.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "About Rewards",
+        "question": "Where can I see my vouchers, cashback or Bajaj Coins?",
+        "answer": "<p>Please visit the '<a href=\"bajajsuperapp://rewards/home\">My Rewards</a>' section to view your vouchers, cashback or Bajaj Coins.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "General",
+        "l3category": "About Rewards",
+        "question": "When can I expect to receive the cashback in my wallet for a bill payment transaction/recharge?",
+        "answer": "<p>Your cashback gets credited into your wallet within 24 to 48 hours post scratch card reveal. However, if you still can not find the cashback in your wallet, please raise a request with us.</p><p>To raise a request now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "App install related rewards",
+        "question": "Why didn't I receive a reward after installing the Bajaj Finance app?",
+        "answer": "<p>You will be eligible for the reward if the below conditions are met:</p><p>- If you are installing the Bajaj Finance app for the first time.</p><p>- If installation is done through the QR code or link provided in the SMS.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Bajaj Coins",
+        "question": " What should I do if I have made a transaction but didn't receive any Bajaj Coins?",
+        "answer": "<p>We regret the inconvenience caused. There may be a delay due to some technical issues. Please wait for and re-check the '<a href=\"bajajsuperapp://rewards/points\">Bajaj Coins</a>' section.<br /></p><p>However, if you still need help finding your Bajaj Coins, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Bajaj Coins",
+        "question": "What is the limit on the number of Bajaj Coins I can earn in a transaction?",
+        "answer": "<p>The number of Bajaj Coins depends on available offers subject to terms and conditions. The more transactions you do, the more you earn.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Bajaj Coins",
+        "question": "When do my Bajaj Coins expire?",
+        "answer": "<p>Your Bajaj Coins expire within 12 months from the date on which you have earned them.</p><p>Note: Rewards are subject to our offer terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Bajaj Coins",
+        "question": " Can I still use my Bajaj Coins even if they have expired?",
+        "answer": "<p>You cannot redeem expired Bajaj Coins.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Cashback",
+        "question": "What is cashback?",
+        "answer": "<p>Cashback is a cash reward that can be earned by making payments or transactions with us. You can earn cashback and scratch cards on selected transactions.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Cashback",
+        "question": "Can I transfer my cashback to a bank account? Is there any charge for the same?",
+        "answer": "<p>The cashback won cannot be transferred to your bank account. However, you can use your cashback for making payments and availing services.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Credit card related rewards",
+        "question": "What do I do if the cashback I received on my credit card is less than what was initially promised?",
+        "answer": "<p>Under the accelerated rewards frame, you can get higher cashback for a limited time. If the credit card gets created beyond the offer duration, in that case, you will not receive the accelerated reward.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Credit card related rewards",
+        "question": "When will I receive the cashback if I have completed all steps of the credit card journey?",
+        "answer": "<p>Cashback will be issued once the credit card is successfully created.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Loan-related rewards",
+        "question": "What can I do if I completed the KYC/mandate for my Bajaj Finance Personal Loan but have not received any reward?",
+        "answer": "<p>You will receive either Bajaj coins or Cashback as rewards, only if you complete a fresh KYC/mandate or do a Re-KYC.</p><p>Rewards will be credited within 7 days of successful KYC/mandate updation.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Loan-related rewards",
+        "question": "What should I do if I have completed all the steps to disburse a Bajaj Finance Personal Loan but have not received any reward?",
+        "answer": "<p>You will only receive rewards if you complete the journey within the Bajaj Finance app. Any steps taken outside of the app will make you ineligible for rewards.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Loan-related rewards",
+        "question": "What should I do if I completed my personal loan process but did not receive any cashback or Bajaj Coins?",
+        "answer": "<p>After your loan is disbursed, you will receive rewards for all eligible steps.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Loan-related rewards",
+        "question": "What should I do if I booked an appointment for gold loan through the Bajaj Finance app and my loan got disbursed but I have not received the cashback yet?",
+        "answer": "<p>You will be eligible to receive cashback/Bajaj Coins only if your loan is disbursed within 30 days of your appointment booking.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Loan-related rewards",
+        "question": "Why have I not received any reward after completing KYC for gold loan disbursal from the Bajaj Finance app?",
+        "answer": "<p>You must complete a fresh KYC or a re-KYC to earn any rewards.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Offline store related rewards",
+        "question": "Why I didn't receive cashback after buying a product with Bajaj Finance Loan?",
+        "answer": "<p>You will receive cashback once your loan is disbursed. You can visit the '<a href=\"bajajsuperapp://rewards/rewardsInProcess\">Rewards in Process</a>' section to check your cashback-locked card.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Offline store related rewards",
+        "question": "What should I do if I do not get a reward as communicated by the salesperson?",
+        "answer": "<p>If you do not receive the reward as described by the salesperson, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Offline store related rewards",
+        "question": "Will I receive any cashback if my loan application gets rejected?",
+        "answer": "<p>In case your loan gets rejected or cancelled, you will not be eligible to receive cashback.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Triple rewards",
+        "question": "Where can I check the expiry date of my voucher?",
+        "answer": "<p>You can check the expiry date of the vouchers by visiting the '<a href=\"bajajsuperapp://helpsupport/raisedrequest\">My Vouchers</a>' section.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Triple rewards",
+        "question": "Why I have not received triple reward?",
+        "answer": "<p>Under the triple rewards program, you must make a minimum purchase at select merchant partners by scanning Bajaj Pay QR code through Bajaj Finance App. However, if you still can not find your triple reward, please raise a request with us.</p><p>To <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> now, please click here.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Vouchers",
+        "question": "What are vouchers?",
+        "answer": "<p>Vouchers are rewards that can be earned by making payment transactions with us. You can earn vouchers on selected payments or transactions.</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Earn Rewards",
+        "l3category": "Vouchers",
+        "question": "Can I reactivate my expired voucher?",
+        "answer": "<p>Vouchers are provided with a mentioned expiry date and cannot be reactivated. Kindly refer to the voucher terms and conditions for more details.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Bajaj Coins",
+        "question": "Where can I use my Bajaj Coins?",
+        "answer": "<p>You can use your Bajaj Coins for:</p><p>- Purchasing vouchers for various brands on Bajaj Dealz</p><p>- To make bill payments</p><p>Note: Bajaj Dealz is a platform wherein customers can purchase vouchers from various brands using Bajaj Coins/ credit card/ debit card/ net banking or UPI.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Bajaj Coins",
+        "question": "Can I use my Bajaj Coins while making transactions using a debit card/ credit card/ UPI or PPI?",
+        "answer": "<p>Yes, you can. However, please remember that you will not be eligible to earn Bajaj Coins on such transactions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Bajaj Coins",
+        "question": "What can I do if my Bajaj Coins are redeemed but I have not received my e-gift cards/vouchers?",
+        "answer": "<p>To know more about your transaction, follow the steps below:</p><p>1. Go to '<a href=\"bajajsuperapp://openbrowser/https://rmspwa.bajajfinserv.in/Auth/Login\">Bajaj Dealz</a>' platform</p><p>2. Click on 'Transaction Summary'</p><p>3. Check the transaction against which you redeemed your Bajaj Coins and check the details</p><p>4. If the transaction is not found, click on 'Manage Request'</p><p>5. Select your query type and describe the issue</p><p>6. Click on 'Submit'</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Bajaj Coins",
+        "question": "What is the minimum number of Bajaj Coins needed to buy a voucher?",
+        "answer": "<p>You need a minimum of 100 Bajaj Coins to purchase a voucher at Bajaj Dealz.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Cashback",
+        "question": "Where can I use my cashback?",
+        "answer": "<p>You can use your cashback for making bill payments transactions with us.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Cashback",
+        "question": "Can I transfer the cashback reward to my savings account?",
+        "answer": "<p>Rewards cashback cannot be transferred to a bank account. However, you can use your rewards cashback for making payments or transactions with us.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Others",
+        "question": "Can I transfer my earned rewards to someone else?",
+        "answer": "<p>Rewards are non-transferable. However, you can always use your rewards to buy vouchers and gift them to your family and friends.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Triple rewards",
+        "question": "How can I access my voucher code?",
+        "answer": "<p>You can check for your voucher code under '<a href=\"bajajsuperapp://rewards/vouchers\">My Vouchers</a>' section.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Triple rewards",
+        "question": "What is the triple rewards program?",
+        "answer": "<p>Under the triple rewards program, when you make a minimum purchase at select merchant partners by scanning the Bajaj Pay QR code through the Bajaj Finance app, you will receive three exciting rewards which consist of:</p><p>- Cashback</p><p>- Next-purchase voucher</p><p>- OTT or service voucher</p><p>Note: Rewards are subject to our terms and conditions.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Triple rewards",
+        "question": "What can I do if the store refuses to accept my voucher due to invalidity or processing issues?",
+        "answer": "<p>You can ask the store owner to check the validity of the voucher. In case of any issue, please raise a request with us by following the steps below:</p><p>However, in case you still face any issues with your voucher, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Triple rewards",
+        "question": "What should I do if in case my voucher expires?",
+        "answer": "<p>The expiry date is mentioned on the voucher. Once a voucher expires, you cannot avail its benefits.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Triple rewards",
+        "question": "What should I do if my voucher reflects invalid on application?",
+        "answer": "<p>You can check the expiry date of the voucher by visiting the '<a href=\"bajajsuperapp://rewards/vouchers\">My Vouchers</a>' section. If the voucher is expired, you cannot avail its benefits.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Triple rewards",
+        "question": "Can I use my next-purchase voucher at any brand store?",
+        "answer": "<p>No, you can only redeem the voucher at that particular brand store.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Vouchers",
+        "question": "Can I use multiple vouchers for a transaction?",
+        "answer": "<p>Unfortunately, you can only use one voucher per transaction.</p>"
+    },
+    {
+        "l1category": "Rewards",
+        "l2category": "Redeem Rewards",
+        "l3category": "Vouchers",
+        "question": "Where can I redeem my vouchers?",
+        "answer": "<p>To get complete details of the terms and conditions related to your vouchers, please visit '<a href=\"bajajsuperapp://rewards/vouchers\">My Vouchers</a>' section.</p>"
+    }
+]

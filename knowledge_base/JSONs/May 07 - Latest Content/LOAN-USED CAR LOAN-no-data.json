@@ -1,0 +1,450 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Collection related",
+    "question": "My EMI payment is updated in the Statement Of Account, but still, I am receiving collection calls. What should I do?",
+    "answer": "<p>Please Raise A Request with us by following these steps:</p><p>- Go the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Collection related",
+    "question": "I have been receiving calls for making payment of my outstanding dues. What should I do?",
+    "answer": "<p>You may have some outstanding overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges. Kindly check your Statement of Account and make payment towards your overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges if any. To avoid calls in the future, kindly make your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment on time.<br /></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Loan Agreement?",
+    "answer": "<p>You can download your loan agreement by selecting your loan number.</p><p>To do this now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Application Form?",
+    "answer": "<p>You can download your application form by selecting your loan number.</p><p>To do this now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Consent Form?",
+    "answer": "<p>You can download your Consent Form by selecting your loan number.</p><p>To do this now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my GSTN Certificate?",
+    "answer": "<p>You can download your GSTN Form by selecting your&nbsp; loan number.</p><p>To do this now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Repayment Schedule?",
+    "answer": "<p>You can download your repayment schedule by selecting your loan number.</p><p>To do this now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Statement of Account?",
+    "answer": "<p>You can download your Statement Of Account by selecting your loan number.</p><p>To do this now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How do I obtain a NOC if I have lost my registration Certificate (RC) for a vehicle under Finance with BFL?",
+    "answer": "<p>In that case, please visit the nearest branch with proof of signature (Driver's License, Pancard or Passport) and proof of identity. Copy of Registration Certificate and Police FIR copy for the loss of RC needs to be provided.</p><p>To locate your nearest Bajaj Finance Limited branch, please <a href=\"bajajsuperapp://storelocator/storelocatorlauncher\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How do I obtain a NOC for fitting an LPG/ CNG kit on my vehicle under finance with BFL?",
+    "answer": "You can download your NOC document by visiting the Document Centre. Please select your relation first, then download the NOC for a vehicle (wheel) loan or the NDC for any other loan type. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How do I generate a foreclosure statement and foreclose the loan?",
+    "answer": "<p>Please follow the steps below to get your Loan Foreclosure Letter -</p><p>- Go to 'Menu' option on your Home screen<br /></p><p>- Click on 'Loan Payment'</p><p>- Select 'Foreclosure' tab</p><p>- Choose the loan account you wish to foreclose</p><p>- Click on 'Proceed' to view the payable amount</p><p>You can view and download the Foreclosure Letter available right after the charges breakup section.</p><p>Please Note: that the Foreclosure Letter will be valid for 7 days after being generated. Post 7 days, you will have to generate a fresh Foreclosure Letter.</p><p>To generate it now, please click here.<br /></p><p>Once you have generated your foreclosure letter,</p><p>- Go to &quot;My Account&quot;</p><p>- Select &quot;My Relations&quot;</p><p>- Click on &quot;Make Payments&quot;</p><p>- Select the type of payment</p><p>- Click on &quot;Proceed&quot;</p><p>To  foreclose your loan now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "What is the NOC process after the loan gets over?",
+    "answer": "You can download your NOC document by visiting the Document Centre. Please select your relation first, then download the NOC for a vehicle (wheel) loan or the NDC for any other loan type. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Will my EMI amount change after making a part pre-payment?",
+    "answer": "<p>While making partpayment, if you have selected the option for &quot;EPI (EQUATED PERIODIC INSTALMENT (EPI)) Reduction&quot;, the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount will reduce. The revised amount details can be checked in loan detail section under My Relationship for that loan account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Are there any charges applicable for making a part-prepayment towards my loan?",
+    "answer": "<p>There are charges applicable for all part-prepayments made towards loans other than Flexi loans.</p><p>Please refer the table below for charges breakup:</p><p>&lt;Enclose charges table as per Experia&gt;<br></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "How long will it take for a part-prepayment to get adjusted towards my existing loan?",
+    "answer": "After making a part pre-payment, it takes up to 48 hours for the amount to get adjusted against your Loan. You can check your Repayment Schedule for updated loan details by following below steps.</p><p>- Go to Homepage and select &quot;Loan&quot; icon<br></p><p>- Click on 'Loan Account' against which you have made the payment</p><p>- Now you can click on &quot;View Statements&quot; button available on &quot;&quot;Things you can do with your loan&quot;&quot; section at the center of your screen.</p><p>- You can view and download the document</p><p>To view your statement now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "I am unable to make part payment, please guide.",
+    "answer": "<p>There are many reasons for this -</p><p>- There is an overdue amount on your loan account that needs to be cleared</p><p>- If there is a last EPI (EQUATED PERIODIC INSTALMENT (EPI)) pending. In this case, proceed directly for Foreclosure</p><p>- The part pre-payment amount exceeds the NEFT limit pre-defined by your bank. In this case, please check with your bank</p><p>- If there are network issues. Please wait for some time before re-trying</p><p>To part-prepay now, please click here.<br></p><p>bajajsuperapp://relations/loan</p><p>If you still have queries, raise a request by following the steps below and our Service Team will check the matter and provide a solution.</p><p>- Go to the 'Help &amp; Support' under the menu tab</p><p>- Click on Raise a Request</p><p>- Select 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click 'Submit'</p><p>Once done, you will receive an acknowledgement with 'Service Request Number'.</p><p>To raise a request now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here.</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "I have made a Part pre-payment but my EMI has not changed",
+    "answer": "<p>For term loan there is no change in the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount. However, there will be a change in your loan repayment tenure.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "I have made a part-prepayment but it is not adjusted towards my loan account. Please help. ",
+    "answer": "After making a part pre-payment, it may take up to 48 hours for the amount to reflect in your Flexi Loan details. If the update is still not visible, you can raise a request using the button below, and our Service Team will assist you further. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "I have made a part-prepayment. Where do I check my updated loan details?",
+    "answer": "<p>Thank you for making a part-prepayment. To check your updated loan details, you can refer to the 'Repayment Schedule' which will have the updated loan details. After making a part pre-payment, it takes up to 48 hours for the amount to get adjusted against your Loan.</p><p>- Go to Homepage and select 'Loan'<br></p><p>- Click on 'Loan Account' against which you have made the payment</p><p>- Now you can click on 'View Statements' button available on 'Things you can do with your loan' section at the center of your screen.</p><p>- You can view and download the Statement Of Account.</p><p>To view your statement now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "What should I do if my payment through UPI doesn't get updated against my loan?",
+    "answer": "<p>Please follow below steps to Raise A Request to allow our service team examine the case for appropriate solution.</p><p>- Go to the menu option and select Help &amp; Support</p><p>- Choose 'Raise a Request' tab</p><p>- Select 'Loan Type' and 'Product Description'</p><p>- Then select 'Query Type' and describe the issue faced by you</p><p>- Click 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>To raise a request, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "I want to make a part-prepayment towards my loan. When can I do this?",
+    "answer": "Please note that part-prepayment on an existing loan is subject to certain conditions. A part-prepayment can be made only after the first instalment has been successfully cleared, and the prepayment amount must exceed the first instalment amount. Additionally, part-prepayment charges are applicable for all loans except Flexi loans. To proceed with a part-prepayment, please click the button below., CTA Label: Make Payment, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Where do I check the loan break up details of my Loan?",
+    "answer": "<p>To view the break up details follow below steps:</p><p>Click 'My Accounts' at bottom right of the screen</p><p>Click 'My Relationships' and choose loan account for which you wish to check the loan breakup.</p><p>To check the breakup of your loan now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Are there any charges applicable for making an advance payment towards my loan?",
+    "answer": "<p>No, there are no charges for making an advance payment towards your loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I have made an advance payment 48 hours back and the amount is not reflecting in my Statement Of Account, What should I do? ",
+    "answer": "After making an instalment payment, it may take up to 24 hours for the details to be updated in your Statement of Account. You can view this under the 'View Statements' section. If the details are still not visible, you can raise a request for our Service Team to assist you further. Please click the button below to raise your request. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I have made an advance payment before 20th of the month yet the amount is not reflecting in my Statement Of Account, What should I do? ",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your Statement Of Account. You can access the same under &quot;View Statements&quot;.</p><p>You can Raise a Request to allow our Service team for further assistance in this regard.<br></p><p>Please follow the steps below.&nbsp;<br></p><p>- Go to the menu option and select Help &amp; Support<br></p><p>- Choose 'Raise a Request' tab</p><p>- Select 'Loan Type' and 'Product Description'</p><p>- Then select 'Query Type' and describe the issue faced by you</p><p>- Click 'Proceed to Enter Details'&nbsp;</p><p>- After adding your details click on &quot;&quot;Submit&quot;&quot;</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>To raise a request, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I have made an advance payment during my EMI presentation. Can I get a refund of the advance payment? ",
+    "answer": "<p>While we do not do refunds, please be assured that the advance payment will get adjusted towards the subsequent EPI (EQUATED PERIODIC INSTALMENT (EPI)). Keep your account sufficiently funded for the upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I have made an EMI payment today. When can I see the updated loan amount in my Statement Of Account?",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your Statement Of Account. You can access the same under 'View Statements'.</p><p>Please follow the steps mentioned below.&nbsp;</p><p>- Go to Homepage and select 'Loan'</p><p>- Click on 'Loan Account' against which you have made the payment</p><p>- Now you can click on 'View Statements' button available on 'Things you can do with your loan' section at the center of your screen.</p><p>- You can view and download the Statement Of Account.</p><p>To view your statement now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I want to make an advance payment towards my loan. What should I do?",
+    "answer": "You can make advance Instalment amount from your relation page. Please follow the steps below: 1. Go to 'Your relations' and select the loan account for which you wish to make the payment 2. Click on 'Advance Instalment' 3. click on 'Proceed To Payment' 5. Select your payment method and click on 'proceed'. CTA Label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make advance EMI payment towards my Used Car Finance Loan ",
+    "answer": "<p>Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment can be made towards any Term Loan. Flexi loans are not eligible for Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "Can Bajaj waive off the bounce charges on my Loan account?",
+    "answer": "As per our internal policy, bounce charges cannot be waived. We recommend clearing the dues promptly to avoid any impact on your CIBIL score. Please ensure sufficient funds in your bank account during the EIP period to prevent such charges. To pay your bounce charges, click the button below., CTA label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "Despite having sufficient balance in the bank account, my EMI payment bounced. What should I do?",
+    "answer": "<p>In that case, we request you to connect with your bank immediately.</p><p>However, if your bank confirms that there are no issues from their end, then your EPI (EQUATED PERIODIC INSTALMENT (EPI)) might have bounced due to mandate-related issues.<br></p><p>Please Raise a Request with us for providing resolution to your concern, follow below steps to proceed.<br></p><p>- Go to the 'Menu' option and select Help &amp; Support<br></p><p>- Choose 'Raise a Request' tab</p><p>- Select 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe the issue faced</p><p>- Click 'Submit'.&nbsp;</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>To raise a request now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here.</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "I have an overdue payment. How do I clear this?",
+    "answer": "To clear your overdue payment, click the button below, select the loan account for which you wish to pay your dues, click on Make Payments, choose Missed Instalments / Other Overdues, and proceed to complete the payment., CTA Label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "What are the charges applicable for bounced and overdue payments?",
+    "answer": "You can view your bounced and overdue charges by clicking the button below., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Does Bajaj Finance Limited consider my CIBIL score for every loan I take? ",
+    "answer": "<p>Yes. Bajaj Finance Limited considers the CIBIL score for your every loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Does checking the CIBIL report repeatedly hamper my CIBIL score?",
+    "answer": "<p>When you check your CIBIL score, it is considered a ‘soft inquiry’ and doesn’t make any negative impact on your credit score. However, if a lender or a credit card issuer requests CIBIL to check your credit report (usually when they are considering you for a loan or credit card), it is counted as a ‘hard inquiry’. Hard inquiries are recorded in the enquiry section of your credit report. Multiple hard inquiries, if done over a relatively short period, demonstrate what is called ‘credit hungry behaviour’ and may hurt your credit score. But a soft inquiry, at least once a year, is considered an important financial habit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "How can I improve my CIBIL score?",
+    "answer": "<p>If you have a poor CIBIL score, there is plenty you can do to improve it. Here are some handy tips:</p><p>- Avoid being a co-applicant for a loan unless you are sure of not planning to borrow anytime soon</p><p>- Ensure you repay all your EMIs and credit card bills on time</p><p>- Be cautious when borrowing and always have a proper repayment plan in place</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "How can I maintain a good CIBIL score?",
+    "answer": "<p>Here are a few simple tips to maintain a good CIBIL score:</p><p>- Pay your monthly instalments on time to build a good track record</p><p>- Manage your credit card carefully, set payment reminders and limit your usage</p><p>- Choose longer loan tenure carefully, try to make part-prepayments when you can</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "How do I read my CIBIL TransUnion Report (CTR)?",
+    "answer": "<p>CIBIL TransUnion Report contains detailed information on the credit you have availed such as home loans, credit cards, personal loans, automobile loans and overdraft facilities. It is divided into 6 parts:</p><p>- CIBIL Score</p><p>- Personal Information</p><p>- Contact Information</p><p>- Employment Information</p><p>- Account Information</p><p>- Enquiry Information</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why did my CIBIL report show details of a loan I haven't applied for?",
+    "answer": "<p>Please Raise A Request with us so that our Service Team looks into the matter and provide you with an appropriate solution. To do this, please follow these steps:</p><p>- Go to the 'Raise a Request' page on the app screen<br></p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why is my closed loan showing as active in the CIBIL report?",
+    "answer": "<p>The update is sent to CIBIL after 2 days of your loan closure. The whole updating process may take up to 7 working days.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why is my CIBIL score lower than expected?",
+    "answer": "<p>Please Raise A Request with us so that our Service Team looks into the matter and provide you with an appropriate solution. To do this, follow the steps below -</p><p>- Go to the 'Raise a Request' page on the app screen<br></p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why can't I download my Credit Health Report after paying the fee?",
+    "answer": "<p>In that case, please Raise A Request with our customer service team by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen<br></p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "How can I remove the enquiry updated in my CIBIL report?",
+    "answer": "<p>Please select the loan number that needs correction in your CIBIL and Raise A Request with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen<br></p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "How can I rectify the incorrect loan details mentioned in my CIBIL report?",
+    "answer": "<p>Please select the loan number that needs correction in your CIBIL and Raise A Request with us by following these steps:<br></p><p>- Go to the 'Raise a Request' page on the app screen<br></p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "How can I rectify the incorrect payment details mentioned in my CIBIL report?",
+    "answer": "<p>Please select the loan number that needs correction in your CIBIL and Raise A Request with us by following these steps:</p><p>&nbsp;- Go to the 'Raise a Request' page on the app screen<br></p><p>&nbsp;- Select your 'Loan Type' and 'Product Description'</p><p>&nbsp;- Select 'Query Type' and describe your query/issue</p><p>&nbsp;- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why is my CIBIL score incorrectly mentioned in your records?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:<br></p><p>- Go to the 'Raise a Request' page on the app screen<br></p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.<br></p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.<br></p><p>To proceed now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "What do you mean by CTR?",
+    "answer": "<p>CIBIL TransUnion Report is a report of your CIBIL score which indicates how well or how poorly you have dealt with your loans or credit cards in the past. It includes detailed information on all your past/current loans and their EMIs. Also, timely repayment of loans helps you maintain a healthy CIBIL score.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "What do you mean by DPD?",
+    "answer": "<p>DPD stands for Days Past Dues and tells you about the days for which a payment has been delayed.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "What is my CIBIL score and how does it work?",
+    "answer": "<p>CIBIL score is a three-digit number, ranging from 300 to 900, that represents your creditworthiness. This score is derived after taking into consideration the credit history and details found in your CIBIL report, which is maintained as a record by TransUnion CIBIL.</p><p>Your lender checks your CIBIL score, before approving a loan, to verify your ability to repay the loan. The closer you are to a credit score of 900, the better are your chances of getting a loan. A score closer to 300 is considered poor and lowers your possibility of getting easy approvals.<br></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why do lenders check my CIBIL score before approving a loan?",
+    "answer": "<p>Your CIBIL score measures your creditworthiness. Lenders choose to check your score for several reasons. Some of the most important ones include:</p><p> - Checking credit record and history</p><p> - Measuring your capacity to repay the loan</p><p> - Reviewing credit balance and sensing the risk level of your profile</p><p> - Identifying if you meet the lender’s loan eligibility criteria</p><p> - Arriving at the loan amount and interest rate suitable for you</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why is my loan status not reported to CIBIL?",
+    "answer": "<p>This may be because of the following reasons:</p><p>- CIBIL update for your loan status is sent to CIBIL after 2 days of the loan closure</p><p>- EPI (EQUATED PERIODIC INSTALMENT (EPI)) status for your loan is sent to CIBIL after the month ends</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Insurance Claims",
+    "question": "How can I cancel my policy?",
+    "answer": "<p>You can cancel your insurance policy/ membership if it is within Free Look Period (FLP). Free Look Period (FLP) is a trial period that starts on the day your insurance policy/ membership is issued and allows you to assess the policy/ membership and its benefits before deciding whether to continue or cancel the same.</p><p>To cancel your insurance policy/ membership, follow the steps below -</p><p>- Click on 'My Account' at the bottom right of the screen</p><p>- Click on ‘My Relations’</p><p>- Click on 'Insurance/ Value Added Services' tab at the top of the page</p><p>- Click on arrow button on relationship of your choice</p><p>- Click on ‘Cancel Policy/ membership’</p><p>To cancel now, please <a href=\"bajajsuperapp://relations/insurance\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Insurance Claims",
+    "question": "How do I raise a claim?",
+    "answer": "To raise an insurance claim request for medical reimbursement, please click the button below. Then, go to the Insurance and VAS section, select your insurance, and complete the process., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Insurance-COI Membership document",
+    "question": "I cannot find my Certificate of Insurance. What should I do?",
+    "answer": "<p>If your Certificate of Insurance/Membership Document is unavailable, please raise a request. Please follow the steps below to raise a query/request.</p><p>- Click on the product/ Service tab for which you want to raise a query. For e.g. : Insurance/ Value Added Services -<br></p><p>- Select Relationship</p><p>- Select Query Type</p><p>- Select Query Sub-Type</p><p>- Proceed to 'Still have a query'</p><p>Update your query details and submit.<br></p><p>To raise a request now, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "How do I generate my Foreclosure Letter?",
+    "answer": "To view or download your Foreclosure Letter, please go to the 'Document Centre' and select your loan account number.Please Note:Your Foreclosure Letter will be valid for 7 days after being generated. Post 7 business days, you will have to download a fresh Foreclosure Letter., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "I have made foreclosure payment but my loan still is active",
+    "answer": "If you have completed the foreclosure payment and it is reflected in your statement of account, but the loan status still shows as active, then please raise a request by clicking the button below., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "I want to foreclose my loan account but there are bounce/overdue charges applied. What should I do?",
+    "answer": "<p>You will have to clear all bounce/overdue charges for foreclosing the loan.</p><p>While applying for foreclosure, you can see your overdue charges and proceed for making payment.</p><p>To foreclose your loan now, please <a href=\"bajajsuperapp://relations/loan\">click here</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "Where and when can I get the No Dues Certificate",
+    "answer": "<p>After making foreclosure payment, it takes up to 24 hours for the details to get updated in your loan account. You can download the No Dues Certificate under 'View Statements'.</p><p>Please follow below steps:<br></p><p>- Go to Homepage and select 'Loan'<br></p><p>- Click on 'Loan Account' against which you have made the payment</p><p>- Now you can click on 'View Statements' button available on 'Things you can do with your loan' section at the center of your screen.</p><p>- You can view and download the Statement Of Account.</p><p>To view your statement now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "Will my CIBIL score get impacted if I foreclose a loan?",
+    "answer": "<p>Not at all. Once you foreclose a loan, the same will be reported to CIBIL as 'Closed' along with '0 (zero) Outstanding'.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "When can I foreclose my loan?",
+    "answer": "<p>You can foreclose a loan any time after clearing the 1st EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Payment through UPI",
+    "question": "What should I do if my payment through UPI doesn't get updated against my loan?",
+    "answer": "<p>This may happen due to:</p><p>1. Some issues with the payment gateway or<br /></p><p>2. Poor network connectivity</p><p>Moreover, if your transaction at our end fails due to any of the above-given reasons, then the amount debited gets refunded to your bank account.<br /></p><p>To know about the refund timeframe, please connect with your bank.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Mandate Registration",
+    "question": "Is it necessary for me to do E-Mandate registration?",
+    "answer": "<p>Yes, this is mandatory if you have availed loan or opted for Systematic Deposit Plan from us. You can either do the registration online or offline. Mandate/NACH registration allows for easy auto-debiting of payments/ EMIs/ investments from your registered bank account basis the agreed frequency.</p><p>If you prefer doing this offline, visit the branch closest to you and our representatives will help you.<br></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Mandate Registration",
+    "question": "What do you mean by E-Mandate/ E-NACH?",
+    "answer": "<p>This is an online, one-time registration process of setting up a payment instruction to debit your verified bank account. In other words, you authorize BFL (Bajaj Finance Ltd.) to debit your bank account towards EMIs/investment amounts automatically.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Mandate Registration",
+    "question": "What do you mean by NACH?",
+    "answer": "<p>As per NPCI website the definition states 'The National Payments Corporation of India (NPCI) offers to banks, financial institutions, Corporates and Government/s a service termed as “National Automated Clearing House (NACH)” which includes both Debit and Credit. It shall be referred to as NACH. NACH (Debit) &amp; NACH (Credit) aims at facilitating interbank high volume, low value debit/credit transactions, which are repetitive in nature, electronically using the NPCI service.</p>"
+  }
+]

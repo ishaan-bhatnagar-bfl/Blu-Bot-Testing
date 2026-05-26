@@ -1,0 +1,72 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "EMI Related",
+    "question": "How can I change my Bajaj Finserv EMI due date?",
+    "answer": "<p>At present, we do not have an option that allows customers to change their EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date. We request you to refer to your agreement for the same.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "EMI Related",
+    "question": "What should I do if my EMI didn't get debited on the due date?",
+    "answer": "<p>We present a mandate to deduct the EPI (EQUATED PERIODIC INSTALMENT (EPI)) from your registered bank account on your due date. However, there could be a delay in processing the same by your bank. In such a scenario, we request you to keep a sufficient balance in your registered bank account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "Where do I need to pay my CIBIL Transunion Report (CTR) fee amount?",
+    "answer": "<p>The CIBIL Transunion Report (CTR) fee amount will be added to the first EPI (EQUATED PERIODIC INSTALMENT (EPI)) of your Loan. You need to pay no upfront amount at the dealers/merchant store for CTR.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "How much do I need to pay as a processing fee while purchasing a product?",
+    "answer": "<p>The processing fee varies and is dependent on the product that you have purchased, schemes available at the time of the purchase, and the partner store/dealer from where the product is purchased. The amount ranges between Rs. 1 and Rs. 1017 (inclusive of all taxes).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "Do I need to pay a convenience fee for all my loans?",
+    "answer": "<p>Yes, a convenience fee applies to all consumer loans through the Bajaj Finserv EPI (EQUATED PERIODIC INSTALMENT (EPI)) Network card.</p><p>This convenience fee will be a part of the first EPI (EQUATED PERIODIC INSTALMENT (EPI)) of your consumer loan. You must pay no upfront amount at the dealers/merchant store against the convenience fee.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "How much do I need to pay as a convenience fee?",
+    "answer": "<p>A convenience fee applies to all Bajaj Finserv EPI (EQUATED PERIODIC INSTALMENT (EPI)) Network card consumer loans. The amount charged as a convenience fee varies basis the loan amount availed. This could range between Rs. 34/- to Rs. 293/- (Inclusive of applicable taxes).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "Do I have to pay the mandatory to pay the convenience fee?",
+    "answer": "<p>As this fee is charged in return for the facility of converting your purchase into EMIs at the point of sale, it is mandatory to pay.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "What do you mean by a bounce fee?",
+    "answer": "<p>Bounce fees are charges against scheduled EPI (EQUATED PERIODIC INSTALMENT (EPI)) bounce response from your bank.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "How much will I be charged as bounced charges?",
+    "answer": "<p>The bounce charge is Rs. 500 (inclusive of all applicable taxes).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Consumer Loan",
+    "l3category": "Fees and charges",
+    "question": "Can a bounce charge be called a recurring charge?",
+    "answer": "<p>A bounce charge would be charged only if your bank returns the EPI (EQUATED PERIODIC INSTALMENT (EPI)) presented against your account.</p>"
+  }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Foreclosure full release",
+        "question": "Do I need to pay any foreclosure charges on my gold loan?",
+        "answer": "<p>You do not need to pay any foreclosure charges on your gold loan. However, you must pay outstanding principal, interest, and dues (if any) at the time of foreclosure or full release of your gold jewellery.</p><p>Note: Please visit your <a href=\"bajajsuperapp://storeLocator/BFLMER\">Bajaj Finance Gold Loan branch</a> to foreclose your gold loan.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Foreclosure full release",
+        "question": "Why am I unable to foreclose my Bajaj Finserv Gold Loan online?",
+        "answer": "<p>You can visit your <a href=\"bajajsuperapp://storeLocator/BFLMER\">Bajaj Finance Gold Loan branch</a> to pay the loan foreclosure amount and release the pledged gold jewellery.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Foreclosure full release",
+        "question": "How can I get my foreclosure letter for Bajaj Finserv Gold Loan?",
+        "answer": "<p>Please visit your <a href=\"bajajsuperapp://storeLocator/BFLMER\">Bajaj Finance Gold Loan branch</a> to generate your foreclosure letter.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "General queries",
+        "question": "Do I need to provide an invoice to prove that the gold belongs to me?",
+        "answer": "<p>Yes, the declaration of ownership of your gold is required.</p><p>Please note: Gold jewellery inherited or gifted to you is acceptable.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Interest payment",
+        "question": "How can I find out the next interest payment date of my Bajaj Finserv Gold Loan?",
+        "answer": "<p>To view the next due date of interest payment for your Bajaj Finserv Gold Loan, please follow the steps below:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select 'Loans'</p><p>2. Select the Loan Account Number (LAN)</p><p>3. Check your next due date under the loan details section</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Interest payment",
+        "question": "What is the maturity date of my Bajaj Finserv Gold Loan?",
+        "answer": "<p>You can follow the steps below to check the maturity date of your Bajaj Finserv Gold Loan:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select 'Loans'</p><p>2. Select the Loan Account Number (LAN)</p><p>3. Check your maturity date under the loan details section</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Part-prepayment",
+        "question": "How does a part-prepayment get adjusted towards my Bajaj Finserv Gold Loan?",
+        "answer": "<p>When you part-prepay your Bajaj Finserv Gold Loan, your loan amount gets adjusted in the following order:</p><p>- The amount you prepaid will first get adjusted towards the due interest amount.</p><p>- Then, the amount gets adjusted against the outstanding principal amount.</p><p>- After this, the prepaid amount will be adjusted towards fees and charges, that are payable/overdue.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Part-prepayment",
+        "question": "What are the 'Default Notice' and 'Auction Intimation Notice' for the Bajaj Finserv Gold Loan and when do they get issued? ",
+        "answer": "<p>A default notice is generated if your outstanding dues remain unpaid for 15 days after maturity. Auction intimation notice is generated post 21 days after the default notice's dispatch date.</p><p>To download your demand notice, please <a href=\"bajajsuperapp://documenation/documentcenter\">click</a> here.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Part-prepayment",
+        "question": "When does the auction notice for my pledged gold ornaments get issued?",
+        "answer": "<p>An auction notice is generated post 21 days after the default notice's dispatch date. To check your notice <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Renewal",
+        "question": "Are there any charges applicable to renew my Bajaj Finserv Gold Loan?",
+        "answer": "<p>Apart from stamp duty (charged as per the rates applicable in your respective state), there is no other fee applied when you renew your Bajaj Finserv Gold Loan.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Top-up loan",
+        "question": "What is a top-up loan on an existing Bajaj Finserv Gold Loan, and the fee for availing this service?",
+        "answer": "<p>If your loan eligibility against the gold ornaments pledged is more than your current loan amount outstanding with Bajaj Finance Ltd., you can avail the balance amount as a top-up loan.</p><p>Apart from stamp duty (charged as per the rates applicable in your respective state), no other fee is applied when you renew your Bajaj Finserv Gold Loan.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Top-up loan",
+        "question": "How do I apply for a top-up on my Bajaj Finserv Gold Loan?",
+        "answer": "<p>If you are eligible for a top-up loan, please follow the steps below:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select 'Loans'</p><p>2. Select the Loan Account Number (LAN)</p><p>3. Click on the 'Top Up' and follow the instructions</p><p>In case you are not currently eligible for top-up and need additional funds, you can add more ornaments to your existing gold loan by visiting your gold loan branch.</p>"
+    },
+    {
+        "l1category": "Loan",
+        "l2category": "Gold Loan",
+        "l3category": "Top-up loan",
+        "question": "When will I get my top-up Bajaj Finserv Gold Loan amount?",
+        "answer": "<p>Your top-up loan amount will be credited into your bank account within 2 business days of your request submission, subject to eligibility.</p>"
+    }
+]

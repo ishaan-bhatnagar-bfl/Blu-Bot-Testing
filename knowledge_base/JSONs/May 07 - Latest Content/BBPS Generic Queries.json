@@ -1,0 +1,1838 @@
+[
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I need statement of my bill",
+    "answer": "You can contact your biller for the bill details.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I need statement of my bill",
+    "answer": "You can contact your biller for the bill details.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have an issue with the bill generated/bill details are showing incorrect",
+    "answer": "Request you to contact your biller directly.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please close UPI lite/I want to close UPI Lite",
+    "answer": "You can close your UPI lite by following mentioned steps: 1. Click on UPI on Home Page 2. Click on the option 'Make Pin- Less Pauments' 3. Go to settings 4. Scroll to the Close UPI lite option and click 5. Click on Revoke",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why should I raise a request?",
+    "answer": "You can raise a request if you are not getting a desired resolution for your query. You can raise a request with us by clicking the button below. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Prime cashback related",
+    "answer": "If the transaction is successfully done and as you are stating that you have not received the cashback, request you to raise a request with us. We request you to check the terms and conditions of the offer for eligibility and review the rewards section to see if you have already received the cashback for the transaction, if eligible, before raising a request. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am not getting prime benefits for bill payments",
+    "answer": "If the transaction is successfully done and as you are stating that you have not received the cashback, request you to raise a request with us. We request you to check the terms and conditions of the offer for eligibility and review the rewards section to see if you have already received the cashback for the transaction, if eligible, before raising a request. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have an issue with the bill/amount displayed of the bill generated/EMI shown",
+    "answer": "If there is any issue with the amount/details displayed of bill/EPI (EQUATED PERIODIC INSTALMENT (EPI)), you can contact the merchant directly. If the merchant is Bajaj, request you to select the relevant option from menu button and start the chat.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to report a fraud",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website, select the transaction, and click on 'Report a fraud' in the Help & Support section.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can we make bill payment with EMI card",
+    "answer": "Payment mode varies basis on the bill payment category selected, you can check this while making a payment. For other EMI Card related query, you can raise a chat with us by selecting EMI card option",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Report a farud",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website, select the transaction, and click on 'Report a fraud' in the Help & Support section.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I view my fastag statement",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: - Click on link below - Scroll down to the bottom page to check the Recent Toll Transactions and the Download statement option. - Select the date range against which the statement is required & click on Download FASTag. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Is there any charges for making Credit Card bill payment",
+    "answer": "There is no extra charge made on payments for credit card bill",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to close my FASTag",
+    "answer": "To close a FASTag, please ensure that it does not have a balance of 0 or a negative amount, as it cannot be closed under such conditions. We request you to torn FASTag before submitting your request to us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know about my loan payment",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I pay other bank credit card bills from Bajaj finance account",
+    "answer": "Yes, you can pay for any credit card bill for the biller listed with us.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know the status of Autopay/Is any autopay active?",
+    "answer": "You can check autopay anytime by following the mentioned steps: 1. Click on Settings in the UPI option. 2. Go to Autopay settings. 3. Click on the autopay you want to view.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can i see my transactions",
+    "answer": "You can see your transactions under passbook section in Bajaj Pay",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I use this app",
+    "answer": "You can use various features of our app:You can make any bill payments, use wallet or UPI mode through our app for making payments.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have an issue with the bill generated/bill details are showing incorrect",
+    "answer": "Request you to contact your biller directly.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Prime cashback related",
+    "answer": "If the transaction is successfully done and as you are stating that you have not received the cashback, request you to raise a request with us. We request you to check the terms and conditions of the offer for eligibility and review the rewards section to see if you have already received the cashback for the transaction, if eligible, before raising a request. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am not getting prime benefits for bill payments",
+    "answer": "If the transaction is successfully done and as you are stating that you have not received the cashback, request you to raise a request with us. We request you to check the terms and conditions of the offer for eligibility and review the rewards section to see if you have already received the cashback for the transaction, if eligible, before raising a request. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Want a FASTag/apply for FASTag",
+    "answer": "If you want to purchase Bajaj FASTag, please follow below steps:1. Click on mentioned link. Add required vehicle Details Pay for the FASTag. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can we make bill payment with EMI card",
+    "answer": "Payment mode varies basis on the bill payment category selected, you can check this while making a payment. For other EMI Card related query, you can raise a chat with us by selecting EMI card option",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want statement of the Bajaj FASTag",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: - Click on link below - Scroll down to the bottom page to check the Recent Toll Transactions and the Download statement option. - Select the date range against which the statement is required & click on Download FASTag. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to download history of Bajaj FASTag",
+    "answer": "Please follow the below steps to download Bajaj FASTag statement: - Click on link below - Scroll down to the bottom page to check the Recent Toll Transactions and the Download statement option. - Select the date range against which the statement is required & click on Download FASTag. CTA Label: Manage FASTag, CTA Link: bajajsuperapp://bflfastag/Home",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Is there any charges for making Credit Card bill payment",
+    "answer": "There is no extra charge made on payments for credit card bill",
+    "chatbot-flag": "Yes"
+  },
+{
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "More than 21 days already done, kyc not completed yet?",
+    "answer": "I am sorry to know that the KYC is not updated yet, We request you to raise a request with us by clicking the button below. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps:1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to close my FASTag",
+    "answer": "To close a FASTag, please ensure that it does not have a balance of 0 or a negative amount, as it cannot be closed under such conditions. We request you to torn FASTag before submitting your request to us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know about my loan payment",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I done my wallet kyc almost 20 days ago but still pending why?",
+    "answer": "I am sorry to know that the KYC is not updated yet, We request you to raise a request with us by clicking the button below. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I pay other bank credit card bills from Bajaj finance account",
+    "answer": "Yes, you can pay for any credit card bill for the biller listed with us.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to cancel autopay",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know status of Autopay/Is any autopay active",
+    "answer": "You can check autopay anytime by following mentioned steps:\n1. Click on Settings in UPI option\n2. Go on Autopay settings\n3. Click on autopay you want to view",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I make a bill payment/recharge",
+    "answer": "You can pay any bill by following very simple steps: 1. Click on below link and select the category you want to pay bill for. 3. Once selected, add the details asked and complete the payment. CTA Label: BBPS Homepage, CTA link: bajajsuperapp://initBBPSSDK/CATEGORY_ID/HOME",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can i see my transactions",
+    "answer": "You can see your transactions under passbook section in Bajaj Pay",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I use this app",
+    "answer": "You can use various features of our app:\nYou can make any bill payments, use wallet or UPI mode through our app for making payments.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My auto requests are failing",
+    "answer": "For better details, we request you to contact your bank linked to the UPI with which auto mandate is active.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know status of the autopay",
+    "answer": "If you want to know auto pay deduction status, request you to directly contact bank. For auto pay active status, request you to follow mentioned steps:i)Go to the Home Page and click on UPI.ii)Open Settings.iii)Click on Autopay Settings.iv)Navigate to the Active page.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I apply for a new EMI card?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the process for obtaining a Bajaj EMI card?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI card isn’t active—how do I activate or unblock it?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why does my EMI card not have a CVV, and how can I use it for online purchases?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why isn’t my EMI payment getting updated even though I paid?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I verify if my advance EMI payment was successful?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What should I do if I’ve made an advance EMI payment but the balance isn’t updated?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I check if my recent EMI payment has been processed?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I view my EMI statement and find out how many EMIs are left?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is my current EMI amount and remaining loan balance?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "When is my next EMI due, and how do I check the payment date?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I access my overall loan statement and payment history?",
+    "answer": "If you are concerned about the Bajaj Finserv Loan Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I check the status of my loan disbursement or closure?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my personal loan application still pending approval?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I request a loan top-up or term loan top-up?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I update my account details or change the linked bank account for EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I get assistance if my loan amount or EMI status isn’t updated after payment?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I set up or cancel auto-pay for my EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I change or reschedule my EMI repayment date?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What happens if I want to pay my EMI in advance—how is my schedule adjusted?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I close my EMI auto-debit (autopay) setup?",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the minimum or maximum loan amount I can apply for?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the process to obtain a no-due certificate after closing my loan?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I transfer funds from my EMI card to my bank account or digital wallet?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I use my EMI card for UPI transactions?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my EMI card balance not reflecting in my bank account after a transfer?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I transfer money from my EMI card to pay someone else’s dues?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What charges and fees apply to my first EMI card transaction?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I unable to use my EMI card for online shopping or at partner stores?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I check my available credit limit and overall credit health?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I being charged processing fees or AMC charges on my loan?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know about my credit card",
+    "answer": "For credit card related queries, you can start a chat with us by selecting the relevant option from the menu button located at the bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know about my credit card plus",
+    "answer": "For credit card plus related queries, you can start a chat with us by selecting the relevant option from the menu button located at the bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know about my Wallet care",
+    "answer": "For wallet care related queries, you can start a chat with us by selecting the relevant option from the menu button located at the bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is FASTag?",
+    "answer": "FASTag are prepaid rechargable tags designed to facilitate automatic payments at toll booths in India. By Affixing a FASTag on your vehicle's windscreen, you can enjoy hassle-free experience while passing through toll plazas.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know the status of my FASTag?",
+    "answer": "You can check the status of the FASTag in Manage FASTag page 1. Click Bajaj Pay on Home Screen 2. Tap to Bajaj Pay Wallet 3. Select FASTag option",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am having issue with my FASTag?",
+    "answer": "Request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have not crossed the toll but still amount debited?",
+    "answer": "Request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Extra amount debited on toll?",
+    "answer": "Request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to close my FASTag?",
+    "answer": "We request you to raise a request with us along with an confirmation of the tag to be torn (split in half) to proceed further. Please ensure that the tag is torn as it will be required for proceeding futher. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Vehicle in Exempted List/I should not be charged for crossing fastag?",
+    "answer": "We would like to inform you that the exemption is provided to The Central and State armed forces in uniform only if the vehicle is used for official purpose. In case it is used for official purpose, we request you raise a request with us with the following documents: 1. Declaration of use of vehicle for official duties; by competent authority of the concerned department. 2. Registration Certificate of the Vehicle/s for which NETC Fastag are to be issued. 3. Copy of vendor agreement in case of hired vehicles. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "FASTag - empty/ torn package?",
+    "answer": "We request you to raise a request with us along with an image of the Empty or Torn package/Fastag to proceed further. Please ensure that the image shared clearly shows all the details. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is Bajaj Prime?",
+    "answer":"Bajaj Prime Offers an exclusive membership program through which you get rewarded with cashbacks for payments & purchases on your favorite brands.Enjoy access to a diverse array of welcome benefits, including free subscriptions,deals on popular OTT platforms and offers on a variety of brands across multiple caregories",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have not received the offer with prime?",
+    "answer": "Request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to cancel prime?",
+    "answer": "Request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests Note: Prime can only be closed if you have contacted within 3 days of pruchase and have not earned any reward voucher. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Broadband Postpaid payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Cable TV payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Clubs and Associations payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Education Fees payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for FASTag recharges?",
+    "answer": "A convenience fee of 1.72% and maximum of Rs.25/- is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Hospital payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Housing society payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Insurance payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for landline postpaid payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for LPG payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for mobile postpaid payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Municipal taxes payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+{
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Piped gas payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for recurring deposits payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for rental payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for subscription payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Wallet bill payments?",
+    "answer": "A convenience fee of 1.72% is applicable for payments of and above Rs.100/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the convenience fee for Electricity bill payments?",
+    "answer": "A convenience fee of 1.00% is applicable for payments from Rs.1000/- to Rs.1500/- for Credit Card and Net Banking transactions, a convenience fee of 1.50% is applicable for payments of and above Rs.1501/- for Credit Card and Net Banking transactions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the platform fee for mobile prepaid recharge?",
+    "answer": "A platform fee of Rs.3/- will be charged for any transaction from Rs.500/- to Rs.1000/- and a platform fee of Rs.5/- will be charged for any transaction of and above Rs.1000/-.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I will report to cybercrime, RBI, escalate this",
+    "answer": "I apologise for the issue caused, request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am facing harrassment from customer care",
+    "answer": "I apologise for the issue caused, request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How do I check if my bill is overdue?",
+    "answer": "You can check the bill overdue by clicking mentioned link. If not available, you can check directly with biller. CTA Label: BBPS Homepage, CTA link: bajajsuperapp://initBBPSSDK/CATEGORY_ID/HOME",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the total pending payment on my account?",
+    "answer": "You can check the bill overdue by clicking mentioned link. If not available, you can check directly with biller. CTA Label: BBPS Homepage, CTA link: bajajsuperapp://initBBPSSDK/CATEGORY_ID/HOME",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How much is my bill this month?",
+    "answer": "You can check the bill overdue by clicking mentioned link. If not available, you can check directly with biller. CTA Label: BBPS Homepage, CTA link: bajajsuperapp://initBBPSSDK/CATEGORY_ID/HOME",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can I find the link to pay my pending bill?",
+    "answer": "You can check the bill overdue by clicking mentioned link. If not available, you can check directly with biller. CTA Label: BBPS Homepage, CTA link: bajajsuperapp://initBBPSSDK/CATEGORY_ID/HOME",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Options is not available on the payment page. What should I do?",
+    "answer": "I apologise for the inconvienience if you are experiencing an error when trying to use BBPS for bill payment. Request you to please follow these steps.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if you are still unable to make bill payments, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I need the QR code for my transaction. Where can I get it?",
+    "answer": "You can view your QR by following steps: 1. Select UPI option on Home page 2. Click on settings 3. Click on View my My QR code",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I unable to use a Bajaj Pay for the transaction on third - party App?",
+    "answer": "Request you to check with third party app for the issues related to their app.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my online transaction showing as not eligible?",
+    "answer": "For any Card related query, request you to select relevant intent from menu button available on bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My online transaction is not going through. What can I do?",
+    "answer": "For any Card related query, request you to select relevant intent from menu button available on bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My online transaction is not going through. What can I do?",
+    "answer": "For any Card related query, request you to select relevant intent from menu button available on bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My bank account number was updated. How do I check if it’s linked for bill payment?",
+    "answer": "You can check saved cards in settings post clicking on Bajaj pay option on Home Page If you have already paid, you can check the payment method used in passbook by selecting the transaction you are concerned about.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I contact the biller for my transaction?",
+    "answer": "You can contact the biller by official website/email/app/number available online.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I contact the merchant regarding a failed or pending payment?",
+    "answer": "You can contact the biller by official website/email/app/number available online.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I entered the correct operator and details. Why is it still not working?",
+    "answer": "Request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I refer a friend to Bajaj Finserv?",
+    "answer": "You can simply follow steps: 1.write 'Refer and Earn' in search bar on Home page 2.click on Earn Now 3. Select Contact and Follow shown steps to refer",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I completed a transaction but didn’t receive any confirmation message. What should I do?",
+    "answer": "You can contact the biller by official website/email/app/number available online to confirm the transaction status if the transaction is successful in passbook.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My account has been deleted. How can I recover it or create a new one?",
+    "answer": "You can simply create the UPI by clicking on UPI option on home page and follow the steps shown. If wallet, you can click on wallet and activate wallet.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I unable to use a Bajaj Pay for the transaction on e-commerce Site?",
+    "answer": "Request you to check with E-commerce partner for the issues related to their app. If you are getting any Bajaj Pay related error post selecting the option, request you to contact us with the error details and complete details of app you were trying at. Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please Help me",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Give me customer care number",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the Bajaj support number?",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Give me excutive number?",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want Assitance number?",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want Excutive number?",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Bajaj helpline number",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Bajaj customer care number",
+    "answer": "As a virtual agent, I am unable to make calls or share the mobile number of our service agents. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my card blocked?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why my card is blocked?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Unblock my card?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": " How to unblock my EMI card??",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What are my EMI card details?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My emi card history?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "EMI card status?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my EMI not debited?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI is due, but it hasn’t been deducted?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "EMI?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why has the EMI amount been debited twice from my account?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have paid the EMI twice?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI was deducted two times?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What should I do if money is paid twice for the same EMI?",
+    "answer": "For any loan Related query, please help to select loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How many EMI are paid?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How many EMI are pending?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What are my EMI details?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "what are my EMI due dates?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my paid EMI not showing ?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why my EMI showing as overdue?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "When will my first EMI start if I buy today?",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "EMI history",
+    "answer": "For loan-related queries, please click on the menu and select ‘Loan’—this will automatically start a new chat for loan assistance. If you have any other queries related to payments, please feel free to ask!",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can you help me, please?",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": " I need your help.",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please help me",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Could you help me out?",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Kindly help me with this.",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to download my wallet statement",
+    "answer": "We request you to raise a request with us by clicking the button below.Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps:1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+     "question": "I have already raised request but have not received update yet.",
+    "answer": "If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I’m trying to use the promo code. How can I apply it correctly?",
+    "answer": "You can use the available promo code as per the applicable terms and conditions to avail the discount. Please check the offer T&Cs in the Rewards section.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "If I apply a promo code, will I still be eligible for any other discounts or offers on the transaction?",
+    "answer": "If you use this discount, you will not be eligible for any other cashback, as only one offer can be applied per transaction.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am getting offer stating Flat discount",
+    "answer": "You can use the available promo code as per the applicable terms and conditions to avail the discount. Please check the offer T&Cs in the Rewards section. Note: If you use this discount, you will not be eligible for any other cashback, as only one offer can be applied per transaction.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+     "question": "I want to check FASTag balance",
+    "answer": "You can directly click on mentioned link to check the FASTag balance. CTA Label: FASTag balance, Android CTA link: bajajsuperapp://bflfastag/Home, IOS CTA link: bajajsuperapp://bflfastag/Home, Web CTA link: https://www.bajajfinserv.in/bajajpay/fastag",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I transfer my FASTag?",
+    "answer": "We request you to raise a request with us by clicking the button below. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I view my transaction history?",
+    "answer": "You can anytime view your transactions from passbook , you can also filter transaction basis mode and status of the transactions.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can I check my past transactions?",
+    "answer": "You can anytime view your transactions from passbook , you can also filter transaction basis mode and status of the transactions.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I download my transaction history",
+    "answer": "Currently we do not have an option to download the transaction history but you can anytime view your transactions from passbook , you can also filter transaction basis mode and status of the transactions.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know about my transaction",
+    "answer": "For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction under the product(UPI, Wallet,Bills and recharges 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have made a transaction, I want to know about it",
+    "answer": "For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction under the product(UPI, Wallet,Bills and recharges 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "My transaction has been failed",
+    "answer": "For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction under the product(UPI, Wallet,Bills and recharges 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How many transaction have I done yet?",
+    "answer": "We would not be able to share your count of the transaction but you can anytime view your transactions from passbook , you can also filter transaction basis mode and status of the transactions.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to transfer my FASTag?",
+    "answer": "We request you to raise a request with us by clicking the button below. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is OVOT in FASTag?",
+    "answer": "According to the OVOT(One Vehicle One Tag) mandate by NPCI/NHAI, each vehicle must be associated with a single, unique, active FASTag to: Prevent misuse or duplicate tagging, Ensure interoperability across toll plazas, and Maintain a centralized tag issuance record.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want recent payment statement",
+    "answer": "You can anytime view your transaction and its status from passbook , you can also filter transaction basis mode and status of the transactions.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where is Bajaj Pay sub Wallet",
+    "answer": "Bajaj Pay subwallet is part of your main wallet. Sub wallet balance can be used for making bill payments.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is Bajaj Sub wallet balance",
+    "answer": "Your subwallet balance is <Reward_Balance>.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the maximum wallet balance allowed for Full KYC?",
+    "answer": "Full KYC customers can maintain a wallet balance of up to ₹2,00,000.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+     "question": "How many Primary Load (DEF) transactions are allowed per day for Full KYC?",
+    "answer": "Full KYC customers can perform up to 100 Primary Load (DEF) transactions per day.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the maximum amount allowed per Primary Load (DEF) transaction?",
+    "answer": "Each Primary Load (DEF) transaction can be up to ₹2,00,000 for Full KYC customers.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the maximum number of Primary Load (DEF) transactions per month?",
+    "answer": "Full KYC customers can do up to 500 Primary Load (DEF) transactions in a month.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the maximum monthly amount allowed for Primary Load (DEF)?",
+    "answer": "The monthly load limit for Primary Load (DEF) is ₹4,00,000 for Full KYC customers.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Are there defined limits for Secondary Load (CHB) under Full KYC?",
+    "answer": "The table does not specify limits for Secondary Load (CHB); please refer to platform-specific rules if needed.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How many InterOp P2P transactions are allowed per day for Full KYC users?",
+    "answer": "Full KYC customers can do up to 20 P2P InterOp transactions per day.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the maximum amount allowed per InterOp P2P transaction?",
+    "answer": "Each P2P InterOp transaction can be up to ₹50,000 for Full KYC users per day.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the monthly transaction count limit for InterOp P2P transfers?",
+    "answer": "Full KYC users can perform up to 150 P2P InterOp transactions in a month.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the monthly transaction amount limit for InterOp P2P transfers?",
+    "answer": "Full KYC users can transact up to ₹2,00,000 via P2P InterOp transactions in a month.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How many InterOp P2M transactions are allowed per day for Full KYC users?",
+    "answer": "Full KYC users can do up to 20 P2M InterOp transactions per day.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the maximum amount allowed per InterOp P2M transaction?",
+    "answer": "Each P2M InterOp transaction can be up to ₹50,000 for Full KYC users per day.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the monthly transaction count limit for InterOp P2M transfers?",
+    "answer": "Full KYC users can do up to 150 P2M InterOp transactions in a month.",
+    "chatbot-flag": "yes"
+  },
+   {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What is the monthly transaction amount limit for InterOp P2M transfers?",
+    "answer": "Full KYC users can transact up to ₹2,00,000 via P2M InterOp transactions in a month.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I can't create my upi id.",
+    "answer": "If you are unable to create UPI ID, please ensure that the number you are trying to create UPI ID with should have bank linked and also the number should have a valid recharge to get sim verification. If still you are unable to do, request you to raise a request with us by clicking the button below with the error message you are encoutering. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to raise service request?.",
+    "answer": "You can raise a request with us by clicking below link. Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps:1. Go to home page\n2. Click on Menu button in right bottom corner\n3. Scroll down to Help and support\n4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Can I get a refund for my payment?.",
+    "answer": "Refund can be credited if the transaction has failed. For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I would like to request a refund.",
+    "answer": "Refund can be credited if the transaction has failed. For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please refund the amount.",
+    "answer": "Refund can be credited if the transaction has failed. For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I get my money refunded?.",
+    "answer": "Refund can be credited if the transaction has failed. For any transaction related query, please select the transaction and raise a Chat with us. 1. Click on Bajaj Pay on Home Page 2. Click on Passbook 3. Select the transaction 4. Click on Help and Support 5. Select Chat with us and start conversating for the transactional issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Toll-free number.",
+    "answer": "I would not be able to share toll-free number, you can let me know your query and I will be happy to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I delete transaction history",
+    "answer": "Currently, we do not have an option to delete the transaction history from passbook.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am unable to do E mandate",
+    "answer": "If you are unable to do E-mandate, you can directly contact the biller/loan provider for the issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I have a screenshot/ I don't have screenshot. How can I prove the issue to you. I am unable to see transaction?",
+    "answer": "I apologise for the issue caused, request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "This payment method is not available?",
+    "answer": "If any payment method is not available currently, we request you to pay choosing alternate payment method.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How to add money?",
+    "answer": "You can load money by simply clicking on mentioned link and adding money, choosing mode and submitting. CTA Label: Wallet Add Money, CTA limk: bajajsuperapp://initBajajPay/ADD_MONEY",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What are Upi charges?",
+    "answer": "There is no changes for payment currently by UPI",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am unable to see transaction in app?",
+    "answer": "I apologise for the issue caused, request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours. If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What does 'Invalid BBPS biller details' mean?",
+    "answer": "Request you to contact your biller directly if the details of the bill is showing incorrect. If the biller details added by you are correct and still you are getting this error, request you to raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I facing an issue while linking my bank account for BBPS?",
+    "answer": "You can directly add bank details while paying for the bill/recharge. If you are getting issue in adding bank, request you to use any other available mode and simultaneously raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "BBPS bank account is not linking  what could be the issue?",
+    "answer": "You can directly add bank details while paying for the bill/recharge. If you are getting issue in adding bank, request you to use any other available mode and simultaneously raise a request with us by clicking the button below Our representative will respond you within 48 hours.  If you have already raised a request with us you can check the status by following mentioned steps: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on Click here to view all raised requests. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What are the KYC requirements for BBPS services?",
+    "answer": "There are no KYC requirement for making and bill payment/recharge. This will be required if you want to use wallet as a payment mode as wallet has limits defined basis KYC status but for Min KYC customers, the wallet limit will be lesser.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my account being debited automatically?",
+    "answer": "Your account gets debited automatically only if you have selected Auto Pay option for Bill Payments or Loan payments. You can check the details of Active Autopay in AutoPay option in Setting when you got to UPI option in Home Page.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Where can I find the terms and conditions for BBPS services?",
+    "answer": "There are no t&c for BBPS payment, you can pay for the available billers via the available payment options. Charges vary based on the bill payment.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can i talk to a customer care executive",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Call me its urgent",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please call back",
+    "answer": "As a virtual agent, I am unable to make calls. However, I am here to help you with your query and will do my best to provide a satisfactory answer.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I need a callback",
+    "answer": "As a virtual agent, I am unable to make calls. However, I am here to help you with your query and will do my best to provide a satisfactory answer.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Request a call back",
+    "answer": "As a virtual agent, I am unable to make calls. However, I am here to help you with your query and will do my best to provide a satisfactory answer.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make/arragne calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I am not getting proper resolution, please call me",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please share customer executive mobile number",
+    "answer": "As an virtual agent I am unable to make calls or share mobile number of our service agents, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "Please ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to speak with human or person",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest,  Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "The bank says it's not their issueâ who should I contact for BBPS problems?",
+    "answer": "You can contact the biller directly for any bill and recharge related issue.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to know status of my kyc of wallet?",
+    "answer": "For wallet related query, request you to select wallet as an option in menu button on the left bottom corner of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "What are the steps to upgrade my wallet account?",
+    "answer": "For wallet related query, request you to select wallet as an option in menu button on the left bottom corner of the screen.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "How can I check my due date?",
+    "answer": "You can know about the next due date of any payment from the merchant (bank/biller/loan partner). If the Loan partner is Bajaj, request you to click the menu button available below and select the relevant option to get correct resolution."
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I mistakenly purchased prime membership/subscription – how can I cancel and get a refund?",
+    "answer": "If you have purchased Prime membership, you can cancel it within 3 days of the purchase only if you have not claimed or earned any reward/coupon provided with the membership. If you have not claimed or earned any membership, you can raise a request with us by clicking the button below. Our representative will respond to you within 48 hours.\n\nSteps to check request status:\n1. Go to home page\n2. Click on Menu button in right bottom corner\n3. Scroll down to Help and support\n4. Click on \"Click here to view all raised requests\"\n\n. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "MY FASTag is blocked",
+    "answer": "Your FASTag can be non-working due to reasons such as low balance, hotlisting, or any other issue. If your balance is low, ensure it’s in positive balance to keep it working. You can raise a request with us by clicking the button below. Our representative will respond to you within 48 hours.\n\nSteps to check request status:\n1. Go to home page\n2. Click on Menu button in right bottom corner\n3. Scroll down to Help and support\n4. Click on \"Click here to view all raised requests\"\n\n. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to update my FASTag vehicle number?",
+    "answer": "You can raise a request with us with the Vehicle number and RC copy of the vehicle by clicking the button below. Our representative will respond to you within 48 hours.  Steps to check request status: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests' . CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "BBPS",
+    "l2category": "GenericBBPSQueries",
+    "l3category": "Issues and Grievances",
+    "question": "I want to update my temporary FASTag to permanent FASTag number?",
+    "answer": "You can raise a request with us by clicking the button below. Our representative will respond to you within 48 hours.  We request you to share mentioned details while raising request.  1) Old Temporary number 2) VRN to be updated 3) RC of the vehicle  Steps to check request status: 1. Go to home page 2. Click on Menu button in right bottom corner 3. Scroll down to Help and support 4. Click on 'Click here to view all raised requests'. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  }
+
+]

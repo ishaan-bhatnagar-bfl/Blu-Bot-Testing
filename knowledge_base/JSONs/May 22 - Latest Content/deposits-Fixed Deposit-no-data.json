@@ -1,0 +1,570 @@
+[
+    
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Statements",
+        "question": "How can I get the Statement Of Account for my Systematic Deposit Plan (SDP)?",
+        "answer": "<p>View your Statement of Account for your Systematic Deposit Plan by selecting the relevant Deposit Number displayed on your screen.</p><p>To proceed now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "OTP Screen",
+        "question": "What should I do if I don\u2019t receive the OTP?",
+        "answer": "<p>This could be an issue due to your mobile network coverage. Ensure that your mobile is in good network coverage &amp; try again by clicking on &quot;Resend OTP&quot;.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "What do you mean by NACH?",
+        "answer": "<p>As per NPCI website the definition states 'The National Payments Corporation of India (NPCI) offers to banks, financial institutions, Corporates and Government/s a service termed as \u201cNational Automated Clearing House (NACH)\u201d which includes both Debit and Credit. It shall be referred to as NACH. NACH (Debit) &amp; NACH (Credit) aims at facilitating interbank high volume, low value debit/credit transactions, which are repetitive in nature, electronically using the NPCI service.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "What do you mean by E-Mandate/ E-NACH?",
+        "answer": "<p>This is an online, one-time registration process of setting up a payment instruction to debit your verified bank account. In other words, you authorize BFL (Bajaj Finance Ltd.) to debit your bank account twoards EMIs/investment amounts automatically.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "Is it necessary for me to do E-Mandate registration?",
+        "answer": "<p>Yes, this is mandatory if you have availed loan or opted for Systematic Deposit Plan from us.You can either do the registration online or offline. Mandate/NACH registration allows for easy auto-debiting of payments/ EMIs/ investments from your registered bank account basis the agreed frequency.</p><p>If you prefer doing this offline, visit the branch closest to you and our representatives will help you.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "What is UMRN?",
+        "answer": "<p>UMRN is the abbreviation of Unique Mandate Registration Number. It is allocated when a new mandate is regsitered&nbsp; and is necessary to carry out transactions.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "What are the steps to set up an E-Mandate? How do I register my mandate if my bank is not participating\u2026",
+        "answer": "<p>You can set up an E-Mandate online while applying for a loan or applying for a Fixed Deposit under Systematic Deposit Plan. You can register E-Mandate either using your net banking or debit card details and validate by entering an OTP sent to your registered mobile number. However, the availability of these options depends on your bank.&nbsp;</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "Can I delete a registered mandate?",
+        "answer": "<p>Yes, you can. However, be careful not to delete the mandates associated with active loans. To change/swap mandates, visit our nearest branch.</p><p>To find your nearest branch, please <a href=\"bajajsuperapp://storelocator/storelocatorlauncher\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "How can I change/update my mandate?",
+        "answer": "<p>Currently mandate updation/change facility is available either through our nearest branch or by visiting or customer service portal on <a href=\"http://www.bajajfinserv.in\">www.bajajfinserv.in</a>. </p><p>To find your nearest branch, please <a href=\"bajajsuperapp://storelocator/storelocatorlauncher\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "If I update my mandate, what happens to the old/existing one?",
+        "answer": "<p>Once you update/change the bank for auto-debit of particular loan, the old/existing mandate of such loan is cancelled and the new one is updated in our records.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "SDP",
+        "l3category": "Mandate bank account change",
+        "question": "My mandate was rejected. What should I do?",
+        "answer": "<p>You can try registering using another bank through our E-mandate option available on our Customer portal on <a href=\"http://www.bajajfinserv.in\">www.bajajfinserv.in</a> .</p><p>If you prefer doing this offline, visit the branch closest to you along with a cancelled cheque leaf and allow our representatives to help you.</p><p>To locate your nearest branch, please <a href=\"bajajsuperapp://storelocator/storelocatorlauncher\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "What is Loan Against Fixed Deposit (LAFD) by Bajaj Finance?",
+        "answer": "<p>A loan against fixed deposit (LAFD) is a kind of secured loan where you can pledge your fixed deposit as security and get a loan in return. The loan amount then gets credited to your registered bank account.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "What is the rate of interest for a loan against my fixed deposit?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "Rate of Interest",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "What maximum loan amount that I can get against my Bajaj Finance Fixed Deposit?",
+        "answer": "<p>The maximum loan amount you can get against your fixed deposit is as follows:</p><p>- Loan of up to 75% of your fixed deposit amount for a cumulative fixed deposit</p><p>- Loan of up to 60% of your fixed deposit amount for a non-cumulative fixed deposit</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "When can I expect the disbursal of loan amount against my fixed deposit to be credited in my registered bank account?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "What benefits do I get on a loan against fixed deposit by Bajaj Finance?",
+        "answer": "<p>The benefits of getting a loan against your fixed deposit are as follows:</p><p>- Get a loan of up to 75% of your deposit amount for cumulative and a loan of up to 60% of your deposit amount for non-cumulative fixed deposit</p><p>- Minimal and easy documentation process with guaranteed loan approval</p><p>- No need to liquidate your investment</p><p>- No loss of interest earned on your fixed deposit.</p><p>- Loan disbursement within 1 business day with flexible repayment tenure</p><p>- No need to pay foreclosure charges on the closure your LAFD</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "What is the maximum and minimum tenure for repaying my Bajaj Finance Loan Against Fixed Deposit (LAFD)?",
+        "answer": "<p>The tenure to repay your loan against fixed deposit will be the remaining maturity period of your Bajaj Finance Fixed Deposit. However, part-prepayment is not allowed in the case of LAFD.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "Will my CIBIL Score get impacted if I take a loan against fixed deposit?",
+        "answer": "<p>There will be no impact on your CIBIL Score if you take a loan against your fixed deposit.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "Can I use a different bank account to take a loan against my fixed deposit?",
+        "answer": "<p>No, you cannot use a different bank account to apply for a loan against your fixed deposit. The bank account has to be the same as your Bajaj Finance Fixed Deposit maturity payout account.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "Can I apply for a new loan against fixed deposit after repaying my previous loan?",
+        "answer": "<p>Yes, repaying your existing loan against fixed deposit entirely makes you eligible for a fresh loan.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Apply for loan against fixed deposit",
+        "question": "Can I use my fixed deposit investment with other Non-banking Financial Companies or banks to get a loan against fixed deposit from Bajaj Finance Limited?",
+        "answer": "<p>No, you can not use any other fixed deposit investment as Bajaj Finance Limited provides loan against fixed deposit facility only against Bajaj Finance Fixed Deposits.</p>"
+    },
+    
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Foreclose loan against fixed deposit",
+        "question": "How long does it take to adjust the loan against fixed deposit amount towards my Bajaj Finance Fixed Deposit?",
+        "answer": "<p>It takes us 1 business day from the date of receiving request and amount required for foreclosure to adjust the fixed deposit amount to your loan against fixed deposit.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Foreclose loan against fixed deposit",
+        "question": "What happens to the loan if I close my fixed deposit account?",
+        "answer": "<p>If you plan to make a premature withdrawal of your fixed deposit while your loan against fixed deposit is active, we would first adjust all remaining dues on your loan against the fixed deposit maturity amount, and the remaining balance will be paid to you.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Loan against fixed deposit details",
+        "question": "How do I repay my Bajaj Finance Loan against Fixed Deposit?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Loan against fixed deposit details",
+        "question": "When will the EMI for my loan against fixed deposit with Bajaj Finance be debited from my bank account?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Loan against fixed deposit details",
+        "question": "Do I get any tax benefits on my Bajaj Finance Loan against Fixed Deposit EMIs?",
+        "answer": "<p>No, there are no tax benefits on your loan against fixed deposit.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Statements",
+        "question": "Will I receive a no dues certificate on repayment of my Bajaj Finance Loan Against Fixed Deposit?",
+        "answer": "<p>Yes, you will receive a no dues certificate after the closure of your loan against fixed deposit.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Statements",
+        "question": "How can I get my Bajaj Finance Loan against Fixed Deposit statement of account?",
+        "answer": "<p>Please follow these simple steps to get your LAFD statement of account:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan against fixed deposit number for which you want to view documents</p><p>3. Find all your LAFD documents and click on 'Statement of Account' to download it</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Statements",
+        "question": "How can I get my Bajaj Finance Loan against Fixed Deposit no dues certificate?",
+        "answer": "<p>Please follow these simple steps to get your LAFD no dues certificate:</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan against fixed deposit number for which you want to view documents</p><p>3. Find all your LAFD documents and click on 'No Dues Certificate' to download it</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Loan against Fixed deposit",
+        "l3category": "Statements",
+        "question": "How can I get my Bajaj Finance Loan against Fixed Deposit repayment schedule?",
+        "answer": "<p>&quot;Please follow these simple steps to get your LAFD repayment schedule:</p><p>&nbsp;</p><p>1. Go to the 'Main Menu' and click on '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the loan against fixed deposit number for which you want to view documents</p><p>3. Find all your LAFD documents and click on 'Repayment Schedule' to download it&quot;</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Death Claim",
+        "question": "Can a co-applicant request for premature withdrawal if the primary fixed deposit applicant has passed away?",
+        "answer": "<p>Yes, in case of the primary account holder's demise, the co-applicant can request the maturity amount of the FD by submitting a written application at the nearest <a href=\"bajajsuperapp://storeLocator/BFLCLC\">Bajaj Finance Limited branch</a> along with a copy of the death certificate of the primary account holder.&nbsp;</p><p>The maturity amount, after TDS deduction, will be credited to the co-applicant's registered bank account with Bajaj Finance Limited within 8 business days of the request submission.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Death Claim",
+        "question": "If the primary fixed deposit applicant passes away and there is no nominee or joint account holder for that fixed deposit what documents are required from the legal heir to withdraw the fixed deposit prematurely?",
+        "answer": "<p>If a primary depositor passes away and there is no nominee or joint account holder for that fixed deposit, then the legal heir needs to submit the following documents:</p><p>- An application for the deceased\u2019s claim (mandatory)</p><p>- A certified copy of the death certificate (mandatory)</p><p>- A succession certification or letter of administration or probate of the will (recommended but not mandatory)</p><p>- An indemnity bond that is taken from the legal heir/representative (mandatory)</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Where can I view my closed Bajaj Finance Fixed Deposit details?",
+        "answer": "<p>You can view your closed fixed deposit details by following these simple steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>' and select 'Deposits'</p><p>2. Click on the filter icon and select 'Closed'</p><p>Selecting this filter will display your closed Bajaj Finance Fixed Deposits.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I change the bank account details linked to my Bajaj Finance Fixed Deposit?",
+        "answer": "<p>Yes, you can change the bank account details linked to your fixed deposit anytime during the tenure and 7 days before the date of your FD maturity.</p><p>To change your bank account details now, please <a href=\"bajajsuperapp://relations/deposits\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "When and how can I get my Bajaj Finance Fixed Deposit maturity amount?",
+        "answer": "<p>Your FD maturity amount gets transferred to the bank account linked with your fixed deposit on the maturity date. This transfer takes place only through National Electronic Fund Transfer (NEFT) or Real Time Gross Settlement (RTGS) modes.</p><p>However, in case of a payment failure, you will receive a communication on your registered mobile number and email id, requesting you to change your bank account details.</p>"
+    },
+    
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "What should I do if I lose my fixed deposit receipt (FDR) and want a new one?",
+        "answer": "<p>To view or download your fixed deposit receipt, please follow the following steps:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>'</p><p>2. Select the fixed deposit number for which you want to view the receipt</p><p>3. Click on your fixed deposit receipt to download</p><p>However, you can visit your nearest <a href=\"bajajsuperapp://storeLocator/BFLCLC\">Bajaj Finance Limited branch</a> if you need a physical copy of the FDR.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Do I need to provide any referral for opening a Bajaj Finance Fixed Deposit account?",
+        "answer": "<p>You do not require any referral to invest in a fixed deposit with Bajaj Finance.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is the newly introduced FD interest rate applicable to my current Bajaj Finance Fixed Deposit account?",
+        "answer": "<p>The newly introduced fixed deposit interest rate will not be applicable to your current fixed deposit. Since you have locked in your money with us at a specific interest rate, you will continue to receive the same till its maturity. If you wish to earn the new interest rates, then we recommend you invest in a new fixed deposit.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I show my Bajaj Finance Fixed Deposit (FD) investment for tax exemption?",
+        "answer": "<p>No, your fixed deposit investment with Bajaj Finance Limited cannot be shown as an investment under Section 80C for tax deduction benefits.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "What happens to my fixed deposit account with Bajaj Finance if I become an NRI?",
+        "answer": "<p>You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I open a fixed deposit account with Bajaj Finance if I am an NRI?",
+        "answer": "<p>Yes, Bajaj Finance Limited does offer a fixed deposit facility for Non-Resident Indians (NRIs), Overseas Citizens of India (OCI), and Persons of Indian Origin (PIO). NRI, OCI, and PIO can choose any tenure between 12 and 36 months, as per their financial needs, for fixed deposit investment.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Joint Account holder Addition",
+        "question": "How can I view the details of my existing Bajaj Finance Fixed Deposit joint account holder?",
+        "answer": "<p>Follow these steps to view details of your existing fixed deposit joint account holder:</p><p>1. Go to \u2018<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'Joint account holder details' under the relationship details sections</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Joint Account holder Addition",
+        "question": "How can I delete the name and details of my existing FD joint account holder?",
+        "answer": "<p>Yes, you can delete your existing fixed deposit joint account holder details with the consent of both account holders by visiting our nearest <a href=\"bajajsuperapp://storeLocator/BFLCLC\">Bajaj Finance Limited Branch</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Joint Account holder Addition",
+        "question": "How can I update the details of my existing joint account holder in Bajaj Finance Fixed Deposit?",
+        "answer": "<p>Please visit our nearest <a href=\"bajajsuperapp://storeLocator/BFLCLC\">Bajaj Finance Limited Branch</a> to update the details of your existing fixed deposit joint account holder and complete the process.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "If a Karta/Primary Account Holder dies in a Hindu Undivided Family (HUF), can the new Karta be made the primary applicant without pre-maturing the fixed deposit? If yes, what are documents required?",
+        "answer": "<p>Yes, the new Karta can be made the primary account holder, in such scenarios, you need to submit the following documents:</p><p>- Proof of death of the depositor</p><p>- Declaration/affidavit/indemnity from the members forming part of the HUF declaring the eldest coparcener (a joint heir) as the new Karta of the HUF</p><p>- Fresh deed of declaration of HUF including the list of the coparcener (joint heirs), signed by the Karta and the adult coparcener</p><p>- Aadhaar and PAN of the new Karta</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "What is premature withdrawal in Bajaj Finance Fixed Deposit?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "Is there any penalty for drawal of my Bajaj Finance Fixed Deposit?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "Can I withdraw the entire amount from my Bajaj Finance Fixed Deposit as part of a premature withdrawal?",
+        "answer": "<p>Yes, however, the premature withdrawal facility on your Fixed Deposit (FD) comes with the following conditions:</p><p>- Upto 3 months from the date of deposit: Withdrawal is not permitted.</p><p>- After 3 months but before 6 months: Interest shall not be payable.</p><p>- After 6 months but before the date of maturity: The rate of interest payable will be 2% lower than the rate specified for the period during which the scheme has run. If no rate is specified for the deposit period, the interest rate payable will be 3% lower than the company's lowest rate.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "Do I have any alternative options other than a premature withdrawal to get funds?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Renewal",
+        "question": "Which documents do I need to renew my Bajaj Finance Fixed Deposit (FD)?",
+        "answer": "<p>You do not need to submit any document for your fixed deposit (FD) renewal process.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "When can I get the TDS certificate for my Bajaj Finance Fixed Deposit investment?",
+        "answer": "<p>As per rule 31 under section 203 of Income Tax Rules 1962, Bajaj Finance Limited issues a TDS certificate or Form 16A every quarter within 15 days from the due date.</p><p>The due date for issuance of the TDS certificate is given below:</p><p>- July 30 would be the due date for TDS certificate for the quarter ending with June 30 of the financial year.</p><p>- October 30 would be the due date for TDS certificate for the quarter ending with September 30 of the financial year.&nbsp;</p><p>- January 30 would be the due date for TDS certificate for the quarter ending with December 31 of the financial year.</p><p>- May 30 would be the due date for TDS certificate for the quarter ending with March 31 of the financial year.</p><p>Also, TDS certificates (Form 16A) are generated quarterly through the TDS Reconciliation Analysis and Correction Enabling System (TRACES). TRACES generate TDS certificates based on customers' Permanent Account Number (PAN).&nbsp;</p><p>Thus, a consolidated TDS certificate for tax deducted against all FDs sourced by Bajaj Finance Limited against one PAN is generated.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I get a copy of my TDS certificate?",
+        "answer": "<p>Please follow these steps to view or download the TDS certificate for your fixed deposits:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download your TDS certificate</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "When and how can I get the interest amount earned on my Bajaj Finance Fixed Deposit?",
+        "answer": "<p>The maturity amount gets transferred to the bank account linked with your fixed deposit on the maturity date. This transfer takes place only through National Electronic Fund Transfer (NEFT) or Real Time Gross Settlement (RTGS) modes. However, if the payment with respect to your payout bounces, you shall be informed through a phone call or email and requested to change your bank account details.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I check the monthly interest amount earned on my Bajaj Finance Fixed Deposit?",
+        "answer": "<p>To know about the monthly interest amount earned on your fixed deposit, please check your FD account statement by following these simple steps.</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>' and select 'Deposits'<br></p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download or share your statement of account</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I view or download my Bajaj Finance Fixed Deposit receipt?",
+        "answer": "<p>Please follow these steps to view or download your Bajaj Finance Fixed Deposit receipt:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download or share your FDR</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I view or download my Bajaj Finance Fixed Deposit statement of account?",
+        "answer": "<p>Please follow these steps to view or download the statement of account for your fixed deposits:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download or share your statement of account</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Submit TDS Waiver",
+        "question": "How can I check my eligibility for submitting Form 121?",
+        "answer": "<p>You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Submit TDS Waiver",
+        "question": "How much tax do I need to pay on my Bajaj Finance Fixed Deposit interest amount?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Submit TDS Waiver",
+        "question": "How does my Tax Deducted at Source (TDS) get calculated if I have multiple fixed deposit accounts?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Submit TDS Waiver",
+        "question": "Do I need to pay any tax on my Bajaj Finance Fixed Deposit interest amount?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Submit TDS Waiver",
+        "question": "How do I know if a TDS waiver is applied to my fixed deposit?",
+        "answer": "<p>Once the TDS waiver application is received by us, you can check the status by visiting '<a href=\"bajajsuperapp://relations/deposits\">My Relations</a>'. Then, select the fixed deposit for which you want to view the details and check your TDS waiver application status.</p>"
+    },
+    
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "Why do I need to add a nominee to my Bajaj Finance Fixed Deposit?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "Can I change the details of a nominee in my joint fixed deposit account with Bajaj Finance?",
+        "answer": "<p>Yes, you can change Nominee details after taking consent from all the joint account holders.</p><p>Important: You will be unable to initiate any changes without the consent of all joint account holders.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "Can I appoint a minor as my nominee for a Bajaj Finance Fixed Deposit account?",
+        "answer": "<p>Yes, you can appoint a minor as your nominee. However, the minor's guardian details need to be mentioned in the nomination form. The guardian should be an adult who will receive the fixed deposit amount, on behalf of the minor, in the absence of the account holder.</p><p>Important: - The guardian's bank account would receive a fixed deposit amount on its maturity under such nomination, but only before the nominee attains 18 years of age. If the nominee turns into an adult at the time of claim, he can submit proof of his age and get the maturity amount credited to his bank account.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "How can I add multiple nominees to my Bajaj Finance Fixed Deposit account?",
+        "answer": "<p>You cannot add multiple nominees to your fixed deposit account. Only one nominee can be appointed for your fixed deposit. However, you can appoint different nominees for separate fixed deposits.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "Can I appoint a joint applicant as my nominee for a Bajaj Finance Fixed Deposit account?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "Is it mandatory to appoint a nominee for my Bajaj Finance Fixed Deposit account?",
+        "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Joint Account holder Addition",
+        "question": "How can I view details of my existing Fixed Deposit joint account holder?",
+        "answer": "<p>To view details of your existing Fixed Deposit joint account holder, please follow these steps:</p><p>- Click on 'Joint account holder details'</p><p>- Click on Edit</p><p>- Fill in required details &amp; 'Proceed'</p><p>- Verify the pre-filled details &amp; 'Confirm'</p><p>- Proceed to generate and enter OTP sent to your registered mobile no.</p><p>- Click on 'Submit'</p><p>To update now, please <a href=\"bajajsuperapp://relations/deposits\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "How can I view my Fixed Deposit nominee details?",
+        "answer": "<p>Please follow these steps to view your Fixed Deposit nominee details:</p><p>- Click on 'My Account' at the bottom right of the page<br></p><p>- Go to 'My Relations'</p><p>- Click on 'FD LAN'</p><p>- Scroll down and click on 'Nominee' to view details</p><p>To proceed now, please <a href=\"bajajsuperapp://relations/deposits\">click here</a>.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Query Status",
+        "question": "How can I track my complaint/request status?",
+        "answer": "<p>To track your complaint status, please follow these steps:</p><p>- Click on the 'Menu' button at the top left of the home page</p><p>- Select 'Help and Support</p><p>- Go to 'My Raised Requests'</p><p>- Click on the 'View all' option</p><p>- Choose the request for which you want to check the status</p><p>To go to 'My Raised Requests' now, please <a href=\"bajajsuperapp://helpsupport\">click here</a>.</p>"
+    },
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to submit an FD TDS waiver request",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to apply for an FD TDS waiver.",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS"
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to fill out Form 121.",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my Form 121 to submit TDS waiver?",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Apply TDS waiver",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Submit TDS Waiver",
+    "question": "How can I check my eligibility for submitting Form 121?",
+    "answer": "<p>You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Issues and complaints related to Fixed deposits",
+   "question": "I want to complains details filled in form 121 are incorrect",
+    "answer": "To complaint incorrect details fo this issue raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+    "chatbot-flag": "yes"
+    },
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Issues and complaints related to Fixed deposits",
+   "question": "I want to complains details filled in form 121 are incorrect",
+    "answer": "To complaint incorrect details fo this issue raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+    "chatbot-flag": "yes"
+    },
+
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Issues and complaints related to Fixed deposits",
+    "question": "Details in my form 121 is incorrect",
+    "answer": "To complaint incorrect details fo this issue raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+    "chatbot-flag": "yes"
+}
+]

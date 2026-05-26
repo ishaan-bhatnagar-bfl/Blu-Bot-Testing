@@ -1,0 +1,1004 @@
+[
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I update my email address?",
+    "answer": "To update your email address, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Email_Update , IOS CTA link:bajajsuperapp://profile/Email_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I update my email address?",
+    "answer": "To update your email address, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Email_Update , IOS CTA link:bajajsuperapp://profile/Email_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is e-KYC process?",
+    "answer": "The e-KYC (Electronic Know Your Customer) process is a quick and paperless way to verify your identity using your Aadhaar details. We use the secure system provided by UIDAI to complete this process."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I need NOC",
+    "answer": "You can download your document by visiting the Document Centre. Please select your relation first, then download the NOC for a vehicle (wheel) loan or the NDC for any other loan type. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I download NOC?",
+    "answer": "You can download your document by visiting the Document Centre. Please select your relation first, then download the NOC for a vehicle (wheel) loan or the NDC for any other loan type. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why Aadhaar number is taken for e-KYC?",
+    "answer": "Your Aadhaar number is required by UIDAI to securely fetch the necessary details and complete your e-KYC verification."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why my biometric captured?",
+    "answer": "According to UIDAI guidelines, both your Aadhaar number and biometric details (like fingerprints) are needed to securely complete the e-KYC process"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Is my biometric (fingerprint / Face) or Aadhaar number is stored in Bajaj Finance system? ",
+    "answer": "No, Bajaj Finance does not store your biometric data or Aadhaar number. These details are used only for real-time verification during the e-KYC process."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Is Aadhaar number stored in Bajaj Finance system?",
+    "answer": "No, Bajaj Finance does not store your Aadhaar number. It is used solely for verification through UIDAI."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is meant by consent?",
+    "answer": "Consent means that you are giving voluntary permission to proceed with the e-KYC authentication process."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why consent is it taken?",
+    "answer": "Consent is taken to ensure that you are aware of, agree to, and give permission to Bajaj Finance to perform e-KYC authentication, as specified in the terms and conditions."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why consent is it taken?",
+    "answer": "Consent is taken to ensure that you are aware of, agree to, and give permission to Bajaj Finance to perform e-KYC authentication, as specified in the terms and conditions."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How to revoke my consent?",
+    "answer": "Consent is taken each time you go through the e-KYC process, and it is valid only for that particular transaction. No future verifications will be done using the same consent. If you don't wish to proceed, you can deny consent by not sharing the share code or by not entering the OTP to accept the consent form."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why is my mobile number not getting verified with Aadhaar?",
+    "answer": "Your mobile number might not be getting verified with Aadhaar due to the following reasons: Number Not Linked: Your mobile number is not registered with Aadhaar. Incorrect Details: The Aadhaar or mobile number entered is incorrect. Network Issues: Temporary connectivity problems with UIDAI servers. OTP Delay/Failure: The OTP was not received or expired before entry. UIDAI Restrictions: The Aadhaar system may be undergoing maintenance or your verification limit may have been exceeded. You can check if your number is linked to Aadhaar via UIDAI’s official portal or update it at an Aadhaar center."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Is my biometric (fingerprint / Face) is stored in Bajaj Finance system? ",
+    "answer": "No, Bajaj Finance does not store your biometric data used for e-KYC authentication. It is only used for real-time verification."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why my biometric captured in e-KYC?",
+    "answer": "According to UIDAI, both your Aadhaar number and biometric details (like fingerprints or face recognition) are mandatory requirements to perform e-KYC authentication."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Is Aadhaar e-KYC safe to use?",
+    "answer": "Yes, Aadhaar e-KYC is safe to use. It is secure and encrypted, ensuring the protection of your personal information."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Can I do OTP based Aadhaar e-KYC if my mobile number is not linked to Aadhaar?",
+    "answer": "No, it’s mandatory to use a mobile number that is linked to your Aadhaar for OTP-based Aadhaar e-KYC."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I am unable to complete my e-KYC. What should I do next?",
+    "answer": "Your e-KYC may fail due to incorrect details, network issues, server downtime, or biometric mismatches. Please try again after some time or recheck- your Aadhaar details."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "The OTP sent to my Aadhaar-registered number is invalid or expired. What should I do?",
+    "answer": "Simply click on the Re-send OTP button and try again."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "My name, DOB, mobile number, or address in my Aadhaar doesn't match with Bajaj Finance records. Can I update it?",
+    "answer": "Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I cannot complete my Aadhaar e-KYC because the authentication service is down. How long will it take to resolve?",
+    "answer": "Please try again after some time. Aadhaar authentication is provided by UIDAI, and the issue should be resolved shortly."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Update name",
+    "answer": "Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I rectify my incorrect name mentioned in your records?",
+    "answer": "Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How do I stop receiving promotional calls from Bajaj Finance Limited?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I track the status of my Do Not Call service request?",
+    "answer": "You can track the status of your service request by visiting the Do Not Call service section. Here is how you can go about this: 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Click on the 'Service Request Number' 3. Check the status of your request"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How long will it take to process my Do Not Call service request?",
+    "answer": "We try our best to process your Do Not Call (DNC) request at the earliest. The standard time taken to process a DNC service request is 2 business days."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What should I do if I receive promotional calls within 48 hours of raising a Do Not Call service request?",
+    "answer": "We will try to process your request and update your details in our DNC database at the earliest. However, if you still receive a promotional call while your request is under process, you can provide the details of the calls, including the phone numbers that you received these calls from, by following these steps: 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Click on the 'Service Request Number' and click on 'Add more’ 3. Share details like the phone number(s) or product(s) for which you received promotional call 4. After sharing details, click on 'Submit'"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Can I restrict all unwanted promotional calls?",
+    "answer": "You can also register your phone number with the 'National Do Not Disturb Registry' to stop unsolicited commercial communications. This will help you limit telemarketing calls for product offers and promotions across all companies in India. Here is how you can proceed with registration for the National Customer Preference Register (NCPR) Do Not Disturb service: 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Click on 'Register' in the ‘National Do Not Disturb registry’ section 3. You will be redirected to the TRAI website to register your preference(s) in the National Customer Preference Register"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What happen when I register for Do Not Call service?",
+    "answer": "Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "The customer is already registered and is requesting to be registered again.",
+    "answer": "You have already registered for the Do Not Call (DNC) service. There is no need for any further action at this moment."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I want to activate DND",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "why I am still getting pormotional call",
+    "answer": "While care is taken that you receive no promotional calls after your DNC service request is processed, you can chat with us and share details about the issue. Please follow these steps to request for a call-back: 1. Go to the 'Menu' and click on  'Do not call service' option 2. Click on 'Chat With Us' in the 'Still receiving promotional calls?' option 3. Type your query to get answer or click on 'Get Help' to begin the journey 4. Click on your service request to check the details,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why I am still getting promotional calls",
+    "answer": "While care is taken that you receive no promotional calls after your DNC service request is processed, you can chat with us and share details about the issue. Please follow these steps to request for a call-back: 1. Go to the 'Menu' and click on  'Do not call service' option 2. Click on 'Chat With Us' in the 'Still receiving promotional calls?' option 3. Type your query to get answer or click on 'Get Help' to begin the journey 4. Click on your service request to check the details"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Stop promotional calls or SMS on my number",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What should I do if I am still getting calls",
+    "answer": "Please click on the 'Get Help'  button below if you are still getting unwanted calls or SMS from Bajaj Finance Limited. CTA Label: Get Help, Android CTA Link:bajajsuperapp://doNotCall/callgethelp, iOS CTA Link:bajajsuperapp://doNotCall/callgethelp, Web CTA link:https://www.bajajfinserv.in/3in1web/Dnc/get-help,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop unsolicited calls and SMS",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is the 'Get Help' for Do Not Call service and how can I use it?",
+    "answer": "The 'Get Help' service allows you to report issues related to unsolicited calls you have received about specific products. To initiate a request, follow these steps: 1. Select products: Choose the products you receive calls for. Make sure to select all relevant products to address your issue accurately. 2. Provide mobile numbers: You can include up to three mobile numbers from which you received the calls. This helps us identify the sources of the calls. 3. Describe your query: In the description box, include specific details about your issue, such as the nature of the calls, dates received, and any other relevant information. 4. After filling all the details, click on 'Submit' to process your request. CTA Label: Get Help, Android CTA Link:bajajsuperapp://doNotCall/callgethelp, iOS CTA Link:bajajsuperapp://doNotCall/callgethelp, Web CTA link:https://www.bajajfinserv.in/3in1web/Dnc/get-help,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I track the status of my 'Get Help' service request?",
+    "answer": "To track the status of your 'Get Help' service request, please follow these simple steps: 1. Go to 'Menu' and select the 'Help and Support' option 2. Click on the 'Request History' 3. Select the 'Do Not Call' tab 4. Check the status of your request in front of the 'Service Request Number'. CTA Label: Request History, Android CTA Link:bajajsuperapp://helpsupport/viewall, iOS CTA Link:bajajsuperapp://helpsupport/viewall, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?Source=RAR,"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How long will it take to process my 'Get Help' service request?",
+    "answer": "We try our best to process your 'Get Help' request at the earliest. The standard time taken to process a 'Get Help' service request is 7 - 14 business days."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I deactivate the Do Not Call service?",
+    "answer": "Condition1: If DNC_Flag is VIP then answer: Once you register your mobile number for the Do Not Call service, you cannot de-register from it. Condition2: If DNC_Flag is Non VIP then answer: If you wish to receive phone calls and SMS about our offerings, please deactivate the ‘Do Not Call’ service by following these steps: 1. Go to 'Menu' and select the 'Do Not Call Service' option 2. Click on 'Deactivate' to complete the Do Not Call service deactivation 3. Click on 'Continue'"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How long will it take to process my Do Not Call deactivation request?",
+    "answer": "Condition1: If DNC_Flag is VIP then answer: Once you register your mobile number for the Do Not Call service, you cannot de-register from it. Condition2: If DNC_Flag is Non VIP then answer: We try our best to process your Do Not Call (DNC) deactivation request at the earliest. The standard time taken to process a DNC service request is 2 business days."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Will I receive pre-approved offers after deactivating the DNC service?",
+    "answer": "Condition1: If DNC_Flag is VIP then answer: Once you register your mobile number for the Do Not Call service, you cannot de-register from it. Condition2: If DNC_Flag is Non VIP then answer: Yes, once the Do Not Call service is deactivated, you may receive pre-approved offers based on your eligibility, as your number will be eligible for promotional communications."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What is an MPIN",
+    "answer": "An MPIN, or Mobile Banking Personal Identification Number, is a 4-digit passcode created during registration to secure your banking app. It ensures convenient logins and authenticates transactions, reducing fraud risks. Sharing your MPIN could lead to unauthorized access and financial losses, so keep it confidential at all times.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How to reset Mpin?",
+    "answer": "If you want to reset your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I enter the incorrect MPIN?",
+    "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the ‘Forgot MPIN’ option on your app screen and follow the instructions to reset it.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Why is setting MPIN important?",
+    "answer": "To improve security, MPIN provides an additional layer of protection beyond just using a password, reducing the risk of unauthorized access. Anyone with the Bajaj Finserv App can set MPIN as their 2FA method to strengthen their security against cyber threats and unauthorized access. It is mandatory to set an MPIN after successfully signing up with SIM card authentication for new installations and updates.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What is 2FA (Two-Factor Authentication)?",
+    "answer": "2FA stands for Two-Factor Authentication. It is a security process that requires two methods of verification to access an account.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How is the app MPIN different from the UPI PIN?",
+    "answer": "To set up your MPIN , please follow these steps: 1. Open Bajaj Finserv App 2.After Signup, Enter your 4-digit desired MPIN (choose a strong combination) 3. Re-enter your 4-digit desired MPIN 4. Choose a security question for future verification 5. Answer the security question 6. Click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "When will I need to use the MPIN?",
+    "answer": "You will be required to use the MPIN in the following circumstances: - Once activated, you will be prompted to enter your MPIN on every signup on Bajaj Finserv App. - If you don't have biometrics enabled for app login, you will be prompted to enter MPIN on every login",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What should I keep in mind while setting MPIN, and are there any criteria?",
+    "answer": "While setting up your 4-digit MPIN, you can consider choosing a code that is easier for you to remember, but difficult for anyone else to guess. Please ensure that your MPIN is not shared with anyone (not even a Bajaj Finance Limited employee), and do not write it down anywhere. It is also a good practice to keep changing your MPIN from time to time, to keep fraudsters at bay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I enter the incorrect MPIN?  ",
+    "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the ‘Forgot MPIN’ option on your app screen and follow the instructions to reset it.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I forget my MPIN?",
+    "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Click on 'Forgot MPIN?' 2. Answer the security question (you will get only 3 attempts to answer) 3. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 4. Click on 'Confirm' In case you answer the security question incorrectly then, please follow this process: 1. Click on 'Try Another Method' 2. Choose 'PAN' as your mode of authentication 3. Enter your PAN details 4. Click on 'Confirm' and repeat the steps shared above to reset MPIN",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I change my security question?",
+    "answer": "To change your security question, please follow these steps: 1. Open App and Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset Security Question' 4. Enter the OTP received on your registered mobile number 5. Choose a security question 6. Answer the security question and click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I forget my MPIN? (If Already logged in with Biometric)",
+    "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I need to make corrections in my address.",
+    "answer": "To update your address, please follow these simple steps: Go to the 'Saved Address' section,Click 'Edit' next to the address you want to update,Follow the steps to update your address. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Address_Update, IOS CTA link:bajajsuperapp://profile/Address_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "KYC Details",
+    "question": "Where can I view my KYC details?",
+    "answer": "Your KYC details can be viewed on the profile details page. Please follow the link below. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I want to update my PAN details.",
+    "answer": "To update your PAN card number, please follow the below-given steps: 1. Go to 'edit profile' from the main menu 2. Click on 'Edit' in the line of your existing PAN card and read the disclaimer carefully 3. Enter your PAN number and click on 'Verify'. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/PAN_Update , IOS CTA link:bajajsuperapp://profile/PAN_Update , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How to delete PAN number?",
+    "answer": "you can not delete a pan number . If your pan number is worng you can update it. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/PAN_Update , IOS CTA link:bajajsuperapp://profile/PAN_Update , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I update PAN?",
+    "answer": "To update your PAN card number, please follow the below-given steps: 1. Go to 'edit profile' from the main menu 2. Click on 'Edit' in the line of your existing PAN card and read the disclaimer carefully 3. Enter your PAN number and click on 'Verify'. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/PAN_Update , IOS CTA link:bajajsuperapp://profile/PAN_Update , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I need to change my Date of Birth.",
+    "answer": "To update your date of birth, simply follow these steps: Go to the 'Personal Information' section,Click 'Edit' next to your date of birth,Follow the steps to update your DOB. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/DOB_Update, IOS CTA link:bajajsuperapp://profile/DOB_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "KYC Details",
+    "question": "How can I perform Re-KYC?",
+    "answer": "You can perform Re-KYC by visiting the profile details page. Follow the link below to proceed. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile Details",
+    "question": "Where can I see my profile details?",
+    "answer": "You can view your profile details on the profile details page. Click on the link below to access it. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I want to update my residential address.",
+    "answer": "To update your address, please follow these simple steps: Go to the 'Saved Address' section,Click 'Edit' next to the address you want to update,Follow the steps to update your address. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Address_Update, IOS CTA link:bajajsuperapp://profile/Address_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How do I update my email ID?",
+    "answer": "To update your Email id, please follow these steps: Go to the 'Profile Section', Click on Edit' in front  of email id and  follow steps to update your email id.Validate your details through OTP. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Email_Update, IOS CTA link:bajajsuperapp://profile/Email_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How much time does it take to update my Profile Details related Changes?",
+    "answer": "It takes around 48 Hours to reflect the profile related changes after submitting the request."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I update my Mobile Number?",
+    "answer": "To change your mobile number, navigate to the profile details page. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "My PAN details are incorrect; how can I change it?",
+    "answer": "To update your PAN card number, please follow the below-given steps: 1. Go to 'edit profile' from the main menu 2. Click on 'Edit' in the line of your existing PAN card and read the disclaimer carefully 3. Enter your PAN number and click on 'Verify'. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/PAN_Update , IOS CTA link:bajajsuperapp://profile/PAN_Update , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Wrong email ID is shown in app, what shoudl I do?",
+    "answer": "To update your Email id, please follow these steps: Go to the 'Profile Section', Click on Edit' in front  of email id and  follow steps to update your email id.Validate your details through OTP. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Email_Update, IOS CTA link:bajajsuperapp://profile/Email_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is my mobile number?",
+    "answer": "You can view your profile details on the profile details page. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is my PAN number?",
+    "answer": "You can view your profile details on the profile details page. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is my email address?",
+    "answer": "You can view your profile details on the profile details page. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is my DOB (Date of Birth)?",
+    "answer": "You can view your profile details on the profile details page. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is my address?",
+    "answer": "You can view your profile details on the profile details page. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Wrong PAN number updated",
+    "answer": "To update your PAN card number, please follow the below-given steps: 1. Go to 'edit profile' from the main menu 2. Click on 'Edit' in the line of your existing PAN card and read the disclaimer carefully 3. Enter your PAN number and click on 'Verify'. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/PAN_Update , IOS CTA link:bajajsuperapp://profile/PAN_Update , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is PAN number?",
+    "answer": "PAN (Permanent Account Number) is a 10-digit identification number assigned to all taxpayers in India. Example: AAAPZ1234C"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "My Date of Birth is incorrect, I need to change my Date of Birth.",
+    "answer": "To update your date of birth, simply follow these steps: Go to the 'Personal Information' section,Click 'Edit' next to your date of birth,Follow the steps to update your DOB. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/DOB_Update, IOS CTA link:bajajsuperapp://profile/DOB_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "E mandate update",
+    "answer": "You can change the Mandate bank by visiting the Mandate management page. CTA label: Mandate management, Android CTA Link: bajajsuperapp://documenation/mandatemanagement , IOS CTA Link: bajajsuperapp://documenation/mandatemanagement"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Change my bank account",
+    "answer": "You can change the Mandate bank by visiting the Mandate management page. CTA label: Mandate management, Android CTA Link: bajajsuperapp://documenation/mandatemanagement , IOS CTA Link: bajajsuperapp://documenation/mandatemanagement"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Bank account change",
+    "answer": "You can change the Mandate bank by visiting the Mandate management page. CTA label: Mandate management, Android CTA Link: bajajsuperapp://documenation/mandatemanagement , IOS CTA Link: bajajsuperapp://documenation/mandatemanagement"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I want to delete my account",
+    "answer": "Please raise a request for account deletion. CTA label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How to delete my account",
+    "answer": "Please raise a request for account deletion. CTA label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "My loan details",
+    "answer": "To view your loan account details, please visit the Your Relations page and select your active loan with us. CTA label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan , IOS CTA Link: bajajsuperapp://relations/loan , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How to complete KYC?",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Account' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Account section."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What steps should I take to complete Re KYC",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Account' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Account section."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Re KYC steps",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Account' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Account section."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What should I do if I've completed my KYC but it's not reflecting on the app?",
+    "answer": "To check the status of your request, if it shows as successfully closed but is not reflected in the app, please try logging out and logging back into the app. However, if the request hasn't been successfully closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What should I do if I've completed my Re KYC but it's not reflecting on the app?",
+    "answer": "To check the status of your request, if it shows as successfully closed but is not reflected in the app, please try logging out and logging back into the app. However, if the request hasn't been successfully closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why does the app keep telling me to complete KYC even though I've already done it?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. If unsuccessful, you may need to complete the KYC process again. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How to update KYC?",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Account' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Account section."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "When will I get my kyc updated?",
+    "answer": "After the successful closure of your service request, your KYC information will be updated within 24-48 hours. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How much time will it take to update KYC after completing the process?",
+    "answer": "After the successful closure of your service request, your KYC information will be updated within 24-48 hours. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is Aadhaar e-KYC consent?",
+    "answer": "Aadhaar e-KYC consent is the permission given by the Aadhaar card holder or, in the case of a child, it is the permission of parent or guardian obtained before performing the e-KYC authentication service provided by Unique Identification Authority Of India."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What are the documents required to complete an individual’s KYC?",
+    "answer": "Individuals (including beneficial owner/ authorised signatory/ Power of Attorney holder) need to provide the following documents to complete KYC: 1. One recent Photograph 2. PAN or Form 60 if PAN is not allotted 3. Certified copy of one of the Officially Valid Documents (OVDs) listed below: - Valid Passport - Voter’s ID card issued by the Election Commission - Valid Driving License - Proof of possession of Aadhaar Number (i.e. Aadhaar letter downloaded from UIDAI website, Aadhaar card) - Job Card issued by NREGA duly signed by an officer of the State Government - Letter issued by the National Population Register containing details of Name and address of the customer* First 8 digits of the Aadhaar No. (on copy of Aadhaar Letter/Aadhaar Card obtained), must be redacted or blackened, and it should not be legible."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Which additional proof of address can I submit for the current address if my current address is not updated in the officially valid document (OVD) submitted?",
+    "answer": "In case the officially valid documents (OVD) submitted do not have your current address, you can provide the following documents; these are accepted as deemed to be officially valid documents (DOVD). Please keep in mind that this is for the purpose of Proof of Address only: - Utility bill (in your name and not more than two months old) such as electricity, telephone, post-paid mobile connection, water, piped gas - Property or municipal tax receipt - Pension or family Pension Payment Orders (PPOs) issued to retired employees by Government Departments or Public-Sector Undertakings (PSUs) only if they contain the address - Letter of allotment of accommodation from employer issued by the state government or central government departments, statutory or regulatory bodies, Public Sector Undertakings (PSUs), scheduled commercial banks, financial institutions, and listed companies. Leave and License Agreements with such employers allotting official accommodation Important: If you are providing DOVD for the current address, you must provide an OVD mentioning the current address within three months of submitting the DOVD."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What documents can I provide as 'Proof of Identity' and 'Proof of Address'?",
+    "answer": "As per the Government of India regulations, the following documents are accepted as Proof of identity: - Passport - Voter ID card - PAN card - Aadhaar card - Driving license - NREGA (National Rural Employment Guarantee Act) card Proof of address: - Aadhaar card - Passport - Voter ID card - Driving license - Job card issued by NREGA - Letter issued by the National Population Register containing details of name and address"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is KYC?",
+    "answer": "KYC stands for Know Your Customer. It is the process of identifying and verifying the identity of the customer through independent and reliance source of documents, data or information. "
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Arrange a call with customer care",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please call me",
+    "answer": "As a virtual agent, I am unable to make calls. I can provide resolutions to your queries via text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial transactions and Actions",
+    "question": "Ask your agent to call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want customer care number.",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is meant by DigiLocker?",
+    "answer": "DigiLocker is a Ministry of Electronics and Information Technology (MeitY) flagship initiative launched as part of the Digital India Programme. DigiLocker is a secure document repository created for the use of Indian citizens and businesses to store and retrieve important documents along with KYC verification. It eliminates the need for individuals to carry physical copies of their documents and provides a secure platform to store and access them."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is e-KYC and how does it work?",
+    "answer": "The term e-KYC means electronic KYC, which can be done by an Aadhaar holder. While availing of this service, you have to authorise the Unique Identification Authority of India (UIDAI) to share your identity and address through biometric authentication with the entity requesting the information. The data shared includes your name, age, gender, address, date of birth and photograph. The information provided is treated as an 'Officially Valid Document' for KYC verification."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "When will my KYC get updated post submitting documents?",
+    "answer": "Your KYC will get updated upon successful verification of your documents."
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What is my KYC status ?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. After your service request is successfully closed, your KYC information will be updated within 24-48 hours. However, if the request hasn't been closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why my KYC is pending even after completion of KYC journey?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. After your service request is successfully closed, your KYC information will be updated within 24-48 hours. However, if the request hasn't been closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why is there problem in KYC update journey ?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. After your service request is successfully closed, your KYC information will be updated within 24-48 hours. However, if the request hasn't been closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "What are the accepted identification documents for Verification.",
+    "answer": "You need to submit the clear pictures of any of the below given documents as a proof for verification:Voter ID,Passport,Driving License,NREGA Job Card Aadhar Card (in PDF Format with complete Date of Birth mentioned). CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General Queries",
+    "question": "What is Bajaj Prime?",
+    "answer": "Bajaj Prime offers an exclusive membership program through which you get rewarded with cashbacks for payments and purchases on your favourite brands. With Bajaj Prime you can enjoy access to a diverse array of welcome benefits, including free subscriptions, deals on popular OTT platforms and offers on a variety of brands across multiple categories.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What are the benefits of Bajaj Prime membership?",
+    "answer": "Bajaj Prime member shall get the following exclusive benefits:- Rs. 1,000 Cashback upon in-store purchases made after availing finance facility using Bajaj Finserv EMI Network Card within 90 days of availing Bajaj Prime Membership. 5% Cashback on Bill payments using Bajaj Pay UPI Free & Discounted Subscriptions worth Rs. 1,200- 5% Cashback on PVR movie tickets, Zomato, and Ajio orders using Bajaj Pay UPI Discounted vouchers for 50+ Brands Note: Rewards can be redeemed in accordance with the Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What are the available payment options for availing Bajaj Prime Membership?",
+    "answer": "You can use the following payment modes to avail Bajaj Prime membership:- UPI Credit card - Debit card - Net banking",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What happens if the payment is deducted, but the Bajaj Prime subscription remains pending?",
+    "answer": "In most cases, the issue regarding the pending payments gets resolved within 48 hours. You may raise a service request with us if the payment is still pending. Please follow these simple steps to :-1. Go to the ‘Main Menu’ and click on 'Help and Support' 2. Click on 'New Request' and select the relation 3. Select your 'Query type' and 'Sub-query type', then click on 'Proceed' 4. Share details about your query and attach the supporting documents (if required) 5. Click on 'Submit'  Once you have submitted your request, you will receive a 'Service Request Number', which will help you track your request.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What happens if the payment is deducted, but the transaction is unsuccessful for Bajaj Prime subscription?",
+    "answer": "If your payment fails and funds are deducted from your bank account or credit card, there is no need to worry about the safety of your money. Usually, your bank will refund the amount within 3 to 5 business days.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "How do I earn cashback as a Bajaj Prime member?",
+    "answer": "As a Bajaj Prime member, you will be rewarded with cashback for making the following transactions:- Earn 5% Cashback by paying utility bills (electricity, mobile postpaid, mobile prepaid, DTH, broadband postpaid, piped gas, LPG gas cylinder, and Fastag). Earn 5% Cashback on movie ticket bookings through the PVR app (once a month). Earn 5% Cashback on Zomato, and Ajio app (only for the first three orders in a month). Earn Rs. 1,000 cashback on in-store EMI transactions at 15+ Brands till 90 days from purchase of Bajaj Prime.Please note: The cashback shall be rewarded only when the above transactions are carried out using Bajaj Pay UPI as a payment mode, subject to Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Cancel my BAJAJ PRIME Membership",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Once purchased, can I cancel my Bajaj Prime Membership?",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General Queries",
+    "question": "What is Bajaj Prime?",
+    "answer": "Bajaj Prime offers an exclusive membership program through which you get rewarded with cashbacks for payments and purchases on your favourite brands. With Bajaj Prime you can enjoy access to a diverse array of welcome benefits, including free subscriptions, deals on popular OTT platforms and offers on a variety of brands across multiple categories.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What are the benefits of Bajaj Prime membership?",
+    "answer": "Bajaj Prime member shall get the following exclusive benefits:- Rs. 1,000 Cashback upon in-store purchases made after availing finance facility using Bajaj Finserv EMI Network Card within 90 days of availing Bajaj Prime Membership. 5% Cashback on Bill payments using Bajaj Pay UPI Free & Discounted Subscriptions worth Rs. 1,200- 5% Cashback on PVR movie tickets, Zomato, and Ajio orders using Bajaj Pay UPI Discounted vouchers for 50+ Brands Note: Rewards can be redeemed in accordance with the Bajaj Prime Terms and Conditions.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "How can I become a Bajaj Prime member?",
+    "answer": "Please follow the steps to become a Bajaj Prime member:- 1. Click on the bajaj prime section 2. Click on 'Join Bajaj Prime' button 3. View your membership plan and click on 'Make Payment' 4. Select a suitable payment method to complete the payment After successful payment, your Bajaj Prime membership will be activated.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What are the available payment options for availing Bajaj Prime Membership?",
+    "answer": "You can use the following payment modes to avail Bajaj Prime membership:- UPI Credit card - Debit card - Net banking",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What happens if the payment is deducted, but the Bajaj Prime subscription remains pending?",
+    "answer": "In most cases, the issue regarding the pending payments gets resolved within 48 hours. You may raise a service request with us if the payment is still pending. Please follow these simple steps to :-1. Go to the ‘Main Menu’ and click on 'Help and Support' 2. Click on 'New Request' and select the relation 3. Select your 'Query type' and 'Sub-query type', then click on 'Proceed' 4. Share details about your query and attach the supporting documents (if required) 5. Click on 'Submit'  Once you have submitted your request, you will receive a 'Service Request Number', which will help you track your request.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What happens if the payment is deducted, but the transaction is unsuccessful for Bajaj Prime subscription?",
+    "answer": "If your payment fails and funds are deducted from your bank account or credit card, there is no need to worry about the safety of your money. Usually, your bank will refund the amount within 3 to 5 business days.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "How do I earn cashback as a Bajaj Prime member?",
+    "answer": "As a Bajaj Prime member, you will be rewarded with cashback for making the following transactions:- Earn 5% Cashback by paying utility bills (electricity, mobile postpaid, mobile prepaid, DTH, broadband postpaid, piped gas, LPG gas cylinder, and Fastag). Earn 5% Cashback on movie ticket bookings through the PVR app (once a month). Earn 5% Cashback on Zomato, and Ajio app (only for the first three orders in a month). Earn Rs. 1,000 cashback on in-store EMI transactions at 15+ Brands till 90 days from purchase of Bajaj Prime.Please note: The cashback shall be rewarded only when the above transactions are carried out using Bajaj Pay UPI as a payment mode, subject to Bajaj Prime Terms and Conditions.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Cancel my BAJAJ PRIME Membership",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Once purchased, can I cancel my Bajaj Prime Membership?",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "How can I complete my V-KYC process?",
+    "answer": "You can raise a request with us for Video KYC (V‑KYC) by clicking on the button below. You will receive a callback within 2 working days. Alternatively, you can also visit your nearest Bajaj Finance branch to complete the KYC process in person., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Video KYC",
+    "answer": "You can raise a request with us for Video KYC (V‑KYC) by clicking on the button below. You will receive a callback within 2 working days. Alternatively, you can also visit your nearest Bajaj Finance branch to complete the KYC process in person., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Transaction Related",
+    "question": "Why is my CIBIL score incorrectly mentioned in your records?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Transaction Related",
+    "question": "Why did my CIBIL report show details of a loan I haven't applied for?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Application related",
+    "question": "I want to update my address details",
+    "answer": "To update your address, please follow these simple steps: Go to the 'Saved Address' section, Click 'Edit' next to the address you want to update, Follow the steps to update your address. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/Address_Update, IOS CTA Link: bajajsuperapp://profile/Address_Update, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Application related",
+    "question": "I want to update my name details",
+    "answer": "Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Authentication",
+    "question": "How can I set up M-PIN on my App?",
+    "answer": "To set up your 'M-PIN', go to Menu, select 'Settings', tap on 'Security Setting', then choose 'Reset/Forget M-PIN' and update your M-PIN.",
+  "chatbot-flag": "Yes"
+  },
+   {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Authentication",
+    "question": "How can I set up a Face ID on my App?",
+    "answer": "To set up your 'Face ID', go to Menu, select 'Settings', tap on 'Security Setting', then choose 'Enable Biometrics' and update your Face ID.",
+  "chatbot-flag": "Yes"
+  },
+   {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Authentication",
+    "question": "How can I set up Fingerprint Authentication on my App?",
+    "answer": "To set up your Fingerprint Authentication, please follow these steps:- Go to 'Menu'  select 'Settings', tap on 'Security Setting update your fingerprint. Device fingerprint will be registered through a consent checkbox on the App.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why can't I see my personal details even after being an existing Bajaj Finance Ltd. customer?",
+    "answer": "This might be because you have not transacted with us. Hence, your personal details are yet not updated on the App. To update your personal details, please follow these steps:- Go to the 'Profile Section'- Click on 'Edit'- Fill in details of your PAN, Bank account or EMI card- Validate your details through OTP, MPIN, Face ID or FingerprintTo proceed now by clicking on the button below., CTA Label: Profile details page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://www.bajajfinserv.in/MyAccountService/HelpAndSupport/FAQRedirect?ID=Profile",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I rectify the incorrect birthdate mentioned in your records?",
+    "answer": "To update your Date Of Birth (DOB), please follow these steps:  - Go to the Profile Section  - Click on Edit  - Fill in details of your PAN, Bank account or EMI Network card  - Upload your DOB proof document (Driving License/PAN/Passport). CTA label: Profile Page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop receiving repeated abusive calls?",
+    "answer": "I'm sorry to hear that agents are misbehaving with you, Please raise a request for assistance in this matter and our team will look into this on priority. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+  "chatbot-flag": "Yes"
+  }
+]

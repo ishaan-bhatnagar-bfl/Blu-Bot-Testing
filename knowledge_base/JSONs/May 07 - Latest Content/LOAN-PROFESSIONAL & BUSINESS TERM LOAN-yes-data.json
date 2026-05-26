@@ -1,0 +1,457 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to know how to calculate my EMI value.",
+    "answer": "<p>You can view your EPI (Equated Periodic Instalment (EPI)) calculation from EPI (Equated Periodic Instalment (EPI)) calculators page. CTA Label: EPI (EQUATED PERIODIC INSTALMENT (EPI)) calculator, Android CTA link: bajajsuperapp://trycalculator/emiApplicant, IOS CTA link: bajajsuperapp://trycalculator/emiApplicant, Web CTA link:https://www.bajajfinserv.in/EPI (Equated Periodic Instalment (EPI))-calculator</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want loan.",
+    "answer": "<p>You can apply for available loan product from our loan page. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link:https://www.bajajfinserv.in/personal-loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I make overdue payment",
+    "answer": "<p>You can make overdue payment from loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?Source=Loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to foreclose my loan",
+    "answer": "<p>You can foreclose loan from loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?Source=Loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I update my address details or PAN details in your record?",
+    "answer": "<p>Customer can update his personal details like PAN, address mobile or mobile email ID by visiting profile update page. CTA Label: Update profile, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Profile</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to Register for \"Do not call\" services and I do not want to receive any promotional call from Bajaj in future what can I do?",
+    "answer": "<p>You can opt for do not call services by visiting Do not Call page. CTA Label: Do Not Disturb, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, Web CTA link: https://www.bajajfinserv.in/myaccountlogin?source=DNC</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I make advance emi payment",
+    "answer": "You can make advance Instalment amount from your relation page. Please follow the steps below: 1. Go to 'Your relations' and select the loan account for which you wish to make the payment 2. Click on 'Advance Instalment' 3. click on 'Proceed To Payment' 5. Select your payment method and click on 'proceed'. CTA Label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to check nearby branches and branch timing",
+    "answer": "<p>You can check nearby branches and branch timing from Branch locator page. CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLBRN, IOS CTA link: bajajsuperapp://storeLocator/BFLBRN, Web CTA link:https://www.bajajfinserv.in/branch-locator</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I view my loan details and charges?",
+    "answer": "<p>You can view your loan details and charges from loan details page. CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?Source=Loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I view my statement of account (SOA)?",
+    "answer": "<p>You can view your Statement of Account from Document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have paid my EMI why I am still getting collection calls or Even after paying my dues collection agent is still calling me what should I do?",
+    "answer": "<p>For this issues you can raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have received legal notice from bajaj what should I do?",
+    "answer": "<p>For this issues you can raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why are multiple customer IDs showing in my account?",
+    "answer": "<p>For this issues you can raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why my loan details are not updated in CIBIL or why my loan details are incorret in CIBIL",
+    "answer": "<p>For this issues you can raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My closed loan is showing active in CIBIL",
+    "answer": "<p>For this issues you can raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have paid EMI but it is not updated in my loan statement",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, please allow up to 24 hours for the details to be updated in your Statement of Account. We kindly ask you to check your SOA after this time period. It's important to note that if you are making a payment within 5 days of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, the amount will be adjusted in the following month's EPI (EQUATED PERIODIC INSTALMENT (EPI)), not in the current month. We advise you to make advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments at least 5 days prior to your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date in order to see an impact on the current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)). Please ensure your account is sufficiently funded for the upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)). Note: Gold Loan users can pay the EMI amount anytime; EIP period(Equated Instalment Plan) condition doesn’t apply. If an early payment is made, the EMI due date will be updated and will reflect in the Statement of Account (SOA) once the payment is processed. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Paid EMI is not reflecting in loan statement even after 24 hours",
+    "answer": "<p>For this issue you can raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can I do shopping in bajaj app?",
+    "answer": "<p>You can visit &quot;Bajaj Mall&quot; to see variety of products and brands. CTA Label: Bajaj Mall, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in , IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in , Web CTA link:https:https://www.bajajmall.in</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to buy product on EMI or I want to buy products like mattress , mobile or electronics, equipments",
+    "answer": "<p>You can visit &quot;Bajaj Mall&quot; to see variety of products and brands. CTA Label: Bajaj Mall, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in , IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in , Web CTA link:https:https://www.bajajmall.in</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to see near by two wheeler stores",
+    "answer": "<p>Please visit our Store Locator page. Here you can find nearby Two wheerler stores. CTA Label: Store Locator, Android CTA link: bajajsuperapp://storeLocator/BFLTWH , IOS CTA link: bajajsuperapp://storeLocator/BFLTWH , Web CTA link:https://www.bajajfinserv.in/two-wheeler-loan-store-locator</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I see Bajaj collection centers near me",
+    "answer": "<p>To see bajaj service branches near you please visit Branch Loacator page. CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLCLC , IOS CTA link:bajajsuperapp://storeLocator/BFLCLC , Web CTA link: https://www.bajajfinserv.in/collection-center-locator</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to play games",
+    "answer": "<p>You can play games by visiting our games page. CTA Label: Games Page, Android CTA link: bajajsuperapp://ARVR/AR-Nod&amp;nbsp; n Win-SEARCH-https://bfl.brahmarsive.com/api/launchexp?code=rCa5SgbRIShcomWPrU4b__OdFtFf__GrTXAkXf0pYGjMAzFuvA2r6g==&amp;amp;expName=3in1ennw1,&amp;nbsp;&lt;/p&gt;&lt;p&gt;IOS CTA link:&amp;nbsp; bajajsuperapp://ARVR/AR-Nod&amp;nbsp; n Win-SEARCH-https://bfl.brahmarsive.com/api/launchexp?code=rCa5SgbRIShcomWPrU4b__OdFtFf__GrTXAkXf0pYGjMAzFuvA2r6g==&amp;amp;expName=3in1ennw10</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What can I do if I extra amount gets debited along with EMI amount",
+    "answer": "<p>We request you to raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to see my offers related to loan",
+    "answer": "<p>You can check offer on loan from offers page. CTA Label: Loan Offers, Android CTA link: bajajsuperapp://cardoffers/Loan Offers, IOS CTA link: bajajsuperapp://cardoffers/Loan Offers, Web CTA link: https://www.bajajfinserv.in/loan-offers</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I check my loan eligibility",
+    "answer": "<p>You can check your loan eligibility from loan eligibility calculator page. CTA Label: Eligibility calculator, Android CTA link: bajajsuperapp://trycalculator/, IOS CTA link: bajajsuperapp://trycalculator/, Web CTA link: https://bajajfinserv.in/blu/jid=pl&utm_Template=generic&platform=3in1app&flowId=3in1&utm_Template=generic&utm_source=ssotesting&utm_medium=dheeraj-eligibility-calculator</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to change my \"Do Not Call\" setting or I want to de register from Do not Call service",
+    "answer": "<p>Once you register your mobile number for Do Not Call you will not be able to avail any new loans, cards and other BFL products and services from Bajaj Finance Limited. Also you will not be able to de-register from our Do not call services</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Even after paying my dues collection agent is still calling me what should I do?",
+    "answer": "<p>It takes upto 2 days for your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment to reflect in your loan statement. If you still getting collection calls please raise a request by visiting &quot;Raise a Request&quot; page. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I am getting calls from collection agent or Debt management for loans which don’t belong to me, what should I do?",
+    "answer": "<p>Please raise a Request with us by visiting &quot;Raise a Request Page&quot;. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I am unable to redeem my next purchase voucher at brand outlet what should I do?",
+    "answer": "<p>We request you to raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why is my loan status still showing active after I've settled it?",
+    "answer": "It generally takes up to 7 business days for the closure of the loan account to reflect after the final payment has been made. If more than 7 days have passed, please raise a request by clicking on the link below. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have paid all my EMI, so why does my loan still show as active?",
+    "answer": "<p>We request you to raise a request with us. Please note raised request are resolved within 2 days. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My part payment not reflecting in loan statement.",
+    "answer": "<p>It takes up to 48 hours for the details to get updated in your Statement of Account. If loan statement is not updated even after 24 hours we request you to please raise a request. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My part payment not reflecting in loan statement even after 2 days",
+    "answer": "<p>It takes up to 48 hours for the details to get updated in your Statement of Account. If loan statement is not updated even after 24 hours we request you to please raise a request. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Late EMI payment charges (Bounce charges)",
+    "answer": "As per our internal policy, bounce charges are non-refundable. We recommend clearing your dues promptly to prevent any impact on your CIBIL score. Please ensure sufficient funds are maintained in your bank account to avoid such charges in the future."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My bank is not available on payments gateway",
+    "answer": "<p>We apologize for the inconvenience. We will forward your request to the appropriate team for resolution. In the meantime, we kindly ask you to proceed with your payment using one of the banks currently available on our payment gateway.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I am looking for a loan",
+    "answer": "<p>You can apply for available loan product from our loan page. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link:https://www.bajajfinserv.in/personal-loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my foreclosure letter",
+    "answer": "<p>You can visit document center to view your foreclosure letter. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my loan agreement copy",
+    "answer": "<p>You can visit document center to view your loan agreement copy. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my GST certificate",
+    "answer": "<p>You can visit document center to view your GST certificate. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my interest certificate",
+    "answer": "<p>You can visit document center to view your Interest certificate. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my No dues certificate",
+    "answer": "<p>You can visit document center to view your No dues certificate. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my welcome letter",
+    "answer": "<p>You can visit document center to view your Interest certificate. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Foreclosure charge",
+    "answer": "<p>Basis our internal policy, this charge cannot be waived off. We request you to refer your Agreement incase you have any doubt related to these charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Conveiniece charges",
+    "answer": "<p>Basis our internal policy, this charge cannot be waived off. We request you to refere your Agreement incase you have any doubt related to these charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of CTR (CIBIL Trans Union Charges)",
+    "answer": "<p>Basis our internal policy, this charge cannot be waived off. We request you to refer your Agreement incase you have any doubt related to these charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Part payment charges",
+    "answer": "<p>Basis our internal policy, this charge cannot be waived off. We request you to refere your Agreement incase you have any doubt related to these charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Stamp Duty",
+    "answer": "<p>Basis our internal policy, this charge cannot be waived off. We request you to refer your Agreement incase you have any doubt related to these charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I see my repayment schedule (RPS)?",
+    "answer": "<p>You can download the repayment schdule from document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my provisional interest certificate",
+    "answer": "<p>You can visit document center to view your provisional interest certificate. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can you provide information on checking my eligibility for a loan?",
+    "answer": "<p>You can check your&nbsp; loan eligibility from loan eligibility calculator page. CTA Label: Eligibility calculator, Android CTA link: bajajsuperapp://trycalculator/, IOS CTA link: bajajsuperapp://trycalculator/, Web CTA link: https://bajajfinserv.in/blu/jid=pl&utm_Template=generic&platform=3in1app&flowId=3in1&utm_Template=generic&utm_source=ssotesting&utm_medium=dheeraj-eligibility-calculator</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Please call me",
+    "answer": "<p>As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Urgent call me",
+    "answer": "<p>As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Ask your agent to call me",
+    "answer": "<p>As an virtual agent I can't ask any agent to call you. I can give resolution on your queries on text messages.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What is Annual Maintenance Charge?",
+    "answer": "<p>Annual Maintenance Charge (AMC) is a fee levied on flexi Loans on an annual basis. This flexi facility enables multiple withdrawals and/or repayments on your loan account from time to time within the overall sanctioned Limit.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "No Dues Certificate",
+    "answer": "<p>You can visit document center to view your No dues certificate. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Apply for new Loan",
+    "answer": "<p>You can apply for an available loan through our Loan Page. You can also simply give us a call at 7757-000-000 — we’ll be happy to assist you. CTA label: Apply for personal loan, Android CTA Link: bajajsuperapp://pdpx/PL__PDP , IOS CTA Link: bajajsuperapp://pdpx/PL__PDP , Web CTA : https://www.bajajfinserv.in/personal-loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Statement of Account for my Loan",
+    "answer": "<p>You can download Loan agreement, foreclosure letter, GST certificate, interest certificate, No dues certificate, provisional interest certificate, Re payment schedule, welcome letter or Statement of Account (SOA) from document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "EMI debited but not reflecting in loan statement",
+    "answer": "<p>Please allow up to 24 hours for your payment details to reflect in your Statement of Account. We appreciate your patience and encourage you to check your SOA after this period for the updated information.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Foreclosure charges for my loan",
+    "answer": "<p>To view the foreclosure charges applicable on your&nbsp; Loan please visit document center page. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link:</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I will complain to RBI",
+    "answer": "<p>We appologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I will raise this to RBI",
+    "answer": "<p>We appologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Bajaj is a fraud",
+    "answer": "<p>We appologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I maintain a good CIBIL score?",
+    "answer": "<p>Here are a few simple tips to maintain a good CIBIL score: - Pay your monthly instalments on time to build a good track record - Manage your credit card carefully, set payment reminders and limit your usage - Choose longer loan tenure carefully, try to make part-prepayments when you can</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Complaints And Dispute",
+    "question": "What should I do if I did not get my cashback or wants to know status of my cashback",
+    "answer": "<p>You can check reward details from rewards page. CTA Label: Rewards Page, Android CTA link: bajajsuperapp://rewards/cashback, IOS CTA link: bajajsuperapp://rewards/cashback, Web CTA link:https://www.bajajfinserv.in/webform/rewards/cashback-earned</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Professional & Business Term Loan",
+    "l3category": "Complaints And Dispute",
+    "question": "My loan details shown to me are incorrect",
+    "answer": "<p>In this case you are requested to refer your loan agreement for correct loan details, in case you still find any descripencies you can raise a request with us we will be happy to help you in this case. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>"
+  }
+]

@@ -1,0 +1,992 @@
+[
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "How to change incorrect details in Fixed deposit ?",
+        "answer": "To change in details to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fiancial transactions and Actions",
+        "question": "How can I remove do not call option?",
+        "answer": "Once you register your mobile number for Do Not Call you will not be able to avail any new loans, cards and other BFL products and services from Bajaj Finance Limited. Also you will not be able to de-register from our Do not call services",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "What is the interest rate offered by you on FD",
+        "answer": "To know the interest rate please click on below button. CTA Label: Apply FD, Android CTA link: bajajsuperapp://fd, IOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Newly introduced fixed deposits are valid till what date?",
+        "answer": "The newly introduced rates are valid till BFL decides to revise the rates basis company policy",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Please change the interest payout of this deposit to yearly mode",
+        "answer": "No, you can\u2019t change interest payout in ongoing FD. Option to choose interest payout is only at the time of booking",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Can I change interest payout option from at maturity to quarterly?",
+        "answer": "No, you can\u2019t change interest payout in ongoing FD. Option to choose interest payout is only at the time of booking",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "I wish to pre withdraw my FD",
+        "answer": "Please follow these steps to view details of your deposit: 1. Go to Your relations and select 'Deposits' 2. Click on the fixed deposit number for which you want to premature 3.Go to \u201cQuick Action \u201c section click on \u201cPremature Withdrawal\u201d. CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "I want to premature my FD",
+        "answer": "Please follow these steps to view details of your deposit: 1. Go to Your relations and select 'Deposits' 2. Click on the fixed deposit number for which you want to premature 3.Go to \u201cQuick Action \u201c section click on \u201cPremature Withdrawal\u201d. CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Show me the deposit details",
+        "answer": "Please follow these steps to view details of your deposit: 1. Go to Your relations and select 'Deposits' 2. Click on the fixed deposit number for which you want to premature 3.Go to \u201cQuick Action \u201c section click on \u201cPremature Withdrawal\u201d. CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "What is my invested/deposited amount in FD",
+        "answer": "Please follow these steps to view details of your deposit: 1. Go to Your relations and select 'Deposits' 2. Click on the fixed deposit number for which you want to premature 3.Go to \u201cQuick Action \u201c section click on \u201cPremature Withdrawal\u201d. CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "How to change maturity instructions in fd",
+        "answer": "No, you can\u2019t change maturity instruction in ongoing FD. Option to choose maturity instruction only at the time of booking",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "where is your nearest branch",
+        "answer": "You can check nearby branches and branch timing from Branch locator page. CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLBRN/FixedDeposits, IOS CTA link: bajajsuperapp://storeLocator/BFLBRN/FixedDeposits, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "How can I view my statement of FD?",
+        "answer": "You can view your Statement of Account from Document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "I want to make a Fixed deposit",
+        "answer": "You want to make a deposit please click on apply FD. CTA Label: Apply FD, Android CTA link: bajajsuperapp://fd, IOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Registered for Do Not call by mistake, please change my do not call option.",
+        "answer": "Once you register your mobile number for Do Not Call you will not be able to avail any new loans, cards and other BFL products and services from Bajaj Finance Limited. Also you will not be able to de-register from our Do not call services",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "I want to Register for Do not call services and I do not want to receive any promotional call from Bajaj in future what can I do?",
+        "answer": "You can opt for do not call services by visiting Do not Call page. CTA Label: Do Not Disturb, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, IOS CTA link: bajajsuperapp://openbrowser/  https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic , Web CTA link: https://www.bajajfinserv.in/myaccountlogin?source=DNC",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "I want to change my Do Not Call setting or I want to de register from Do not Call service",
+        "answer": "Once you register your mobile number for Do Not Call you will not be able to avail any new loans, cards and other BFL products and services from Bajaj Finance Limited. Also you will not be able to de-register from our Do not call services",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Arrange a call with customer care",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Urgent call me",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Arrange a call back",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Ask your agent to call me",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Where can I call you",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Fixed Deposit Details",
+        "question": "Where can I view my closed Bajaj Finance Fixed Deposit details?",
+        "answer": "You can view your closed fixed deposit details by following these simple steps:- 1. Go to Your Relations and select 'Deposits 2. Click on the filter icon and select 'Closed'Selecting this filter will display your closed Bajaj Finance Fixed Deposits., CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial transactions and Actions",
+        "question": "Please call me",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Rate of Interest",
+        "answer": " You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "My Maturity amount",
+        "answer": "If maturity_amount is available in customers data inform customer about his maturity_amount, if maturity_amount is not available in customer data then inform customer to visit Deposits relation page where he can check his deposits details. CTA label: Deposits details, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if I find incorrect details in my Fixed Deposit?",
+        "answer": "To change the fixed deposit details please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I check the application status for my Fixed Deposit?",
+        "answer": "To check the application status of fixed deposit please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I change the primary holder's name for my Fixed Deposit due to the death of the primary holder?",
+        "answer": "To change the primary holder name of fixed deposit please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I request a pre-mature withdrawal of my Fixed Deposit?",
+        "answer": "You can place a pre-mature withdrawal request of your fixed deposit from deposit details page under 'Things you can do' section. CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I close my Loan against Fixed Deposit?",
+        "answer": "To foreclose the loan against fixed deposit kindly make payment",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if I have a dispute regarding the loan charges of my Loan against Fixed Deposits?",
+        "answer": "If you have dispute regarding charges of your loan against fixed deposit kindly raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if I have a dispute regarding the interest rate of my Loan against Fixed Deposits?",
+        "answer": "If you have dispute regarding interest rate of your loan against fixed deposit kindly raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I calculate the interest rate of my Loan against Fixed Deposits?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What is the death claim process for a fixed deposit?",
+        "answer": "If a primary depositor passes away and there is no nominee or joint account holder for that fixed deposit, then the legal heir needs to submit the following documents:- An application for the deceased\u2019s claim (mandatory)\n- A certified copy of the death certificate (mandatory)\n- A succession certification or letter of administration or probate of the will (recommended but not mandatory)\n- An indemnity bond that is taken from the legal heir/representative (mandatory)",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if the details filled in Form 121 are incorrect?",
+        "answer": "If you find a details filled in Form 121 are incorrect, please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if I have filled Form 121 but my TDS still got deducted?",
+        "answer": "If you have filled Form 121 but still TDS got deducted, please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if there is a mismatch in Form 26 A/S and interest certificate?",
+        "answer": "If you find mismatch in Form 26 A/S and Interest certificate, please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I get the TDS break up?",
+        "answer": "To get a TDS break up please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "I want my TDS breakup",
+        "answer": "To get a TDS break up please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "My TDS breakup",
+        "answer": "To get a TDS break up please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if there is an incorrect TDS due to PAN mismatch?",
+        "answer": "For this TDS related issue due to PAN mismatch please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if I have not received the maturity amount or if the maturity amount is lesser than expected?",
+        "answer": "If you have issue related to maturity amount please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Why my received maturtity amount in less than expected?",
+        "answer": "If you have issue related to maturity amount please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Maturity amount less than expected.",
+        "answer": "If you have issue related to maturity amount please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if I have renewed my deposit by mistake?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if the interest amount for my deposit is not credited?",
+        "answer": "If interest amount for your deposit is not credited kindly raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do if there is a mismatch in the maturity amount?",
+        "answer": "If you feel there is mismatch in maturity amount please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I get a prefilled form 121?",
+        "answer": "To download the prefilled Form 121 please visit document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "What should I do in case of the death of the primary holder or depositor for a fixed deposit?",
+        "answer": "In case of death of primary account holder, please visit the nearest Bajaj Finserv Branch. CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLBRN/FixedDeposits, IOS CTA link: bajajsuperapp://storeLocator/BFLBRN/FixedDeposits, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to remove or cancel the nominee?",
+        "answer": "To remove or cancel the nominee kindly visit deposit details page. CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "I want to add nominee.",
+        "answer": "Yes, you can change the name of the nominee. However, the name of the co-applicant cannot be changed. To change the name of the nominee, Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number in which you wish to make the changes. Then click on “More Services,” select “Add Nominee,” enter the OTP sent to your registered mobile number, fill in the required details, and submit the request., CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD", 
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Nominee addition to my deposits",
+        "answer": "Yes, you can change the name of the nominee. However, the name of the co-applicant cannot be changed. To change the name of the nominee, Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number in which you wish to make the changes. Then click on “More Services,” select “Add Nominee,” enter the OTP sent to your registered mobile number, fill in the required details, and submit the request., CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to change the nominee or update the nominee details",
+        "answer": "Yes, you can change the name of the nominee. However, the name of the co-applicant cannot be changed. To change the name of the nominee, Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number in which you wish to make the changes. Then click on “More Services,” select “Add Nominee,” enter the OTP sent to your registered mobile number, fill in the required details, and submit the request., CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to check nominee update status",
+        "answer": "You can check the nominee update status from deposit details page. CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to change my address, name, Pan Number, or incorrect DOB details",
+        "answer": "To change your personal details kindly visit profile details page. CTA Label: Profile details page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://www.bajajfinserv.in/MyAccountService/HelpAndSupport/FAQRedirect?ID=Profile",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to download the provisional interest certificate",
+        "answer": "To download the provisional interest certificate please visit document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to download advice certificate or interest certificate",
+        "answer": "To download the advice or interest certificate please visit document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to download Statement of account",
+        "answer": "To download the statement of account please visit document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to download the TDS certificate",
+        "answer": "To get your TDS certificate for applicable loans, simply click the 'Raise a Request' button below. Service executive will contact you shortly to assist with the next steps. CTA label: Raise a Request , Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to get the foreclosure amount",
+        "answer": "To download the foreclosure letter please visit document center. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I foreclose the Loan against fixed deposit",
+        "answer": "To foreclose the loan against fixed deposit kindly make the foreclosure payment. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan ",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to check the status of form 121?",
+        "answer": "To check the status of Form 121 please visit the deposit details page. CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to get the prematurity amount",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to get prematurity amount calculation or premature closure interest rate",
+        "answer": "To know the prematurity amount and interest rate details please visit the deposit details page, CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "I want to apply for new FD i.e., open new account for FD",
+        "answer": "To apply for fixed deposit please click on apply FD button. CTA Label: Apply FD, Android CTA link: bajajsuperapp://fd, IOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How to premature my deposit",
+        "answer": "To premature the fixed deposit please visit the deposit details page. CTA Label: Deposit details page, Android CTA link: bajajsuperapp://relations/deposits, IOS CTA link: bajajsuperapp://relations/deposits, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I do Re-KYC for FD renewal",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I renew my fixed deposit",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I renew my fixed deposit with principal amount",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "how can I renew my deposit with same details",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I update the bank account details for fixed deposit",
+        "answer": "To update the FD bank details please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "My IFSC code is wrong what can I do.",
+        "answer": "To update the FD bank details please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I change my DND (Do Not Disturb) settings",
+        "answer": "You can change DND setting by visiting Do not call page. CTA Label: Do Not Disturb, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?, IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?source=DNC",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Financial Transactions And Actions",
+        "question": "How can I stop calls coming from Bajaj?",
+        "answer": "You can change DND setting by visiting Do not call page. CTA Label: Do Not Disturb, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?, IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?\nWeb CTA link:https://www.bajajfinserv.in/myaccountlogin?source=DNC",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I wants to know my application status for Fixed deposit ?",
+        "answer": "To know the status of application to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Joint Account holder Addition",
+        "question": "How can I view the details of my existing Bajaj Finance Fixed Deposit joint account holder?",
+        "answer": "Follow these steps to view details of your existing fixed deposit joint account holder:1. Go to Your Relations and select 'Deposits 2. Click on the fixed deposit number for which you wish to view details 3. Select 'Joint account holder details' under the relationship details sections., CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I get a copy of my TDS certificate?",
+        "answer": "<p>Please follow these steps to view or download the TDS certificate for your fixed deposits:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">Your Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download your TDS certificate</p>",
+    "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I check the monthly interest amount earned on my Bajaj Finance Fixed Deposit?",
+        "answer": "<p>To know about the monthly interest amount earned on your fixed deposit, please check your FD account statement by following these simple steps.</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">Your Relations</a>' and select 'Deposits'<br></p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download or share your statement of account</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I view or download my Bajaj Finance Fixed Deposit receipt?",
+        "answer": "<p>Please follow these steps to view or download your Bajaj Finance Fixed Deposit receipt:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">Your Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download or share your FDR</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Statements",
+        "question": "How can I view or download my Bajaj Finance Fixed Deposit statement of account?",
+        "answer": "<p>Please follow these steps to view or download the statement of account for your fixed deposits:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/deposits\">Your Relations</a>' and select 'Deposits'</p><p>2. Click on the fixed deposit number for which you wish to view details</p><p>3. Select 'View statements' to download or share your statement of account</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Submit TDS Waiver",
+        "question": "How do I know if a TDS waiver is applied to my fixed deposit?",
+        "answer": "<p>Once the TDS waiver application is received by us, you can check the status by visiting '<a href=\"bajajsuperapp://relations/deposits\">Your Relations</a>'. Then, select the fixed deposit for which you want to view the details and check your TDS waiver application status.</p>"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Maturity amount received is less than expected.",
+        "answer": "We request you to please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Kidly cancel my renewal instruction",
+        "answer": "We request you to please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Renewal instruction cancel",
+        "answer": "We request you to please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Cancel my auto Deposit renewal",
+        "answer": "We request you to please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Maturity amount received is less amount mentioned in FD receipt.",
+        "answer": "We request you to please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "Can I get money without withrawing my deposit?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": "I need money, what other options do I have other that pre mature withdrawal?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Premature Withdrawal",
+        "question": " Do I need to pay any tax on my Bajaj Finance Fixed Deposit interest amount?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I wants to change the primary holders name for fixed deposit due to the death of primary holder?",
+        "answer": "To change in details to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I wants to raise a pre-mature withdrawal request of Fixed deposit",
+        "answer": "for this issue related to pre-mature withdrawal request to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I wants to close my Loan against Fixed Deposit",
+        "answer": "for this issue related to close loan raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "How to dispute regarding loan charges of Loan against Fixed Deposits",
+        "answer": "for issue related dispute loan charges to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "How to dispute regarding the interest rate of Loan against Fixed Deposits:",
+        "answer": "for issue related dispute loan charges to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "How to calculate rate of interest of Loan against Fixed Deposits",
+        "answer": "for this issue raise a requests. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "related to death claim process for fixed deposit",
+        "answer": "This issue related to death claim to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I want to complains details filled in form 121 are incorrect",
+        "answer": "To complaint incorrect details fo this issue raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Details in my form 121 is incorrect",
+        "answer": "To complaint incorrect details fo this issue raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Details in my form 15 G are incorrect",
+        "answer": "To complaint incorrect details fo this issue raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I have filled form 121 but still my TDS got deducted, what should I do?",
+        "answer": "For this issue related to TDS deduction to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I have filled form 121 but still my TDS got deducted, what should I do ?",
+        "answer": "For this issue related to TDS deduction to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "there is mismatch in form 26 A/S and interest certificate ?",
+        "answer": "For this issue related to mismatch in form to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I need TDS break up ?",
+        "answer": "for this issue related to TDS break up to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "My TDS details are incorrect as PAN number in your records is incorrect ",
+        "answer": "For this issue related to incorrect details to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Incorrect TDS details as PAN number in your records is incorrect ",
+        "answer": "For this issue related to incorrect details to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I have complains that I have not got maturity amount and the maturity amount is lesser than expected",
+        "answer": "To complaint related to maturity amount to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "I have renewed deposit by mistake. I wants to know the status of my renewal?",
+        "answer": "To issue related renew deposit by mistake to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "My interest amount for deposit is not credited, what can I do ?",
+        "answer": "If your maturity date or prematurity date is on bank holiday, then your amount will be credited to your bank account in the next bank working day along with additional interest. If you still have issue related to deposit amount not credited, please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Deposit interest not credited to account.",
+        "answer": "If your maturity date or prematurity date is on bank holiday, then your amount will be credited to your bank account in the next bank working day along with additional interest. If you still have issue related to deposit amount not credited, please raise a request with us. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "My Fixed deposit details are incorrect, how to correct it ?",
+        "answer": "For this issue related to incorrect details to raise a request. CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLBRN/FixedDeposits, IOS CTA link: bajajsuperapp://storeLocator/BFLBRN/FixedDeposits, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "My maturity amount is mismatch ?",
+        "answer": "For this issue related to mismatch in maturity amount to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "How to get prefilled form 121?",
+        "answer": "For prefilled form to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Issues and complaints related to Fixed deposits",
+        "question": "Require prefilled form 121?",
+        "answer": "For prefilled form to raise a request. CTA Label: Raise A Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR&ep_source=chatbot",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "Fixed Deposit",
+        "l3category": "Nominee",
+        "question": "How can I view my Fixed Deposit nominee details?",
+        "answer": "<p>Please follow these steps to view your Fixed Deposit nominee details:</p><p>- Click on 'My Account' at the bottom right of the page<br></p><p>- Go to 'Your Relations'</p><p>- Click on 'FD LAN'</p><p>- Scroll down and click on 'Nominee' to view details</p><p>To proceed now, please <a href=\"bajajsuperapp://relations/deposits\">click here</a>.</p>",
+        "chatbot-flag": "yes"
+    },
+    {
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Transaction Related",
+    "question": "Why is my CIBIL score incorrectly mentioned in your records?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Transaction Related",
+    "question": "Why did my CIBIL report show details of a loan I haven't applied for?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Fixed Deposit Details",
+    "question": "When and how can I get my Bajaj Finance Fixed Deposit maturity amount?",
+    "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+  },
+  {
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Transaction Related",
+    "question": "When and how can I get the interest amount earned on my Bajaj Finance Fixed Deposit?",
+    "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+  },
+  {
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Transaction Related",
+    "question": "Which documents do I need to renew my Bajaj Finance Fixed Deposit (FD)?",
+    "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+  },
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to submit an FD TDS waiver request",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to apply for an FD TDS waiver.",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to fill out Form 121",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my Form 121 to submit TDS waiver?",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Apply TDS waiver",
+    "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. Once submitted, you will receive a UIN acknowledgment via SMS."
+},
+{
+    "l1category": "Deposits",
+    "l2category": "Fixed Deposit",
+    "l3category": "Submit TDS Waiver",
+    "question": "How can I check my eligibility for submitting Form 121?",
+    "answer": "<p>You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA link: bajajsuperapp://fd, iOS CTA link: bajajsuperapp://fd, Web CTA link: https://www.bajajfinserv.in/investments/fixed-deposit"
+}
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What is my Bajaj Finance Two Wheeler Loan EMI due date?",
+    "answer": "<p>To know your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, please go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your Loan Account Number (LAN) and check the loan information consisting of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "How can I know the status of my Bajaj Finance Two Wheeler Loan EMI deduction?",
+    "answer": "<p>To see the status of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) deduction, please go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your Loan Account Number (LAN). Alternatively, you can download your Statement of Account from the 'Document Centre'.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "How can I change my Bajaj Finance Two Wheeler Loan EMI due date?",
+    "answer": "<p>We regret to inform you that, at present, we do not have an option that allows you to change your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "How much is my Bajaj Finance Two Wheeler Loan EMI, and what is the pending EMI amount?",
+    "answer": "<p>To know your EPI (EQUATED PERIODIC INSTALMENT (EPI))-related details, please go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your Loan Account Number (LAN).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What should I do if my Bajaj Finance Two Wheeler Loan EMI is not deducted on its due date?",
+    "answer": "<p>We present the mandate to deduct the EPI (EQUATED PERIODIC INSTALMENT (EPI)) from your registered bank account on the due date. However, there could be a delay in processing the same by your bank. Hence, we request that you maintain a sufficient balance in your registered bank account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "Why can't I see the details of deducted Bajaj Finance Two Wheeler Loan EMIs in my Statement of Account (SOA)?",
+    "answer": "<p>It takes approximately 2 business days for your deducted EPI (EQUATED PERIODIC INSTALMENT (EPI)) to be adjusted to your loan account. Post this, you can download your statement of account by visiting the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' and selecting your Loan Account Number (LAN).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What should I do if I made an EMI payment 2 days ago for a Bajaj Finance Two Wheeler Loan, but the amount still needs to be reflected in my Statement of Account (SOA)?",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your statement of account.<br />However, if you are still unable to check the updated details, then please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "How can I know my Bajaj Finance Two Wheeler Loan balance EMI amount?",
+    "answer": "<p>To know your EPI (EQUATED PERIODIC INSTALMENT (EPI))-related details, please go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your Loan Account Number (LAN). Alternatively, you can download your statement of account by visiting the 'Document Centre'.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What should I do if I find that my Bajaj Finance Two Wheeler Loan EMI amount is incorrectly mentioned in 'My Relations'?",
+    "answer": "<p>We apologise for the inconvenience caused. Please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us and we will get back to you shortly.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "How can I get a refund of my Bajaj Finance Two Wheeler Loan EMI?",
+    "answer": "<p>It takes up to 7 business days for the refund to get processed. However, if you are still unable to get a refund, then please raise a request with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "How can I make an advance EMI payment for the Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>To make an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment for the Bajaj Finance Two Wheeler Loan, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account </p><p>2. Click on 'Make Payments'</p><p>3. Choose 'Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) Payment' as your payment option</p><p>4. Enter the required details and proceed to pay</p><p>Alternatively, you can also go to the 'Loan Payments' to make your advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What should I do if I have an overdue two wheeler loan EMI with a penal fee?",
+    "answer": "<p>You can clear your overdue amount by following these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account </p><p>2. Click on 'Make Payments'</p><p>3. Choose 'Missed EMIs/Other Overdues' as your payment option</p><p>4. Enter the required details and proceed to pay</p><p>If you are overdue on more than a single loan, you can select multiple loan accounts for making payments in one go.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What are the charges applicable for bounced and overdue payments for the Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>To check the charges applicable for your bounced and overdue payments, please follow these steps and download your loan agreement:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account </p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the 'Loan Agreement'</p><p>To know about overdue and bounced charges now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "EMI Related",
+    "question": "What is a bounce fee for Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>Bounce fees are charges that are levied when you miss any EPI (EQUATED PERIODIC INSTALMENT (EPI)) due to insufficient balance in your bank account. If your bank returns the EPI (EQUATED PERIODIC INSTALMENT (EPI)) presented against your account, you must pay a bounce fee.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Application related",
+    "question": "What is the maximum amount I can get on my Bajaj Finserv Two Wheeler Loan?",
+    "answer": "<p>Bajaj Finance Limited offers two-wheeler loan in the range of Rs. 35,000 to Rs. 21,00,000 (inclusive of insurance premium, VAS charges, documentation charges, and processing fees). However, your actual loan amount depends on your eligibility.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Application related",
+    "question": "What is the minimum and maximum tenure of a Bajaj Finserv Two Wheeler Loan?",
+    "answer": "<p>Bajaj Finance Limited offers flexible tenures on your two-wheeler loan, ranging from 12 to 60 months.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Application related",
+    "question": "Can I get a Bajaj Finance Two Wheeler Loan even if I do not have proof of income?",
+    "answer": "<p>Yes, you can avail of a loan however, it is subject to the sole discretion of Bajaj Finance Ltd. with eligibility criteria like:</p><p>- You should be a resident of India</p><p>- You should be above 18 years of age</p><p>- You should have ID proof and address proof of the location where you want to take the loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Application related",
+    "question": "How much down payment is required to apply for a Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>The downpayment amount will depend on the approved loan amount and the vehicle selected by you.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Collection related (Debt Management)",
+    "question": "Why am I receiving EMI re-payment calls for the Bajaj Finance Two Wheeler Loan when my payment is updated in the statement of account (SOA)?",
+    "answer": "<p>We apologise for the inconvenience. If your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment is updated and you are still getting calls, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Collection related (Debt Management)",
+    "question": "Why am I receiving calls after making payment of my outstanding dues for a Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>You may have some outstanding overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges. Kindly check your 'Statement of Account' and make payments towards your overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges, if any. To avoid calls in the future, kindly make your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment on time.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Eligibility related",
+    "question": "Can I get 100% finance for buying a vehicle with Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>If you are an existing Bajaj Finserv customer, you can avail of up to 100% funding of the vehicle’s on-road price when applying for a two-wheeler loan. If you are a new Bajaj Finserv customer, you can avail of a funding of up to 90%.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Eligibility related",
+    "question": "Do I need a guarantor to apply for a Two Wheeler Loan with Bajaj Finance Limited?",
+    "answer": "<p>No, you do not need a guarantor to apply for a Two Wheeler loan with Bajaj Finance Limited. However, you can apply for the loan with a co-applicant.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Eligibility related",
+    "question": "How do I know if I am eligible for a Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>Based on our internal parameters, Bajaj Finance Limited will carry out an assessment to check your loan eligibility based on some criteria like:</p><p>- You should be a resident of India</p><p>- You should be above 18 years of age</p><p>- You should have ID proof and address proof of the location where you want to take the loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Eligibility related",
+    "question": "What are the age criteria to apply for a Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>The applicant's minimum age while applying for the Bajaj Finance Two Wheeler Loan must be at least 18 years. The maximum age should not exceed 65 years at the time of loan application for an individual applicant or co-applicants.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Fees and charges",
+    "question": "Do I need to pay the bounce fee for Bajaj Finance Two Wheeler Loan every month?",
+    "answer": "<p>You do not need to pay the bounce fee every month. This fee will be charged only if you fail to pay your EPI (EQUATED PERIODIC INSTALMENT (EPI)) on time.<br /></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Fees and charges",
+    "question": "Can I get a Bajaj Finance Two Wheeler Loan for an Electric Vehicle (EV)?",
+    "answer": "<p>Yes, you can get a loan, but only to buy a Regional Transport Office (RTO) registered EV.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "General Info",
+    "question": "What interest rates must I pay for the Bajaj Finance Two Wheeler Loans?",
+    "answer": "<p>The annualised rate of interest will depend on the vehicle and the EPI (EQUATED PERIODIC INSTALMENT (EPI)) plan selected by you at the time of loan booking.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "General Info",
+    "question": "What payment modes does Bajaj Finance Limited accept for a downpayment?",
+    "answer": "<p>You can pay by cash or card (such as Debit Card, Credit Card, etc.) at the time of product delivery (Payment by card depends on the availability of an EDC machine with the seller/dealer).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "General Info",
+    "question": "Whom should I contact for my two wheeler vehicle Registration Certificate (RC)?",
+    "answer": "<p>Vehicle Registration Certificate (RC) issuance is a state-specific process that the respective RTO office issues to the registered vehicle owner after registration. The process of RC issuance may vary as per state-specific rules. You may request further guidance from the dealership from where you purchased the vehicle for the respective RTO office process.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Payment or Foreclosure",
+    "question": "Why is my loan status showing as 'Active' when I have foreclosed my Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>After paying the foreclosure amount, it takes up to 24 hours for the amount to reflect in your statement of account (SOA).<br />However, if you still cannot see the updated loan details, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Payment or Foreclosure",
+    "question": "When can I foreclose my Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>You can foreclose a Bajaj Finance Two Wheeler Loan at any time after clearing your first EPI (EQUATED PERIODIC INSTALMENT (EPI)). However, this can vary on a loan basis and will be applicable as per the loan agreement.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Payment or Foreclosure",
+    "question": "How can I generate my Bajaj Finance Two Wheeler Loan foreclosure letter?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finance Two Wheeler Loan foreclosure letter:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Foreclosure Letter' to download it</p><p>Please note that the foreclosure letter will be valid 7 days after being generated. After 7 business days, you have to download a fresh foreclosure letter.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Payment or Foreclosure",
+    "question": "  When can I make a part-prepayment towards my Bajaj Finance Two Wheeler Loan?",
+    "answer": "Certain conditions apply when making a part-prepayment on your existing loan: it can only be made after the first instalment (EPI) is successfully cleared, the part-prepayment amount must exceed the first instalment, and charges apply for all part-prepayments except on Flexi Loans. To proceed, please click the ‘Make Payment’ button below. CTA label: Make Payment, Android CTA link: bajajsuperapp://relations/loan , IOS CTA link: bajajsuperapp://relations/loan , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Payment or Foreclosure",
+    "question": "Are there any charges applicable for making a part-prepayment towards my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Yes, you have to pay additional charges when you make a part-prepayment towards your two-wheeler loan after clearing your 1st EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p><p>Please <a href=\"bajajsuperapp://relations/loan\">click here</a> to view part-prepayment-related details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Statements",
+    "question": "How can I get my No Dues Certificate (NDC) for a Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finance Two Wheeler Loan no dues certificate (NDC):</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from the main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'No Dues Certificate' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finance Two Wheeler Loan statement of account (SOA)?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finance Two Wheeler Loan statement of account:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Statement of Account' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finance Two Wheeler Loan repayment schedule?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finance Two Wheeler Loan repayment schedule:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Repayment Schedule' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Statements",
+    "question": "How can I get the No Objection Certificate (NOC) to remove hypothecation from the registration certificate (RC) for the Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>Your NOC is valid for 90 days from the date of its issuance. You must submit the NOC to the respective RTO within the validity period to remove Bajaj Finance Limited hypothecation from your registration certificate (RC).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Statements",
+    "question": "What is the validity of my No Objection Certificate (NOC) for the Bajaj Finance Two Wheeler Loan?",
+    "answer": "<p>Your No Objection Certificate (NOC) validity for the Bajaj Finance Two Wheeler Loan is 90 days.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Two Wheeler Loan",
+    "l3category": "Statements",
+    "question": "How can I get a duplicate No Objection Certificate (NOC) for my Bajaj Finance Two Wheeler Loan in case my original NOC expires or it gets misplaced?\t",
+    "answer": "If you require a duplicate No Objection Certificate (NOC), please raise a request with us, and our team will assist you further. CTA label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  }
+]

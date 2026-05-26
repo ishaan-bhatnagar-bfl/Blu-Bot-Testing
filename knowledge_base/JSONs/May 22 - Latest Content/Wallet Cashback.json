@@ -1,0 +1,205 @@
+[
+    {
+        "l1category": "Wallets",
+        "l2category": "Cashback",
+        "l3category": "Cashback generic",
+        "question": "How can i talk to a customer care executive",
+        "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+      "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "How to create Wallet UPI ID?",
+      "answer": "<p>To create your wallet UPI ID, please follow these steps:</p><p>1. Click on '<a href=\"bajajsuperapp://initBajajPay/0\">Wallet</a>' under 'Bajaj Pay'</p><p>2. Click on 'Activate Now'</p><p>3. Select the 'SIM Card' linked to your Bajaj Pay wallet and click on 'Proceed'</p><p>4. Your wallet UPI ID will be generated within a few seconds</p><p>Alternatively, you can also:</p><p>1. Click on the 'Settings' on the Wallet Homescreen</p><p>2. Click on \u2018Link Bajaj Pay Wallet with UPI\u2019</p><p>3. Select the 'SIM Card' linked to your Bajaj Pay wallet and click on 'Proceed'</p><p>4. Your wallet UPI ID will be generated within a few seconds</p>",
+      "chatbot-flag": "Yes"
+  },
+    {
+      "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "How can I update my mobile number?",
+      "answer": "To change or Update mobile number, request you to click on Menu button on Home Page, go to Profile and click on Personal Information. Click Edit option beside Mobile number and continue with shown procedures and submit.",
+      "chatbot-flag": "yes"
+    },
+    {
+      "l1category": "Wallets",
+     "l2category": "Cashback",
+     "l3category": "Bank Transfer generic",
+     "question": "Who has done this payment as I have not done any such transaction?",
+     "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+     "chatbot-flag": "yes"
+     },
+    {
+      "l1category": "Wallets",
+     "l2category": "Cashback",
+     "l3category": "Bank Transfer generic",
+     "question": "Why did my payment failed",
+     "answer": "We regret to inform you that the failure can happen due to various issues like network issue, insufficient balance etc., request you select the transaction from passbook and then start Chat with us to get exact details.",
+     "chatbot-flag": "yes"
+    },
+    {
+      "l1category": "Wallets",
+     "l2category": "Cashback",
+     "l3category": "Bank Transfer generic",
+     "question": "Why should I wait for 48 hours for RAR resolution",
+     "answer": "This time is taken to validate the issue so that we can assist you with the best possible resolution. Request you to wait",
+     "chatbot-flag": "yes"
+    },
+    
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "I suspect that someone else is using my account to make transactions without my consent. What should I do?",
+      "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+      "chatbot-flag": "yes"
+    },
+    {
+     "l1category": "Wallets",
+    "l2category": "Cashback",
+    "l3category": "Cashback generic",
+    "question": "I want to report a fraud.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+    },
+    {
+     "l1category": "Wallets",
+    "l2category": "Cashback",
+    "l3category": "Cashback generic",
+    "question": "I have not done this payment/transaction.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on \"Report a fraud\" in the Help & Support section",
+    "chatbot-flag": "yes"
+    },
+    
+    {
+    "l1category": "Wallets",
+    "l2category": "Cashback",
+    "l3category": "Cashback generic",
+    "question": "Call me its urgent",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "How can I contact customer support for a UPI transaction issue?",
+      "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+      "chatbot-flag": "yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "Why should I raise a request?",
+      "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours",
+      "chatbot-flag": "yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "How much time you take to resolve a query if I raise a request with you",
+      "answer": "If you are raising a request with us, our representative will reply to you within 48 hours.",
+      "chatbot-flag": "yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "What will be the resolution provided if I will raise a request with you",
+      "answer": "Our representative will get the details validated and will help you with the correct and complete details.",
+      "chatbot-flag": "yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "Why should I raise a request when I am already conversing over the chat with you",
+      "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours",
+      "chatbot-flag": "yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "What If I didn't got the resolution post TAT",
+      "answer": "Please be assured, our representative will help you with the correct and complete details available with us.",
+      "chatbot-flag": "yes"
+    },
+    {
+         "l1category": "Wallets",
+        "l2category": "Cashback",
+        "l3category": "Cashback generic",
+        "question": "Ask your agent to call me.",
+        "answer": "As an virtual agent I am unable to make/arragne calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    
+    {
+         "l1category": "Wallets",
+        "l2category": "Cashback",
+        "l3category": "Cashback generic",
+        "question": "Please share customer executive mobile number",
+       "answer": "As an virtual agent I am unable to make calls or share mobile number of our service agents, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us.CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+    },
+    {
+         "l1category": "Wallets",
+        "l2category": "Cashback",
+        "l3category": "Cashback generic",
+        "question": "I am not getting proper resolution, please call me",
+        "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+    },
+    {
+    "l1category": "Wallets",
+    "l2category": "Cashback",
+    "l3category": "Cashback generic",
+    "question": "Please ask your agent to call me.",
+    "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+    },
+    {
+      "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "Unable to use Wallet from your app",
+      "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+      "chatbot-flag": "Yes"
+    },
+    {
+      "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "I am unable to use Wallet",
+      "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+      "chatbot-flag": "Yes"
+    },
+    {
+      "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "Getting error message while paying bill from wallet",
+      "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+      "chatbot-flag": "Yes"
+    },
+    {
+      "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "Unable to use wallet for bill payments",
+      "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+      "chatbot-flag": "Yes"
+    },
+    {
+       "l1category": "Wallets",
+      "l2category": "Cashback",
+      "l3category": "Cashback generic",
+      "question": "I have not received my resolution please arrange a call back",
+     "answer": "As an virtual agent I am unable to make calls, I can give resolution on your queries on text messages.Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+    }
+    ]

@@ -1,0 +1,434 @@
+[
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "How can i talk to a customer care executive",
+    "answer": "As a virtual agent I am unable to make calls, I can give resolution on your queries on text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I apply for a new EMI card?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What is the process for obtaining a Bajaj EMI card?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "My EMI card isn’t active—how do I activate or unblock it?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Why does my EMI card not have a CVV, and how can I use it for online purchases?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Why isn’t my EMI payment getting updated even though I paid?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How can I verify if my advance EMI payment was successful?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What should I do if I’ve made an advance EMI payment but the balance isn’t updated?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I check if my recent EMI payment has been processed?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How can I view my EMI statement and find out how many EMIs are left?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What is my current EMI amount and remaining loan balance?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "When is my next EMI due, and how do I check the payment date?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I access my overall loan statement and payment history?",
+    "answer": "If you are concerned about the Bajaj Finserv EMI Related queries, you can select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I check the status of my loan disbursement or closure?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my personal loan application still pending approval?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How can I request a loan top-up or term loan top-up?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I update my account details or change the linked bank account for EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I get assistance if my loan amount or EMI status isn’t updated after payment?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I set up or cancel auto-pay for my EMI payments?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How can I change or reschedule my EMI repayment date?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What happens if I want to pay my EMI in advance—how is my schedule adjusted?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I close my EMI auto-debit (autopay) setup?",
+    "answer": "A UPI mandate cannot be revoked by user if it is Loan or insurance related, for this you need to contact the biller/merchant directly. If the merchant is Bajaj, request you to click on the menu button below and select relevant option to get resolution. If bill payment related autopay, you can revoke directly by going UPI settings by clicking UPI under Homepage and then clicking on revoke Autopay post selecting the relevant Autopay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What is the minimum or maximum loan amount I can apply for?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What is the process to obtain a no-due certificate after closing my loan?",
+    "answer": "For any Loan related query, please help to select Loan option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Can I transfer funds from my EMI card to my bank account or digital wallet?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I use my EMI card for UPI transactions?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Why is my EMI card balance not reflecting in my bank account after a transfer?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How do I transfer money from my EMI card to pay someone else’s dues?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "What charges and fees apply to my first EMI card transaction?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I unable to use my EMI card for online shopping or at partner stores?",
+    "answer": "For any EMI Card Related query, please help to select card option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "How can I check my available credit limit and overall credit health?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Issues and Grievances",
+    "question": "Why am I being charged processing fees or AMC charges on my loan?",
+    "answer": "For any Loan/Card related query, please help to select the relevant option from Menu button in bottom left of the screen.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Bank Transfer generic",
+    "question": "Who has done this payment as I have not done any such transaction?",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on 'Report a fraud' in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Bank Transfer generic",
+    "question": "Why did my payment failed",
+    "answer": "We regret to inform you that the failure has happened due to network issue, request you to retry after sometime. If you are still facing issue, we request you to raise a request with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Bank Transfer generic",
+    "question": "Why should I wait for 48 hours for RAR resolution",
+    "answer": "This time is taken to validate the issue so that we can assist you with the best possible resolution. Request you to wait",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "I suspect that someone else is using my account to make transactions without my consent. What should I do?",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on 'Report a fraud' in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "I want to report a fraud.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on 'Report a fraud' in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "I have not done this payment/transaction.",
+    "answer": "We take all fraud reporting very seriously and ensure prompt handling for all such cases. Request you to reset and change all your PINs and Passwords immediately. No executive from Bajaj Pay will ever ask for OTP or any PIN/Passwords. Request you to ensure that you do not disclose any such sensitive information to anyone. Please access the Passbook section in the App or Website and select the Transaction and click on 'Report a fraud' in the Help & Support section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Call me its urgent",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "How can I contact customer support for a UPI transaction issue?",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Why should I raise a request?",
+    "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "How much time you take to resolve a query if I raise a request with you",
+    "answer": "If you are raising a request with us, our representative will reply to you within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "What will be the resolution provided if I will raise a request with you",
+    "answer": "Our representative will get the details validated and will help you with the correct and complete details.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Why should I raise a request when I am already conversing over the chat with you",
+    "answer": "You are requested to raise a request if you have not received a satisfactory resolution from chat, with this option, our representative will respond to you within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "What If I didn't got the resolution post TAT",
+    "answer": "Please be assured, our representative will help you with the correct and complete details available with us.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Ask your agent to call me.",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Please share customer executive mobile number",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "I am not getting proper resolution, please call me",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Please ask your agent to call me.",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Unable to use Wallet from your app",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "I am unable to use Wallet",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Getting error message while paying bill from wallet",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "Unable to use wallet for bill payments",
+    "answer": "I understand that you're experiencing an error when trying to use your wallet for payment. Please follow the steps provided.Go to phone settings Click on Application Select the app and clear cache If required, uninstall and reinstall the app. Try after sometime, if the issue persists, raise a request with us, including details about the error message you received. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Wallets",
+    "l2category": "Online Merchant",
+    "l3category": "Online Merchant generic",
+    "question": "I have not received my resolution please arrange a call back",
+    "answer": "As a virtual agent, I am unable to make calls. However, I can assist you with your queries via text messages. Please let me know how I can help you! You can also raise a request with us. CTA Label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR.",
+    "chatbot-flag": "Yes"
+  }
+]

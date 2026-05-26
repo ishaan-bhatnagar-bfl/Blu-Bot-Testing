@@ -1,0 +1,1835 @@
+[
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "What is Form 121?",
+        "answer": "Your Form 121 comes pre-filled for your convenience, making the process even more simpler.View your Form 121 for your Systematic Deposit Plan by selecting the relevant Deposit Number displayed on your screen.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What is an MPIN",
+        "answer": "An MPIN, or Mobile Banking Personal Identification Number, is a 4-digit passcode created during registration to secure your banking app. It ensures convenient logins and authenticates transactions, reducing fraud risks. Sharing your MPIN could lead to unauthorized access and financial losses, so keep it confidential at all times.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the highest FD rate available for senior citizens?",
+        "answer": "To check the highest FD rates for senior citizens, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the highest FD rate available for non-senior citizens?",
+        "answer": "To check the highest FD rates for non-senior citizens, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the minimum deposit amount for an FD?",
+        "answer": "You can start investing in a Bajaj Finance Fixed Deposit with a minimum amount of Rs. 15,000. For more details,simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the maximum deposit amount for an FD?",
+        "answer": "You can invest up to ₹3 crore in a single Fixed Deposit (FD). For more details,simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Which FD tenure offers the highest interest rate?",
+        "answer": "To find out which FD tenure offers the highest interest rate, simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the FD rate for non-senior citizens for 1 year?",
+        "answer": "To check latest FD rates, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "WWhat is the FD rate for senior citizens for 2 years?",
+        "answer": "To check latest FD rates, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the FD rate for non-senior citizens for 4 years?",
+        "answer": "To check latest FD rates, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the FD interest rate for Minors, HUFs, and Sole Proprietors?",
+        "answer": "To check latest FD rates, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "WWhat is the highest FD rate available for NRIs?",
+        "answer": "To check the highest FD rates, simply click the link below to visit the Fixed Deposit page. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the compounding frequency for FD?",
+        "answer": "In cumulative Fixed Deposits (FDs), interest is compounded quarterly.",
+        "chatbot-flag": "Yes"
+    },
+     {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is premature withdrawal allowed?",
+        "answer": "Yes, You can Pre-mature your Fixed Deposit after 3 months, if needed.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I book an FD online?",
+        "answer": "Yes, you can book an FD online by visiting the Fixed Deposit page through the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Will I receive a receipt for my FD?",
+        "answer": "Yes, once your FD booking is successful, you will receive a digital Fixed Deposit Receipt (FDR) for your records.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I nominate someone for my FD?",
+        "answer": "Yes, you can easily add or update a nominee either while booking your FD or even after it's been booked.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I renew my FD after maturity?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What payout options are available for FD?",
+        "answer": "You can choose between Cumulative and Non-Cumulative payout options like Monthly, Quarterly, Half-Yearly, and Yearly.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is PAN mandatory for FD booking?",
+        "answer": "Yes, it is mandatory to provide your PAN when booking a Fixed Deposit.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What documents are needed to open an FD?",
+        "answer": "You will need basic KYC documents such as PAN, Aadhaar, and a valid bank account to open a Fixed Deposit.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Will TDS be deducted on FD interest?",
+        "answer": "Yes, TDS is applicable if annual interest exceeds ₹50,000 (₹1,00,000 for seniors) for banks and ₹10,000 for NBFC",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I take a loan against my FD?",
+        "answer": "Yes, you can avail a loan against your Fixed Deposit, subject to the applicable terms and conditions.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is a cumulative FD?",
+        "answer": "A cumulative FD pays interest at the time of maturity, with interest compounded quarterly and reinvested. For more details,simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is a non-cumulative FD?",
+        "answer": "A non-cumulative FD pays out interest at regular intervals monthly, quarterly, half-yearly, or annually. For more details,simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the minimum tenure for booking an FD?",
+        "answer": "The minimum tenure to book an FD is 12 months. To know more, simply click the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the maximum tenure for an FD?",
+        "answer": "The maximum tenure to book an FD is 60 months. To know more, Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are FD rates fixed or can they change after booking?",
+        "answer": "FD rates are fixed for the entire tenure once the FD is booked.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is there any benefit for booking FD through app or website?",
+        "answer": "Yes, booking through our platform is convenient and fast.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I add a joint holder to my FD?",
+        "answer": "Yes, you can add a joint holder while booking the FD.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How can I check my FD status?",
+        "answer": "To check your FD status. Simply click on the link below. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I book multiple FDs?",
+        "answer": "Yes, there is no limit on the number of FDs you can book.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the interest rate for HUF for 2-year tenure?",
+        "answer": "To check the latest rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the interest rate for Minors for 3-year tenure?",
+        "answer": "To check the latest rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the interest rate for Sole Proprietor for 18-month tenure?",
+        "answer": "To check the latest rates. Simply click on the link below. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are there any special FD schemes for women?",
+        "answer": "Currently, no gender-based FD schemes are available. All customers earn interest based on their age and tenure.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I open an FD in my child’s name?",
+        "answer": "Yes, FDs can be opened in the name of a minor, with a guardian managing the account.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is the FD receipt shared over email?",
+        "answer": "Yes, a digital Fixed Deposit Receipt (FDR) is sent to your registered email ID.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can senior citizens invest jointly with non-seniors?",
+        "answer": "Yes, but the interest rate will be based on the age of the primary account holder.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is there any nomination fee?",
+        "answer": "No, nomination is free of cost.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How to close an FD?",
+        "answer": "FD account can be closed only after 3 months from activation.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is FD safe to invest in?",
+        "answer": "Yes, Fixed Deposits are a low-risk investment with guaranteed returns.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the FD interest rate for a 10-year tenure?",
+        "answer": "Currently, we offer FD investments only up to 5 years tenure. To know more, simply click the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can NRIs invest jointly with residents?",
+        "answer": "No, NRIs can invest in Fixed Deposits only as per NRO account guidelines.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I transfer my FD to another person?",
+        "answer": "No, Fixed Deposits are non-transferable.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I pause and resume my FD?",
+        "answer": "No, once booked, an FD cannot be paused during its tenure.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What happens if I forget to renew my FD?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I download my FD interest certificate?",
+        "answer": "Yes, you can download your interest certificate through the app or website. Simply click the link below. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Will I get a physical FD receipt?",
+        "answer": "No, only digital Fixed Deposit Receipts (FDRs) are issued.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What are the payout dates in non-cumulative FD?",
+        "answer": "Payouts are made on fixed calendar intervals such as the end of the month, quarter, etc.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What’s the difference between NRO FD and normal FD?",
+        "answer": "NRO FDs are for NRIs with Indian income, whereas normal FDs are for resident individuals.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is FD tax-free?",
+        "answer": "No, the interest earned on FD is taxable as per your income tax slab.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I open FD without Aadhaar?",
+        "answer": "Aadhaar card is mandatory as part of the KYC process for booking an FD.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I book FD using net banking?",
+        "answer": "Yes, you can easily book an FD using net banking.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Will I get reminders before FD maturity?",
+        "answer": "Yes, you will receive maturity alerts via SMS and  registered email id with us.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I convert a non-cumulative FD into cumulative?",
+        "answer": "No, FDs cannot be modified once booked.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the benefit of cumulative FD over non-cumulative?",
+        "answer": "Cumulative FDs earn more because interest is compounded and no payouts are made periodically.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How can I update my bank account linked to FD?",
+        "answer": "You can update your bank account details by clicking the link below. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What happens if I die during FD tenure?",
+        "answer": "The FD  will be transferred to the nominee or legal heir as per regulations.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the process to change mobile number in FD records?",
+        "answer": "You can update your mobile number through our app or web. Simply click on the link below. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can partnership firms open FDs?",
+        "answer": "Yes, partnership firms can open FDs using a valid business PAN.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the FD rate for partnership firms?",
+        "answer": "Partnership firms receive the same interest rate as non-senior individual depositors.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I have multiple FDs with different tenures?",
+        "answer": "Yes, you can have multiple FDs across various tenures.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is TDS applicable for NRIs?",
+        "answer": "Yes, TDS is applicable as per the rules for NRO Fixed Deposits.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Where can I see my FD portfolio?",
+        "answer": "Log in to the app or website > Go to “My Account” > Select “Deposits.Simply click on the link below. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I invest in FD every month?",
+        "answer": "Yes, you can open a fixed deposit every month or even every day, depending on your preference.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I open an FD in the name of a minor?",
+        "answer": "Yes, FDs can be opened in a minor’s name with a guardian. Interest rates are the same as for regular non-senior depositors.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can HUFs invest in fixed deposits?",
+        "answer": "Yes, Hindu Undivided Families (HUFs) can invest in FDs at the same rate as regular depositors.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can Sole Proprietorship firms invest in FD?",
+        "answer": "Yes, Sole Proprietorships can invest in FDs. The interest rate is the same as for non-senior citizens. (Refer to the applicable FD rate table.) Simply  click the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the FD interest rate for 33 months?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I get monthly interest payout on FD?",
+        "answer": "Yes, with the non-cumulative FD option, you can choose to receive interest on a monthly basis. Please refer to the non-cumulative rate column for applicable interest rates. Simply  click the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the quarterly payout interest rate for 24-60 months tenure for senior citizens?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the minimum deposit amount required to open an FD?",
+        "answer": "The minimum amount required to open a Fixed Deposit is ₹15,000. Deposits below this amount are not eligible.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can NRIs invest in FDs?",
+        "answer": "Yes, NRIs can invest in Fixed Deposits through NRO accounts. To check the latest interest you can earn, Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are the FD rates same across all channels?",
+        "answer": "Yes, the FD rates are the same whether you book through the app, web, or branch. To know more, simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the half-yearly interest payout for 18 months FD for non-senior citizens?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I open multiple FDs at once?",
+        "answer": "Yes, you can open multiple Fixed Deposits with different tenures and interest payout options based on your preferences.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How is interest calculated in a cumulative FD?",
+        "answer": "In a cumulative FD, interest is compounded quarterly and paid at maturity.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How is interest paid in a non-cumulative FD?",
+        "answer": "In a non-cumulative FD, interest is paid periodically—monthly, quarterly, half-yearly, or annually—depending on the option you choose.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are FD interest earnings taxable?",
+        "answer": "Yes, the interest earned from FDs is taxable as per your applicable income tax slab. TDS is deducted if interest crosses the prescribed limit.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I add a nominee to my FD?",
+        "answer": "Yes, you can change the name of the nominee. However, the name of the co-applicant cannot be changed. To change the name of the nominee, Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number in which you wish to make the changes. Then click on “More Services,” select “Add Nominee,” enter the OTP sent to your registered mobile number, fill in the required details, and submit the request., CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is auto-renewal available for FDs?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What are the senior citizen FD benefits?",
+        "answer": "To check the features and benefits of our Fixed Deposit, simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the interest rate for 22 months FD?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What are the modes of FD interest payout?",
+        "answer": "You can choose to receive interest Monthly, Quarterly, Half-Yearly, Annually (for Non-Cumulative FDs), or at Maturity (for Cumulative FDs).",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How can I check FD rates?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I open an FD without visiting the branch?",
+        "answer": "Yes, you can open FD through our App or Web platform. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can joint FDs be opened?",
+        "answer": "Yes, you can open a joint FD with up to 1 co applicant.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are FD returns guaranteed?",
+        "answer": "Yes, FD returns are fixed and guaranteed once booked, subject to premature withdrawal terms.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I cancel FD after booking?",
+        "answer": "Yes, premature closure is allowed after 3 months of booking.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is PAN mandatory for FD?",
+        "answer": "Yes, PAN is mandatory to open a FD.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What happens if FD matures and is not withdrawn?",
+        "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What documents are required for FD booking?",
+        "answer": "PAN, Aadhaar, and bank account details are mandatory. Business entities need additional documents like business PAN and registration proof.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the ROI difference between cumulative and non-cumulative FD?",
+        "answer": "Cumulative FDs generally give higher maturity value due to compounding. Non-cumulative FDs pay interest at regular intervals.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What happens if the depositor dies before FD maturity?",
+        "answer": "In the unfortunate event of the depositor’s death, the nominee or legal heir can claim the FD amount by submitting the required documents.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can minors open an FD without guardian?",
+        "answer": "No, a guardian is required to open an FD in the name of a minor.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Is there a maximum limit on number of FDs?",
+        "answer": "No, there is no maximum limit. You can open multiple FDs across various tenures as per your investment plan.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How secure are FDs?",
+        "answer": "Fixed Deposits are considered low-risk investments. Deposits up to ₹5 lakh per depositor per bank are insured under DICGC guidelines.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the interest rate for 15–23 months FD for senior citizens?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Can I view my FD details online?",
+        "answer": "Yes, you can view your FD details anytime on our App or Website under the “My Account” section. Simply click the link below. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "What is the rate for monthly payout in 18 months FD (non-senior)?",
+        "answer": "To check the latest FD rates. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are there special FDs for festivals or occasions?",
+        "answer": " No, currently there are no special Fixed Deposit schemes for festivals or specific occasions.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How to avoid TDS deduction on FD?",
+        "answer": "If you're eligible, you can submit Form 121 (for regular customers & senior citizens) to avoid TDS deduction.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Are FD rates subject to change?",
+        "answer": "Yes, FD rates are subject to periodic revision by the company. Locked-in rates remain unchanged post booking.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "How is interest credited in non-cumulative FDs?",
+        "answer": "Interest is directly credited to your linked bank account at the selected payout intervals (monthly, quarterly, etc.).",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Fixed Deposit Details",
+        "question": "Do you offer tax-saving FDs?",
+        "answer": "No, we do not currently offer tax-saving Fixed Deposits. All available FDs are non-tax saving.",
+        "chatbot-flag": "Yes"
+    },
+
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What is an MPIN",
+        "answer": "An MPIN, or Mobile Banking Personal Identification Number, is a 4-digit passcode created during registration to secure your banking app. It ensures convenient logins and authenticates transactions, reducing fraud risks. Sharing your MPIN could lead to unauthorized access and financial losses, so keep it confidential at all times.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "I want to add joint holder",
+        "answer": "We would like to inform you that adding joint account holders' details online is not possible. To make this change, we kindly request that you visit your nearest branch, where our team will be happy to assist you. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "How can I add a joint account holder?",
+        "answer": "We would like to inform you that adding joint account holders' details online is not possible. To make this change, we kindly request that you visit your nearest branch, where our team will be happy to assist you. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What is the process to add a joint holder to my account?",
+        "answer": "We would like to inform you that adding joint account holders' details online is not possible. To make this change, we kindly request that you visit your nearest branch, where our team will be happy to assist you. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "Can you guide me on how to add a joint account holder?",
+        "answer": "We would like to inform you that adding joint account holders' details online is not possible. To make this change, we kindly request that you visit your nearest branch, where our team will be happy to assist you. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What steps do I need to take to add a joint account holder?",
+        "answer": "We would like to inform you that adding joint account holders' details online is not possible. To make this change, we kindly request that you visit your nearest branch, where our team will be happy to assist you., CTA Label: Branch Locator , Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "Is it possible to add a joint holder to my account, and how do I do that?s",
+        "answer": "We would like to inform you that adding joint account holders' details online is not possible. To make this change, we kindly request that you visit your nearest branch, where our team will be happy to assist you. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "I want to apply for SDP",
+        "answer": "Thank you for your interest! We would like to inform you that the Systematic Deposit Plan (SDP) is no longer available. However, you can still invest in our Fixed Deposits (FD), a secure and rewarding way to grow your savings by visiting the FD page",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "I need SDP",
+        "answer": "Thank you for your interest! We would like to inform you that the Systematic Deposit Plan (SDP) is no longer available. However, you can still invest in our Fixed Deposits (FD), a secure and rewarding way to grow your savings by visiting the FD page",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "I need Systematic Deposit plan (SDP)",
+        "answer": "Thank you for your interest! We would like to inform you that the Systematic Deposit Plan (SDP) is no longer available. However, you can still invest in our Fixed Deposits (FD), a secure and rewarding way to grow your savings by visiting the FD page",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "How can I reset Mpin?",
+        "answer": "If you want to reset your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I enter the incorrect MPIN?",
+        "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the \u2018Forgot MPIN\u2019 option on your app screen and follow the instructions to reset it.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "Why is setting MPIN important?",
+        "answer": "To improve security, MPIN provides an additional layer of protection beyond just using a password, reducing the risk of unauthorized access. Anyone with the Bajaj Finserv App can set MPIN as their 2FA method to strengthen their security against cyber threats and unauthorized access. It is mandatory to set an MPIN after successfully signing up with SIM card authentication for new installations and updates.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What is 2FA (Two-Factor Authentication)?",
+        "answer": "2FA stands for Two-Factor Authentication. It is a security process that requires two methods of verification to access an account.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "How is the app MPIN different from the UPI PIN?",
+        "answer": "To set up your MPIN , please follow these steps: 1. Open Bajaj Finserv App 2.After Signup, Enter your 4-digit desired MPIN (choose a strong combination) 3. Re-enter your 4-digit desired MPIN 4. Choose a security question for future verification 5. Answer the security question 6. Click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "When will I need to use the MPIN?",
+        "answer": "You will be required to use the MPIN in the following circumstances: - Once activated, you will be prompted to enter your MPIN on every signup on Bajaj Finserv App. - If you don't have biometrics enabled for app login, you will be prompted to enter MPIN on every login",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What should I keep in mind while setting MPIN, and are there any criteria?",
+        "answer": "While setting up your 4-digit MPIN, you can consider choosing a code that is easier for you to remember, but difficult for anyone else to guess. Please ensure that your MPIN is not shared with anyone (not even a Bajaj Finance Limited employee), and do not write it down anywhere. It is also a good practice to keep changing your MPIN from time to time, to keep fraudsters at bay.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I enter the incorrect MPIN?  ",
+        "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the \u2018Forgot MPIN\u2019 option on your app screen and follow the instructions to reset it.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I forget my MPIN?",
+        "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Click on 'Forgot MPIN?' 2. Answer the security question (you will get only 3 attempts to answer) 3. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 4. Click on 'Confirm' In case you answer the security question incorrectly then, please follow this process: 1. Click on 'Try Another Method' 2. Choose 'PAN' as your mode of authentication 3. Enter your PAN details 4. Click on 'Confirm' and repeat the steps shared above to reset MPIN",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "How can I change my security question?",
+        "answer": "To change your security question, please follow these steps: 1. Open App and Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset Security Question' 4. Enter the OTP received on your registered mobile number 5. Choose a security question 6. Answer the security question and click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I forget my MPIN? (If Already logged in with Biometric)",
+        "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "What do you mean by NACH?",
+        "answer": "As per NPCI website the definition states 'The National Payments Corporation of India (NPCI) offers to banks, financial institutions, Corporates and Government/s a service termed as \u201cNational Automated Clearing House (NACH)\u201d which includes both Debit and Credit. It shall be referred to as NACH. NACH (Debit) &amp; NACH (Credit) aims at facilitating interbank high volume, low value debit/credit transactions, which are repetitive in nature, electronically using the NPCI service.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "What do you mean by E-Mandate/ E-NACH?",
+        "answer": "This is an online, one-time registration process of setting up a payment instruction to debit your verified bank account. In other words, you authorize BFL (Bajaj Finance Ltd.) to debit your bank account twoards EMIs/investment amounts automatically.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "Benefits of Fixed deposit",
+        "answer": "You can get these benefits with Bajaj Finance Fixed Deposit: - You can start investing in our fixed deposit with just Rs. 15,000. - Our highest (ICRA) AAA (Stable) and CRISIL AAA/STABLE ratings ensure your deposits are secured with us. - You have the convenience to choose any tenure from 12 to 60 months, having different interest rates to suit your needs. - You get an additional interest rate of up to 0.35% p.a. if you are a senior citizen (over 60 years of age). - You can choose from our hassle-free and flexible interest payout options, which offer monthly, quarterly, half-yearly, and yearly pay-out options. - We provide an end-to-end online process wherein you can book a fixed deposit without visiting any branch. - You can manage your FD online, download your Fixed Deposit Receipt (FDR), Interest Certificate (IC), Statement of Account (SOA), etc. -You can also avail a loan against your fixed deposit after the lock-in period of 3 months. This lets you avail up to 75% of your invested amount for a cumulative fixed deposit, and 60% of your invested amount for a non-cumulative fixed deposit. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "What is UMRN?",
+        "answer": "UMRN is the abbreviation of Unique Mandate Registration Number. It is allocated when a new mandate is regsitered&nbsp; and is necessary to carry out transactions.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "What are the steps to set up an E-Mandate? How do I register my mandate if my bank is not participating",
+        "answer": "You can set up an E-Mandate online while applying for a loan or applying for a Fixed Deposit Plan. You can register E-Mandate either using your net banking or debit card details and validate by entering an OTP sent to your registered mobile number. However, the availability of these options depends on your bank.&nbsp;"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "Apply for FD",
+        "answer": "You can apply for FD from FD page. CTA Label: Apply FD, Android CTA Link: bajajsuperapp://fd_pdp/ , iOS CTA Link: bajajsuperapp://fd_pdp/, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Statements",
+        "question": "Apply for Fixed deposit",
+        "answer": "You can apply for FD from FD page. CTA Label: Apply FD, Android CTA Link: bajajsuperapp://fd_pdp/ , iOS CTA Link: bajajsuperapp://fd_pdp/, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "General Queries",
+        "question": "I want COI.",
+        "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , iOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+      },
+      {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "General Queries",
+        "question": "Can you send copy of COI?",
+        "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , iOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+      },
+      {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "General Queries",
+        "question": "How can I get my COI?",
+        "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , iOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+      },
+    
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Cancellation",
+        "question": "Call me",
+        "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Cancellation",
+        "question": "Give me customer care number",
+        "answer": "I am unable to provide you with the customer care number. I can assist you with your queries here on chat.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "I will complain to RBI",
+        "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "I will raise this to RBI",
+        "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "Bajaj is a fraud",
+        "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Deposits",
+        "l2category": "GenericDepositQueries",
+        "l3category": "Financial Transactions And Actions",
+        "question": "My fixed deposit details are incorrect how can i correct it",
+        "answer": "To change the fixed deposit details please raise a request with us. CTA Label: Raise A Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "Yes"
+    },
+    
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I view or download my Systematic Deposit Plan (SDP) receipt?",
+            "answer": "<p>View your receipt for your Systematic Deposit Plan by selecting the relevant Deposit Number displayed on your screen.</p><p>To proceed now, please visit document center. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I get a copy of my TDS certificate?",
+            "answer": "To get your TDS certificate for applicable loans, simply click the 'Raise a Request' button below. Service executive will contact you shortly to assist with the next steps., CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I get my Form 121?",
+            "answer": "Your Form 121 comes pre-filled for your convenience, making the process even more simply View your Form 121 for your Deposit Plan by selecting the relevant Deposit Number displayed on your screen.To view now, please visit document center page. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document."
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I get the Statement Of Account for my Systematic Deposit Plan (SDP)?",
+            "answer": "<p>View your Statement of Account for your Systematic Deposit Plan by selecting the relevant Deposit Number displayed on your screen.</p><p>To proceed now, please visit document center. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "OTP Screen",
+            "question": "What should I do if I don\u2019t receive the OTP?",
+            "answer": "<p>This could be an issue due to your mobile network coverage. Ensure that your mobile is in good network coverage &amp; try again by clicking on &quot;Resend OTP&quot;.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "What do you mean by NACH?",
+            "answer": "<p>As per NPCI website the definition states 'The National Payments Corporation of India (NPCI) offers to banks, financial institutions, Corporates and Government/s a service termed as \u201cNational Automated Clearing House (NACH)\u201d which includes both Debit and Credit. It shall be referred to as NACH. NACH (Debit) &amp; NACH (Credit) aims at facilitating interbank high volume, low value debit/credit transactions, which are repetitive in nature, electronically using the NPCI service.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "What do you mean by E-Mandate/ E-NACH?",
+            "answer": "<p>This is an online, one-time registration process of setting up a payment instruction to debit your verified bank account. In other words, you authorize BFL (Bajaj Finance Ltd.) to debit your bank account twoards EMIs/investment amounts automatically.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "Is it necessary for me to do E-Mandate registration?",
+            "answer": "Yes, this is mandatory if you have availed a loan or opted for a Fixed Deposit with us. You can complete the registration online or offline. Mandate/NACH registration allows for easy auto-debiting of payments/EMIs/investments from your registered bank account based on the agreed frequency. If you prefer doing this offline, visit the branch closest to you and our representatives will assist you.,"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "What is UMRN?",
+            "answer": "<p>UMRN is the abbreviation of Unique Mandate Registration Number. It is allocated when a new mandate is regsitered&nbsp; and is necessary to carry out transactions.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "Can I delete a registered mandate?",
+            "answer": "<p>Yes, you can. However, be careful not to delete the mandates associated with active loans. To change/swap mandates, visit our nearest branch.</p><p>To find your nearest branch, please visit store locator. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storelocator/storelocatorlaun, iOS CTA Link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA Link: https://www.bajajfinserv.in/branch-locator</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "How can I change/update my mandate?",
+            "answer": "<p>Currently mandate updation/change facility is available either through our nearest branch or by visiting or customer service portal on <a href=\"https://www.bajajfinserv.in\">www.bajajfinserv.in</a>. </p><p>To find your nearest branch, please visit store locator. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storelocator/storelocatorlaun, iOS CTA Link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA Link: https://www.bajajfinserv.in/branch-locator</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "If I update my mandate, what happens to the old/existing one?",
+            "answer": "<p>Once you update/change the bank for auto-debit of particular loan, the old/existing mandate of such loan is cancelled and the new one is updated in our records.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Mandate bank account change",
+            "question": "My mandate was rejected. What should I do?",
+            "answer": "<p>You can try registering using another bank through our E-mandate option available on our Customer portal on <a href=\"https://www.bajajfinserv.in\">www.bajajfinserv.in</a> .</p><p>If you prefer doing this offline, visit the branch closest to you along with a cancelled cheque leaf and allow our representatives to help you.</p><p>To locate your nearest branch, please visit store locator. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storelocator/storelocatorlaun, iOS CTA Link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA Link: https://www.bajajfinserv.in/branch-locator</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "What is Loan Against Fixed Deposit (LAFD) by Bajaj Finance?",
+            "answer": "<p>A loan against fixed deposit (LAFD) is a kind of secured loan where you can pledge your fixed deposit as security and get a loan in return. The loan amount then gets credited to your registered bank account.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "What is the rate of interest for a loan against my fixed deposit?",
+            "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "What maximum loan amount that I can get against my Bajaj Finance Fixed Deposit?",
+            "answer": "<p>The maximum loan amount you can get against your fixed deposit is as follows:</p><p>- Loan of up to 75% of your fixed deposit amount for a cumulative fixed deposit</p><p>- Loan of up to 60% of your fixed deposit amount for a non-cumulative fixed deposit</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "When can I expect the disbursal of loan amount against my fixed deposit to be credited in my registered bank account?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "What benefits do I get on a loan against fixed deposit by Bajaj Finance?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "What is the maximum and minimum tenure for repaying my Bajaj Finance Loan Against Fixed Deposit (LAFD)?",
+            "answer": "<p>The tenure to repay your loan against fixed deposit will be the remaining maturity period of your Bajaj Finance Fixed Deposit. However, part-prepayment is not allowed in the case of LAFD.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "Will my CIBIL Score get impacted if I take a loan against fixed deposit?",
+            "answer": "<p>There will be no impact on your CIBIL Score if you take a loan against your fixed deposit.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "Can I use a different bank account to take a loan against my fixed deposit?",
+            "answer": "<p>No, you cannot use a different bank account to apply for a loan against your fixed deposit. The bank account has to be the same as your Bajaj Finance Fixed Deposit maturity payout account.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "Can I apply for a new loan against fixed deposit after repaying my previous loan?",
+            "answer": "<p>Yes, repaying your existing loan against fixed deposit entirely makes you eligible for a fresh loan.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Apply for loan against fixed deposit",
+            "question": "Can I use my fixed deposit investment with other Non-banking Financial Companies or banks to get a loan against fixed deposit from Bajaj Finance Limited?",
+            "answer": "<p>No, you can not use any other fixed deposit investment as Bajaj Finance Limited provides loan against fixed deposit facility only against Bajaj Finance Fixed Deposits.</p>"
+        },
+        
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Foreclose loan against fixed deposit",
+            "question": "How long does it take to adjust the loan against fixed deposit amount towards my Bajaj Finance Fixed Deposit?",
+            "answer": "<p>It takes us 1 business day from the date of receiving request and amount required for foreclosure to adjust the fixed deposit amount to your loan against fixed deposit.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Foreclose loan against fixed deposit",
+            "question": "What happens to the loan if I close my fixed deposit account?",
+            "answer": "<p>If you plan to make a premature withdrawal of your fixed deposit while your loan against fixed deposit is active, we would first adjust all remaining dues on your loan against the fixed deposit maturity amount, and the remaining balance will be paid to you.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Loan against fixed deposit details",
+            "question": "How do I repay my Bajaj Finance Loan against Fixed Deposit?",
+            "answer": "ou can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Loan against fixed deposit details",
+            "question": "When will the EMI for my loan against fixed deposit with Bajaj Finance be debited from my bank account?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Loan against fixed deposit details",
+            "question": "Do I get any tax benefits on my Bajaj Finance Loan against Fixed Deposit EMIs?",
+            "answer": "<p>No, there are no tax benefits on your loan against fixed deposit.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "Will I receive a no dues certificate on repayment of my Bajaj Finance Loan Against Fixed Deposit?",
+            "answer": "<p>Yes, you will receive a no dues certificate after the closure of your loan against fixed deposit.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I get my Bajaj Finance Loan against Fixed Deposit statement of account?",
+            "answer": "<p>Please follow these simple steps to get your LAFD statement of account:</p><p>1. Go to the 'Main Menu' and click on Document Centre</a>'</p><p>2. Select the loan against fixed deposit number for which you want to view documents</p><p>3. Find all your LAFD documents and click on 'Statement of Account' to download it</p>. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I get my Bajaj Finance Loan against Fixed Deposit no dues certificate?",
+            "answer": "<p>Please follow these simple steps to get your LAFD no dues certificate:</p><p>1. Go to the 'Main Menu' and click on Document Centre</a>'</p><p>2. Select the loan against fixed deposit number for which you want to view documents</p><p>3. Find all your LAFD documents and click on 'No Dues Certificate' to download it</p>. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I get my Bajaj Finance Loan against Fixed Deposit repayment schedule?",
+            "answer": "<p>&quot;Please follow these simple steps to get your LAFD repayment schedule:</p><p>\u00a0</p><p>1. Go to the 'Main Menu' and click on Document Centre</a>'</p><p>2. Select the loan against fixed deposit number for which you want to view documents</p><p>3. Find all your LAFD documents and click on 'Repayment Schedule' to download it&quot;</p>. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Death Claim",
+            "question": "Can a co-applicant request for premature withdrawal if the primary fixed deposit applicant has passed away?",
+            "answer": "<p>Yes, in case of the primary account holder's demise, the co-applicant can request the maturity amount of the FD by submitting a written application at the nearest Bajaj Finance Limited branch</a> along with a copy of the death certificate of the primary account holder.\u00a0</p><p>The maturity amount, after TDS deduction, will be credited to the co-applicant's registered bank account with Bajaj Finance Limited within 8 business days of the request submission.</p>. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC, iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC, Web CTA Link: https://www.bajajfinserv.in/branch-locator</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Death Claim",
+            "question": "If the primary fixed deposit applicant passes away and there is no nominee or joint account holder for that fixed deposit what documents are required from the legal heir to withdraw the fixed deposit prematurely?",
+            "answer": "<p>If a primary depositor passes away and there is no nominee or joint account holder for that fixed deposit, then the legal heir needs to submit the following documents:</p><p>- An application for the deceased\u2019s claim (mandatory)</p><p>- A certified copy of the death certificate (mandatory)</p><p>- A succession certification or letter of administration or probate of the will (recommended but not mandatory)</p><p>- An indemnity bond that is taken from the legal heir/representative (mandatory)</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "Where can I view my closed Bajaj Finance Fixed Deposit details?",
+            "answer": "You can view your closed fixed deposit details by following these simple steps:</p>1. Go to Your relations and select 'Deposits'</p>2. Click on the filter icon and select 'Closed'</p>Selecting this filter will display your closed Bajaj Finance Fixed Deposits. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "Can I change the bank account details linked to my Bajaj Finance Fixed Deposit?",
+            "answer": "Yes, you can change the bank account details linked to your fixed deposit anytime during the tenure and 7 days before the date of your FD maturity.</p>To change your bank account details now, please Deposits relation page. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "When and how can I get my Bajaj Finance Fixed Deposit maturity amount?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "What benefit I will get if I invest in a Bajaj Finance Fixed Deposit (FD)?",
+            "answer": "You can get these benefits with Bajaj Finance Fixed Deposit: - You can start investing in our fixed deposit with just Rs. 15,000. - Our highest (ICRA) AAA (Stable) and CRISIL AAA/STABLE ratings ensure your deposits are secured with us. - You have the convenience to choose any tenure from 12 to 60 months, having different interest rates to suit your needs. - You get an additional interest rate of up to 0.35% p.a. if you are a senior citizen (over 60 years of age). - You can choose from our hassle-free and flexible interest payout options, which offer monthly, quarterly, half-yearly, and yearly pay-out options. - We provide an end-to-end online process wherein you can book a fixed deposit without visiting any branch. - You can manage your FD online, download your Fixed Deposit Receipt (FDR), Interest Certificate (IC), Statement of Account (SOA), etc. -You can also avail a loan against your fixed deposit after the lock-in period of 3 months. This lets you avail up to 75% of your invested amount for a cumulative fixed deposit, and 60% of your invested amount for a non-cumulative fixed deposit."
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "What should I do if I lose my fixed deposit receipt (FDR) and want a new one?",
+            "answer": "<p>To view or download your fixed deposit receipt, please follow the following steps:</p><p>1. Go to the Document Centre</a>'</p><p>2. Select the fixed deposit number for which you want to view the receipt</p><p>3. Click on your fixed deposit receipt to download</p><p>However, you can visit your nearest Bajaj Finance Limited branch</a> if you need a physical copy of the FDR.</p>. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, iOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "Do I need to provide any referral for opening a Bajaj Finance Fixed Deposit account?",
+            "answer": "<p>You do not require any referral to invest in a fixed deposit with Bajaj Finance.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "Is the newly introduced FD interest rate applicable to my current Bajaj Finance Fixed Deposit account?",
+            "answer": "<p>The newly introduced fixed deposit interest rate will not be applicable to your current fixed deposit. Since you have locked in your money with us at a specific interest rate, you will continue to receive the same till its maturity. If you wish to earn the new interest rates, then we recommend you invest in a new fixed deposit.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "Can I show my Bajaj Finance Fixed Deposit (FD) investment for tax exemption?",
+            "answer": "<p>No, your fixed deposit investment with Bajaj Finance Limited cannot be shown as an investment under Section 80C for tax deduction benefits.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "What happens to my fixed deposit account with Bajaj Finance if I become an NRI?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Details",
+            "question": "Can I open a fixed deposit account with Bajaj Finance if I am an NRI?",
+            "answer": "<p>Yes, Bajaj Finance Limited does offer a fixed deposit facility for Non-Resident Indians (NRIs), Overseas Citizens of India (OCI), and Persons of Indian Origin (PIO). NRI, OCI, and PIO can choose any tenure between 12 and 36 months, as per their financial needs, for fixed deposit investment.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Joint Account holder Addition",
+            "question": "How can I view the details of my existing Bajaj Finance Fixed Deposit joint account holder?",
+            "answer": "Follow these steps to view details of your existing fixed deposit joint account holder:</p>1. Go to Your relations</a>' and select 'Deposits'</p>2. Click on the fixed deposit number for which you wish to view details</p>3. Select 'Joint account holder details' under the relationship details sections</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Joint Account holder Addition",
+            "question": "How can I delete the name and details of my existing FD joint account holder?",
+            "answer": "<p>Yes, you can delete your existing fixed deposit joint account holder details with the consent of both account holders by visiting our nearest Bajaj Finance Limited Branch. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC, iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC, Web CTA Link: https://www.bajajfinserv.in/branch-locator</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Joint Account holder Addition",
+            "question": "How can I update the details of my existing joint account holder in Bajaj Finance Fixed Deposit?",
+            "answer": "<p>Please visit our nearest Bajaj Finance Limited Branch</a> to update the details of your existing fixed deposit joint account holder and complete the process.</p>. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC, iOS CTA Link: bajajsuperapp://storeLocator/BFLCLC, Web CTA Link: https://www.bajajfinserv.in/branch-locator</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Premature Withdrawal",
+            "question": "If a Karta/Primary Account Holder dies in a Hindu Undivided Family (HUF), can the new Karta be made the primary applicant without pre-maturing the fixed deposit? If yes, what are documents required?",
+            "answer": "<p>Yes, the new Karta can be made the primary account holder, in such scenarios, you need to submit the following documents:</p><p>- Proof of death of the depositor</p><p>- Declaration/affidavit/indemnity from the members forming part of the HUF declaring the eldest coparcener (a joint heir) as the new Karta of the HUF</p><p>- Fresh deed of declaration of HUF including the list of the coparcener (joint heirs), signed by the Karta and the adult coparcener</p><p>- Aadhaar and PAN of the new Karta</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Premature Withdrawal",
+            "question": "What is premature withdrawal in Bajaj Finance Fixed Deposit?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Premature Withdrawal",
+            "question": "Is there any penalty for the premature withdrawal of my Bajaj Finance Fixed Deposit?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Premature Withdrawal",
+            "question": "Can I withdraw the entire amount from my Bajaj Finance Fixed Deposit as part of a premature withdrawal?",
+            "answer": "<p>Yes, however, the premature withdrawal facility on your Fixed Deposit (FD) comes with the following conditions:</p><p>- Upto 3 months from the date of deposit: Withdrawal is not permitted.</p><p>- After 3 months but before 6 months: Interest shall not be payable.</p><p>- After 6 months but before the date of maturity: The rate of interest payable will be 2% lower than the rate specified for the period during which the scheme has run. If no rate is specified for the deposit period, the interest rate payable will be 3% lower than the company's lowest rate.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Premature Withdrawal",
+            "question": "Do I have any alternative options other than a premature withdrawal to get funds?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Fixed Deposit Renewal",
+            "question": "Which documents do I need to renew my Bajaj Finance Fixed Deposit (FD)?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "When can I get the TDS certificate for my Bajaj Finance Fixed Deposit investment?",
+            "answer": "<p>As per rule 31 under section 203 of Income Tax Rules 1962, Bajaj Finance Limited issues a TDS certificate or Form 16A every quarter within 15 days from the due date.</p><p>The due date for issuance of the TDS certificate is given below:</p><p>- July 30 would be the due date for TDS certificate for the quarter ending with June 30 of the financial year.</p><p>- October 30 would be the due date for TDS certificate for the quarter ending with September 30 of the financial year.&nbsp;</p><p>- January 30 would be the due date for TDS certificate for the quarter ending with December 31 of the financial year.</p><p>- May 30 would be the due date for TDS certificate for the quarter ending with March 31 of the financial year.</p><p>Also, TDS certificates (Form 16A) are generated quarterly through the TDS Reconciliation Analysis and Correction Enabling System (TRACES). TRACES generate TDS certificates based on customers' Permanent Account Number (PAN).&nbsp;</p><p>Thus, a consolidated TDS certificate for tax deducted against all FDs sourced by Bajaj Finance Limited against one PAN is generated.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "When and how can I get the interest amount earned on my Bajaj Finance Fixed Deposit?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I check the monthly interest amount earned on my Bajaj Finance Fixed Deposit?",
+            "answer": "To know about the monthly interest amount earned on your fixed deposit, please check your FD account statement by following these simple steps.</p>1. Go to Your relations</a>' and select 'Deposits'<br /></p>2. Click on the fixed deposit number for which you wish to view details</p>3. Select 'View statements' to download or share your statement of account</p>. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I view or download my Bajaj Finance Fixed Deposit receipt?",
+            "answer": "Please follow these steps to view or download your Bajaj Finance Fixed Deposit receipt:</p>1. Go to Your relations</a>' and select 'Deposits'</p>2. Click on the fixed deposit number for which you wish to view details</p>3. Select 'View statements' to download or share your FDR</p>. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Statements",
+            "question": "How can I view or download my Bajaj Finance Fixed Deposit statement of account?",
+            "answer": "Please follow these steps to view or download the statement of account for your fixed deposits:</p>1. Go to >Your relations</a>' and select 'Deposits'</p>2. Click on the fixed deposit number for which you wish to view details</p>3. Select 'View statements' to download or share your statement of account</p>CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "How can I view my Form 121 to submit TDS waiver?",
+            "answer": "'Submit Form 121' to apply for a TDS waiver on Fixed Deposit interest. Please follow these steps: Select “Your Relation,” choose your “Fixed Deposit,” and click on the Fixed Deposit number for which you want to proceed. Then click on “More Services” and select “Submit Form 121.” Enter the OTP sent to your registered mobile number, fill in the required details, and submit the request. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD."
+ },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "How can I check my eligibility for submitting Form 121?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "How much tax do I need to pay on my Bajaj Finance Fixed Deposit interest amount?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates offered by Bajaj?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What is the highest interest rate available for regular deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the current FD interest rates for regular deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What is the highest interest rate available for senior citizens?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for a 12 month period for regular deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for a 24 month period for senior citizens?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for a 36 month period for regular deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for a 48 month period for regular deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for deposits up to ₹25,000 for regular customers?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for deposits above ₹25,000 for senior citizens?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "Are there different rates for deposits between ₹5,000 and ₹5,00,00,000?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the Fixed Deposit rate of interest for Trusts",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "Fixed Deposit rate of interest for Societies",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "Fixed Deposit rate of interest for associations and clubs",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "Fixed Deposit rate of interest for NRI",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform.Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for 1 year period deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform. Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "What are the FD rates for 5 year period deposits?",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform. Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "FD rates for deposit amount  ₹10,000 ",
+            "answer": "You can invest from ₹15,000 to ₹3Cr on our platform. Click on the below CTA to view our latest FD rates. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "How does my Tax Deducted at Source (TDS) get calculated if I have multiple fixed deposit accounts?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "Do I need to pay any tax on my Bajaj Finance Fixed Deposit interest amount?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Submit TDS Waiver",
+            "question": "How do I know if a TDS waiver is applied to my fixed deposit?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+       
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "Why do I need to add a nominee to my Bajaj Finance Fixed Deposit?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "Can I change the details of a nominee in my joint fixed deposit account with Bajaj Finance?",
+            "answer": "<p>Yes, you can change Nominee details after taking consent from all the joint account holders.</p><p>Important: You will be unable to initiate any changes without the consent of all joint account holders.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "Can I appoint a minor as my nominee for a Bajaj Finance Fixed Deposit account?",
+            "answer": "<p>Yes, you can appoint a minor as your nominee. However, the minor's guardian details need to be mentioned in the nomination form. The guardian should be an adult who will receive the fixed deposit amount, on behalf of the minor, in the absence of the account holder.</p><p>Important: - The guardian's bank account would receive a fixed deposit amount on its maturity under such nomination, but only before the nominee attains 18 years of age. If the nominee turns into an adult at the time of claim, he can submit proof of his age and get the maturity amount credited to his bank account.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "How can I add multiple nominees to my Bajaj Finance Fixed Deposit account?",
+            "answer": "<p>You cannot add multiple nominees to your fixed deposit account. Only one nominee can be appointed for your fixed deposit. However, you can appoint different nominees for separate fixed deposits.</p>"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "Can I appoint a joint applicant as my nominee for a Bajaj Finance Fixed Deposit account?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "Is it mandatory to appoint a nominee for my Bajaj Finance Fixed Deposit account?",
+            "answer": "You can easily access all the details related to your fixed deposits, including account status, interest rates, maturity dates, and more, by visiting our Fixed Deposit page. Simply click on the link below. CTA Label: FD Page, Android CTA Link: bajajsuperapp://fd, iOS CTA Link: bajajsuperapp://fd, Web CTA Link: https://www.bajajfinserv.in/investments/fixed-deposit"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Joint Account holder Addition",
+            "question": "How can I view details of my existing Fixed Deposit joint account holder?",
+            "answer": "To view details of your existing Fixed Deposit joint account holder, please follow these steps:</p>- Click on 'Joint account holder details'</p>- Click on Edit</p>- Fill in required details &amp; 'Proceed'</p>- Verify the pre-filled details &amp; 'Confirm'</p>- Proceed to generate and enter OTP sent to your registered mobile no.</p>- Click on 'Submit'</p>To update now, please visit deposits relation page. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Nominee",
+            "question": "How can I view my Fixed Deposit nominee details?",
+            "answer": "Please follow these steps to view your Fixed Deposit nominee details:</p>- Click on 'My Account' at the bottom right of the page<br></p>- Go to 'Your relations'</p>- Click on 'FD LAN'</p>- Scroll down and click on 'Nominee' to view details</p>To proceed now, please visit Your relations page. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/deposits, iOS CTA Link: bajajsuperapp://relations/deposits, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan_FD"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Query Status",
+            "question": "How can I track my complaint/request status?",
+            "answer": "<p>To track your complaint status, please follow these steps:</p><p>- Click on the 'Menu' button at the top left of the home page</p><p>- Select 'Help and Support</p><p>- Go to 'My Raised Requests'</p><p>- Click on the 'View all' option</p><p>- Choose the request for which you want to check the status</p><p>To go to 'My Raised Requests'. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport, iOS CTA Link: bajajsuperapp://helpsupport, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Query Status",
+            "question": "Why has my EMI not been debited from my account on the scheduled date, even though I have sufficient balance?",
+            "answer": "Delay in instalment debit can happen due to technical issues or bank-side delays. We request you to please wait for some time your monthly instalment amount will be debited from your account. We request you to please maintain sufficient balance in your bank account. If it’s not deducted by the 5th, pay manually using the “Make payment” button.  Note: Gold Loan users can pay the EMI amount at any time; the EIP period condition does not apply to them. CTA Label: Make Payment, Android CTA Link: bajajsuperapp://relations/loan, iOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Query Status",
+            "question": "When will my EMI be deducted if it was missed or failed due to insufficient balance or technical issues?",
+            "answer": "Delay in instalment debit can happen due to technical issues or bank-side delays. We request you to please wait for some time your monthly instalment amount will be debited from your account. We request you to please maintain sufficient balance in your bank account. If it’s not deducted by the 5th, pay manually using the “Make payment” button., CTA Label: Make Payment, Android CTA Link: bajajsuperapp://relations/loan, iOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+        },
+         {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Query Status",
+            "question": "How can I pay my EMI manually if auto-debit failed or if my account is on hold?",
+            "answer": "You can pay your instalment amount by clicking the “Make Payment” button below., CTA Label: Make Payment, Android CTA Link: bajajsuperapp://relations/loan, iOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Query Status",
+            "question": "I have paid my EMI, but it is not showing in the app or updated in my account. What should I do?",
+            "answer": "For this issue, you can raise a request with us, and it will be resolved within 2 days., CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, iOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Query Status",
+            "question": "Will there be any penalty or charges if my EMI was not debited on time or bounced?",
+            "answer": "Yes, if your EMI is not debited on time or bounces, penalty or late payment charges may apply as per your loan agreement."
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Transaction Related",
+            "question": "Why is my CIBIL score incorrectly mentioned in your records?",
+            "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+        },
+        {
+            "l1category": "Deposits",
+            "l2category": "GenericDepositQueries",
+            "l3category": "Transaction Related",
+            "question": "Why did my CIBIL report show details of a loan I haven't applied for?",
+            "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+        }
+
+    ]

@@ -1,0 +1,296 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make advance EMI payment towards my Loan?",
+    "answer": "<p>Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment can be made towards any Term Loan. Flexi loans are not eligible for Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Do I need to pay any charges for makig an advance payment on my loan?",
+    "answer": "<p>No, you do not need to pay any charges for making advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments on your loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I made an advance EMI payment 48 hours ago, but it did not reflect in my Statement of Account (SOA)?",
+    "answer": "<p>After making an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 1 business day for the amount to reflect in your Statement of Account (SOA). You can access the same under 'View Statements'.</p><p>If you still cannot see the updated loan details, raise a request/query with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here.</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I have made an advance EMI payment before the 20th of the month, but it did not reflect in my Statement of Account (SOA)? ",
+    "answer": "After making an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 1 business day for the amount to reflect in your Statement of Account (SOA). You can access the same under 'View Statements'.If you still cannot see the updated loan details, raise a request/query with us. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I get a refund of the advance EMI payment I made during its presentation period?\t",
+    "answer": "<p>If you have made the advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment during its presentation period, the advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment will be adjusted towards your next month EPI (EQUATED PERIODIC INSTALMENT (EPI)) and not the current one. We will only adjust the advance payment towards your loan if the bank does not clear the presented EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount. If it gets cleared we will refund the amount to your registered bank account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "When can I see the updated loan amount in my Statement of Account (SOA) if I make an EMI payment today? ",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 1 business day for the details to get updated in your SOA.</p><p>You can download your SOA by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please click here</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "How can I make an advance EMI payment on my loan?",
+    "answer": "<p>To make an advance payment, please follow these steps:</p><p>-Click on the 'Main Menu (Three Lines)' at the top left of your Home Screen</p><p>-Click on 'Loan Payment'</p><p>- Select 'Other Payments' &amp; select the loan account for which you wish to make the payment</p><p>- Click on 'Proceed' and then scroll right to the 'Advance EPI (EQUATED PERIODIC INSTALMENT (EPI))' tab</p><p>- Select your 'Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) Month' and click on 'Proceed To Payment'</p><p>- Select your payment method and click on 'Pay Now'</p><p>To go directly to the 'Make Loan Payments' screen, please click here.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Collection related",
+    "question": "Why am I receiving Debt Management Service calls when my EMI payment is updated in the Statement of Account (SOA)?",
+    "answer": "<p>In that case, please raise a request/query with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Collection related",
+    "question": "Why am I receiving calls for making payment of my outstanding dues?",
+    "answer": "<p>You may have some outstanding overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges. Kindly check your Statement of Account and make payment towards your overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges if any. To avoid calls in the future, kindly make your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment on time.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "EMI Refund",
+    "question": "When can I expect to get a refund of my excess EMI amount?",
+    "answer": "<p>The amount gets refunded to your bank account within 5 business days of your request submission.</p><p>However, if you still don't get your refund, please raise a request with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here.</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Fees and Charges",
+    "question": "What are the different types of fees and charges that could be applied to my loan?",
+    "answer": "<p>Basis the loan type the fees and charges may vary. You can check the specific charges applicable to your loan under Fees &amp; Charges section available in your loan account.</p><p>To check the fees and charges, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I generate my Foreclosure Letter?",
+    "answer": "<p>To view or download your Foreclosure Letter, please go to the 'Document Centre' and select your loan account number.</p><p>Please Note:</p><p>Your Foreclosure Letter will be valid for 7 days after being generated. Post 7 business days, you will have to download a fresh Foreclosure Letter.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "Why is my loan status showing as 'Active' when I have foreclosed my loan?",
+    "answer": "<p>After making payment for foreclosure, it takes 1 business day for the details to get updated in your loan account.</p><p>In case, there is a delay happened you can raise a request/query with us by clicking here.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I foreclose my loan if there are bounce/overdue charges applied?",
+    "answer": "<p>You will have to clear all bounce/overdue charges before foreclosing the loan.</p><p>While applying for foreclosure, you can see your overdue charges and can proceed to make a payment.</p><p>To foreclose your loan, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "What charges do I need to pay if I want to foreclose my loan?",
+    "answer": "<p>To know more about your foreclosure charges you can download Foreclosure Letter, please go to the 'Document Centre' and select your loan account number.</p><p>Please Note:</p><p>Your Foreclosure Letter will be valid for 7 days after being generated. Post 7 business days, you will have to download a fresh Foreclosure Letter.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "When can I foreclose my loan?",
+    "answer": "<p>You can foreclose a loan any time after clearing its 1st EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How and when can I get the No Dues Certificate (NDC)?",
+    "answer": "<p>After making a foreclosure payment, it takes up to 1 business day for the details to get updated in your loan account. Post this, you can download the No Dues Certificate from the 'View Statements' section by following these steps:</p><p>- Go to 'My Account' at the bottom right of the Home Screen</p><p>- Click on 'View All' located next to 'My Relations'</p><p>- Click on the 'Loan Account Number' for which you wish to download the document</p><p>- Under ‘Things You Can Do', click on 'View Statements'</p><p>- Select 'No Dues Certificate'</p><p>- Choose to view or download the document</p><p>To go directly to the 'My Relations' screen, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I generate my Foreclosure Letter?",
+    "answer": "To view or download your Foreclosure Letter, please go to the 'Document Centre' and select your loan account number.Please Note:Your Foreclosure Letter will be valid for 7 days after being generated. Post 7 business days, you will have to download a fresh Foreclosure Letter., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "Can Bajaj Finance Limited waive off the bounce charges on my loan account?",
+    "answer": "As per our internal policy, bounce charges cannot be waived. We recommend clearing the dues promptly to avoid any impact on your CIBIL score. Please ensure sufficient funds in your bank account during the EIP period to prevent such charges. To pay your bounce charges, click the button below., CTA label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "Why has my EMI payment bounced despite having a sufficient balance in the bank account? ",
+    "answer": "<p>In that case, we request you to connect with your bank immediately.</p><p>However, if your bank confirms that there are no issues from their end, then your EPI (EQUATED PERIODIC INSTALMENT (EPI)) might have bounced due to mandate-related issues. In such a scenario, please raise a request with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "How can I clear my overdue amount?",
+    "answer": "You can pay your overdue amount by clicking on the button below. Please note that additional charges may apply, as per the terms mentioned in your loan agreement., CTA Label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "What penalty charges do I need to pay for my bounced and overdue payments?",
+    "answer": "To view your bounced and overdue charges, click the button below, where you can see the details in your statement of account., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "Do I need to pay any charges for making a part-prepayment on my loan?",
+    "answer": "Yes, charges are applicable for all part pre-payments on loans other than Flexi Loans. To view the part pre-payment charges, please refer to your loan agreement., CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": " Does my EMI amount change after making a part pre-payment? ",
+    "answer": "While making a part pre-payment, if you have selected the 'EPI (EQUATED PERIODIC INSTALMENT (EPI)) Reduction' option, your EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount will reduce. To check the revised amount details, please go to 'My Relations' and select your loan account number. CTA label: My Relation, Android CTA link: bajajsuperapp://relations/loan , IOS CTA link: bajajsuperapp://relations/loan , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "How can I make a part pre-payment on my loan?",
+    "answer": "To make a part pre-payment, please click the button below. Part pre-payment charges may be levied as per your agreement., CTA label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "How long does it take for a part pre-payment to get adjusted on my existing loan?",
+    "answer": "<p>After making a part pre-payment, it takes up to 1 business day for the amount to get adjusted towards your loan. You can check your Repayment Schedule for updated loan details by following these steps:</p><p>- Click on 'My Accounts' at the bottom right of the Home Screen<br></p><p>- Go to 'My Relationship' and click on 'View All'</p><p>- Choose the 'Loan Account Number' for which you need to view the document</p><p>- Under 'Things You Can Do', click on 'View Statements'</p><p>- Select 'Repayment Schedule'</p><p>- Choose to view, share or download the document</p><p>To go directly to the 'My Relations' screen, please <a href=\"bajajsuperapp://relations/cards\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "Why am I unable to make part pre-payments?",
+    "answer": "<p>There are many reasons for this -</p><p>- There is an overdue amount on your loan account that needs to be cleared<br></p><p>- If there is a last EPI (EQUATED PERIODIC INSTALMENT (EPI)) pending. In this case, proceed directly for Foreclosure<br></p><p>- The part pre-payment amount exceeds the NEFT limit pre-defined by your bank. In this case, please check with your bank<br></p><p>-If there are network issues. Please wait for some time before re-trying<br></p><p>To part-prepay, please <a href=\"bajajsuperapp://relations/loan\">click here.</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "Why has my EMI not changed after making a part pre-payment?",
+    "answer": "<p>It takes 1 business day for the amount to get adjusted towards your Loan. To check your updated loan details, you can refer to the ‘Repayment Schedule or Statement of Account' which will have the updated loan details.</p><p>To check your payment details, please follow these steps:<br></p><p>- Click on 'My Accounts' at the bottom right of the Home Screen<br></p><p>- Go to 'My Relationship' and click on 'View All'</p><p>- Choose the 'Loan Account' for which you need to view the statements</p><p>- Under 'Things You Can Do', click on 'View Statements'</p><p>- Select 'Repayment Schedule or 'Statement of Account'</p><p>- Choose to view, share or download the document</p><p>To go directly to the 'My Relations' screen, please <a href=\"bajajsuperapp://relations/cards\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "Why has my part pre-payment not been adjusted towards its loan account?",
+    "answer": "<p>Thank you for making a part pre-payment. To check your updated loan details, you can refer to the ‘Repayment Schedule or Statement of Account' which will have the updated loan details. Please keep in mind that it takes up to 1 business day for the amount to get adjusted towards your loan.</p><p>To check your payment details, please follow these steps:<br></p><p>- Click on 'My Accounts' at the bottom right of the Home Screen<br></p><p>- Go to 'My Relationship' and click on 'View All'</p><p>- Choose the 'Loan Account' for which you need to view the statements</p><p>- Under 'Things You Can Do', click on 'View Statements'</p><p>- Select 'Repayment Schedule or 'Statement of Account'</p><p>- Choose to view, share or download the document</p><p>To go directly to the 'My Relations' screen, please <a href=\"bajajsuperapp://relations/cards\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "After making a part pre-payment, where can I check my updated loan details?",
+    "answer": "<p>Thank you for making a part pre-payment. To check your updated loan details, you can refer to the ‘Repayment Schedule or Statement of Account' which will have the updated loan details. Please keep in mind that it takes up to 1 business day for the amount to get adjusted towards your loan.</p><p>To check your payment details, please follow these steps:</p><p>- Click on 'My Accounts' at the bottom right of the Home Screen<br></p><p>- Go to 'My Relationship' and click on 'View All'</p><p>- Choose the 'Loan Account' for which you need to view the statements</p><p>- Under 'Things You Can Do', click on 'View Statements'</p><p>- Select 'Repayment Schedule or 'Statement of Account'</p><p>- Choose to view, share or download the document</p><p>To go directly to the 'My Relations' screen, please <a href=\"bajajsuperapp://relations/cards\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "What should I do if my payment through UPI doesn't get updated against my loan?",
+    "answer": "<p>This may happen due to:</p><p>- Some issues with the payment gateway or</p><p>- Poor network connectivity</p><p>Moreover, if your transaction at our end fails due to any of the above-given reasons, then the amount debited gets refunded to your bank account.</p><p>To know about the refund timeframe, please connect with your bank.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "When can I make part pre-payments towards my loan?",
+    "answer": "Please note that part-prepayment on an existing loan is subject to certain conditions. A part-prepayment can be made only after the first instalment has been successfully cleared, and the prepayment amount must exceed the first instalment amount. Additionally, part-prepayment charges are applicable for all loans except Flexi loans. To proceed with a part-prepayment, please click the button below., CTA Label: Make Payment, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Part Pre-Payment",
+    "question": "Where can I check the break-up details of my loan after making part pre-payments? ",
+    "answer": "To view the break-up details of your loan, go to the 'Your Relations' screen, select the loan account number, and download the SOA or Repayment Schedule document by clicking the button below. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Payment through UPI",
+    "question": "What should I do if my payment through UPI doesn't get updated against my loan?",
+    "answer": "<p>This may happen due to:</p><p>1. Some issues with the payment gateway or</p><p>2. Poor network connectivity</p><p>Moreover, if your transaction at our end fails due to any of the above-given reasons, then the amount debited gets refunded to your bank account.</p><p>To know about the refund timeframe, please connect with your bank.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Loan Agreement?",
+    "answer": "<p>You can download your Loan Agreement by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Application Form?",
+    "answer": "<p>You can download your Application Form by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Consent Form?",
+    "answer": "<p>You can download your Consent Form by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my GSTN Certificate?",
+    "answer": "<p>You can download your GSTN Certificate by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my No Dues Certificate?",
+    "answer": "You can download your No Dues Certificate by visiting the 'Document Centre' and selecting your loan account number. To go to the 'Document Centre' screen, please visit document center. CTA label: Document center, Android CTA link:bajajsuperapp://documenation/documentcenter, iOS CTA link: bajajsuperapp://documenation/documentcenter,Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Repayment Schedule?",
+    "answer": "<p>You can download your Statement of Account by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "After closing the loan, when can I expect to get my original property documents back?",
+    "answer": "<p>To get your original property documents back, you need to visit the nearest Bajaj Finance Limited branch with your identity proof. Post verification, you will be informed by us through a phone call on your registered number to collect your documents within 15 business days of the request submission.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Business Secured Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Statement of Account?",
+    "answer": "<p>You can download your Statement of Account by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  }
+]

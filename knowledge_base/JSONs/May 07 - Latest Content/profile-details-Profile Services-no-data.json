@@ -1,0 +1,434 @@
+[
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Authentication",
+    "question": "What is an MPIN and why do I need to set one?",
+    "answer": "<p>An M-PIN is a Mobile Banking Personal Identification Number. It secures your app, makes your logins convenient and authenticates transactions done through the App.</p><p>It is a 4-digit passcode you can create during your first-time registration. It will be used to authenticate your logins in the future and will reduce the possibilities of any fraud on your account.</p><p>If your MPIN is compromised, third parties may use the same to log in on your behalf and execute financial transactions, thereby incurring a loss to you. Hence do not ever share your MPIN with anyone.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Authentication",
+    "question": " What is Face ID?",
+    "answer": "<p>Face ID is a facial recognition system that uses your face to unlock your mobile app using biometric authentication.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Authentication",
+    "question": "What is Fingerprint Authentication?",
+    "answer": "<p>Fingerprint Authentication, also known as Fingerprint Matching, is a method which verifies your identity through your fingerprints and helps you unlock your mobile app instantly.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Bajaj Pay - Wallet",
+    "question": "How can I log in to the App using a new mobile phone if I lost the previous one?",
+    "answer": "<p>Your relationships are linked to your registered mobile number. In case you have lost your phone, you can arrange for a new SIM with the same mobile number from your telecom vendor and use it to log in to Bajaj Finserv App. Rest assured, all the information related to your relationship is stored with us and no data will be lost.</p><p>Alternatively, you can also try logging on to the Experia Webpage portal to access your Bajaj Finance Ltd. relationships.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why do I need to update my personal details?",
+    "answer": "<p>By doing so, you don't miss any essential communication from us. Also, it helps us:</p><p>&nbsp;- Prevent any fraudulent activities from taking place in your account</p><p>&nbsp;- Provide immediate assistance in case you face any account-related issues</p><p>&nbsp;- Ensure that no one can access your account without your permission</p><p>&nbsp;- Add an extra layer of security to your 'Personal Account'</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "When can I see my updated personal details on the App?",
+    "answer": "<p>On successful submission of the request, your personal details get updated within 2 business days.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why am I unable to update my Goods & Services Tax Identification Number (GSTIN)/ Date Of Incorporation (DOI)?",
+    "answer": "<p>As per the government's guidelines, these details can't be updated online.</p><p>To do so, you are requested to visit our nearest Bajaj Finance Limited branch.</p><p>To locate the nearest Bajaj Finance Ltd. branch, please <a href=\"bajajsuperapp://storelocator/storelocatorlauncher\">click here</a>.&nbsp;</p><p>IMPORTANT: While visiting the branch, you are requested to carry the Registration Certificate and GSTIN Certificate in original with you along with self-attested copies.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why can't I see my personal details even after being an existing Bajaj Finance Ltd. customer?",
+    "answer": "This might be because you have not transacted with us. Hence, your personal details are yet not updated on the App. To update your personal details, please follow these steps:- Go to the 'Profile Section'- Click on 'Edit'- Fill in details of your PAN, Bank account or EMI card- Validate your details through OTP, MPIN, Face ID or FingerprintTo proceed now by clicking on the button below., CTA Label: Profile details page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://www.bajajfinserv.in/MyAccountService/HelpAndSupport/FAQRedirect?ID=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I rectify the incorrect birthdate mentioned in your records?",
+    "answer": "To update your Date Of Birth (DOB), please follow these steps:  - Go to the Profile Section  - Click on Edit  - Fill in details of your PAN, Bank account or EMI Network card  - Upload your DOB proof document (Driving License/PAN/Passport). CTA label: Profile Page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I update my PAN?",
+    "answer": "To update your PAN card number, please follow the below-given steps: 1. Go to 'edit profile' from the main menu 2. Click on 'Edit' in the line of your existing PAN card and read the disclaimer carefully 3. Enter your PAN number and click on 'Verify'. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/PAN_Update, IOS CTA link:bajajsuperapp://profile/PAN_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I update my address?",
+    "answer": "To update your address, please follow these simple steps: Go to the 'Saved Address' section,Click 'Edit' next to the address you want to update,Follow the steps to update your address. CTA Label: Profile Details, Android CTA link:bajajsuperapp://profile/Address_Update, IOS CTA link:bajajsuperapp://profile/Address_Update, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop spam calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop unwanted SMS?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop fraud calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "Why is customer care calling frequently?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop marketing calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop unnecessary product promotion related calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop sales team calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I am getting promotional calls daily how to stop them?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "how can I stop getting repeated missed calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "how can I stop getting irritating calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "how can I stop getting calls for products I didn't subscribe to?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "how can I stop harrasment calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop receiving repeated abusive calls?",
+    "answer": "I'm sorry to hear that agents are misbehaving with you, Please raise a request for assistance in this matter and our team will look into this on priority. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop getting promotional call continuously?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop bombard sales team calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I am frustrated by calls and sms and want to stop getting them?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop promotional Spam Emails and SMS?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "How can I stop loan approved calls?",
+    "answer": "Please click on the 'Get Help'  button below if you are still getting unwanted calls or SMS from Bajaj Finance Limited. CTA Label: Get Help, Android CTA Link:bajajsuperapp://doNotCall/callgethelp, iOS CTA Link:bajajsuperapp://doNotCall/callgethelp, Web CTA link:https://www.bajajfinserv.in/3in1web/Dnc/get-help",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I am angry on bajaj and want to stop getting calls?",
+    "answer": "If you do not wish to receive telephone calls about our offerings, you may activate the ‘Do Not Call’ service . 1. Go to the 'Menu' and click on 'Do Not Call Service' option 2. Select the products for which you received promotional calls and SMS 3. You can also share the phone number(s) from which you may have received promotional calls 4. Click on 'Activate' to complete your registration Note: If you are an existing customer, you will continue to receive calls related to service, transactions, and/ or EPI (EQUATED PERIODIC INSTALMENT (EPI)) collection. Your phone number registered for Do Not Call service will be excluded from the sales and promotion calling lists of Bajaj Finance Limited. CTA Label: Activate DNC, Android CTA Link: bajajsuperapp://doNotCall, iOS CTA Link: bajajsuperapp://doNotCall, Web CTA link: https://www.bajajfinserv.in/3in1web/Dnc/dnc-landing",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Change Personal Details",
+    "question": "I want MD email id?",
+    "answer": "I’m here to help with your query. However, I’m unable to share an email ID. Please let me know the details of your concern so I can assist you here.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Why can't I see my personal details updated on the App?",
+    "answer": "If you can't see your personal details, then please update the same by following these steps:- Go to the Profile Section- Click on Edit- Fill in details of your PAN, Bank account or EMI card- Validate your details through OTP, MPIN, Face ID or Fingerprint. To proceed now by clicking on the button below., CTA Label: Profile details page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://www.bajajfinserv.in/MyAccountService/HelpAndSupport/FAQRedirect?ID=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Why do I need to validate my identity through PAN/EMI/Bank account & OTP, MPIN & Biometric while accessing the profile update option?",
+    "answer": "<p>We ask you to validate your identity to ensure:</p><p>1) Personal details changes are initiated only by you</p><p>2) No fraudulent activities take place on your account</p><p>3) No one accesses your account without your permission</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Why are self-attested documents required for updating my personal details?",
+    "answer": "<p>By doing so, you certify that the documents provided by you are true and genuine.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "How do I self-attest my documents?",
+    "answer": "<p>You can do self-attestation by simply placing your signature on photocopies of the documents.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What documents do I need to update my personal details?",
+    "answer": "To update your residential address, you can provide a clear picture of your Voter ID, Passport, Driving License, or Aadhar Card.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Can I log in to the App using two different devices at the same time?",
+    "answer": "<p>Yes, you can log in to the App using two different devices. But, in that case, your logged-in session in the old device gets terminated and a new session is created onto your new device.</p><p>IMPORTANT: For security &amp; data protection purposes, we don't allow you to have multiple login sessions at the same time on multiple devices.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "Can I log in to the App using my friend's mobile phone?",
+    "answer": "<p>For security purposes, we don't recommend you to log in to your Bajaj Finance App using a third-party device.</p><p>However, you can always log in to our customer portal on www.bajajfinserv.in</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "General",
+    "question": "What should I do if my current address is not updated in the Officially Valid Documents (OVDs)?",
+    "answer": "<p>In that case, please submit the below-listed Deemed to be Officially Valid Documents (DOVD):</p><p>- Utility bill, in the name of the applicant, (not more than 2 months old)</p><p>&nbsp;(Electricity, Telephone, Post-paid Mobile Phone, Piped Gas, Water bill).</p><p>- Property or Municipal tax receipt</p><p>- Pension or Family Pension Payment Orders (PPOs)&nbsp;</p><p>- Letter of Allotment of Accommodation from Employer issued by State or Central Government Departments, Statutory or Regulatory Bodies, PSU, Scheduled Commercial Banks, Financial Institutions, and Listed Companies. Leave &amp; License Agreements with such employers allotting official accommodation</p><p>IMPORTANT: In case of DOVD towards the current Address, you must submit an OVD updated with the Current Address, within 3 months of submission of the DOVD.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How do I change/update my profile picture? Is it going to be stored anywhere?",
+    "answer": "<p>Don't worry, your profile picture doesn't get stored in our records. It just stays in your App memory.</p><p>To change/update your profile picture, please follow these steps:</p><p>- Click on 'My Accounts' at the bottom right of the page&nbsp;</p><p>- Click on 'Edit Profile'</p><p>- Click on 'Image' &amp; follow instructions to change your profile picture</p><p>To proceed now, please <a href=\"bajajsuperapp://profile/landing\">click here</a>.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "What documents do I need to submit to update my personal details?",
+    "answer": "To update your personal details, you need to provide identity proof such as PAN, Valid Passport, Aadhaar (with first 8 digits masked), Valid Driving license, Voter's ID card, NREGA Job Card, or Letter issued by National Population Register. For address proof, any of the mentioned documents except PAN card can be submitted. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "I want to change my mobile number.",
+    "answer": "<p>To change your mobile number, navigate to the profile details page. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How do I change my phone number?",
+    "answer": "<p>To change your mobile number, navigate to the profile details page. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "I want to update my mobile number?",
+    "answer": "<p>To change your mobile number, navigate to the profile details page. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "Name change",
+    "answer": "<p>Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How can I update my name in the records?",
+    "answer": "<p>Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "I want to change my name",
+    "answer": "<p>Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN , IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN , Web CTA : https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How can I update my email id",
+    "answer": "<p>To update your Email ID, please go to the 'Profile Section', click on 'Edit' in front of your email ID, and follow the steps to update it. You will need to validate your details through OTP. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "I want to update my email address.",
+    "answer": "<p>To update your Email ID, please go to the 'Profile Section', click on 'Edit' in front of your email ID, and follow the steps to update it. You will need to validate your details through OTP. CTA label: Profile Details, Android CTA Link: bajajsuperapp://profile/landing , IOS CTA Link: bajajsuperapp://profile/landing , Web CTA : https://www.bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How can I update my kyc",
+    "answer": "<p>To update your re-KYC, please follow these steps: 1. Go to the 'Account' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue'. You can also complete your KYC from the 'Reminder' section on the Homepage or Account section",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "Cancel my application for term loan",
+    "answer": "<p>We can't cancel the loan application since it was submitted with your consent. If you don't wish to proceed, simply avoid sharing any OTP or KYC documents during verification, this will stop the application from being processed further",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How can I update or rectify personal details in my Loan Statements?",
+    "answer": "To update personal details in your Loan Statements, please update the same in your profile by following these steps:- Go to the Profile Section- Click on 'Edit'- Fill in details of your PAN, Bank account or EMI card- Validate your details through OTP, MPIN, Face ID or Fingerprint. To proceed now by clicking on the button below., CTA Label: Profile details page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://www.bajajfinserv.in/MyAccountService/HelpAndSupport/FAQRedirect?ID=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Profile update",
+    "question": "How can I rectify an incorrect detail mentioned in my Loan Statement?",
+    "answer": "Please go to the Profile section and click on Edit. Enter your PAN, bank account, or EMI card details, and then validate the information using OTP, MPIN, Face ID, or Fingerprint. To proceed now by clicking on the button below., CTA Label: Profile details page, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link: https://www.bajajfinserv.in/MyAccountService/HelpAndSupport/FAQRedirect?ID=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Profile Details",
+    "l2category": "Profile Services",
+    "l3category": "Unable to update",
+    "question": "Why am I not getting any response even after entering the correct OTP?",
+    "answer": "<p>This is because you might have received two OTPs and entered any one of them. Please wait for some time; click only once on the 'Resend OTP' button and try entering the revised OTP sent.</p>",
+    "chatbot-flag": "yes"
+  }
+]

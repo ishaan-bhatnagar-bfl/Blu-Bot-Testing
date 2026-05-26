@@ -1,0 +1,254 @@
+[
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I foreclose my Bajaj Finserv Loan if bounce/overdue charges are applied?",
+    "answer": "<p>Your foreclosure amount includes all bounce and overdue charges, principal outstanding, etc.</p><p>To make a foreclosure payment, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Loan Foreclosure",
+    "question": "When can I foreclose my Bajaj Finserv Loan?",
+    "answer": "<p>You can foreclose a Bajaj Finserv Loan at any time after clearing your first EPI (EQUATED PERIODIC INSTALMENT (EPI)). However, this can vary on a loan basis and will be applicable as per the loan agreement.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I generate my Bajaj Finserv Loan foreclosure letter?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Loan foreclosure letter:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Foreclosure Letter' to download it</p><p>Please note that the foreclosure letter will be valid 7 days after being generated. After 7 business days, you have to download a fresh foreclosure letter.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Loan Foreclosure",
+    "question": "Does my CIBIL Score get impacted if I want to foreclose my Bajaj Finserv Loan?",
+    "answer": "<p>Foreclosing your loan has no impact on your CIBIL Score. Once you foreclose a loan, the same will be reported to CIBIL as 'closed' along with zero outstanding.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Loan Foreclosure",
+    "question": "What should I do if my EMI gets debited despite foreclosing the Bajaj Finserv Loan?",
+    "answer": "<p>The EPI (EQUATED PERIODIC INSTALMENT (EPI)) being debited from your bank is because the foreclosure payment is made after the 27th of the month, and your current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)) is already under presentation. The amount will be refunded to your registered bank account within 5 business days. Please check your statement of account (SOA) for the updated details.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "How can I make an advance EMI payment for my Bajaj Finserv Loan?",
+    "answer": "<p>You can follow these steps to make an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment:</p><p>1. Go to 'Loan payment' from the main menu</p><p>2. Click on 'Other payments' and select the loan account for which you wish to make the payment and click 'Proceed'</p><p>3. Choose 'Advance EPI (EQUATED PERIODIC INSTALMENT (EPI))' as your payment option</p><p>4. Enter the required details and proceed to pay</p><p>Please <a href=\"bajajsuperapp://relations/loan\">click here</a> if you want to go directly to the 'Loan Payment' section.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "Are there any charges for making an advance EMI payment on my Bajaj Finserv Loan?",
+    "answer": "<p>There are no extra charges for making an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment towards your Bajaj Finserv Loan.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I get a refund of the advance EMI payment for a Bajaj Finserv Loan I made during its presentation period?",
+    "answer": "<p>If your presented EPI (EQUATED PERIODIC INSTALMENT (EPI)) gets bounced, we will adjust the amount and if it gets cleared, we will refund the amount to your registered bank account.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "When can I see the updated loan amount in my statement of account (SOA) if I have made a Bajaj Finserv Loan EMI payment today?",
+    "answer": "<p>Following an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, the transaction details may take up to 24 hours to reflect in your account statement. Please follow these steps to check your statement of account:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the 'Statement of Account'</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "What is an advance EMI for a Bajaj Finserv Loan?",
+    "answer": "<p>Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment refers to the payment of an EPI (EQUATED PERIODIC INSTALMENT (EPI)) in advance. This gets adjusted towards your upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p><p>However, please note that if the payment is made before the 27th of the month, it will be adjusted toward the current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)). Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment made after the 27th of the month will get adjusted in the next month's EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make an advance EMI payment towards my Bajaj Finserv Personal Loan or Consumer Loan?",
+    "answer": "<p>Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments can be made towards any Term Loan by Bajaj Finance Ltd. However, the flexi loans are not eligible for advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I made an advance EMI payment 24 hours ago for a Bajaj Finserv Loan, but the amount still needs to be reflected in my Statement of Account (SOA)?",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your statement of account.</p><p>However, if you are still unable to check the updated details, then please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I have made an advance EMI payment towards Bajaj Finserv Loan before 20th of the month, but the amount is not reflected in my statement of account (SOA)?",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your statement of account. </p><p>However, if you are still unable to check the updated details, then please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Missed EMI Payment or Overdue",
+    "question": "How can I clear my EMI overdue amount for the Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>You can clear your overdue amount by following these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'Make Payments'</p><p>3. Choose 'Missed EMIs/Other Overdues' as your payment option</p><p>4. Enter the required details and proceed to pay</p><p>If you are overdue on more than a single loan, you can select multiple loan accounts for making payments in one go.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Missed EMI Payment or Overdue",
+    "question": "What are the charges applicable for bounced and overdue payments for the Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>To check the charges applicable for your bounced and overdue payments, please follow these steps and download your loan agreement:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the 'Loan Agreement'</p><p>To know about overdue and bounced charges now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Missed EMI Payment or Overdue",
+    "question": "Can Bajaj Finserv waive the bounce charges on my personal term loan account?",
+    "answer": "<p>Based on our internal policy, we cannot waive bounce charges. Hence, we suggest clearing the dues to avoid affecting your CIBIL Score.</p><p>To clear your dues, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p><p>Note: Please keep sufficient funds in your bank account to avoid such charges.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "Where can I check my updated loan details after part-prepaying the Bajaj Finserv Loan?",
+    "answer": "<p>You can refer to the Repayment Schedule or Statement of Account (SOA) to check your updated loan details after making a part-prepayment. Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.</p><p>To check your part-prepayment details, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Statement of Account</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "When can I make a part-prepayment towards my Bajaj Finserv Loan?",
+    "answer": "<p>When making a part-prepayment towards your existing loan, certain conditions apply, which are stated below:</p><p>- You can make a part-prepayment once the loan is disbursed in your bank account.</p><p>- The part-prepayment amount should be more than or equal to ₹ 100.</p><p>- No part-prepayment charges are applicable on the Bajaj Finserv Flexi Loan.</p><p>To part-prepay your loan, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "Are there any charges applicable for making a part-prepayment towards my Bajaj Finserv Loan?",
+    "answer": "<p>No part-prepayment charges are applicable on the Bajaj Finserv Loan.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "How can I check my Bajaj Finserv Loan break-up details?",
+    "answer": "<p>If you want to view the break-up of your Bajaj Finserv Loan, please follow the steps:</p><p>1. Go to the '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'</p><p>2. Choose the 'loan account' for which you need to check the loan break-up details</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "Why am I unable to make part-prepayment for my Bajaj Finserv Loan?",
+    "answer": "<p>We apologise for the inconvenience caused. There are several reasons due to which you may be unable to part-prepay like:</p><p>- There is an overdue amount on your loan account that needs to be cleared.</p><p>- If your last EPI (EQUATED PERIODIC INSTALMENT (EPI)) is pending, in this case, proceed directly for foreclosure.</p><p>- The part-prepayment amount exceeds the NEFT limit pre-defined by your bank. In this case, please check with your bank.</p><p>- If there are network issues, please wait for some time before re-trying.</p><p>If you still have queries, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "How long will it take for a part-prepayment to get adjusted towards my existing Bajaj Finserv Loan?",
+    "answer": "<p>After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards the existing loan.</p><p>To check your Repayment Schedule for updated loan details, follow the steps below:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Repayment Schedule</p><p>To continue enjoying flexi loan benefits and to keep your loan account active, please maintain a minimum principal amount of Rs. 100.</p><p>Note: The cheques and demand drafts clearance process will take approximately 3 business days.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "Why has my part-prepayment not been adjusted towards my Bajaj Finserv Loan account?",
+    "answer": "<p>After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards its Bajaj Finserv Loan account.</p><p>Note: The cheques and demand drafts clearance process will take approximately 3 business days.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "Will my EMI amount change after making a part-prepayment for Bajaj Finserv Loan?",
+    "answer": "<p>Yes, the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount reduces after making a part-prepayment for a loan. You can view the same by visiting the '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' section and selecting your Loan Account Number (LAN).</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "Why has my Bajaj Finserv Loan tenure not changed after making a part-prepayment towards it?",
+    "answer": "<p>In a Bajaj Finserv Loan, part payments affect only the EPI (EQUATED PERIODIC INSTALMENT (EPI)) and not the loan tenure. Hence, in a loan, the tenure remains constant throughout the loan period.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Part-prepayment",
+    "question": "What should I do if my Bajaj Finserv EMI amount does not change after making a part-prepayment?",
+    "answer": "<p>If your Bajaj Finserv Loan EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount does not change after making a part-prepayment, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "Why is my drawdown facility for the Bajaj Finserv Flexi Loan blocked?",
+    "answer": "<p>Your Flexi drawdown facility for Flexi Hybrid term Loan can get blocked due to many reasons, such as: - Overdue on your loan account: Please clear all dues before requesting a Flexi drawdown. - This facility can be blocked due to our internal risk policy basis parameters like CIBIL Score, credit behaviour across financial institutions, repayment history, bounced EMIs, and other factors that are checked by our risk team. - The amount requested is higher than your current available limit. -If the RE-KYC POP UP is displayed on the Bajaj app or website, it means your Flexi drawdown is blocked, and you need to complete the Re-KYC process</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "When can I expect the drawdown facility on my Bajaj Finserv Flexi Loan account to be unblocked?",
+    "answer": "<p>The Flexi drawdown facility can be unblocked by consistently making your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments on time. Our team will review your credit and repayment records in the upcoming quarter, and the block may be automatically removed based on their evaluation.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "Why am I getting an error message stating 'Exceeds the Available Limit' while trying to drawdown funds from my Bajaj Finserv Loan account?",
+    "answer": "<p>If the Flexi drawdown amount requested is higher than the limit in your flexi loan account, this error message will appear while trying to withdraw funds. Please enter an amount within the available limit and try again.</p><p>You can go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' to check your current available limit.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "What should I do if I have not received funds from Bajaj Finserv despite placing a drawdown request for loan?",
+    "answer": "<p>Once you place the Flexi drawdown request, the amount gets credited to your registered bank account within 2 hours. However, for requests placed on weekends and national holidays, the amount may get credited on the next business day.</p><p>In case of any delay, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "Can I drawdown funds from my Bajaj Finserv Loan account using a different bank account?",
+    "answer": "<p>Yes, you can Flexi drawdown funds from different bank accounts. However, you will have to update your bank account details to the new one before initiating a Flexi drawdown/withdrawal request. To update your bank account details, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select 'Loans'</p><p>2. Select the loan for which you want to change your bank account</p><p>3. Click on the 'Flexi drawdown Bank Change' option</p><p>4. Enter the relevant details like IFSC code and bank account number and click on 'Verify'</p><p>5. Check new bank details and click on 'Proceed'</p><p>6. Login to Digilocker and select Aadhar card or Driving License</p><p>7. Click on Confirm</p><p>With account validation from your bank, this change can be done completely end to end in a few minutes.</p><p>Please note: If you are a corporate account holder, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with a copy of cancelled cheque.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "Do I need to pay any charges to drawdown funds from my Bajaj Finserv Loan account?",
+    "answer": "<p>You don't need to pay any charges to Flexi drawdown funds from your Bajaj Finserv Loan account.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "How many times can I drawdown funds from my Bajaj Finserv Flexi Loan account?",
+    "answer": "<p>There are no restrictions on the frequency of drawdowns. However, you can withdraw until a minimum of Rs. 1000 is available in your limit.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Drawdown",
+    "question": "How do I drawdown funds from my Bajaj Finserv Flexi Loan account?",
+    "answer": "<p>Follow the steps below to Flexi drawdown funds from your Bajaj Finserv Flexi Loan account:<br /></p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'</p><p>2. Select the 'Loan Account Number' for which you wish to initiate the Flexi drawdown</p><p>3. Click on Withdraw / Flexi drawdown</p><p>4. Enter the Amount and click on OTP</p><p>5. Enter OTP and Submit</p><p>Please note: The minimum amount that can be withdrawn is Rs. 1000.</p><p>Once you place the Flexi drawdown request the amount gets credited to your registered bank account within 2 hours. However, for requests placed on weekends and national holidays, the amount may get credited on the next business day.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Payment through UPI",
+    "question": "What should I do if my payment through UPI doesn't get updated against my Bajaj Finserv Loan?",
+    "answer": "<p>Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.</p><p>If your payment made through UPI is not updated towards its Bajaj Finserv Loan account, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan Payments Drawdown",
+    "l2category": "Loan Payment Services",
+    "l3category": "Fees and Charges",
+    "question": "What fees and charges are applied to my Flexi Hybrid term Loan?",
+    "answer": "<p>Basis the loan type, the fees and charges may vary. You can check the specific charges applicable to your loan by visiting the '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' section and selecting your Loan Account Number (LAN).</p>"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What is my EMI Due Date?",
+    "answer": "<p>Your EPI (EQUATED PERIODIC INSTALMENT (EPI)) Due Date will be 2nd of every month.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "How can I know the status of my EMI deduction?",
+    "answer": "<p>You can know the status of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) deduction by heading to 'My Relations' and selecting your Loan Account Number (LAN).</p><p>Alternatively, you can download your Statement of Account from the ‘Document Centre’.</p><p>To go to 'My Relations' now, please&nbsp;<a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "How can I change my EMI due date?",
+    "answer": "<p>We regret to inform you that at present we do not have an option that allows you to change your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "How much is my EMI and what is my pending EMI amount?",
+    "answer": "<p>To know your EPI (EQUATED PERIODIC INSTALMENT (EPI))-related details, please go to 'My Relations' and select your Loan Account Number (LAN).</p><p>To go to 'My Relations', please&nbsp;<a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What should I do if my EMI doesn’t get deducted on its due date?",
+    "answer": "<p>We present the mandate to deduct the EPI (EQUATED PERIODIC INSTALMENT (EPI)) from your registered bank account on the due date. However, there could be a delay in processing the same by your bank. We request you to keep a sufficient balance in your registered bank account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "Why can't I see the details of deducted EMIs in my Statement of Account (SOA)?",
+    "answer": "<p>It takes approximately 2 business days for your deducted EPI (EQUATED PERIODIC INSTALMENT (EPI)) to get adjusted towards your loan account. Post this, you may accordingly download your SOA by visiting the 'Document Centre' and selecting your Loan Account Number (LAN).</p><p>To go to 'Document Centre', please&nbsp;<a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What should I do if it has been more than 2 business days, but details of the deducted EMI are still not updated in my Statement of Account (SOA)?",
+    "answer": "<p>In such scenario, please raise a request with us by&nbsp;<a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p><p>Please Note: Attaching your bank statement will help us to check and get back with a resolution as quickly as possible.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "How can I know my balance EMI amount?",
+    "answer": "<p>To know your EPI (EQUATED PERIODIC INSTALMENT (EPI))-related details, please go to 'My Relations' and select your Loan Account Number (LAN).</p><p>Alternatively, you can also download your Statement of Account by visiting the 'Document Centre'.</p><p>To go to 'My Relations', please&nbsp;<a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What should I do if I find that my EMI amount is incorrectly mentioned in 'My Relations'?",
+    "answer": "<p>Please raise a request with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "How can I get a refund of my EMI?",
+    "answer": "<p>Please raise a request with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "How can I make an advance EMI payment?",
+    "answer": "You may make an advance payment toward your loan before the 28th of the month. This amount will be adjusted against your upcoming instalment. To proceed, please click the button below and follow the instructions., CTA Label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What should I do if I have an overdue EMI with a penal fee?",
+    "answer": "Please clear your overdue instalment along with the applicable penal fee by clicking the button below. First, select the Loan Account Number (LAN) for which you wish to clear the dues, then follow the on-screen instructions to complete the payment., CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What should I do if my EMI payment is not updated in the Statement of Account (SOA)?",
+    "answer": "<p>We regret the inconvenience caused. Please raise a request with us by <a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "EMI Related",
+    "question": "What is EMI? How is it calculated?",
+    "answer": "<p>EPI (EQUATED PERIODIC INSTALMENT (EPI)) stands for Equated Monthly Installments. This EPI (Equated Periodic Instalment (EPI)) comprises both principal and interest components. Your EPI (EQUATED PERIODIC INSTALMENT (EPI)) would be calculated depending on the tenor and Loan variant you choose, to repay your loan. The EPI (EQUATED PERIODIC INSTALMENT (EPI)) would be higher if you choose to repay within a shorter period as against a longer-term loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "What is the maximum amount that I can get on my New Car Loan?",
+    "answer": "You can avail a loan ranging from ₹1 lakh to ₹5 crore under the New Car Loan scheme. However, the final loan amount will depend on your eligibility. CTA Label: Apply for Car loan, Android CTA link: bajajsuperapp://pdpx/UCF_ZCUC__PDP, IOS CTA link: bajajsuperapp://pdpx/UCF_ZCUC__PDP,  Web CTA link: https://www.bajajfinserv.in/used-car-loan</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "What is the minimum and maximum tenor of a New Car Loan?",
+    "answer": "<p>For repayment of your New Car Loan, there are flexible tenor available.</p><ul><li>For Term Loan: Min: 12 – Max: 96 months</li><li>For Flexi Term Loan (Flexi Dropline): Min: 12 – Max: 96 months</li><li>For Hybrid Flexi: Min: 24 – Max:96 months</li></ul><p>Interest servicing period can be up to 12 months for Hybrid Flexi loans</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "How long does it take for my New Car Loan to get processed?",
+    "answer": "<p>We offer quick loan processing time in industry, basis submission of Correct &amp; valid document by customer.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "How much of down payment amount do I need to pay while applying for a New Car Loan?",
+    "answer": "<p>Down payments will be based on the approved loan amount and the vehicle selected by you.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "Do I need co-applicant or guarantor to get a New Car loan?",
+    "answer": "<p>No,you don't require a guarantor or co-applicant. However ,its is mandatory to add co-applicant[s] in below mentioned scenarios.</p><ul><li>Co-applicant needs to be added mandatorily if Min/Max age norms not met</li><li>Co-applicant need to be added mandatorily if primary applicant is non individual</li><li>Co-applicant need to be added mandatorily if Primary applicant is housewife</li><li>Co-applicant should be in blood relation (spouse, mother, Son, father) for individual cases</li><li>Co-applicant should be meeting the age norms.</li></ul>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "What’s the minimum credit score I need to get a Car Loan?",
+    "answer": "<p>Bajaj Finance Ltd hasn't specified a minimum Credit Score for getting a Car Loan. However, a lower Credit Score may lead to the approval of lower loan amounts. Make sure your Credit Score is more than 720, which is generally considered excellent.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Application Related",
+    "question": "How to get your Car Loan Approved Faster?",
+    "answer": "<p>To make sure your Car Loan is approved faster; the key is to provide all the necessary documents and complete your Know your Customer (KYC) formalities. Additionally, online Car Loan applications are processed faster.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Collection Related (Debt Management)",
+    "question": "Why am I receiving Debt Management Services/Collection calls when my EMI payments are already updated in the Statement of Account (SOA)?",
+    "answer": "<p>We regret the inconvenience caused. Please raise a request with us by&nbsp;<a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Eligibility",
+    "question": "How do I know if I am eligible for a New Car Loan?",
+    "answer": "<p>Basis the below-mentioned and internal parameters, we will carry out an assessment to check your loan eligibility:</p><ul><li>You should be a resident of India</li><li>You should be above 23 years of age</li><li>You should have been employed for at least 6 months or been running a business for at least 2 years (Pensioner allowed)</li><li>You should have your KYC documents including valid Identity proof and address proof</li></ul>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Eligibility",
+    "question": "Can a salaried person get a New Car Loan?",
+    "answer": "<p>Yes, a salaried person can get a New Car Loan. You should be employed for at least 6 months and having minimum salary of 20K . Additionally, you must be at least 23 years of age at the time of your loan application.</p><p>However, the actual loan amount will be dependent on your eligibility.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Eligibility",
+    "question": "Can I get a New Car loan if I am a business owner?",
+    "answer": "<p>Self-employed individuals and business owners can get a New Car Loan. You should have been in business for at least 2 years. Additionally, you must be at least 23 years of age at the time of your loan application.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Eligibility",
+    "question": "What is the age criteria to apply for a Car Loan?",
+    "answer": "<p>The minimum age of the applicant while applying for the loan must be 23 years and maximum age should be 73 years at loan maturity.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Eligibility",
+    "question": "What type of cars are financed under New Car Loan?",
+    "answer": "<p>You can avail New Car Loan for New Passenger Cars, New Taxi Cars,New Electric passenger/Taxi permit cars that are available in India.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Eligibility",
+    "question": "What is pre-approved Auto Loan?",
+    "answer": "<p>Pre-approved Auto Loan from Bajaj Finance is offered to our existing customers on the basis of their existing relationship with Bajaj Finance Limited. It is offered to selected customers. Customers having pre-approved offers are eligible for the loan amount and tenor as per the offer available.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Fees and Charges",
+    "question": "What penalty or charges do I need to pay if I miss my instalment?",
+    "answer": "<p>If your presented instalment is dishonoured or bounced, you will be charged&nbsp;<b>Rs. 1,500/-</b>&nbsp;per bounce. In addition, delay in payment of Monthly instalment shall attract penal interest at the rate of 3.50% per month on the Monthly Instalment outstanding, from the respective due date until the date of receipt</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Fees and Charges",
+    "question": "Do I have to pay the bounce fee every month?",
+    "answer": "<p>No, you do not need to pay the bounce fee every month. This fee is charged only if there are insufficient funds in your bank account and your bank returns the EPI (EQUATED PERIODIC INSTALMENT (EPI)) mandate presented against your account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Fees and Charges",
+    "question": "Do I need to pay any charges if I want to foreclose my loan?",
+    "answer": "<p>Customer is liable to pay 4.72% (Inclusive of applicable taxes) on the outstanding principal/amount being prepaid. However, this might be different in case of a Flexi loan variants.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "General Info",
+    "question": "Can I get a loan if I want to buy an Electric Vehicle (EV)?",
+    "answer": "<p>Yes, you can get a loan but only to buy a Regional Transport Office (RTO) registered EV.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "General Info",
+    "question": "What are the interest rates for Bajaj Finance Limited \"New Car Loan\"?",
+    "answer": "<p>Annualized ROI is in the range of 7.50% - 14.00% depending on profile of applicant, product segment, interest gradation etc. and Credit at the sole discretion of BFL.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "General Info",
+    "question": "Whom can I contact for my post-loan disbursement queries?",
+    "answer": "<p>To get your queries resolved, please raise a request with us by&nbsp;<a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "General Info",
+    "question": "Whom should I contact for my vehicle Registration Certificate (RC)?",
+    "answer": "<p>Vehicle Registration Certificate (RC) issuance is a state-specific process. RC is issued by the respective RTO office to the registered vehicle owner after registration of the vehicle. The process of RC issuance may vary as per state-specific rules. You may approach the dealership from where you have purchased the vehicle for the respective RTO office process for further guidance.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Payment or Foreclosure",
+    "question": "How do I repay the loan?",
+    "answer": "You can pay your outstanding amount by clicking on the button below. Please note that additional charges may apply, as per the terms mentioned in your loan agreement., CTA Label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Payment or Foreclosure",
+    "question": "Why is my loan status showing as 'Active' when I have foreclosed my loan?",
+    "answer": "<p>We regret the inconvenience caused. Please raise a request with us by&nbsp;<a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Payment or Foreclosure",
+    "question": "What should I do if I want to foreclose a loan, but the screen doesn't move ahead after entering my bank details?",
+    "answer": "<p>There might be various reasons for this to happen. Try logging out and logging in after some time. If it continues, we humbly request you to raise a request with us by&nbsp;<a href=\"bajajsuperapp://helpsupport/raisedrequest\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Payment or Foreclosure",
+    "question": "How can I get my Foreclosure Letter?",
+    "answer": "<p>To view or download your Foreclosure Letter, please go to the 'Document Centre' and select your loan account number.</p><p>Please Note:</p><p>Your Foreclosure Letter will be valid for 7 days after being generated. Post 7 business days, you will have to download a fresh Foreclosure Letter.</p><p>To go to 'Document Centre', please&nbsp;<a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Payment or Foreclosure",
+    "question": "Is it possible to check my loan summary and payment details online?",
+    "answer": "<p>Logging into Bajaj Finserv Customer Portal - My Account with your credentials gives you access to all of your loan account information. You can check your loan summary and payment details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How can I view or download my Statement of Account (SOA)?",
+    "answer": "<p>You can download your Statement of Account by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please&nbsp;<a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How can I get my No Dues Certificate?",
+    "answer": "<p>You can download your No Dues certificate by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please&nbsp;<a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How can I get my Interest Certificate?",
+    "answer": "<p>You can download your Interest Certificate by visiting the 'Document Centre' and selecting your loan account number.<br><br>To go to the 'Document Centre' screen, please&nbsp;<a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How can I get my Repayment Schedule?",
+    "answer": "<p>You can download your Repayment Schedule by visiting the 'Document Centre' and selecting your loan account number.</p><p>To go to the 'Document Centre' screen, please&nbsp;<a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How can I get the No Objection Certificate (NOC) for my New Car Loan?",
+    "answer": "<p>You will receive your NOC on loan closure. Once all your outstanding loan repayments are completed &amp; your loan is closed. Your No Objection Certificate will be sent to your registered address with us.</p><p>Please Note: If your address is changed, please update the same by&nbsp;<a href=\"bajajsuperapp://profileUpdate/INADD\">clicking here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How long does it take to receive the No Objection Certificate (NOC) if I close my New Car Loan?",
+    "answer": "<p>After foreclosing your New Car Loan, you will receive a NOC kit that will be sent to your registered address within 10 days.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "What is the validity of my NOC (No Objection Certificate)?",
+    "answer": "<p>Your NOC is valid till 90 days from the date of its issuance. You need to submit the NOC to the respective RTO within the validity period to remove Bajaj Finance Limited hypothecation &amp; charge over the car from your registration certificate (RC).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "New Car Finance",
+    "l3category": "Statements",
+    "question": "How can I get duplicate NOC /Form 35 for a New Car loan that has been fully repaid?",
+    "answer": "If you require a duplicate No Objection Certificate (NOC), please raise a request with us, and our team will assist you further. CTA label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  }
+]

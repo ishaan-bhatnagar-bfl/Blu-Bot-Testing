@@ -1,0 +1,359 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Are there any charges applicable for making an advance payment towards my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>There are no charges for making an advance payment towards your Bajaj Finserv Personal Term Loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make an advance EMI payment towards my Bajaj Finserv Personal Term loan?",
+    "answer": "<p>Yes, an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment can be made towards any term loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I made an advance EMI payment 24 hours ago for a Bajaj Finserv Personal Term Loan, but the amount still needs to be reflected in my Statement of Account (SOA)?",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your statement of account. </p><p>However, if you are still unable to check the updated details, then please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I have made an advance EMI payment towards Bajaj Finserv Personal Term Loan before 20th of the month, but the amount is not reflected in my statement of account (SOA)?",
+    "answer": "<p>After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your statement of account.</p><p>However, if you are still unable to check the updated details, then please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I get a refund of the advance EMI payment for a Bajaj Finserv Personal Term Loan I made during its presentation period?",
+    "answer": "<p>If your presented EPI (EQUATED PERIODIC INSTALMENT (EPI)) gets bounced, we will adjust the amount and if it gets cleared, we will refund the amount to your registered bank account.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "When can I see the updated loan amount in my statement of account (SOA) if I have made a Bajaj Finserv Personal Term Loan EMI payment today?",
+    "answer": "<p>Following an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, the transaction details may take up to 24 hours to reflect in your account statement. Please follow these steps to check your statement of account:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the 'Statement of Account'</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make an advance EMI payment for a Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Yes, you can make advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments towards your Bajaj Finserv Personal Term Loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make an advance payment if my Bajaj Finserv Personal Term Loan EMI are due in a few days?",
+    "answer": "<p>Yes, you have the option to make an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment. We would suggest that you make the advance payment 5 working days before your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date to avoid any presentation of EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p><p>Please note that our EPI (EQUATED PERIODIC INSTALMENT (EPI)) presentation period starts 5 working days prior to the EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date. So, if you make the payment during this period, it will be presented to your bank. However, if the EPI (EQUATED PERIODIC INSTALMENT (EPI)) bounces, the advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) will be adjusted against the due EPI (EQUATED PERIODIC INSTALMENT (EPI)). In case any excess EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount is deducted from your bank account, it will be auto-refunded to your account after the 5th of the month.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What is an advance EMI for a Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment refers to the payment of an EPI (EQUATED PERIODIC INSTALMENT (EPI)) in advance. This gets adjusted towards your upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p><p>However, please note that if the payment is made before the 27th of the month, it will be adjusted toward the current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)). Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment made after the 27th of the month will get adjusted in the next month's EPI (EQUATED PERIODIC INSTALMENT (EPI)).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I generate my Bajaj Finserv Personal Term Loan foreclosure letter?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan foreclosure letter:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Foreclosure Letter' to download it</p><p>Please note that the foreclosure letter will be valid 7 days after being generated. After 7 business days, you have to download a fresh foreclosure letter.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "Why is my loan status showing as 'Active' when I have foreclosed my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>After paying the foreclosure amount, it takes up to 24 hours for the amount to reflect in your statement of account (SOA).</p><p>However, if you still cannot see the updated loan details, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "What should I do if my EMI gets debited despite foreclosing the Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>The EPI (EQUATED PERIODIC INSTALMENT (EPI)) being debited from your bank is because the foreclosure payment is made after the 27th of the month, and your current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)) is already under presentation. The amount will be refunded to your registered bank account within 5 business days. Please check your <a href=\"bajajsuperapp://documenation/documentcenter\">statement of account</a> (SOA) for the updated details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I foreclose my Bajaj Finserv Personal Term Loan if bounce/overdue charges are applied?",
+    "answer": "Your foreclosure amount includes all bounce charges, overdue charges, and other applicable fees. To make a foreclosure payment, please click on the button below.,  CTA Label: Make Pament , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link::https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "When can I foreclose my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>You can foreclose a Bajaj Finserv Personal Term Loan at any time after clearing your first EPI (EQUATED PERIODIC INSTALMENT (EPI)). However, this can vary on a loan basis and will be applicable as per the loan agreement.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How and when can I get the no dues certificate (NDC) for a Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>After making a foreclosure payment, it takes up to 24 hours for the details to get updated in your loan account. Post this, you can download the no dues certificate (NDC) by following these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select 'Loans'</p><p>2. Click on the 'Loan Account Number' for which you wish to download the document</p><p>3. Click on 'View Statements' and select 'No Dues Certificate'</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "Does my CIBIL Score get impacted if I want to foreclose my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Foreclosing your loan has no impact on your CIBIL Score. Once you foreclose a loan, the same will be reported to CIBIL as 'closed' along with zero outstanding.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Fees and Charges",
+    "question": "What are the different types of fees and charges that could apply to my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Fees and charges vary from loan to loan. To know the fees and charges applicable to your loan, please check your loan account's '<a href=\"bajajsuperapp://relations/loan\">Fees and Charges</a>' section.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Missed EMI payment or overdue",
+    "question": "Can Bajaj Finserv waive the bounce charges on my personal term loan account?",
+    "answer": "<p>Based on our internal policy, we cannot waive bounce charges. Hence, we suggest clearing the dues to avoid affecting your CIBIL Score.</p><p>To clear your dues, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p><p>Note: Please keep sufficient funds in your bank account to avoid such charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Missed EMI payment or overdue",
+    "question": "Why did my EMI payment bounce for the Bajaj Finserv Personal Term Loan despite having a sufficient balance in my bank account?",
+    "answer": "<p>If your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment bounced despite having a sufficient balance in the bank account, please connect with your bank immediately.<br></p><p>However, if your bank confirms that there are no issues from their end, then your EPI (EQUATED PERIODIC INSTALMENT (EPI)) might have bounced due to mandate-related issues. In such a scenario, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Missed EMI payment or overdue",
+    "question": "How can I clear my EMI overdue amount for the Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>You can clear your overdue amount by following these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'Make Payments'</p><p>3. Choose 'Missed EMIs/Other Overdues' as your payment option</p><p>4. Enter the required details and proceed to pay</p><p>If you are overdue on more than a single loan, you can select multiple loan accounts for making payments in one go.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Missed EMI payment or overdue",
+    "question": "What are the charges applicable for bounced and overdue payments for the Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>To check the charges applicable for your bounced and overdue payments, please follow these steps and download your loan agreement:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the 'Loan Agreement'</p><p>To know about overdue and bounced charges now, please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "Does my Bajaj Finserv Personal Term Loan EMI amount change after making a part-prepayment?",
+    "answer": "<p>While making a part-prepayment, if you have selected the 'EPI (EQUATED PERIODIC INSTALMENT (EPI)) Reduction' option, your EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount will be reduced.</p><p>Please go to the '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' section and select your loan account number to check the revised amount details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "Are there any charges applicable for making a part-prepayment towards my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Yes, you have to pay additional charges when you make a part-prepayment towards your personal term loan.</p><p>Please <a href=\"bajajsuperapp://relations/loan\">click here</a> to view part-prepayment-related details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "How long will it take for a part-prepayment to get adjusted towards my existing Bajaj Finserv Personal Term Loan?",
+    "answer": "After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards the existing loan.</p><p>To check your Repayment Schedule for updated loan details, follow the steps below:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Repayment Schedule</p><p>Note: The cheques and demand drafts clearance process will take approximately 3 business days.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "Why am I unable to make part-prepayment for Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>We apologise for the inconvenience caused. There are several reasons why you may be unable to part-prepay like:</p><p>- There is an overdue amount on your loan account that needs to be cleared.</p><p>- If your last EPI (EQUATED PERIODIC INSTALMENT (EPI)) is pending, in this case, proceed directly for foreclosure.</p><p>- The part-prepayment amount exceeds the NEFT limit pre-defined by your bank. In this case, please check with your bank.</p><p>- If there are network issues, please wait for some time before re-trying.</p><p>If you still have queries, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "Why has my part-prepayment not been adjusted toward its Bajaj Finserv Personal Term Loan account?",
+    "answer": "After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards its Bajaj Finserv Personal Term Loan account.</p><p>Note: The cheques and demand drafts clearance process will take approximately 3 business days."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "Where can I check the updated loan details after making a part-prepayment towards my Bajaj Finserv Personal Term Loan?",
+    "answer": "You can refer to the repayment schedule or statement of account (SOA) to check your updated loan details after making a part-prepayment. Please note that it takes up to 48 hours for the amount to get adjusted towards your loan.</p><p>To check your part-prepayment details, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the 'Statement of Account'"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "Why has my Bajaj Finserv Personal Term Loan tenure not changed after part-prepayment?",
+    "answer": "After making a part-prepayment, it takes up to 48 hours for the amount to get adjusted towards its Bajaj Finserv Personal Term Loan account. If your loan tenure doesn't change after making a part-prepayment, in such scenarios, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Part-prepayment",
+    "question": "When can I make a part-prepayment towards my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Certain conditions apply when making a part-prepayment towards your existing loan. These are stated below: </p><p>- You can make a part-prepayment after the 1st EPI (EQUATED PERIODIC INSTALMENT (EPI)) of your existing loan is successfully cleared.</p><p>- The part-prepayment amount should be more than the 1st EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount.</p><p>- Charges are applicable for all part-prepayments made towards loans other than flexi loans.</p><p>To part-prepay your loan, please <a href=\"bajajsuperapp://relations/loan\">click here.</a></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Payment through UPI",
+    "question": "What should I do if my EMI payment through UPI doesn't get updated against my Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.</p><p>If your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment made through UPI is not updated towards its Bajaj Finserv Personal Term Loan account, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">raise a request</a> with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finserv Personal Term Loan agreement?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan agreement:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Loan Agreement' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finserv Personal Term Loan application form?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan application form:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Application Form' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finserv Personal Term Loan consent form?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan consent form:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Consent Form' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finserv Personal Term Loan no dues certificate (NDC)?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan no dues certificate (NDC):</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'No Dues Certificate' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finserv Personal Term Loan repayment schedule?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan repayment schedule:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Repayment Schedule' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my Bajaj Finserv Personal Term Loan statement of account (SOA)?",
+    "answer": "<p>Please follow these simple steps to get your Bajaj Finserv Personal Term Loan statement of account:</p><p>1. Go to the '<a href=\"bajajsuperapp://documenation/documentcenter\">Document Centre</a>' from main menu</p><p>2. Select the loan account number for which you want to view documents</p><p>3. Find all your documents and click on 'Statement of Account' to download it</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Collection related (debt management)",
+    "question": "Why am I receiving EMI re-payment calls for the Bajaj Finserv Personal Term Loan when my payment is updated in the statement of account (SOA)?",
+    "answer": "<p>We apologise for the inconvenience. If your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment is updated and you are still getting calls, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Collection related (debt management)",
+    "question": "Why am I receiving calls after making payment of my outstanding dues for a Bajaj Finserv Personal Term Loan?",
+    "answer": "<p>You may have some outstanding overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges. Kindly check your '<a href=\"bajajsuperapp://documenation/documentcenter\">Statement of Account</a>' and make payments towards your overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges, if any. To avoid calls in the future, kindly make your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment on time.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "What is loan cancellation?",
+    "answer": "<p>If you have taken a loan from Bajaj Finance Limited and wish to cancel it, it will be called a loan cancellation. However, there are various terms and conditions that need to be fulfilled before you can cancel a loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "Which of my loans can I cancel?",
+    "answer": "<p>You can cancel the loans availed from Bajaj Finance Limited as per the applicable terms and conditions.</p><p>Loan cancellation can apply to various types of loans like mortgages, personal loans, and consumer and business loans as per the loan terms and conditions accepted at the time of execution of the contract.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "How can I qualify for loan cancellation?",
+    "answer": "Once the loan amount is disbursed into your registered bank account or to the dealer's account (in the case of a consumer loan), you initiate a cancellation request within 1 days from the loan disbursal date. However, Bajaj Finance Limited (BFL)'s applicable terms and conditions shall govern the loan cancellation."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "How can I cancel my Bajaj Finserv Personal Term Loan?",
+    "answer": "You can cancel your loan within 1 day of disbursement by selecting the loan in 'My Relations,' clicking 'Cancel Loan,' choosing your cancellation reason, and if any disbursement was received, returning the amount by making a payment through your preferred method. If you are unable to cancel the loan online, you will need to raise a request with us. If the cancel option is unavailable, you are not eligible for loan cancellation. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "When will my personal term loan get cancelled after I have made the cancellation payment?",
+    "answer": "<p>Once your loan cancellation payment is received, it takes up to 2 business days to update your loan cancellation payment to be completed. If you need any further assistance, kindly raise a request with us by following these steps:</p><p>1. Go to 'Help and Support' from the main menu</p><p>2. Click on the '<a href=\"bajajsuperapp://helpsupport/raisedrequest\">Raise a Request</a>'</p><p>3. Select your 'Loan Type' and 'Product Description'</p><p>4. Select 'Query Type' and describe your query/issue</p><p>5. Click on 'Submit'</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "Which channels can I choose to initiate a cancellation request?",
+    "answer": "<p>You can request your loan cancellation through the Bajaj Finserv App and website. Alternatively, you can reach us through the nearest <a href=\"bajajsuperapp://storeLocator/BFLBRN\">Bajaj Finance branch</a>, email, IVR (Call Centre), business, B2B dealers and partners, Bajaj Mall, etc.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "Are there any fees or charges applicable on loan cancellation?",
+    "answer": "No charges are levied if the cancellation request is placed within the cooling off/free look-up period of 1 days of loan disbursal of your loan availed from Bajaj Finance Limited. You will be levied foreclosure charges after the cooling off/free look-up period is over"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "How long does the loan cancellation process take?",
+    "answer": "<p>Once your loan cancellation payment is received, it takes up to 2 business days to reflect it as completed. If you need any further assistance, kindly raise a request with us by following these steps:</p><p>1. Go to 'Help and Support' from the main menu</p><p>2. Click on the '<a href=\"bajajsuperapp://helpsupport/raisedrequest\">Raise a Request</a>'</p><p>3. Select your 'Loan Type' and 'Product Description'</p><p>4. Select 'Query Type' and describe your query/issue</p><p>5. Click on 'Submit'</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "Can I cancel a personal term loan if I have already made partial repayments?",
+    "answer": "Yes, you can cancel a Bajaj Finserv Personal Term Loan if you have made loan repayment and initiated cancellation within 1 days of loan disbursal. If cancellation is requested after 1 days of loan disbursal, then the loan will have to be foreclosed with applicable charges, if any."
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "Will I receive a refund if I make a loan repayment before the cancellation?",
+    "answer": "To cancel your loan, you will have to make a payment of the net disbursal amount. If you have made partial loan repayment and initiated cancellation within 1 days of loan disbursal, the amount will be adjusted towards your outstanding amount. The net payable amount will be calculated after deducting the repayment amount paid. During the loan cancellation, if any excess amount is collected, the same will be refunded to your registered bank account available with us within 2 business days"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "Where can I track my Bajaj Finance loan cancellation status?",
+    "answer": "<p>After your Bajaj Finance loan is successfully cancelled, you will receive SMS/notifications/email sharing details about the same.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "When can I get the refund of the payments that I made before loan cancellation?",
+    "answer": "<p>If you are eligible for a refund, the amount will be credited to your registered bank account within 2 business days.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Term Loan",
+    "l3category": "Loan Cancellation",
+    "question": "What happens when my loan is cancelled?",
+    "answer": "<p>When your loan is cancelled, your obligation to repay loan EMIs becomes null and void. Due to service cancellation, you are no longer required to pay for the cancelled loan(s).</p><p>Credit Information Companies (CICs) shall be informed of the suppression of such loans within 7 days of loan cancellation.</p>"
+  }
+]

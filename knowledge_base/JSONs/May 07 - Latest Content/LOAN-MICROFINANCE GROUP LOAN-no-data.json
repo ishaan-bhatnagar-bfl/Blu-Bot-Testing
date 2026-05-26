@@ -1,0 +1,149 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Are there any charges for making an advance EMI payment on my Bajaj Finserv Microfinance Group Loan?",
+    "answer": "<p>There are no extra charges for making an advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment towards your microfinance group loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Can I make an advance EMI payment towards my microfinance group loan (MFI)?",
+    "answer": "<p>Yes, you can make advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments towards Bajaj Finserv Microfinance Group Loan.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What should I do if I have made an advance EMI payment before 20th of the month, but the amount is not reflected in my statement of account (SOA)?",
+    "answer": "<p>After making  an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your statement of account.</p><p>However, if you are still unable to check the updated details, then please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to Raise a Request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "When can I see the updated loan amount in my statement of account if I have made an MFI loan EMI payment today?",
+    "answer": "<p>Following an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, the transaction details may take up to 24 hours to reflect in your account statement. Please follow these steps to check your statement of account:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account<br></p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the statement of account</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "What is advance EMI payment for a microfinance group loan from Bajaj Finance?",
+    "answer": "<p>Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment is the amount a customer pays us in order to adjust their upcoming EMIs. This amount gets adjusted against the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount on due date.</p><p>It's important to note that the advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount is intended to cover upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI))(s) and should not be regarded as part-prepayment or loan foreclosure. No interest amount is payable by Bajaj Finance Ltd. on the advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount paid by our customer.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Collection related Debt Management",
+    "question": "What should I do if my EMI payment is updated in the statement of account, but I continue to recieve calls regarding EMI repayment?",
+    "answer": "<p>We regret any inconvenience you may have experienced. Please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Collection related Debt Management",
+    "question": "What should I do if I have been receiving calls requesting payment for my outstanding dues?",
+    "answer": "<p>You may have outstanding overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges. Kindly check your statement of account and make payment towards your overdue EPI (EQUATED PERIODIC INSTALMENT (EPI))(s)/charges (if any).</p><p>To prevent future calls, we request that you ensure timely EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Fees and Charges",
+    "question": "What are the different types of fees and charges applicable to my microfinance group loan?",
+    "answer": "<p>Fees and charges can vary from loan to loan. To know the various charges applicable to your microfinance group loan, please follow these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'<br></p><p>2. Click on the 'Loan Account Number'</p><p>3. Scroll to 'Fees and Charges' and check the details.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Fees and Charges",
+    "question": "How can I obtain information regarding the current interest rates applicable to microfinance loans?",
+    "answer": "<p>You can access information regarding microfinance group loan interest rates through the Bajaj Finserv app, website, or at our branch locations.</p><p>Note: In compliance with RBI regulations, lenders are required to display the minimum, maximum, and average interest rates applicable to microfinance loans in all their offices, informational literature (such as information booklets and pamphlets), and in detail on their website.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I generate a foreclosure letter for my microfinance group loan?",
+    "answer": "<p>Follow these steps to generate a foreclosure letter for your Bajaj Finserv Microfinance Group Loan:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account<br></p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the foreclosure letter</p><p>Please note that the foreclosure letter will be valid only for 7 days after being generated. After 7 days, you will have to download a fresh foreclosure letter.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "What should I do if my Bajaj Finserv Microfinance Group Loan status remains active despite paying the foreclosure amount?",
+    "answer": "<p>After making a foreclosure payment, it takes up to 24 hours for the amount to reflect in your statement of account (SOA).</p><p>However, if you cannot see the updated loan details, please <a href=\"bajajsuperapp://helpsupport/raisedrequest\">click here</a> to raise a request.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "When can I foreclose my microfinance group loan?",
+    "answer": "<p>You can foreclose your loan anytime after the loan amount is disbursed.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "Will my CIBIL Score be impacted if I foreclose a loan?",
+    "answer": "<p>Not at all. Once you foreclose a loan, it will be reported to CIBIL as '0 (zero) current balance'.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Missed EMI Payments or Overdues",
+    "question": "Can Bajaj Finance waive the bounce charges on my loan account?",
+    "answer": "<p>As per our internal policy, we will not be able to waive bounce charges. Hence, we recommend that you clear all outstanding dues to prevent any negative impact on your CIBIL Score.</p><p>To clear your dues now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p><p>Note: Please keep sufficient funds in your bank account to avoid such charges.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Missed EMI Payments or Overdues",
+    "question": "What are the charges applicable for bounced and overdue payments with Bajaj Finance Ltd.?",
+    "answer": "<p>You can find the complete list of fees and charges in your loan agreement, including 'bounce' or 'overdue' charges.</p><p>Please <a href=\"bajajsuperapp://documenation/documentcenter\">click here</a> to find your loan agreement and other related documents.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Payment through UPI",
+    "question": "What should I do if I made a payment using Bajaj Finserv UPI, but it is not reflected in my loan account details?",
+    "answer": "<p>This situation could arise for the following reasons:</p><p>- There could be potential issues with the payment gateway.</p><p>- Improved network connectivity may be required.</p><p>Furthermore, if your transaction fails at our end due to any of the mentioned reasons, the debited amount will be refunded to your bank account.</p><p>Note: Please contact your bank to know the refund timeframe.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Statements",
+    "question": "Where and when can I get the No Dues Certificate (NDC) for my loan?",
+    "answer": "<p>After making a foreclosure payment, it may take up to 24 hours for your loan account to reflect the updated details. After this, you can download the no dues certificate (NDC) from the 'View Statements' section by following these steps:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'<br></p><p>2. Click on the 'Loan Account Number' for which you wish to download the document</p><p>3. Click on 'View Statements' and select 'No Dues Certificate'</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Statements",
+    "question": "How can I view the loan agreement for my microfinance group loan?",
+    "answer": "<p>Please follow these steps to view the loan agreement for your Bajaj Finserv Microfinance Group Loan:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'</p><p>2. Click on the loan account number for which you wish to view details</p><p>3. Select 'View Statements' to download and view your loan agreement</p><p>You can also visit our nearest branch to obtain a physical copy of the document.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download the application form for my microfinance group loan?",
+    "answer": "<p>Please follow these steps to download or view the application form for your Bajaj Finserv Microfinance Group Loan:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>'</p><p>2. Click on the loan account number for which you wish to view details</p><p>3. Select 'View Statements' to download and view your application form</p><p>You can also visit our nearest branch to obtain a physical copy of the document.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download no dues certificate (NDC) for my microfinance group loan?",
+    "answer": "<p>Please follow these steps to view or download the no dues certificate (NDC) for your Bajaj Finserv Microfinance Group Loan:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view your no dues certificate</p><p>You can also visit our nearest branch to obtain a physical copy of the document.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Microfinance Group Loan",
+    "l3category": "Statements",
+    "question": "How can I view or download my microfinance group loan statement of account?",
+    "answer": "<p>Please follow these steps to download or view the statement of account:</p><p>1. Go to '<a href=\"bajajsuperapp://relations/loan\">My Relations</a>' and select your loan account</p><p>2. Click on 'View Statements'</p><p>3. You can now download and view the Statement of Account</p><p>You can also visit our nearest branch to get a hard copy of the document.</p>"
+  }
+]

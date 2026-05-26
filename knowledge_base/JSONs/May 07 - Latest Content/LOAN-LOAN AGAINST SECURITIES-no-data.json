@@ -1,0 +1,142 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Customer Support",
+    "question": "Where can I find answers to my Bajaj Finserv Loan Against Securities (LAS) related queries?",
+    "answer": "<p>To find answers to all your LAS related queries, please write to us at las.support@bajajfinserv.in</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Loan Details",
+    "question": "What percentage of funding can I get against my securities?",
+    "answer": "<p>You can get 50% to 90% LTV (Loan to Value) on your investment, depending upon the type and category of security you are pledging to Bajaj Finance Limited. LTV is subject to any change in regulations.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Loan Details",
+    "question": "When do I receive the funds after applying for Loan Against Securities?",
+    "answer": "<p>Post successful application and pledging of shares/lien marking of mutual funds, the loan amount will be disbursed to your registered bank account within 1 business day.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Loan Details",
+    "question": "What happens when the value of my securities fall?",
+    "answer": "<p>You are required to maintain a minimum of 50% Loan to Value (LTV) ratio to continue enjoying the Loan Against Securities facility. In case LTV falls beyond 50%, you will have to regularise your loan account by paying in cash or by pledging additional collateral within 7 business days from the date of such an event.</p><p>In case you fail to do so, Bajaj Finance Limited holds the right to sell your pledged shares to recover the margin shortfall.</p><p>Also, If the LTV ratio falls more than 85%, then Bajaj Finance Ltd (BFL) holds the right to liquidate your shares after sending required notifications.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Loan Details",
+    "question": "How can I regularise the margin shortfall in my loan account?",
+    "answer": "<p>You can regularise it by repaying the shortfall value, or you can choose to pledge additional securities.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Loan Details",
+    "question": "Within how many days should I fulfil the margin shortfall and what if I am unable to fulfill it?",
+    "answer": "<p>You need to fulfil your margin shortfall within 7 business days from the date of such an event. </p><p>You need to fulfil your margin shortfall within 7 business days from the date of such an event. </p><p>Any shortfall in the maintenance of the 50 per cent LTV occurring on account of movement in the share prices needs to be made good within 7 business days. In case you fail to do so, Bajaj Finance Limited holds the right to sell your pledged shares to recover the margin shortfall.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Loan Details",
+    "question": "How can I pledge my shares to get the Loan Against Securities (LAS) facility?",
+    "answer": "<p>To pledge shares, please follow these steps:<br /></p><ul><li>Click on 'My Account' at the bottom right of the Home Screen</li><li>Click on 'View All' which is next to 'My Relations'</li><li>Select your loan account</li><li>Under 'Things You Can Do', click on 'Additional Share Pledge'</li><li>Follow the instructions given on the screen</li></ul><p>To go to 'My Relations', please <a href=\"bajajsuperapp://relations/loan\">click here</a>.<br /></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Others",
+    "question": "What is LTV?",
+    "answer": "<p>LTV stands for Loan to Value ratio. This is the ratio of the loan outstanding amount to the value of total pledged securities. A minimum of 50% LTV is required to be maintained always to avoid margin shortfall. In an event of margin shortfall, the same can be regularised by the means of cash payment or by pledging additional collateral.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Others",
+    "question": "What is a margin shortfall?",
+    "answer": "<p>A margin shortfall is an event where your utilized loan amount exceeds the eligible loan limit. This may happen when value of your securities falls. Below given is an illustration:</p><p><b>Scenario 1: Particulars<br> </b>Investment Value: 100<br>LTV: 50%<br>Eligible Loan: 50<br>Utilized: 50<br>Shortfall: 0</p><p><b>Scenario 2: Particulars<br> </b>Investment Value: 90<br>LTV: 50%<br>Eligible Loan: 45<br>Utilized: 50<br>Shortfall: -5</p><p>In scenario 2, there is a shortfall of Rs.5 due to devaluation of your Investments pledged with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Others",
+    "question": "Mutual Funds of which Asset Management Companies (AMCs) can I pledge to get the Loan Against Securities?",
+    "answer": "<p>You can pledge Mutual Funds of all AMCs registered with CAMS (Computer Age Management Services) and K-Fin Technology (Registrar) to get the Loan Against Securities (LAS) facility.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Others",
+    "question": "How frequently is the value of my securities calculated?",
+    "answer": "<p>Values of pledged shares are updated every 5 minutes and value of lien marked schemes are updated at the end of every day. The IVR&nbsp; (Interim Valuation Report) of the pledged securities is sent to your registered email address on a daily basis</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Others",
+    "question": "Can I swap/change securities during my loan tenor?",
+    "answer": "<p>Yes, you can swap/change the securities during the tenor of the loan. Swapping would be allowed within the approved securities list of Bajaj Finance Limited (BFL).</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Others",
+    "question": "How frequently does the price of my stock/mutual fund scheme get updated in the Bajaj Finserv App or Bajaj Finance Ltd (BFL) Portal?",
+    "answer": "<p>For valuation, the price of your shares is updated in the Bajaj Finserv app/BFL Portal every 5 minutes, and for mutual fund schemes, it gets updated at the end of every day.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Payments",
+    "question": "How can I repay my loan?",
+    "answer": "<p>To repay your loan, please follow these steps:</p><ul><li>Click on 'My Account' at the top bottom of the Home Screen</li><li>Click on 'View All' which is next to 'My Relations'</li><li>Select your loan account</li><li>Under 'Things You Can Do', click on 'Make Payment'</li><li>Follow the instructions given on the screen</li></ul><p>In case you wish to repay your loan by selling the pledged securities, Bajaj Finance Limited will initiate the selling of your securities and retain the receivable to the effect that it covers the loan including its interest. The remaining amount (if any) will get credited to your registered bank account with us. To do so, please write to us at Las.support@bajajfinserv.in with your Loan Account Number (LAN).</p><p>To go to ‘My Relations’, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Payments",
+    "question": "Can I make a part pre-payment/foreclosure towards my Loan Against Securities (LAS) before its tenor ends?",
+    "answer": "<p>Yes. You can make a part pre-payment or foreclose the entire loan before the end of the tenor"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Payments",
+    "question": "How frequently does my interest amount get deducted?",
+    "answer": "<p>The interest for your Loan Against Securities (LAS) gets deducted every month from your bank account registered with us.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Payments",
+    "question": "Do I need to pay interest on the entire loan amount sanctioned to me?",
+    "answer": "<p>No. The interest is charged only on the utilised loan or outstanding loan amount.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Security Release",
+    "question": "When can I release my securities?",
+    "answer": "<p>To release your shares, please follow these steps:</p><ul><li>Click on 'My Account' at the bottom right of the Home Screen</li><li>Click on 'View All' which is next to 'My Relations'</li><li>Select your loan account</li><li>Under 'Things You Can Do', click on 'Release Shares'</li><li>Follow the instructions given on the screen</li></ul><p>To go to 'My Relations', please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p><p>You can release securities only if your loan account is not under margin shortfall and you have excess withdrawable funds available. The request will be processed within 1 business day post verification<br></p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Statements",
+    "question": "Where can I find my Loan against Securities related statements?",
+    "answer": "<p>You can find all your loan against securities related statements in “View Statements” under things you can do section.</p>"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Loans Against Securities",
+    "l3category": "Top Up",
+    "question": "How can I raise a request for additional disbursement of funds?",
+    "answer": "<p>To avail additional disbursement, please follow these steps:</p><ul><li>Click on 'My Account' at the bottom right of the Home Screen</li><li>Click on 'View All' which is next to 'My Relations'</li><li>Select your loan account</li><li>Under 'Things You Can Do', click on 'Flexi drawdown'</li><li>Follow the instructions given on the screen</li></ul><p>IMPORTANT:<br>Please note that approval of your additional fund disbursement request is subject to your account meeting the Loan To Ratio (LTV) parameters as per the type of securities pledged &amp; principle outstanding.</p><p>To go to 'My Relations', please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>"
+  }
+]

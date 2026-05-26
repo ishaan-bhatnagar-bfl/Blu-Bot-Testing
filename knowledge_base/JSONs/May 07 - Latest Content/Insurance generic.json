@@ -1,0 +1,534 @@
+[
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "How can I cancel my insurance policy?",
+        "answer": "You can cancel your insurance policy if it is within the Free Look Period (FLP). Please be aware that cancellation fees may be applied depending on the terms of your policy. To cancel your policy, please follow the steps below: 1. Go to 'Your relations' and scroll to 'Insurance/ Value Added Services' 2. Select your insurance and click on 'Cancel Policy' 3. Share the details for cancellation and proceed. If your Free Look Period (FLP) has ended, please raise a request by selecting ‘Surrender Related’ under the Insurance tab in the Help and Support section to proceed with your request., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "Cancel my insurance",
+        "answer": "You can cancel your insurance policy only up to 30 days from issuance which is known as the free look period. However, I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy. You can raise a request if you still wants to cancel or surrender your insurance policy by clicking on the link below. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, Web CTA Link: , if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, Web CTA link: , if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, Web CTA link: ,  if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38 if insurance_type= NIVA BUPA HEALTH PLUS, Web CTA link: . CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, CTA Web link: , if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, Web CTA link: ,if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, Web CTA link: , if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, Web CTA link:, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, Web CTA link:, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, Web CTA link: , if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, If insurance_type is other than above given conditions then do not suggest the customer to watch videos.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "I want COI.",
+        "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter/insurance , IOS CTA Link: bajajsuperapp://documenation/documentcenter/insurance , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "Can you send copy of COI?",
+        "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter/insurance , IOS CTA Link: bajajsuperapp://documenation/documentcenter/insurance , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "What benefits are included in my insurance policy?",
+        "answer": "I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, Web CTA link: ,  if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, Web CTA link: ,  if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, Web CTA link: , if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,Web CTA link: ,  if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label:Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, Web CTA link: , if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, Web CTA link: , if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, Web CTA link: , if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, Web CTA link: ,if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619 , Web CTA link: , if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, Web CTA link: , if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, Web CTA link: , If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "Can I add or modify any benefits to my insurance policy?",
+        "answer": "I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, Web CTA link: ,  if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c,Web CTA link: ,  if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,Web CTA link: ,  if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38, Web CTA link: ,  if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label:Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0,Web CTA link: ,  if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, Web CTA link: , if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, Web CTA link: ,  if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, Web CTA link: ,if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, Web CTA link: ,if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,Web CTA link: , if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, Web CTA link: ,If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "How can I check the status of my insurance benefits?",
+        "answer": "I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, Web CTA link: ,  if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c,Web CTA link: ,  if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, Web CTA link: , if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38, Web CTA link: ,  if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label:Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0,Web CTA link: ,  if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, Web CTA link: , if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, Web CTA link: ,  if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,Web CTA link: , if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, Web CTA link: ,if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, Web CTA link: ,if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, Web CTA link: ,If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "What should I do if I’m unsure about how to use my insurance policy benefits?",
+        "answer":"I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,Web CTA link: ,  if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, Web CTA link: , if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, Web CTA link: , if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38, Web CTA link: ,  if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label:Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0,Web CTA link: ,  if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, Web CTA link: , if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, Web CTA link: , if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,Web CTA link: , if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, Web CTA link: ,if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, Web CTA link: ,if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, Web CTA link: ,If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "How can I make sure I’m taking full advantage of my insurance benefits?",
+        "answer": "I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38 if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label:Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d,if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "What are the specific benefits included in my insurance policy?",
+        "answer": "I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38 if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d,if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "Are there any additional benefits I could get from my insurance policy?",
+        "answer": "I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy.Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38 if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, if insurance_type= GROUP TERM LIFE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d,if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, If insurance_type is other than above given conditions then do not suggest the customer to watch videos."
+      },
+      {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "General Queries",
+        "question": "How can I get my COI?",
+        "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter/insurance , IOS CTA Link: bajajsuperapp://documenation/documentcenter/insurance , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+      },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "How can i reset Mpin?",
+        "answer": "If you want to reset your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What is an MPIN",
+        "answer": "An MPIN, or Mobile Banking Personal Identification Number, is a 4-digit passcode created during registration to secure your banking app. It ensures convenient logins and authenticates transactions, reducing fraud risks. Sharing your MPIN could lead to unauthorized access and financial losses, so keep it confidential at all times.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I enter the incorrect MPIN?",
+        "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the \u2018Forgot MPIN\u2019 option on your app screen and follow the instructions to reset it.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "Why is setting MPIN important?",
+        "answer": "To improve security, MPIN provides an additional layer of protection beyond just using a password, reducing the risk of unauthorized access. Anyone with the Bajaj Finserv App can set MPIN as their 2FA method to strengthen their security against cyber threats and unauthorized access. It is mandatory to set an MPIN after successfully signing up with SIM card authentication for new installations and updates.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What is 2FA (Two-Factor Authentication)?",
+        "answer": "2FA stands for Two-Factor Authentication. It is a security process that requires two methods of verification to access an account.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "How is the app MPIN different from the UPI PIN?",
+        "answer": "To set up your MPIN , please follow these steps: 1. Open Bajaj Finserv App 2.After Signup, Enter your 4-digit desired MPIN (choose a strong combination) 3. Re-enter your 4-digit desired MPIN 4. Choose a security question for future verification 5. Answer the security question 6. Click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "When will I need to use the MPIN?",
+        "answer": "You will be required to use the MPIN in the following circumstances: - Once activated, you will be prompted to enter your MPIN on every signup on Bajaj Finserv App. - If you don't have biometrics enabled for app login, you will be prompted to enter MPIN on every login",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What should I keep in mind while setting MPIN, and are there any criteria?",
+        "answer": "While setting up your 4-digit MPIN, you can consider choosing a code that is easier for you to remember, but difficult for anyone else to guess. Please ensure that your MPIN is not shared with anyone (not even a Bajaj Finance Limited employee), and do not write it down anywhere. It is also a good practice to keep changing your MPIN from time to time, to keep fraudsters at bay.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I enter the incorrect MPIN?  ",
+        "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the \u2018Forgot MPIN\u2019 option on your app screen and follow the instructions to reset it.",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I forget my MPIN?",
+        "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Click on 'Forgot MPIN?' 2. Answer the security question (you will get only 3 attempts to answer) 3. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 4. Click on 'Confirm' In case you answer the security question incorrectly then, please follow this process: 1. Click on 'Try Another Method' 2. Choose 'PAN' as your mode of authentication 3. Enter your PAN details 4. Click on 'Confirm' and repeat the steps shared above to reset MPIN",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "How can I change my security question?",
+        "answer": "To change your security question, please follow these steps: 1. Open App and Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset Security Question' 4. Enter the OTP received on your registered mobile number 5. Choose a security question 6. Answer the security question and click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "What happens if I forget my MPIN? (If Already logged in with Biometric)",
+        "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+        "chatbot-flag": "Yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "I want health Insurance",
+        "answer": "You can apply for health insurance from our Insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/HEALTH , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/HEALTH, Web CTA link: https://www.bajajfinserv.in/marketplace/insurance/health-insurance/health-insurance-premium-calculator/getGoingNow",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Give me customer care number",
+        "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Give number of your agent to talk",
+        "answer": "I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Give me phone number to contact your team",
+        "answer": "<p>I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Transactions And Actions",
+        "question": "Arrange a call with customer care",
+        "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "I want new insurance",
+        "answer": "You can apply for insurance from our Insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/ , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/, Web CTA link: https://www.bajajfinserv.in/insurance/",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "Apply for Life Insurance",
+        "answer": "You can apply for life insurance from our Insurance page. CTA label: Life Insurance, Android CTA link: bajajsuperapp://BflWebRedirect/https://www.bajajfinserv.in/app-v1/insurance/saving-plans, IOS CTA link:bajajsuperapp://BflWebRedirect/https://www.bajajfinserv.in/app-v1/insurance/saving-plans, Web CTA link: https://www.bajajfinserv.in/insurance/saving-plans",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "Apply for Health Insurance",
+        "answer": "You can apply for Health insurance from our Insurance page. CTA label: Health Insurance, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/HEALTH, IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/HEALTH, Web CTA link: https://www.bajajfinserv.in/marketplace/insurance/health-insurance/health-insurance-premium-calcula%E2%80%A6",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "Apply for new insurance",
+        "answer": "You can apply for insurance from our Insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/ , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/, Web CTA link: https://www.bajajfinserv.in/insurance/",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "I want buy insurance",
+        "answer": "You can apply for insurance from our Insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/ , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/, Web CTA link: https://www.bajajfinserv.in/insurance/",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "Apply for insurance",
+        "answer": "You can apply for insurance from our Insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/ , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/, Web CTA link: https://www.bajajfinserv.in/insurance/",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "I want bike Insurance",
+        "answer": "You can apply for Two wheeler insuarnce from our insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/BIKE , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/BIKE, Web CTA link: https://www.bajajfinserv.in/insurance/two-wheeler-insurance-all-products",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "I want pocket insurance",
+        "answer": "You can apply for pocket insuarnce from our insurance page. CTA label: Insurance Page, Android CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/POCKET , IOS CTA link: bajajsuperapp://launchInsuranceMall/INSCATEGORY/POCKET, Web CTA link: https://www.bajajfinserv.in/insurance/pocket-insurance-all-products",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Cancellation",
+        "question": "Call me",
+        "answer": "I apologize, but I'm unable to make calls. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "I will complain to RBI",
+        "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "I will raise this to RBI",
+        "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "Bajaj is a fraud",
+        "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "How can I maintain a good CIBIL score?",
+        "answer": "Here are a few simple tips to maintain a good CIBIL score: - Pay your monthly instalments on time to build a good track record - Manage your credit card carefully, set payment reminders and limit your usage - Choose longer Insurance tenure carefully, try to make part-prepayments when you can",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "Please call me",
+        "answer": "As a virtual agent, I am unable to make calls. I can provide resolutions to your queries via text messages.",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "How can I get a cashless facility on my insurance policy",
+        "answer": "You can only avail cashless facility on your insurance policy if the treating hospital is part of the insurer's partner network.&nbsp;</p><p>Please check the list of network hospitals under cashless tie-up shared by the insurance company and keep your insurance policy or cashless card handy.</p>",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "How can I raise an insurance claim for medical reimbursement",
+        "answer": "To raise an insurance claim request for medical reimbursement, please click the button below. Then, go to the Insurance and VAS section, select your insurance, and complete the process., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial transactions and Actions",
+        "question": "How can I discontinue or surrender my insurance policy?",
+        "answer": "To discontinue or surrender your insurance policy, go to the 'Insurance & VAS tab', select “Surrendered” with your active relation, add your comments, and proceed. Please note that surrender fees may apply. If you still wish to surrender your policy, click the button below., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR.",
+        "chatbot-flag": "yes"
+    },
+    
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Insurance related complaints and disputes",
+        "question": "I want to cancel this policy",
+        "answer": "You can cancel your insurance policy if it is within the Free Look Period (FLP). Please be aware that cancellation fees may be applied depending on the terms of your policy. To cancel your policy, please follow the steps below: 1. Go to 'Your relations' and scroll to 'Insurance/ Value Added Services' 2. Select your insurance and click on 'Cancel Policy' 3. Share the details for cancellation and proceed. If your Free Look Period (FLP) has ended, please raise a request by selecting ‘Surrender Related’ under the Insurance tab in the Help and Support section to proceed with your request., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+        "chatbot-flag": "yes"
+    },
+    {
+        "l1category": "Insurance",
+        "l2category": "GenericInsuranceQueries",
+        "l3category": "Financial Actions and Transactions",
+        "question": "Cancel insurance",
+        "answer": "You can cancel your insurance policy only up to 30 days from issuance which is known as the free look period. However, I encourage you to watch a very informative video about the benefits of your insurance policy. This will help you understand the benefits of your insurance policy. You can raise a request if you still wants to cancel or surrender your insurance policy by clicking on the link below. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,Video Link will vary based on the insurance_type. Below are the links for each insurance_type: if insurance_type= HDFC Life Group Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-642bcf77-8a8b-406a-a3d4-6e581385b624, if insurance_type= HDFC Credit Protection Plus Policy. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-55b52cab-de74-4c50-99e8-6241df6cab3c, if insurance_type= ABHI GROUP HEALTH INDEMNITY PLAN. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-1cfe84f9-e253-4a65-915d-4369d8d100e2, if insurance_type= CPP Asset Secure. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38,iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-e76c3c30-a1d4-4067-bf95-5345f4e51d38 if insurance_type= NIVA BUPA HEALTH PLUS. CTA Label:Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0 iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-29e8efd6-3595-4607-8084-85ef0667a5a0, if insurance_type= GROUP TERM LIFE. CTA Label. Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d, iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-9a4ef240-9d58-4633-8db0-bdf07261d66d,if insurance_type= NIVA BUPA HEALTH PLUS PA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-c6a29c95-97f2-4d3b-b8c6-4ba6fe066d6d, if insurance_type=CPP Liv Suraksha. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-13c01819-bedb-4223-a86c-bf539bb50414, if insurance_type= CPP LIV ASSIST. CTA Label: Insurance Benefits, Android CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, iOS CTA Link: bajajsuperapp://openKpointVideo/gcc-36976a0b-2b8c-46cf-8244-bd344174954c, if insurance_type= Digital Fone Safe. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-13180fee-7a2d-4deb-ba2e-1de03a23ed61, if insurance_type= BAGIC HEALTH CARE (GOLD). CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-8e3a5af4-cc18-453e-9fc0-a4827ff1d4b1, if insurance_type= BALIC GROUP SAMPOORNA JEEVAN SURAKSHA. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-4f90972c-2609-4711-839a-a4e76fa8beec, if insurance_type= BFHL SWASTHYA SURAKSHA PLAN. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-c421847e-4918-4280-bd07-16ab6297fc19, if insurance_type= CPP ASSET SECURE. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-831b60ea-e193-488a-b277-ed942b101619, if insurance_type= CPP CREDIT HEALTH PLUS. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-e758b260-f2f5-4a65-8a6d-0a58757165ca, if insurance_type= ABHI HEALTH PROTECT. CTA Label: Insurance Benefits, Android CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd,iOS CTA Link:bajajsuperapp://openKpointVideo/gcc-acb0a624-917b-4101-8ab4-4a37f81836dd, If insurance_type is other than above given conditions then do not suggest the customer to watch videos.",
+        "chatbot-flag": "Yes"
+    },
+    {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "What is Bajaj Prime?",
+    "answer": "Bajaj Prime offers an exclusive membership program through which you get rewarded with cashbacks for payments and purchases on your favourite brands. With Bajaj Prime you can enjoy access to a diverse array of welcome benefits, including free subscriptions, deals on popular OTT platforms and offers on a variety of brands across multiple categories.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "What are the benefits of Bajaj Prime membership?",
+    "answer": "Bajaj Prime member shall get the following exclusive benefits:- Rs. 1,000 Cashback upon in-store purchases made after availing finance facility using Bajaj Finserv EMI Network Card within 90 days of availing Bajaj Prime Membership. 5% Cashback on Bill payments using Bajaj Pay UPI Free & Discounted Subscriptions worth Rs. 1,200- 5% Cashback on PVR movie tickets, Zomato, and Ajio orders using Bajaj Pay UPI Discounted vouchers for 50+ Brands Note: Rewards can be redeemed in accordance with the Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "How can I become a Bajaj Prime member?",
+    "answer": "Please follow the steps to become a Bajaj Prime member:- 1. Click on the bajaj prime section 2. Click on 'Join Bajaj Prime' button 3. View your membership plan and click on 'Make Payment' 4. Select a suitable payment method to complete the payment After successful payment, your Bajaj Prime membership will be activated.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "What are the available payment options for availing Bajaj Prime Membership?",
+    "answer": "You can use the following payment modes to avail Bajaj Prime membership:- UPI Credit card - Debit card - Net banking",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the Bajaj Prime subscription remains pending?",
+    "answer": "In most cases, the issue regarding the pending payments gets resolved within 48 hours. You may raise a service request with us if the payment is still pending. Please follow these simple steps to :-1. Go to the ‘Main Menu’ and click on 'Help and Support' 2. Click on 'New Request' and select the relation 3. Select your 'Query type' and 'Sub-query type', then click on 'Proceed' 4. Share details about your query and attach the supporting documents (if required) 5. Click on 'Submit'  Once you have submitted your request, you will receive a 'Service Request Number', which will help you track your request.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the transaction is unsuccessful for Bajaj Prime subscription?",
+    "answer": "If your payment fails and funds are deducted from your bank account or credit card, there is no need to worry about the safety of your money. Usually, your bank will refund the amount within 3 to 5 business days.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "How do I earn cashback as a Bajaj Prime member?",
+    "answer": "As a Bajaj Prime member, you will be rewarded with cashback for making the following transactions:- Earn 5% Cashback by paying utility bills (electricity, mobile postpaid, mobile prepaid, DTH, broadband postpaid, piped gas, LPG gas cylinder, and Fastag). Earn 5% Cashback on movie ticket bookings through the PVR app (once a month). Earn 5% Cashback on Zomato, and Ajio app (only for the first three orders in a month). Earn Rs. 1,000 cashback on in-store EMI transactions at 15+ Brands till 90 days from purchase of Bajaj Prime.Please note: The cashback shall be rewarded only when the above transactions are carried out using Bajaj Pay UPI as a payment mode, subject to Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Cancel my BAJAJ PRIME Membership",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Once purchased, can I cancel my Bajaj Prime Membership?",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "suicide",
+    "answer": "We're truly sorry to hear that you're feeling this way. Your well-being is very important to us. We strongly encourage you to raise a request with us so that one of our trained executives can reach out to you and provide the right support and resolution. If you're feeling overwhelmed, please also consider speaking with a mental health professional — you're not alone, and help is available. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "Transaction Related",
+    "question": "Why is my CIBIL score incorrectly mentioned in your records?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "Transaction Related",
+    "question": "Why did my CIBIL report show details of a loan I haven't applied for?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+    {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Is this policy active or closed?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Why is the policy showing active even though it has expired?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "When did my insurance policy start?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Till when is this policy valid?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Why is the insurance active after the loan is closed?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "I did not take this policy. Why is it showing as active?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "The app shows the policy as active.  Is this correct?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "What is the expiry date of this policy?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Insurance",
+    "l2category": "GenericInsuranceQueries",
+    "l3category": "General Queries",
+    "question": "Is this policy still running or already closed?",
+    "answer": "We would like to inform you that if your insurance shows as active, please always check the policy period in your records. If the policy period has ended, the policy should be considered closed, even if it still appears as active. You can view your policy details by clicking the button below., CTA Label: Your relations , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  }
+]

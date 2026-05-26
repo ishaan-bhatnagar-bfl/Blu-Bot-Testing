@@ -1,0 +1,1664 @@
+[
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to know how to calculate my EMI value.",
+    "answer": "<p>You can view your EPI (Equated Periodic Instalment (EPI)) calculation from EPI (Equated Periodic Instalment (EPI)) calculators page. CTA Label: EPI (EQUATED PERIODIC INSTALMENT (EPI)) calculator, Android CTA link: bajajsuperapp://trycalculator/emiApplicant, IOS CTA link: bajajsuperapp://trycalculator/emiApplicant, Web CTA link:https://www.bajajfinserv.in/EPI (Equated Periodic Instalment (EPI))-calculator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Amount issue",
+    "question": "Extra amount debited.",
+    "answer": "<p>To find out why extra amount has been deducted please refer to your respective statement of account which contain details of all transaction. CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "I want top up on my Car loan ",
+    "answer": "You can apply and check offers for top up Loan from loan page. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "EMI not debited on time",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "Why my emi not deducted yet?",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "EMI not debited on time, my account has suffiecient balance",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "CIBIL Update",
+    "question": "EMI not debited on time, my account has suffiecient money",
+    "answer": "Delay in Instalment debit can be due to technical issue or delay from bank side. We kindly request you to wait for some time, as the instalment amount will be debited from your account shortly. Please ensure that sufficient balance is maintained in your bank account.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I download my KFS?",
+    "answer": "Please visit the Document Center page, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Loan Foreclosure",
+    "question": "How can I download my Key Fact Statement (KFS)?",
+    "answer": "Please visit the Document Center page, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link : bajajsuperapp://documenation/documentcenter, Web CTA link : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why is my pre-approved loan not processed yet?",
+    "answer": "We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why is my loan approval delayed?",
+    "answer": "I'm sorry for the inconvenience. The delay could be due to various factors. To understand the exact reason, please Raise a Request and our team will get back to you as soon as possible. Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why haven't I received a response to my loan application?",
+    "answer": "We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What's the status of my loan application?",
+    "answer": "We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why is my loan disbursement delayed?",
+    "answer": "The delay in loan disbursement could be due to several factors. To get more information about this, please Raise a Request and our team will get back to you.CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How much time is required for loan approval?",
+    "answer": "The time required for loan approval varies depending on the type of loan and your individual circumstances. However, you can find detailed information regarding approval times on our Apply Now page. Please click on the Read More button under the loan of your choice. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What documents are required for getting a loan?",
+    "answer": "The documents required for a loan can vary based on the type of loan you're applying for. For a comprehensive list of required documents, please visit our Apply Now page and click the Read More button under the loan of your choice. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What is the process for loan approval?",
+    "answer": "The loan approval process can differ depending on the type of loan. To understand the process in detail, kindly visit our Apply Now page and click on the Read More button under the loan of your choice. CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What will be the rate of interest for a new loan?",
+    "answer": "The rate of interest for new loans can vary based on several factors including the type of loan, your credit score and more. You can find detailed information on the Apply Now page. Please click the Read More button under the loan of your choice.CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the benefits of a loan?",
+    "answer": "Loans offer several benefits such as financial flexibility, ease of payment, and more. For detailed benefits related to specific types of loans, please visit our Apply Now page and click on the Read More button under the loan of your choice.CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What are the fees and charges for a new loan?",
+    "answer": "Fees and charges for a new loan can vary based on the type of loan and other factors. For a detailed breakdown of all fees and charges, please visit our Apply Now page and click the Read More button under the loan of your choice.CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give number of your agent to talk",
+    "answer": "I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me phone number to contact your team",
+    "answer": "<p>I apologize, but I'm unable to provide you with the customer care number. However, I can assist you with resolving your loan-related queries through text messages. Please feel free to ask any questions you may have, and I'll do my best to help you.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Arrange a call with customer care",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have applied loan, what is its status",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Already applied loan but nothing happened after that.",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Applied for new loan but I have not received money till now.",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me customer care number",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I transfer my loan to someone else?",
+    "answer": "Unfortunately, transferring your loan to another person is not possible.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why can't I foreclose my loan?",
+    "answer": "You are eligible to foreclose your loan only after the payment of your first EPI (EQUATED PERIODIC INSTALMENT (EPI)). If you're facing any technical issues, please try again after a while.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Do home gym products have interest charges?",
+    "answer": "The charges for home gym products can vary based on the specific product.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I foreclose my CD loan?",
+    "answer": "<p>You can foreclose loan from loan details page, CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Is it possible to cancel my loan after it has been approved?",
+    "answer": "Once the loan amount is disbursed into your registered bank account or to the dealer's account (in the case of a consumer loan), you initiate a cancellation request within 1 days from the loan disbursal date. However, Bajaj Finance Limited (BFL)'s applicable terms and conditions shall govern the loan cancellation.Once the loan amount is disbursed into your registered bank account or to the dealer's account (in the case of a consumer loan), you initiate a cancellation request within 1 days from the loan disbursal date. However, Bajaj Finance Limited (BFL)'s applicable terms and conditions shall govern the loan cancellation",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Are there any special offers or discounts available on loans?",
+    "answer": "<p>You can apply and check offers for Loan from our loan page, CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link:https://www.bajajfinserv.in/personal-loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I applied for a loan but haven't received a call from your executive. What should I do?",
+    "answer": "We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I determine if I am eligible for a new consumer loan?",
+    "answer": "<p>You can apply and check offers for Loan from our loan page, CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link:https://www.bajajfinserv.in/personal-loan</p>",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is my CIBIL Score and how does it work?",
+    "answer": "Your CIBIL Score is a three-digit number, ranging from 300 to 900, which represents your creditworthiness. It is obtained from your credit history as reported by lenders (banks/NBFCs/financial institutions) and is generated by TransUnion CIBIL Ltd. (CIBIL).\n\nLenders check your CIBIL Score to verify your ability to repay the loan before approving the loan. The closer you are to a credit score of 900, the better your chances of getting approval on your loan.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I maintain and improve my CIBIL Score?",
+    "answer": "You can follow these few simple tips to maintain and improve your CIBIL Score: \n- Pay your monthly instalments on or before their due date to build a good track record.\n- Manage your credit card payments and set payment reminders so there are no delays in repayments.\n- Be careful when borrowing and having a proper repayment plan in place.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Does checking the CIBIL report repeatedly hamper my CIBIL Score?",
+    "answer": "When you check your CIBIL Score, it is considered a 'soft inquiry' and does not negatively impact your credit score. However, if a lender or a credit card issuer requests CIBIL to check your credit report (usually when they consider you for a loan or credit card), it is counted as a 'hard inquiry.' \nHard inquiries are recorded in the inquiry section of your credit report. If there are multiple hard inquiries over a relatively short period, it demonstrates 'credit-hungry behaviour' and may hurt your credit score. But a soft inquiry is considered an important financial habit at least once a year.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Does Bajaj Finance Limited consider my CIBIL Score for every loan I take?",
+    "answer": "Yes. Bajaj Finance Limited considers your CIBIL Score for every loan.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is DPD?",
+    "answer": "DPD stands for 'Days Past Dues', and it tells you about the days for which a payment has been delayed.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I read my CIBIL TransUnion Report (CTR)?",
+    "answer": "Your TransUnion CIBIL Report contains detailed information on the credit you have availed such as home loans, credit cards, personal loans, automobile loans, and overdraft facilities. It is divided into six parts:\n- CIBIL Score\n- Personal Information\n- Contact Information\n- Employment Information\n- Account Information\n- Enquiry Information",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the minimum CIBIL Score I need to get a personal loan?",
+    "answer": "The minimum CIBIL Score required to be eligible for a personal loan is 750. However, each lender has its own internal underwriting and risk parameters, hence this criteria may vary from lender to lender.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why do lenders check my CIBIL Score before approving a loan?",
+    "answer": "Your CIBIL Score is one of the few important things taken into consideration before approving a loan, as it verifies your eligibility for the loan amount and is reviewed for several reasons, such as:\n- Your CIBIL Score measures your creditworthiness.\n- It checks your credit record and credit history.\n- It measures your capacity to repay the loan and helps us review your credit balance and evaluate whether you would make timely repayments.\n- Your CIBIL Score helps the lender identify if you can meet the loan eligibility criteria.\n-This also helps us find out what loan amount and interest rate are suitable for you.\n\nTherefore, your CIBIL Score is an important tool to help you manage your financial health.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How long will it take for my new loan to reflect in my CIBIL report?",
+    "answer": "After Bajaj Finance Ltd. Disburses the loan, the loan details are shared with the Credit Information Companies (CIC) within 3 business days. CICs take up to 7 business days to update your loan details.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why did my CIBIL report show details of a loan I have not applied for?",
+    "answer": "We don't do any manual changes to your CIBIL Score. We simply collect them from banks and financial institutions and upload them. However, if you notice any incorrect entries related to Bajaj Finance, please raise a query with your CIBIL report using the link below. Once we receive your request, one of our service executives will look into it and resolve your query on top priority., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR,",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have applied loan, when it will be approved",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have applied loan, when it will be disbursed in my account?",
+    "answer": "<p>We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Personal Flexi Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "EMI debitted twice, what should I do?",
+    "answer": "We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please call me",
+    "answer": "As a virtual agent, I am unable to make calls. I can provide resolutions to your queries via text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Ask your agent to call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is Annual Maintenance Charge?",
+    "answer": "Annual Maintenance Charge (AMC) is a fee applied to Flexi Loans. This Flexi facility allows you to make multiple withdrawals and repayments from your loan account whenever needed, within your sanctioned limit. The AMC is applicable on the DropLine Limit. You may refer to your loan agreement for details on these charges by clicking on the below button., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "No Dues Certificate",
+    "answer": "You can visit document center to view your No dues certificate, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Apply for new Loan",
+    "answer": "Thank you for choosing us! You can apply for an available loan by clicking the link below, or simply give us a call at 7757-000-000 — we’ll be happy to assist you., CTA label: Apply for personal loan, Android CTA Link: bajajsuperapp://pdpx/PL__PDP, IOS CTA Link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Statement of Account for my Loan",
+    "answer": "You can download Loan agreement, foreclosure letter, GST certificate, interest certificate, No dues certificate, provisional interest certificate, Re payment schedule, welcome letter or Statement of Account (SOA) from document center, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "EMI debited but not reflecting in loan statement",
+    "answer": "Please allow up to 24 hours for your payment details to reflect in your Statement of Account. We appreciate your patience and encourage you to check your SOA after this period for the updated information., CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, iOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Foreclosure charges for my loan",
+    "answer": "To view the foreclosure charges applicable on your  Loan please visit document center page. CTA label: Document center , Android CTA link: bajajsuperapp://documenation/documentcenter , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I will complain to RBI",
+    "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I will raise this to RBI",
+    "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Bajaj is a fraud",
+    "answer": "We apologise for any in conveinience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I maintain a good CIBIL score?",
+    "answer": "Here are a few simple tips to maintain a good CIBIL score: - Pay your monthly instalments on time to build a good track record - Manage your credit card carefully, set payment reminders and limit your usage - Choose longer loan tenure carefully, try to make part-prepayments when you can",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Urgent call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want loan.",
+    "answer": "<p>You can apply for available loan product from our loan page, CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link: https://www.bajajfinserv.in/personal-loan</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I make overdue payment",
+    "answer": "<p>You can make overdue payment from loan details page, CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to foreclose my loan",
+    "answer": "<p>You can foreclose loan from loan details page, CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can  update his PAN or address or mobile number or email id",
+    "answer": "<p>Customer can update his personal details like PAN, address mobile or mobile email ID by visiting profile update page., CTA Label: Update profile, Android CTA link: bajajsuperapp://profile/landing, IOS CTA link: bajajsuperapp://profile/landing, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Profile</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to Register for \"Do not call\" services and I do not want to receive any promotional call from Bajaj in future what can I do?",
+    "answer": "<p>You can opt for do not call services by visiting Do not Call page, CTA Label: Do Not Disturb, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajfinserv.in/dnd-form?utm_source=Customer_DIY&amp;amp;utm_medium=BajajApp_DND_DIY&amp;amp;utm_campaign=Organic, Web CTA link:https://www.bajajfinserv.in/myaccountlogin?source=DNC</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can make advance emi payment",
+    "answer": "You may make an advance payment toward your loan before the 28th of the month. This amount will be adjusted against your upcoming instalment. To proceed, please click the button below and follow the instructions., CTA Label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to check nearby branches and branch timing",
+    "answer": "<p>You can check nearby branches and branch timing from Branch locator page, CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLBRN, IOS CTA link: bajajsuperapp://storeLocator/BFLBRN, Web CTA link: https://www.bajajfinserv.in/branch-locator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I view my loan details and charges?",
+    "answer": "<p>You can view your loan details and charges from loan details page, CTA Label: Loan details page, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I view my statement of account",
+    "answer": "<p>You can view your Statement of Account from Document center, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I see my repayment schedule (RPS)?",
+    "answer": "You can download the repayment schedule from document center, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My interest rate is not correct or my interest rate shown are not correct.",
+    "answer": "In this case you are requested to refer your loan agreement for correct loan details, in case you still find any discrepancies you can raise a request with us we will be happy to help you in this case, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My EMI amount is not correct or EMI amount shown in app is not correct.",
+    "answer": "In this case you are requested to refer your loan agreement for correct loan details, in case you still find any discrepancies you can raise a request with us we will be happy to help you in this case. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to change EMI due date.",
+    "answer": "<p>Currently, we do not have an option allowing customers to change their EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date. You will have to continue with the current due date of your loan.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Loan amount that I received is not correct.",
+    "answer": "In this case you are requested to refer your loan agreement for correct loan details, in case you still find any discrepancies you can raise a request with us we will be happy to help you in this case, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have paid my EMI why I am still getting collection calls or Even after paying my dues collection agent is still calling me what should I do?",
+    "answer": "For this issue you can raise a request with us. Please note raised requests are resolved within 2 days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have received legal notice from bajaj what should I do?",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why are multiple customer IDs showing in my account?",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why my loan details are not updated in CIBIL or why my loan details are incorret in CIBIL",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My closed loan is showing active in CIBIL",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have paid EMI but it is not updated in my loan statement",
+    "answer": "After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, please allow up to 24 hours for the details to be updated in your Statement of Account. We kindly ask you to check your SOA after this time period. It's important to note that if you are making a payment within 5 days of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, the amount will be adjusted in the following month's EPI (EQUATED PERIODIC INSTALMENT (EPI)), not in the current month. We advise you to make advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments at least 5 days prior to your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date in order to see an impact on the current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)). Please ensure your account is sufficiently funded for the upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)). Note: Gold Loan users can pay the EMI amount anytime; EIP period(Equated Instalment Plan) condition doesn’t apply. If an early payment is made, the EMI due date will be updated and will reflect in the Statement of Account (SOA) once the payment is processed., CTA label: Document center , Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Paid EMI is not reflecting in loan statement even after 24 hours",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can I do shopping in bajaj app?",
+    "answer": "<p>You can visit &quot;Bajaj Mall&quot; to see variety of products and brands. CTA Label: Bajaj Mall, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in, IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in, Web CTA link: https:https://www.bajajmall.in</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to buy product on EMI or I want to buy products like mattress , mobile or electronics, equipments",
+    "answer": "<p>You can visit &quot;Bajaj Mall&quot; to see variety of products and brands. CTA Label: Bajaj Mall, Android CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in, IOS CTA link: bajajsuperapp://openbrowser/https://www.bajajmall.in, Web CTA link: https:https://www.bajajmall.in</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to see near by two wheeler stores",
+    "answer": "You can view the two-wheeler store details by following the steps below: go to “Service”, click on “Two-Wheeler Loan” under “Our Recommendations”, select the two-wheeler you wish to buy, then scroll down and enter your area PIN code to view the details of your nearest store or dealer.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I see Bajaj collection centers near me",
+    "answer": "<p>To see bajaj service branches near you please visit Branch Loacator page. CTA Label: Branch Locator , Android CTA link: bajajsuperapp://storeLocator/BFLCLC , IOS CTA link:bajajsuperapp://storeLocator/BFLCLC , Web CTA link: https://www.bajajfinserv.in/collection-center-locator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What can I do if I extra amount gets debited along with EMI amount",
+    "answer": "We request you to raise a request with us. Please note that raised requests are resolved within 2 days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to see my offers related to loan",
+    "answer": "<p>You can check offer on loan from offers page , CTA Label: Loan Offers, Android CTA link: bajajsuperapp://cardoffers/Loan Offers, IOS CTA link: bajajsuperapp://cardoffers/Loan Offers, Web CTA link: https://www.bajajfinserv.in/loan-offers</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I check my loan eligibility",
+    "answer": "<p>You can check your loan eligibility from loan eligibility calculator page, CTA Label: Eligibility calculator, Android CTA link: bajajsuperapp://trycalculator/, IOS CTA link: bajajsuperapp://trycalculator/, Web CTA link: https://bajajfinserv.in/blu/jid=pl&utm_Template=generic&platform=3in1app&flowId=3in1&utm_Template=generic&utm_source=ssotesting&utm_medium=dheeraj-eligibility-calculator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Even after paying my dues collection agent is still calling me what should I do?",
+    "answer": "<p>It takes upto 2 days for your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment to reflect in your loan statement. If you still getting collection calls please raise a request by visiting &quot;Raise a Request&quot; page. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I am getting calls from collection agent or Debt management for loans which don’t belong to me, what should I do?",
+    "answer": "<p>Please raise a Request with us by visiting &quot;Raise a Request Page&quot;. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I am unable to redeem my next purchase voucher at brand outlet what should I do?",
+    "answer": "We request you to raise a request with us. Please note that raised requests are resolved within 2 days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Why is my loan status still showing active after I've settled it?",
+    "answer": "It generally takes up to 7 business days for the closure of the loan account to reflect after the final payment has been made. If more than 7 days have passed, please raise a request by clicking on the link below.CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have paid all my EMI, so why does my loan still show as active?",
+    "answer": "We request you to raise a request with us. Please note that raised requests are resolved within 2 days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I have not received my loan amount till now what should I do?",
+    "answer": "We appreciate your interest. Normally, the processing of a loan application takes between 5-7 days. If you haven't heard back within this time frame, it could indicate that the application has been rejected.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My part payment not reflecting in loan statement.",
+    "answer": "It takes up to 48 hours for the details to get updated in your Statement of Account. If loan statement is not updated even after 48 hours we request you to please raise a request. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My part payment not reflecting in loan statement even after 2 days",
+    "answer": "It takes up to 48 hours for the details to get updated in your Statement of Account. If loan statement is not updated even after 48 hours we request you to please raise a request. CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Late EMI payment charges (Bounce charges)",
+    "answer": "As per our internal policy, bounce charges are non-refundable. We recommend clearing your dues promptly to prevent any impact on your CIBIL score. Please ensure sufficient funds are maintained in your bank account to avoid such charges in the future.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My bank is not available on payments gateway",
+    "answer": "<p>We apologize for the inconvenience. We will forward your request to the appropriate team for resolution. In the meantime, we kindly ask you to proceed with your payment using one of the banks currently available on our payment gateway.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I am looking for a loan",
+    "answer": "<p>You can apply for available loan product from our loan page, CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/PL__PDP, IOS CTA link: bajajsuperapp://pdpx/PL__PDP, Web CTA link:https://www.bajajfinserv.in/personal-loan</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my foreclosure letter",
+    "answer": "<p>You can visit document center to view your foreclosure letter, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my loan agreement copy",
+    "answer": "<p>You can visit document center to view your loan agreement copy, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my GST certificate",
+    "answer": "<p>You can visit document center to view your GST certificate, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my interest certificate",
+    "answer": "<p>You can visit document center to view your Interest certificate, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my No dues certificate",
+    "answer": "<p>You can visit document center to view your No dues certificate, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my welcome letter",
+    "answer": "You can visit the Document Center to view or download your welcome letter by clicking the button below., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": " I want refund of Conveinece charges",
+    "answer": "Basis our internal policy, this charge cannot be Refunded. We request you to refere your Agreement incase you have any doubt related to these charges., CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": " I want refund of Stamp Duty",
+    "answer": "Basis our internal policy, this charge cannot be Refunded. We request you to refer your Agreement incase you have any doubt related to these charges., CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I see my repayment schedule (RPS)?",
+    "answer": "You can download the repayment schedule from document center, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How can I view my provisional interest certificate",
+    "answer": "<p>You can visit document center to view your provisional interest certificate, CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can you provide information on checking my eligibility for a loan?",
+    "answer": "<p>You can check your personal loan eligibility from loan eligibility calculator page, CTA Label: Eligibility calculator, Android CTA link: bajajsuperapp://trycalculator/, IOS CTA link: bajajsuperapp://trycalculator/, Web CTA link: https://bajajfinserv.in/blu/jid=pl&utm_Template=generic&platform=3in1app&flowId=3in1&utm_Template=generic&utm_source=ssotesting&utm_medium=dheeraj-eligibility-calculator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Complaints And Dispute",
+    "question": "What should I do if I did not get my cashback or wants to know status of my cashback",
+    "answer": "<p>You can check reward details from rewards page, CTA Label: Rewards Page, Android CTA link: bajajsuperapp://rewards/cashback, IOS CTA link: bajajsuperapp://rewards/cashback, Web CTA link:https://www.bajajfinserv.in/webform/rewards/cashback-earned</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Complaints And Dispute",
+    "question": "My loan details shown to me are incorrect",
+    "answer": "In this case you are requested to refer your loan agreement for correct loan details, in case you still find any discrepancies you can raise a request with us we will be happy to help you in this case, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Does checking the CIBIL report repeatedly hamper my CIBIL score",
+    "answer": "When you check your CIBIL score, it is considered a ‘soft inquiry’ and doesn’t make any negative impact on your credit score. However, if a lender or a credit card issuer requests CIBIL to check your credit report (usually when they are considering you for a loan or credit card), it is counted as a ‘hard inquiry’. Hard inquiries are recorded in the enquiry section of your credit report. Multiple hard inquiries, if done over a relatively short period, demonstrate what is called ‘credit hungry behavior’ and may hurt your credit score. But a soft inquiry, at least once a year, is considered an important financial habit.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What do you mean by DPD?",
+    "answer": "DPD stands for Days Past Dues and tells you about the days for which a payment has been delayed.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What do you mean by CTR?",
+    "answer": "CIBIL TransUnion Report is a report of your CIBIL score which indicates how well or how poorly you have dealt with your loans or credit cards in the past. It includes detailed information on all your past/current loans and their EMIs. Also, timely repayment of loans helps you maintain a healthy CIBIL score.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I rectify the incorrect payment details mentioned in my CIBIL report?",
+    "answer": "We suggest you raise a request with us by clicking the button below; please follow the steps — scroll to the right side and click on “Others”, select “CIBIL”, enter your query, and submit it — you will receive a callback, and your query will be resolved within 2 working days., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What should I do if I am not satisfied with the solution provided?",
+    "answer": "We're sorry that the initial solution provided was unsatisfactory. At Bajaj Finance Limited, customer satisfaction is priority and hence you can re-open the request. To re-open your request, please follow the steps below  Click on the 'Menu' option at the top left of home page Select 'Service Request History - Select the specific service request and click on 'Re-open’, CTA label: Re Open Request , Android CTA link: bajajsuperapp://helpsupport/viewall, IOS CTA link: bajajsuperapp://helpsupport/viewall, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have raised a request but did not receive any Request ID. What should I do?",
+    "answer": "Follow the steps below to check the request id for queries/requests raised by you - Click on the 'Menu' option at the top left of home page- Select Help and Support- Select 'Service Request History - Check the status of the query/request In case if you are not getting what you are looking for do raise a fresh request.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why I have not received any response to the request I raised?",
+    "answer": "Please be assured that our team is working towards resolving your query/looking into your request. You will receive an update on the status of your request via a notification. You can also check the status of your request by visiting the 'Service Request History' tab on our app 'Menu'.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the documents required to complete an individual’s KYC?",
+    "answer": "Individuals (including  Beneficial Owner/ Authorized Signatory/ Power Of Attorney Holder) need to provide the following - 1) One recent Photograph 2) PAN or Form 60 if PAN is not allotted - 3) Certified Copy of one of the Officially Valid Documents (OVDs) listed below - Valid Passport - Voter’s ID Card issued by Election Commission of India  Valid Driving License   - Proof of possession of Aadhaar Number (i.e. Aadhaar letter downloaded from UIDAI website, Aadhaar card) - Job Card issued by NREGA duly signed by an officer of the State Government  - Letter issued by the National Population Register containing details of Name, Address of the customer .* First 8 digits of the Aadhaar No. (on copy of Aadhaar Letter/Aadhaar Card obtained), must be redacted or blackened and it should not be legible",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "In case current address is not updated in Officially valid document (OVD) submitted, what additional proof of address can be submitted towards current address?",
+    "answer": "If the Officially Valid Documents (OVD) submitted do not have your current address, you can provide the following documents which are accepted as Deemed to be Officially Valid Documents (DOVD). Please bear in mind that this is for the purpose of Proof of Address only: Utility Bill (in your name and not more than two months old) such as Electricity, Telephone, Post-paid Mobile Connection, Water, Piped Gas, Property or Municipal tax receipt, Pension or Family Pension Payment Orders (PPOs) issued to retired employees by&nbsp; &nbsp;Government Departments or Public-Sector Undertakings, if they contain the address - Letter of Allotment of Accommodation from Employer issued by State Government or Central Government Departments, Statutory or Regulatory Bodies, Public Sector Undertakings, Scheduled Commercial Banks, Financial Institutions and Listed Companies, and Leave &amp; License Agreements with such employers allotting official accommodation Should you provide DOVD as proof of address (current), you must provide an OVD mentioning the current address within three months of submitting the DOVD.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is meant by KYC?",
+    "answer": "KYC is the short form for 'Know Your Customer'.KYC means identifying the applicant and obtaining address by way of collecting officially valid documents.KYC is mandatory as per the Reserve Bank of India (RBI) guidelines for availing loan, placing FD, etc.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is meant by full KYC?",
+    "answer": "Full KYC means obtaining the Officially Valid Documents (OVD) for Proof of Identity (POI) and Proof of Address (POA) as specified in the Reserve Bank of India (RBI) guidelines.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is meant by digilocker?",
+    "answer": "Also known as Digital Locker, the objective here is going paperless. Digilocker offers the following benefits- Digital documents can be accessed shared by citizens anytime, anywhere. The process is convenient and time-saving- Reduces administrative costs that are otherwise unavoidable when using paper - Helps in validating the authenticity of these documents easily as they are issued to registered users directly.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can one complete their KYC online?",
+    "answer": "There are two processes to complete KYC online – Downloading KYC documents from Central KYC Registry of customer having KYC identifier (KIN), Offline verification of Aadhaar number.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How do I know if my bank is eligible for e-mandates or e-NACH?",
+    "answer": "Please go to website https://www.npci.org.in/ to visit the National Payments Corporation of India (NPCI) website and check whether your bank is registered for the e-mandate process.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Are there any charges applicable for mandate registration?",
+    "answer": " Yes, the charges vary from bank to bank. We recommend you either get in touch with the customer care of your bank or check your net banking/bank mobile app for such charges. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Does Bajaj Finance Limited charge any fee in case my mandate is not registered?",
+    "answer": " Yes, a service charge of Rs. 450 will be applicable if your mandate registration fails. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I register my e-mandate with Bajaj Finserv?",
+    "answer": "You can register an e-mandate online when applying for a loan or applying for a Fixed Deposit Plan. You can register the e-mandate using your net banking or debit card details. However, the availability of these options depends on your bank. You can register your e-mandate by following these simple steps:  1. Click on below given link to visit mandate management page.  2. Select the loan or deposit account number for which you want to register the e-mandate 3. Enter your bank account details and register. CTA label: Mandate management, Android CTA link: bajajsuperapp://documenation/mandatemanagement, IOS CTA link: bajajsuperapp://documenation/mandatemanagement, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Mandate",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How many banks can I use for the mandate registration?",
+    "answer": " For a single loan or fixed deposit under the systematic deposit plan (SDP), you need to set up the mandate with only one bank. You can register a single mandate for multiple EMIs and deposits under the systematic deposit plan.  However, remember that you must maintain sufficient funds in that account for all your EMIs. You can change the mandates anytime and register separate repayment bank accounts for different loans. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What should I do If my mandate gets rejected?",
+    "answer": " If your mandate gets rejected, you will receive a call from our customer service team within 3 business days, and they will help you to resubmit the details for mandate registration. You can also try registering through another bank.   If you prefer doing this offline, visit the nearest branch along with a cancelled cheque and allow our representatives to help you.  Please note: A service charge of Rs. 450 will be applicable if your mandate registration fails. CTA Label: Branch Locator, Android CTA link: bajajsuperapp://storeLocator/BFLBRN, IOS CTA link: bajajsuperapp://storeLocator/BFLBRN, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why is my mandate not approved?",
+    "answer": " Though e-mandate registration is an instant service, at times, there could be delays as your bank has to verify the mandate details. Typically, this could take up to 3 business days. Rest assured, we will notify you once we receive an update from your registered bank. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Will my drawdown bank account also change if I have changed my bank account details via e-mandate?",
+    "answer": "No, changing bank details using an e-mandate will not affect your Flexi drawdown bank account. If you want to change your Flexi drawdown bank account, please follow these simple steps: 1. Go to Your relations page and select 'Loans' 2. Select the loan account number for which you want to change your Flexi drawdown bank account 3. Click on the 'Flexi drawdown Bank Change' option 4. Enter the relevant details like IFSC, bank account number, and click on 'Verify' 5. Check new bank details and click on 'Proceed' 6. Login to DigiLocker and select Aadhaar card or Driving License 7. Click on 'Confirm'. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What can I find in the Document Centre?",
+    "answer": "You can find all the BFL generated documents related to your relationships. For example, Statement Of Accounts, Repayment Schedule, No Due Certificate etc. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I couldn't find the documents I was looking for in the document centre. What should I do?",
+    "answer": "Please follow these steps to view all your documents: - Go to Your relationships - Click on the 'Filter' icon - Select your relationship status from Active/Closed - Select the relationship against which you are looking for the document To proceed now, please visit Relation page. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am looking for documents related to my closed relations. What should I do?",
+    "answer": "To view documents related to your closed relations, please follow these steps:  - Click on 'Menu' button at the top left of home page  - Click on 'Document Centre'  - Click on the 'Filter' icon  - Select your relationship status as 'Closed'  - Click on 'Apply'  - Select and view your document. CTA label: Document center , Android CTA link: bajajsuperapp://documenation/documentcenter , IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I share my documents?",
+    "answer": "To share or download your documents, please click on the 'Share' /'Download' icon located next to the document name. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is OKYC?",
+    "answer": " OKYC stands for Offline Verification of Aadhaar Number. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where will OTP for OKYC be received?",
+    "answer": " Your OKYC One Time Password (OTP) will be sent to your registered mobile number linked to your Aadhaar Card. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "When will my KYC get updated post submitted?",
+    "answer": " Your KYC will get updated upon successful verification of your documents. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I foreclose my loan account if there are bounce/overdue charges pending?",
+    "answer": " You will have to clear all bounce/overdue charges before foreclosing your loan. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "When can I foreclose my loan?",
+    "answer": " You can foreclose a loan anytime after clearing the 1st EPI (EQUATED PERIODIC INSTALMENT (EPI)). ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Will my CIBIL score get impacted if I foreclose a loan?",
+    "answer": " Not at all. Once you foreclose a loan, the same will be reported to CIBIL as 'Closed' along with '0 (zero) Outstanding'. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have paid my Foreclosure amount but my EMI has got debited? When can I expect the refund?",
+    "answer": " The reason your EPI (EQUATED PERIODIC INSTALMENT (EPI)) may have been debited from your bank account could be due to the foreclosure payment being made within 5 days of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, when your current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)) is already under presentation. In such a scenario, the debited amount will be refunded to your registered bank account within 3 business days. Please check your Statement of Account after this period for the updated details., CTA label: Document center , Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document,",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Are there any charges applicable for making an advance payment towards my loan?",
+    "answer": " No, there are no charges for making an advance payment towards your loan. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "My loan EMI is due in a few days. Can I still make an advance payment?",
+    "answer": "Yes, you certainly can. However, if you make a payment within 5 days of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, the amount will be adjusted in the following month's EPI (EQUATED PERIODIC INSTALMENT (EPI)), not in the current month. We advise you to make your EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments at least 5 days prior to your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date in order for it to be applied to the current month's EPI (EQUATED PERIODIC INSTALMENT (EPI)). Please ensure your account has sufficient funds to cover the upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)).Note: Gold Loan users can pay the EMI amount anytime; EIP period(Equated Instalment Plan) condition doesn’t apply. If an early payment is made, the EMI due date will be updated and will reflect in the Statement of Account (SOA) once the payment is processed., CTA label: Document center , Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have made an advance payment during my EMI presentation. Can it be refunded?",
+    "answer": "While your current month Instalment is already under presentation. We shall adjust this month’s advance being paid towards your loan only in case the Instalment presented is not cleared by your Bank. If the same gets cleared, refund will be provided to your registered bank account within 5 business days.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have made an EMI payment today. When can I see the updated loan amount in my Statement of Account?",
+    "answer": "After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the details to get updated in your Statement of Account. You can access the same under 'View Statements'. Follow the steps below to view your statement. - Click on 'My Account' at the bottom right of the screen - Click on ‘Your relations’ - Click on 'Loan Account' against which you have made the payment - Click on 'View Statements' available on the 'Things you can do with your loan' section at the center of your screen. - You can view and download the Statement of Account. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+  "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is advance EMI?",
+    "answer": "Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, as the name implies, is the act of paying an EPI (EQUATED PERIODIC INSTALMENT (EPI)) ahead of time. This amount is then applied towards the customer's upcoming EPI (EQUATED PERIODIC INSTALMENT (EPI)). However, it's important to note that if the payment is made at least 5 days prior to your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date, it will be adjusted towards the current month’s EPI (EQUATED PERIODIC INSTALMENT (EPI)). Any advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments made within 5 days of your EPI (EQUATED PERIODIC INSTALMENT (EPI)) due date will be applied to the following month's EPI (EQUATED PERIODIC INSTALMENT (EPI)). Note: Gold Loan users can pay the EMI amount anytime; EIP period(Equated Instalment Plan) condition doesn’t apply. If an early payment is made, the EMI due date will be updated and will reflect in the Statement of Account (SOA) once the payment is processed., CTA label: Document center , Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I make advance EMI payment towards my  Loan?",
+    "answer": "Advance EPI (EQUATED PERIODIC INSTALMENT (EPI)) payments can be made for both Term Loans and Flexi Loans. Both loan types are eligible for such payments. Please let us know if you need further assistance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have made an advance payment before 20th of the month yet the amount is not reflecting in my Statement of Account, What should I do? ",
+    "answer": " After making an EPI (EQUATED PERIODIC INSTALMENT (EPI)) payment, it takes up to 24 hours for the amount to reflect in your Statement of Account. You can access the same under 'View Statements'.&nbsp;  If you still cannot see the updated loan details, raise a request by following the steps below. Our Service Team will look into the matter and provide an appropriate solution.&nbsp;  - Go to the 'Menu' option and select 'Help &amp; Support'  - Click on 'Raise a Request'  - Select 'Loan Type' and 'Product Description'  - Select 'Query Type' and describe the issue&nbsp;  - When done, click on 'Submit'. You will receive an acknowledgement with your 'Service Request Number' on the app screen. CTA label: Raise a Request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have an overdue payment. How do I clear this?",
+    "answer": "To clear your overdue payment, click the button below, select the loan account for which you wish to pay your dues, click on Make Payments, choose Missed Instalments / Other Overdues, and proceed to complete the payment., CTA Label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Despite having sufficient balance in the bank account, my EMI payment bounced. What should I do?",
+    "answer": "In that case, we request you to connect with your bank immediately. However, if your bank confirms that there are no issues from their end, your EPI (Equated Periodic Instalment) might have bounced due to a mandate-related issue. You can raise a request with us for resolution by clicking the button below. You will get a call back within 2 working days., CTA label: Raise a request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+  "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the charges applicable for bounced and overdue payments?",
+    "answer": "You can view your bounced and overdue charges by clicking the button below., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+},
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have made a part-prepayment. Where do I check my updated loan details? ",
+    "answer": "Thank you for making a part-prepayment. To check your updated loan details, you can refer to the 'Repayment Schedule' which will have the updated loan details. After making a part pre-payment, it takes up to 48 hours for the amount to get adjusted against your Loan.</p><p>- Go to Homepage and select 'Loan'<br></p><p>- Click on 'Loan Account' against which you have made the payment</p><p>- Now you can click on 'View Statements' button available on 'Things you can do with your loan' section at the center of your screen.</p><p>- You can view and download the Statement Of Account.</p><p>To view your statement now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want to make a part-prepayment towards my loan. When can I do this?",
+    "answer": "Please note that part-prepayment on an existing loan is subject to certain conditions. A part-prepayment can be made only after the first instalment has been successfully cleared, and the prepayment amount must exceed the first instalment amount. Additionally, part-prepayment charges are applicable for all loans except Flexi loans. To proceed with a part-prepayment, please click the button below., CTA Label: Make Payment, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Are there any charges applicable for making a part-prepayment towards my loan?",
+    "answer": "There are charges applicable for all part-prepayments made towards loans other than Flexi loans. ",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Will my EMI amount change after making a part pre-payment?",
+    "answer": "<p>While making partpayment, if you have selected the option for &quot;EPI (EQUATED PERIODIC INSTALMENT (EPI)) Reduction&quot;, the EPI (EQUATED PERIODIC INSTALMENT (EPI)) amount will reduce. The revised amount details can be checked in loan detail section under Your Relationship for that loan account.</p>",
+  "chatbot-flag": "yes"
+},
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have made the Part Pre payment to my loan but my loan tenure has not changed",
+    "answer": "Follow the steps below to raise a request. Our Service Team will examine the case and provide an appropriate solution. Go to the 'Menu' option and select 'Help and  Support'  - Click on 'Raise a Request'  - Select 'Loan Type' and 'Product Description'  - Select 'Query Type' and describe the issue;  - Click 'Submit'.  You will receive an acknowledgement with your 'Service Request Number' on the app screen. CTA label: Raise A Request , ANdroid CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have made a Part pre-payment but my EMI has not changed. What should I do?",
+    "answer": "Follow the steps below to raise a request. Our Service Team will examine the case and provide an appropriate solution. Go to the 'Menu' option and select 'Help and  Support'  - Click on 'Raise a Request'  - Select 'Loan Type' and 'Product Description'  - Select 'Query Type' and describe the issue;  - Click 'Submit'.  You will receive an acknowledgement with your 'Service Request Number' on the app screen. CTA label: Raise A Request , ANdroid CTA link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I made a payment using UPI but it doesn't reflect in my loan account. What should I do?",
+    "answer": " This may happen due to the following reasons -  - Issues with the payment gateway - Poor network connectivity  If the transaction fails at our end, due to any of the above-mentioned reasons, the amount debited will be refunded to your registered bank account. To know about the refund timeframe, we request you to get in touch with your bank.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the different types of Fees and Charges that could be applicable to my loan?",
+    "answer": "Fees and charges vary from loan to loan. To know about the fees and charges for a specific loan-type, please check the ‘Fees & Charges’ section in your loan account. CTA Label: Your Relation , Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the expense manager?",
+    "answer": "The expense manager helps you track and manage your spending. You can add, categorize, and analyse your expenses, set budgets, and get insights into your financial habits. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What information does the expense manager provide?",
+    "answer": "The expense manager provides information on your total expenses, spending patterns, categorized expenses, budget status, and allows you to generate reports for a comprehensive overview of your financial activities. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I see a summary of my expenses?",
+    "answer": "To view a summary of your expenses, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will provide a quick overview of your recent spending, categorized by different expense types. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I get a monthly report of my expenses?",
+    "answer": "To view a summary of your expenses, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will provide a quick overview of your recent spending, categorized by different expense types. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Tell me about my spending habits.",
+    "answer": "For insights into your spending habits, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will analyse your historical data and provide information on trends, helping you make informed financial decisions. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How does the budget feature work?",
+    "answer": "The budget feature allows you to set spending limits for specific categories. Use 'Set budget' and the budget amount. The system will notify you when you approach or exceed the set limit.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I view a specific expense from last week?",
+    "answer": "To check your specific expenses from last week, click on the 'View All' button in the Recent Transaction section >> Click on View By: Weekly” >> Select the week of your choice >> Click on Apply button. The system will calculate and display the expenses happened in that week.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have an overdue EMI as my payment bounced. What should I do?",
+    "answer": "Please make a payment for your Overdue EPI (EQUATED PERIODIC INSTALMENT (EPI)). - Go to Your relations -Click on Loans -Click on Make Payments. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have an overdue EMI payment. What should I do?",
+    "answer": "Please make a payment for your Overdue EPI (EQUATED PERIODIC INSTALMENT (EPI)). - Go to Your relations -Click on Loans -Click on Make Payments. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "My loan is closed last month, yet my EMI status for the last month payment is not updated. What should I do?",
+    "answer": "We regret the inconvenience caused. Please Raise A Request/Complaint with us by following these steps:  - Go to the 'Raise a Request' page on the app screen  - Select your 'Loan Type' and 'Product Description'  - Select 'Query Type' and describe your query/issue  - Click on 'Submit'. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am unable to make part-payment. What should I do?",
+    "answer": "Please note that part-prepayment on an existing loan is subject to certain conditions. A part-prepayment can be made only after the first instalment has been successfully cleared, and the prepayment amount must exceed the first instalment amount. Additionally, part-prepayment charges are applicable for all loans except Flexi loans. To proceed with a part-prepayment, please click the button below., CTA label: Your Relations, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am unable to foreclose a loan online as my bank details are not available for making a payment. What should I do?",
+    "answer": " We request you to visit your nearest branch and make the foreclosure payment in cash or cheque.  To locate your nearest Bajaj Finance Limited branch, please visit branch locator. CTA label: Branch Locator, Android CTA link: bajajsuperapp://storelocator/storelocatorlauncher  , IOS CTA link: bajajsuperapp://storelocator/storelocatorlauncher , Web CTA link: https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am unable to foreclose a loan online as the screen does not move ahead after entering my bank details. What should I do?",
+    "answer": " We regret the inconvenience caused. Please retry after sometime.  If you are still unable to proceed then please Raise A Request with us by following these steps:  - Go to the 'Raise a Request' page on the app screen  - Select your 'Loan Type' and 'Product Description'  - Select 'Query Type' and describe your query/issue  - Click on 'Submit'. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I rectify the incorrect birthdate mentioned in your records?",
+    "answer": "To update your Date Of Birth (DOB), please follow these steps:  - Go to the Profile Section  - Click on Edit  - Fill in details of your PAN, Bank account or EMI Network card  - Upload your DOB proof document (Driving License/PAN/Passport). CTA label: Profile Page, Android CTA link: bajajsuperapp://profile/landing , IOS CTA link: bajajsuperapp://profile/landing , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I get my Financial Fitness Report?",
+    "answer": " To view or download your Financial Fitness Report, visit document center and select your loan number. CTA label: Document center , Android CTA link:   bajajsuperapp://documenation/documentcenter  , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I get my charge slip?",
+    "answer": "Simply click the link below to visit our Document Centre and select the loan account you would like to view, and you will be able to download your charge slip easily., CTA label: Document center , Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I get my EW/Insurance Certificate?",
+    "answer": " To view or download your EW/Insurance Certificate, please visit document center. CTA label: Document center , Android CTA link: bajajsuperapp://documenation/documentcenter  , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I get my invoice?",
+    "answer": " To view or download your Invoice, please visit document center CTA label: Document center , Android CTA link: bajajsuperapp://documenation/documentcenter  , IOS CTA link: bajajsuperapp://documenation/documentcenter , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What should I do if my payment through UPI doesn't get updated against my Flexi Term (Dropline) Loan? ",
+    "answer": " Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.  If your payment made through UPI is not updated towards its Flexi Term (Dropline) Loan account. Android CTA link: bajajsuperapp://helpsupport/raisedrequest  , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why has my payment made through the Virtual Account Number (VAN) not been updated towards its Flexi Term (Dropline) Loan account?",
+    "answer": " Please note that it takes up to 24 hours for the amount to get adjusted towards your loan.  If your payment through the Virtual Account Number (VAN) is not updated towards its Flexi Term (Dropline) Loan account. CTA label: Raise a Request , Android CTA link: bajajsuperapp://helpsupport/raisedrequest  , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I set up the Bajaj Finserv Flexi Lite Drawdown?",
+    "answer": "To set up flexi lite Flexi drawdown for Flexi Term (Dropline) Loan, please follow these simple steps: 1. Go to and select your loan account 2. Select 'Set up Flexi Lite' 3. Choose your flexi lite limit or enter any amount from Rs. 1000 to Rs. 5000 4. Click on 'Get OTP' and enter OTP sent on your registered mobile number and submit. CTA label: Your Relation, Android CTA link: bajajsuperapp://relations/loan, IOS CTA link: bajajsuperapp://relations/loan, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why can't I download my Credit Health Report after paying the fee?",
+    "answer": " In that case, please Raise A Request with our customer service team by following these steps:  - Go to the 'Raise a Request' page on the app screen  - Select your 'Loan Type' and 'Product Description'  - Select 'Query Type' and describe your query/issue  - Click on 'Submit'  Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'. Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'. CTA label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest  , IOS CTA link: bajajsuperapp://helpsupport/raisedrequest , Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Does Bajaj Finance Limited consider my CIBIL score for every loan I take?",
+    "answer": "Yes. Bajaj Finance Limited considers the CIBIL score for your every loan.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I get TDS certificate for loan?",
+    "answer": "To get your TDS certificate for applicable loans, simply click the 'Raise a Request' button below. Service executive will contact you shortly to assist with the next steps., CTA label: Raise a Request , Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA : https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Apply for Used Car Loan",
+    "answer": "<p>You can apply for Used Car Loan from our Used Car Loan page, CTA Label: Apply for loan, Android CTA link: bajajsuperapp://pdpx/UCF_ZCUC__PDP, IOS CTA link: bajajsuperapp://pdpx/UCF_ZCUC__PDP,  Web CTA link: https://www.bajajfinserv.in/used-car-loan</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Statements",
+    "question": "How do I generate a foreclosure statement and foreclose the loan?",
+    "answer": "<p>Please follow the steps below to get your Loan Foreclosure Letter -</p><p>- Go to 'Menu' option on your Home screen<br /></p><p>- Click on 'Loan Payment'</p><p>- Select 'Foreclosure' tab</p><p>- Choose the loan account you wish to foreclose</p><p>- Click on 'Proceed' to view the payable amount</p><p>You can view and download the Foreclosure Letter available right after the charges breakup section.</p><p>Please Note: that the Foreclosure Letter will be valid for 7 days after being generated. Post 7 days, you will have to generate a fresh Foreclosure Letter.</p><p>To generate it now, please click here.<br /></p><p>Once you have generated your foreclosure letter,</p><p>- Go to &quot;My Account&quot;</p><p>- Select &quot;Your Relations&quot;</p><p>- Click on &quot;Make Payments&quot;</p><p>- Select the type of payment</p><p>- Click on &quot;Proceed&quot;</p><p>To  foreclose your loan now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Part Pre-payment",
+    "question": "Where do I check the loan break up details of my Loan?",
+    "answer": "<p>To view the break up details follow below steps:</p><p>Click 'My Accounts' at bottom right of the screen</p><p>Click 'Your Relationships' and choose loan account for which you wish to check the loan breakup.</p><p>To check the breakup of your loan now, please <a href=\"bajajsuperapp://relations/loan\">click here</a>.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Insurance Claims",
+    "question": "How can I cancel my policy?",
+    "answer": "<p>You can cancel your insurance policy/ membership if it is within Free Look Period (FLP). Free Look Period (FLP) is a trial period that starts on the day your insurance policy/ membership is issued and allows you to assess the policy/ membership and its benefits before deciding whether to continue or cancel the same.</p><p>To cancel your insurance policy/ membership, follow the steps below -</p><p>- Click on 'My Account' at the bottom right of the screen</p><p>- Click on ‘Your Relations’</p><p>- Click on 'Insurance/ Value Added Services' tab at the top of the page</p><p>- Click on arrow button on relationship of your choice</p><p>- Click on ‘Cancel Policy/ membership’</p><p>To cancel now, please <a href=\"bajajsuperapp://relations/insurance\">click here</a>.</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Insurance Claims",
+    "question": "How do I raise a claim?",
+    "answer": "To raise an insurance claim request for medical reimbursement, please click the button below. Then, go to the Insurance and VAS section, select your insurance, and complete the process., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to cancel my loan",
+    "answer": "For this issue you can raise a request with us. Please note raised request are resolved within 2 days, CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Foreclosure charge",
+    "answer": "Based on our internal policy, this charge cannot be refunded or waived. We request you to refer to your agreement if you have any doubts regarding these charges. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, iOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Conveiniece charges",
+    "answer": "Based on our internal policy, this charge cannot be refunded or waived. We request you to refer to your agreement if you have any doubts regarding these charges. CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, iOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Phone is locked after emi bounce",
+    "answer": "It generally takes up to 24 hours for your payment details to be updated. If more than 24 hours have passed, please raise a request and attach clear screenshots of your payment details., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Phone is locked",
+    "answer": "It generally takes up to 24 hours for your payment details to be updated. If more than 24 hours have passed, please raise a request and attach clear screenshots of your payment details., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "Why my phone is locked",
+    "answer": "It generally takes up to 24 hours for your payment details to be updated. If more than 24 hours have passed, please raise a request and attach clear screenshots of your payment details., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I have cleared all my due s still my phone is not unlocked?",
+    "answer": "It generally takes up to 24 hours for your payment details to be updated. If more than 24 hours have passed, please raise a request and attach clear screenshots of your payment details., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want refund of Foreclosure charge",
+    "answer": "Basis our internal policy, this charge cannot be Refunded. We request you to refer your Agreement incase you have any doubt related to these charges., CTA label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Missed EMI Payments Overdues",
+    "question": "Can Bajaj waive off the bounce charges on my Loan account?",
+    "answer": "As per our internal policy, bounce charges cannot be waived. We recommend clearing the dues promptly to avoid any impact on your CIBIL score. Please ensure sufficient funds in your bank account during the EIP period to prevent such charges. To pay your bounce charges, click the button below., CTA label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Foreclosure",
+    "question": "How do I generate my Foreclosure Letter?",
+    "answer": "To view or download your Foreclosure Letter, please go to the 'Document Centre' and select your loan account number.Please Note:Your Foreclosure Letter will be valid for 7 days after being generated. Post 7 business days, you will have to download a fresh Foreclosure Letter., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Advance EMI Payment",
+    "question": "I want to make an advance payment towards my loan. What should I do?",
+    "answer": "You can make advance Instalment amount from your relation page. Please follow the steps below: 1. Go to 'Your relations' and select the loan account for which you wish to make the payment 2. Click on 'Advance Instalment' 3. click on 'Proceed To Payment' 5. Select your payment method and click on 'proceed'. CTA Label: Your Relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the current overdue amount on my loan account?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can you please tell me how much overdue amount is pending on my EMI?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Is there any overdue amount on my loan? If yes, how much do I need to pay?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please share the details of my overdue amount, including any charges.",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Loan",
+    "l2category": "Used Car Loan",
+    "l3category": "Financial transactions and Actions",
+    "question": "How much is my total overdue amount, and what does it include (late payment or bounce charges)?",
+    "answer": "Check customer_data before answering the question. If total_over_due is not null:  Inform the customer:  The overdue amount for your loan is <total_over_due>. This figure includes penal charges, bounce fees, installment dues, and other applicable charges. For the exact amount payable along with detailed charges, please refer to your Statement of Account (SOA) letter available in the document center. If total_over_due is null:  Inform the customer:  Please check your loan’s overdue amount by referring to your Statement of Account (SOA) document available in the document center., CTA Label: Document center, Android CTA link: bajajsuperapp://documenation/documentcenter, IOS CTA link: bajajsuperapp://documenation/documentcenter, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  }
+]

@@ -1,0 +1,2096 @@
+[
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I will complain to RBI",
+    "answer": "We apologize for any in convenience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is my bill payments date/due date?",
+    "answer": "To view your EMI due date, kindly visit the Your relations page and select your active loan with us. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan , IOS CTA Link: bajajsuperapp://relations/loan , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "View personalized offers",
+    "answer": "You can explore your personalized loan offer and apply for the perfect loan product tailored just for you. Simply visit our loan page to get started. CTA Label: Apply for loan, Android CTA Link: bajajsuperapp://pdpx/PL__PDP, IOS CTA Link: bajajsuperapp://pdpx/PL__PDP, Web CTA Link: https://www.bajajfinserv.in/personal-loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Who can participate in EMI blockbuster contest? ",
+    "answer": "All authorised dealers who download and print the collaterals for the summer decoration theme and decorate their stores can participate in the contest.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How to participate in EMI blockbuster contest?",
+    "answer": "Step 1: Decorate your store with the summer-themed collaterals between 10th April to 31st May. Step 2: Share photos of your decorated store on Instagram with the hashtag #CashKyunEMIKaro and tag @bajajfinserv_emihaina on Instagram for your entry to be considered. The entry and photos have to be submitted between 15th April to 31st May. Step 3: Expect a surprise visit from our partner.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the deadlines of the EMI blockbuster contest?",
+    "answer": "Store decoration period: 10th April to 31st May\nPhoto submission window: 15th April to 31st May\nWinner announcement: 7th June 2025\nExclusive cocktail hour with Suresh Raina & Rakul Preet: 28th June 2025",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is decoration guidelines for EMI blockbuster contest",
+    "answer": "Use Bajaj Finserv’s collateral like danglers, posters, flyers/leaflets, and videos. You can add additional decorations but ensure they align with the summer theme. You can download the necessary collateral from shared link.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Card is not working?",
+    "answer": "It seems that your card is not working. You may not be able to make transactions due to the following reasons: Ensure your first loan was booked at a partner store using your KYC documents. Online transactions activate after your first EMI payment is cleared. Your card might be temporarily ineligible due to our credit policy. Please wait for our upcoming review. If your CIBIL score isn't meeting the criteria, you can improve it by making timely payments, limiting credit use, and clearing existing debts. Ensure your re-KYC is complete to enable transactions. Check your transaction history on the EMI Card Page for specific failure reasons., CTA Label: EMI Card Details, Android CTA link: bajajsuperapp://relations/cards, IOS CTA link: bajajsuperapp://relations/cards, Web CTA link:https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I share the decorated store photo for EMI blockbuster contest?",
+    "answer": "Share your decorated store photos and videos on your Instagram account using the hashtag #CashKyunEMIKaro. Make sure you tag @bajajfinserv_emihaina on this Instagram post to enter the contest.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How are the winners of the EMI blockbuster contest selected?",
+    "answer": "Winners will be selected based on:a. Creativity and adherence to the summer theme.\n\nb. Effective use of Bajaj Finserv’s collaterals.\n\nc. Overall visual appeal and innovative decorations.\n\nd. Overall sales during this period through Bajaj Finserv.\n\nFinal winners will be revealed on 7th June 2025",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the rewards for winning the EMI blockbuster contest?",
+    "answer": "Winning dealers will receive:\na. An all-expenses-paid trip to Mumbai.\nb. Exclusive cocktail hour with Suresh Raina and Rakul Preet.\nc. Title of the Best Decorated Store",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "When and where will the winners meet Suresh Raina and Rakul Preet in EMI blockbuster contest?",
+    "answer": "The exclusive cocktail hour will take place in Mumbai on 28th June 2025. Final details will be shared with the winners closer to the date.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What should I do if I encounter issues with downloading the collateral?",
+    "answer": "In case of any issues with downloading or accessing the collateral, reach out to your Area Sales Manager for assistance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Is there a limit to how many photos I can submit for EMI blockbuster contest?",
+    "answer": "There is no limit to the number of photos, but ensure that the photos clearly highlight the summer-themed decorations and use of Bajaj Finserv’s collaterals.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What happens if I win EMI blockbuster contest but cannot attend the cocktail hour?",
+    "answer": "If a winner is unable to attend the cocktail hour, alternative arrangements will be communicated, but the cocktail hour experience cannot be transferred.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I view my EMI amount for the loan?",
+    "answer": "To check your EMI amount, please visit loan relations page by clicking on the 'Your Relation' button, you can select your active loan to view the details. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I find the details to view my EMI amount?",
+    "answer": "To check your EMI amount, please visit loan relations page by clicking on the 'Your Relation' button, you can select your active loan to view the details. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Is there a way to view my EMI amount on the Bajaj Finance app?",
+    "answer": "To check your EMI amount, please visit loan relations page by clicking on the 'Your Relation' button, you can select your active loan to view the details. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can you show me how to view my EMI amount for the upcoming month?",
+    "answer": "To check your EMI amount, please visit loan relations page by clicking on the 'Your Relation' button, you can select your active loan to view the details. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How do I access or view my EMI amount for this loan?",
+    "answer": "To check your EMI amount, please visit loan relations page by clicking on the 'Your Relation' button, you can select your active loan to view the details. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can update email id",
+    "answer": "To update your email ID, simply send an SMS with the word 'UPDEMAIL'<> 'your new email ID' to 9227564444 from your registered mobile number. Your new email ID will be updated within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the steps to update your email ID?",
+    "answer": "To update your email ID, simply send an SMS with the word 'UPDEMAIL'<> 'your new email ID' to 9227564444 from your registered mobile number. Your new email ID will be updated within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How to change the email address associated with my account?",
+    "answer": "To update your email ID, simply send an SMS with the word 'UPDEMAIL'<> 'your new email ID' to 9227564444 from your registered mobile number. Your new email ID will be updated within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the process to update the mobile number linked to my EMI card?",
+    "answer": "To update your email ID, simply send an SMS with the word 'UPDEMAIL'<> 'your new email ID' to 9227564444 from your registered mobile number. Your new email ID will be updated within 48 hours.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I change my registered mobile number for my EMI card account?",
+    "answer": "To update your mobile number, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA Link: bajajsuperapp://profile/Mob_Update , IOS CTA Link: bajajsuperapp://profile/Mob_Update , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "EMI not debited",
+    "answer": "Delay in EMI debit can be due to a technical issue or a delay from the bank side. We request you to please wait for some time; your EMI amount will be debited from your account. Please ensure that you maintain sufficient balance in your bank account. Note: Gold Loan users can pay the EMI amount at any time; the EIP period condition does not apply to them.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is my EMI date",
+    "answer": "To view your EMI due date, kindly visit the Your relations page and select your active loan with us. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I update my mobile number linked to my EMI card online?",
+    "answer": "To update your mobile number, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA Link: bajajsuperapp://profile/Mob_Update, IOS CTA Link: bajajsuperapp://profile/Mob_Update, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I view my Insta EMI card?",
+    "answer": "The number of your Bajaj Finserv EMI Card can be found on the front of your digital card. To view your EMI Network Card number, please follow these steps: Navigate to 'Your relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I check the details of my Insta EMI card?",
+    "answer": "The number of your Bajaj Finserv EMI Card can be found on the front of your digital card. To view your EMI Network Card number, please follow these steps: Navigate to 'Your relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can you help me find my Insta EMI card information?",
+    "answer": "The number of your Bajaj Finserv EMI Card can be found on the front of your digital card. To view your EMI Network Card number, please follow these steps: Navigate to 'Your relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want to change my mobile number",
+    "answer": "To update your mobile number, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA Link: bajajsuperapp://profile/Mob_Update , IOS CTA Link: bajajsuperapp://profile/Mob_Update , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I change my mobile number linked to my account?",
+    "answer": "To update your mobile number, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA Link: bajajsuperapp://profile/Mob_Update , IOS CTA Link: bajajsuperapp://profile/Mob_Update , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the process to update my mobile number?",
+    "answer": "To update your mobile number, navigate to the profile details page using the link below. CTA Label: Profile Details, Android CTA Link: bajajsuperapp://profile/Mob_Update , IOS CTA Link: bajajsuperapp://profile/Mob_Update , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Raise a complain from my behalf",
+    "answer": "I understand your concern, but as a virtual assistant, I cannot file complaints on your behalf. However, I recommend that you raise a request for assistance regarding this issue, and our team will look into it promptly. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want NDC (No Dues Certificate).",
+    "answer": "You can visit the document center to view your No Dues Certificate. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I want Loan closure letter",
+    "answer": "To view the foreclosure letter for your loan, please visit the document center. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "I want COI.",
+    "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "I want RBL credit card",
+    "answer": "Thank you for your interest! We would like to inform you that the Bajaj Finserv RBL Co-branded Credit Card (RBL) is no longer available."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "I want DBS credit card",
+    "answer": "Thank you for your interest! We would like to inform you that the Bajaj Finserv DBS Co-branded Credit Card (DBS) is no longer available."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Can you send copy of COI?",
+    "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I get my COI?",
+    "answer": "To get your insurance certificate, please visit the document center by clicking the below given link. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter , IOS CTA Link: bajajsuperapp://documenation/documentcenter , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "How many loans do I have?",
+    "answer": "To check your loan relation please visit Your relations page. CTA Label: Your relations, Android CTA Link: bajajsuperapp://relations/loan, IOS CTA Link: bajajsuperapp://relations/loan, Web CTA Link:https://www.bajajfinserv.in/myaccountlogin?Source=Loan",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "What is my card status?",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Status., CTA Label: EMI Card Details , Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "My card limit?",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "How to complete KYC?",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Service' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Service section.",
+  "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "Re KYC steps",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Service' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Service section."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "How to compleye re KYC",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Service' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Service section.",
+  "chatbot-flag": "yes"
+},
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What are the steps to complete Re-Kyc?",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Service' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Service section."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What should I do if I've completed my KYC but it's not reflecting on the app?",
+    "answer": "To check the status of your request, if it shows as successfully closed but is not reflected in the app, please try logging out and logging back into the app. However, if the request hasn't been successfully closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What should I do if I've completed my Re KYC but it's not reflecting on the app?",
+    "answer": "To check the status of your request, if it shows as successfully closed but is not reflected in the app, please try logging out and logging back into the app. However, if the request hasn't been successfully closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "Why does the app keep telling me to complete KYC even though I've already done it?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. If unsuccessful, you may need to complete the KYC process again. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "How to update KYC?",
+    "answer": "To update your re-KYC, please follow these steps: 1. Go to the 'Service' section 2. A pop-up will appear to update your re-KYC 3. Click on 'Verify' to enter your PAN details 4. Check your name and click on 'Confirm' 5. After PAN is verified, click on 'Complete Now' to verify address 6. Check address fetched from DigiLocker and select 'Yes' if it is correct 7. Share the required details for verification and click on 'Continue' You can also complete your KYC from the 'Reminder' section on the Homepage or Service section."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "When will I get my kyc updated?",
+    "answer": "After the successful closure of your service request, your KYC information will be updated within 24-48 hours. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "How much time will it take to update KYC after completing the process?",
+    "answer": "After the successful closure of your service request, your KYC information will be updated within 24-48 hours. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What is Aadhaar e-KYC consent?",
+    "answer": "Aadhaar e-KYC consent is the permission given by the Aadhaar card holder or, in the case of a child, it is the permission of parent or guardian obtained before performing the e-KYC authentication service provided by Unique Identification Authority Of India."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What are the documents required to complete an individual’s KYC?",
+    "answer": "Individuals (including beneficial owner/ authorised signatory/ Power of Attorney holder) need to provide the following documents to complete KYC: 1. One recent Photograph 2. PAN or Form 60 if PAN is not allotted 3. Certified copy of one of the Officially Valid Documents (OVDs) listed below: - Valid Passport - Voter’s ID card issued by the Election Commission - Valid Driving License - Proof of possession of Aadhaar Number (i.e. Aadhaar letter downloaded from UIDAI website, Aadhaar card) - Job Card issued by NREGA duly signed by an officer of the State Government - Letter issued by the National Population Register containing details of Name and address of the customer* First 8 digits of the Aadhaar No. (on copy of Aadhaar Letter/Aadhaar Card obtained), must be redacted or blackened, and it should not be legible."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "Which additional proof of address can I submit for the current address if my current address is not updated in the officially valid document (OVD) submitted?",
+    "answer": "In case the officially valid documents (OVD) submitted do not have your current address, you can provide the following documents; these are accepted as deemed to be officially valid documents (DOVD). Please keep in mind that this is for the purpose of Proof of Address only: - Utility bill (in your name and not more than two months old) such as electricity, telephone, post-paid mobile connection, water, piped gas - Property or municipal tax receipt - Pension or family Pension Payment Orders (PPOs) issued to retired employees by Government Departments or Public-Sector Undertakings (PSUs) only if they contain the address - Letter of allotment of accommodation from employer issued by the state government or central government departments, statutory or regulatory bodies, Public Sector Undertakings (PSUs), scheduled commercial banks, financial institutions, and listed companies. Leave and License Agreements with such employers allotting official accommodation Important: If you are providing DOVD for the current address, you must provide an OVD mentioning the current address within three months of submitting the DOVD."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What documents can I provide as 'Proof of Identity' and 'Proof of Address'?",
+    "answer": "As per the Government of India regulations, the following documents are accepted as Proof of identity: - Passport - Voter ID card - PAN card - Aadhaar card - Driving license - NREGA (National Rural Employment Guarantee Act) card Proof of address: - Aadhaar card - Passport - Voter ID card - Driving license - Job card issued by NREGA - Letter issued by the National Population Register containing details of name and address"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What is KYC?",
+    "answer": "KYC stands for Know Your Customer. It is the process of identifying and verifying the identity of the customer through independent and reliance source of documents, data or information. "
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What is meant by DigiLocker?",
+    "answer": "DigiLocker is a Ministry of Electronics and Information Technology (MeitY) flagship initiative launched as part of the Digital India Programme. DigiLocker is a secure document repository created for the use of Indian citizens and businesses to store and retrieve important documents along with KYC verification. It eliminates the need for individuals to carry physical copies of their documents and provides a secure platform to store and access them."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What is e-KYC and how does it work?",
+    "answer": "The term e-KYC means electronic KYC, which can be done by an Aadhaar holder. While availing of this service, you have to authorise the Unique Identification Authority of India (UIDAI) to share your identity and address through biometric authentication with the entity requesting the information. The data shared includes your name, age, gender, address, date of birth and photograph. The information provided is treated as an 'Officially Valid Document' for KYC verification."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "When will my KYC get updated post submitting documents?",
+    "answer": "Your KYC will get updated upon successful verification of your documents."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "What is my KYC status ?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. After your service request is successfully closed, your KYC information will be updated within 24-48 hours. However, if the request hasn't been closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "Why my KYC is pending even after completion of KYC journey?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. After your service request is successfully closed, your KYC information will be updated within 24-48 hours. However, if the request hasn't been closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Change Personal Details",
+    "question": "Why is there problem in KYC update journey ?",
+    "answer": "Please check your KYC status in the 'Request History' section. If it's successful, try logging out and back into the app. After your service request is successfully closed, your KYC information will be updated within 24-48 hours. However, if the request hasn't been closed, you should attempt to restart the KYC process from the Home page or Account section. CTA Label: Request History, Android CTA Link: bajajsuperapp://helpsupport/viewall, IOS CTA Link: bajajsuperapp://helpsupport/viewall, Web CTA Link: https://www.bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What is my CIBIL score and how does it work? ",
+    "answer": "<p>CIBIL score is a three-digit number, ranging from 300 to 900, that represents your creditworthiness. This score is derived after taking into consideration the credit history and details found in your CIBIL report, which is maintained as a record by TransUnion CIBIL.</p><p>Your lender checks your CIBIL score, before approving a loan, to verify your ability to repay the loan. The closer you are to a credit score of 900, the better are your chances of getting a loan. A score closer to 300 is considered poor and lowers your possibility of getting easy approvals.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I maintain a good CIBIL score?",
+    "answer": "<p>Here are a few simple tips to maintain a good CIBIL score:</p><p> - Pay your monthly instalments on time to build a good track record</p><p> - Manage your credit card carefully, set payment reminders and limit your usage</p><p> - Choose longer loan tenure carefully, try to make part-prepayments when you can</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I improve my CIBIL score?",
+    "answer": "<p>If you have a poor CIBIL score, there is plenty you can do to improve it. Here are some handy tips:</p><p>&nbsp;-Avoid being a co-applicant for a loan unless you are sure of not planning to borrow anytime soon</p><p>-Ensure you repay all your EMIs and credit card bills on time</p><p>-Be cautious when borrowing and always have a proper repayment plan in place</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Does checking the CIBIL report repeatedly hamper my CIBIL score?",
+    "answer": "<p>When you check your CIBIL score, it is considered a ‘soft inquiry’ and doesn’t make any negative impact on your credit score. However, if a lender or a credit card issuer requests CIBIL to check your credit report (usually when they are considering you for a loan or credit card), it is counted as a ‘hard inquiry’. Hard inquiries are recorded in the enquiry section of your credit report. Multiple hard inquiries, if done over a relatively short period, demonstrate what is called ‘credit hungry behavior’ and may hurt your credit score. But a soft inquiry, at least once a year, is considered an important financial habit.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Does Bajaj Finance Limited consider my CIBIL score for every loan I take? ",
+    "answer": "<p>Yes. Bajaj Finance Limited considers the CIBIL score for your every loan.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What do you mean by DPD?",
+    "answer": "<p>DPD stands for Days Past Dues and tells you about the days for which a payment has been delayed.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What do you mean by CTR?",
+    "answer": "<p>CIBIL TransUnion Report is a report of your CIBIL score which indicates how well or how poorly you have dealt with your loans or credit cards in the past. It includes detailed information on all your past/current loans and their EMIs. Also, timely repayment of loans helps you maintain a healthy CIBIL score.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How do I read my CIBIL TransUnion Report (CTR)?",
+    "answer": "<p>CIBIL TransUnion Report contains detailed information on the credit you have availed such as home loans, credit cards, personal loans, automobile loans and overdraft facilities. It is divided into 6 parts:</p><p>- CIBIL Score</p><p>- Personal Information</p><p>- Contact Information</p><p>- Employment Information</p><p>- Account Information</p><p>- Enquiry Information</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Importance",
+    "question": "What is the minimum CIBIL score required to get a personal loan?",
+    "answer": "<p>For most lenders, the minimum CIBIL score required to approve a personal loan is 720. Having a higher CIBIL score boosts your chances of getting a better deal. However, a score on the lower side reduces your possibility of getting finance.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Importance",
+    "question": "Why do lenders check my CIBIL score before approving a loan?",
+    "answer": "<p>Your CIBIL score measures your creditworthiness. Lenders choose to check your score for several reasons. Some of the most important ones include:</p><p>- Checking credit record and history</p><p>- Measuring your capacity to repay the loan</p><p>- Reviewing credit balance and sensing the risk level of your profile</p><p>- Identifying if you meet the lender’s loan eligibility criteria</p><p>- Arriving at the loan amount and interest rate suitable for you</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "How much time will it take for my new Loan to reflect in my CIBIL? ",
+    "answer": "<p>After the loan is disbursed by Bajaj Finance Ltd., the loan details&nbsp; &nbsp;are shared with the Credit Information Companies (CIC) within 3 working days. CICs take upto 7 working days for updating your loan details.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "Why is my loan status showing active in CIBIL, when my loan is closed with Bajaj Finance Ltd.?",
+    "answer": "<p>After your loan is closed with Bajaj Finance Ltd., the update is shared with the Credit Information Companies (CIC) within 3 working days. CICs takes upto 7 working days for updation of your loan records.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "How can I rectify the incorrect payment details mentioned in my CIBIL report?",
+    "answer": "<p>Please select the loan number that needs correction in your CIBIL and Raise A Request with us by following these steps:</p><p> - Go to the 'Raise a Request' page on the app screen</p><p> - Select your 'Loan Type' and 'Product Description'</p><p> - Select 'Query Type' and describe your query/issue</p><p> - Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'</p><p>To proceed now, please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "How can I rectify the incorrect loan details mentioned in my CIBIL report?",
+    "answer": "<p>Please select the loan number that needs correction in your CIBIL and Raise A Request with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "How can I remove the enquiry updated in my CIBIL report?",
+    "answer": "<p>Please select the loan number that needs correction in your CIBIL and Raise A Request with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "Why is my CIBIL score lower than expected?",
+    "answer": "<p>Please Raise A Request with us so that our Service Team looks into the matter and provides you with an appropriate solution. To do this, follow the steps below-</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "Why is my CIBIL score incorrectly mentioned in your records?",
+    "answer": "<p>We don't do any manual changes to your CIBIL score. We simply collect them from banks and financial institutions and upload them.</p><p>However, if you still seek more clarity, then please Raise A Request/Complaint with us by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "What is the minimum CIBIL score required to get an EMI card?",
+    "answer": "<p>For most lenders, the minimum CIBIL score required to approve an EMI card ranges from 685 to 775. Having a higher CIBIL score boosts your chances of getting a better deal on your EMI card. However, a score on the lower side hurts your possibility of keeping the card active</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "What is the minimum CIBIL score required for a Consumer Durable Loan?",
+    "answer": "<p>For most lenders, the minimum CIBIL score required to approve a consumer loan ranges from 750 to 775 is. Having a higher CIBIL score boosts your chances of getting a better deal. However, a score on the lower side hurts your possibility of getting finance.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "Why did my CIBIL report show details of a loan I haven't applied for?",
+    "answer": "We don't do any manual changes to your CIBIL Score. We simply collect them from banks and financial institutions and upload them. However, if you notice any incorrect entries related to Bajaj Finance, please raise a query with your CIBIL report using the link below. Once we receive your request, one of our service executives will look into it and resolve your query on top priority. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR,"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Transaction Related",
+    "question": "Why can't I download my Credit Health Report after paying the fee?",
+    "answer": "<p>In that case, please Raise A Request with our customer service team by following these steps:</p><p>- Go to the 'Raise a Request' page on the app screen</p><p>- Select your 'Loan Type' and 'Product Description'</p><p>- Select 'Query Type' and describe your query/issue</p><p>- Click on 'Submit'</p><p>Once done, you will receive an acknowledgement via notification mentioning your 'Service Request Number'.</p><p>Also, you can check your 'Request/Complaint Status' by simply visiting the Raise A Request page and clicking on the 'Request History'.</p><p>To proceed now please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Raise a New Request",
+    "question": "How do I raise a query/request?",
+    "answer": "<p>Follow the steps below to raise a query/request.</p><p>- Click on the product/service for which you want to raise a query.</p><p>For e.g. : Loan -</p><p>Select 'Loan Number'</p><p>Select 'Query Type'</p><p>Select 'Query Sub-Type'</p><p>Proceed to 'Still have a query'</p><p>You can then update your query details and submit.</p><p>To do this now, please raise a request with us by clicking below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Raise a New Request",
+    "question": "When raising a request, can I upload a file that is password protected? ",
+    "answer": "<p>Yes, you can upload a file that is password protected when raising a request. Please provide details of your request in the description box so that we can help you better.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Raise a New Request",
+    "question": "Help me.",
+    "answer": "Please feel free to ask any questions you may have, and I'll do my best to help you."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Raise a New Request",
+    "question": "When uploading documents, what is the attachment size allowed?",
+    "answer": "<p>You can upload documents up to 1 mb size.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Raise a New Request",
+    "question": "Why does my loan account not reflect in this list?",
+    "answer": "<p>We request you to check if your loan is booked. In case if it is not booked, please visit our loan tracking menu and check the details of your loan in the ‘My Account’ section of the app. If need be, you can also raise a request by clicking on ‘Application Status’ and then choosing your ‘Query Sub Type’.&nbsp;</p><p>To raise a request now, please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Raise a New Request",
+    "question": "My query does not reflect in your 'Query Type' or 'Sub Query Type'. What should I do?",
+    "answer": "<p>We request you to select the nearest possible query type and sub type and submit the same.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Request History",
+    "question": "Where can I check the status of queries/requests raised?",
+    "answer": "<p>Follow the steps below to check the status of the queries/requests raised -&nbsp;</p><p>- Click on the 'Menu' option at the top left of home page</p><p>- Select 'Help and Support'&nbsp;</p><p>- Select 'Service Request History'</p><p>- Check the status of the query/request</p><p>To do this now, please click below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/viewall , IOS CTA Link: bajajsuperapp://helpsupport/viewall , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Request History",
+    "question": "What should I do if I am not satisfied with the solution provided?",
+    "answer": "<p>We're sorry that the initial solution provided was unsatisfactory. At Bajaj Finance Limited, customer satisfaction is priority and hence you can re-open the request. To re-open your request, please follow the steps below -</p><p>- Click on the 'Menu' option at the top left of home page</p><p>- Select 'Service Request History'</p><p>- Select the specific service request and click on 're-open’</p><p>To re-open your request now, please click on below button. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/viewall , IOS CTA Link: bajajsuperapp://helpsupport/viewall , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Request History",
+    "question": "I have raised a request but did not receive any Request ID. What should I do?",
+    "answer": "<p>Follow the steps below to check the request id for queries/requests raised by you -</p><p>- Click on the 'Menu' option at the top left of home page</p><p>- Select Help and Support</p><p>- Select 'Service Request History'</p><p>- Check the status of the query/request</p><p>In case if you are not getting what you are looking for do raise a fresh request.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Request History",
+    "question": "Why I have not received any response to the request I raised?",
+    "answer": "<p>Please be assured that our team is working towards resolving your query/looking into your request. You will receive an update on the status of your request via a notification.</p><p>You can also check the status of your request by visiting the 'Service Request History' tab on our app 'Menu'.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Request History",
+    "question": "I have raised a request. What should I do next?",
+    "answer": "<p>Please allow our team to look into the request raised and provide a solution. You will receive a notification mentioning the status of your query/request.</p><p>Our service team would get back to you within 2 business days of raising the request.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Documents",
+    "question": "What are the documents required to complete an individual’s KYC?",
+    "answer": "<p>Individuals (including  Beneficial Owner/ Authorized Signatory/ Power Of Attorney Holder) need to provide the following - </p><p>(1) One recent Photograph</p><p>(2) PAN or Form 60 if PAN is not allotted</p><p>(3) Certified Copy of one of the Officially Valid Documents (OVDs) listed below:</p><p>- Valid Passport</p><p>- Voter’s ID Card issued by Election Commission of India</p><p> Valid Driving License </p><p>- Proof of possession of Aadhaar Number (i.e. Aadhaar letter downloaded from UIDAI website, Aadhaar card)</p><p>- Job Card issued by NREGA duly signed by an officer of the State Government</p><p>- Letter issued by the National Population Register containing details of Name, Address of the customer</p><p>* First 8 digits of the Aadhaar No. (on copy of Aadhaar Letter/Aadhaar Card obtained), must be redacted or blackened and it should not be legible.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Documents",
+    "question": "What is required for OKYC?",
+    "answer": "<p>You will require your Aadhaar Number for OKYC.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Documents",
+    "question": "In case current address is not updated in Officially valid document (OVD) submitted, what additional proof of address can be submitted towards current address?",
+    "answer": "<p>If the Officially Valid Documents (OVD) submitted do not have your current address, you can provide the following documents which are accepted as Deemed to be Officially Valid Documents (DOVD). Please bear in mind that this is for the purpose of Proof of Address only:&nbsp;</p><p>-&nbsp; Utility Bill (in your name and not more than two months old) such as Electricity, Telephone, Post-paid Mobile Connection, Water, Piped Gas</p><p>- Property or Municipal tax receipt</p><p>- Pension or Family Pension Payment Orders (PPOs) issued to retired employees by&nbsp; &nbsp;Government Departments or Public-Sector Undertakings, if they contain the address</p><p>- Letter of Allotment of Accommodation from Employer issued by State Government or Central Government Departments, Statutory or Regulatory Bodies, Public Sector Undertakings, Scheduled Commercial Banks, Financial Institutions and Listed Companies, and Leave &amp; License Agreements with such employers allotting official accommodation</p><p>Should you provide DOVD as proof of address (current), you must provide an OVD mentioning the current address within three months of submitting the DOVD.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "What is meant by “KYC”?",
+    "answer": "<p>KYC is the short form for 'Know Your Customer'.&nbsp;</p><p>KYC means identifying the applicant and obtaining address by way of collecting officially valid documents.&nbsp;</p><p>KYC is mandatory as per the Reserve Bank of India (RBI) guidelines for availing loan, placing FD, etc.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "What is meant by \"full KYC\"?",
+    "answer": "<p>Full KYC means obtaining the Officially Valid Documents (OVD) for Proof of Identity (POI) and Proof of Address (POA) as specified in the Reserve Bank of India (RBI) guidelines.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "What is meant by “digilocker”? ",
+    "answer": "<p>Also known as Digital Locker, the objective here is going paperless. Digilocker offers the following benefits -&nbsp;</p><p>&nbsp;- Digital documents can be accessed &amp; shared by citizens anytime, anywhere. The process is convenient and time-saving</p><p>&nbsp;- Reduces administrative costs that are otherwise unavoidable when using paper</p><p>&nbsp; - Helps in validating the authenticity of these documents easily as they are issued to registered users directly</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "How can one complete their KYC online?",
+    "answer": "There are two processes to complete KYC online – Downloading KYC documents from Central KYC Registry of customer having KYC identifier (KIN), Offline verification of Aadhaar number."
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "When is KYC required?",
+    "answer": "<p>KYC is required for the following - </p><p>- Opening an account (for availing loan, placing FD, etc.)</p><p>- For existing customers, if the KYC documents submitted earlier has expired or they are not as per the extant KYC guidelines </p><p>- Periodic updation of KYC information </p><p>- In case of any change in previously submitted KYC documents of the account/mandate holders, signatories, beneficiaries/nominees, etc.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "What is e-KYC? How does e-KYC work?",
+    "answer": "<p>The term e-KYC means electronic KYC and can be done by citizens who have an Aadhaar card. When availing this service, you have to authorize the Unique Identification Authority of India (UIDAI) to share your identity/address, through biometric authentication, with the requesting bank. The data shared includes your name, age, gender and a photograph. The information provided is treated as an 'Officially Valid Document' for KYC verification.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "What is OKYC?",
+    "answer": "<p>OKYC stands for Offline Verification of Aadhaar Number.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "Where will OTP for OKYC be received?",
+    "answer": "<p>Your OKYC One Time Password (OTP) will be sent to your registered mobile number linked to your Aadhaar Card.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "KYC Information",
+    "question": "When will my KYC get updated post submitted?",
+    "answer": "<p>Your KYC will get updated upon successful verification of your documents.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How do I know if my bank is eligible for e-mandates or e-NACH?",
+    "answer": "<p>Please <a href=\"https://www.npci.org.in/\">click here</a> to visit the National Payments Corporation of India (NPCI) website and check whether your bank is registered for the e-mandate process.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How do I know if my EMIs are being debited on time?",
+    "answer": "Before debiting an EMI, you will receive communication from us through SMS. You can also keep track of your EMI due dates, debits, and statements by following these simple steps:</p>1. Go to '>Your relations</a>' and select your loan account</p>2. Click on 'View Statements'</p>3. You can now download and view your 'Statement of Account'</p>Please remember that for successful auto-debit of your EMIs, you need to keep sufficient funds in your account.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Is it necessary for me to do mandate/NACH registration?",
+    "answer": "Yes, this is mandatory if you have availed a loan or applying for a Fixed Deposit Plan. You can either do the registration online or offline. Mandate/NACH registration allows easy auto-debiting of payments, EMIs, and investments from your registered bank account.If you prefer doing this offline, visit the nearest Bajaj Finance Limited Branch</a> along with a cancelled cheque and allow our representatives to help you. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storelocator/BFLCLC, IOS CTA Link: bajajsuperapp://storelocator/BFLCLC, Web CTA Link: https://www.bajajfinserv.in/branch-locator"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What do you mean by e-mandate or e-NACH?",
+    "answer": "<p>This is an online, one-time registration process for setting up a payment instruction to debit your verified bank account. In other words, you authorise Bajaj Finance Limited to debit money from your bank account towards EMIs/investment amounts automatically.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What do you mean by NACH mandate?",
+    "answer": "<p>The National Payments Corporation of India (NPCI) has implemented a centralised payment clearing system known as the National Automated Clearing House (NACH). It is a web-based solution that can handle bulk and repetitive payments such as EMI payments.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What happens to the existing mandate if I update or change my bank account?",
+    "answer": "<p>Once you update or change the bank account details for auto-debit of EMIs for a particular loan, the old mandate of such loan is cancelled, and the new one is updated in our records.</p><p>Please note: Until your new mandate is successfully changed and registered, your EMI will continue to be debited as per your old mandate.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What is a mandate limit?",
+    "answer": "<p>The mandate limit is the amount upto which you have authorised us to make debit transactions from your bank account.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What is UMRN?",
+    "answer": "<p>UMRN stands for Unique Mandate Reference Number. It is allocated when a mandate/NACH is registered and is necessary to carry out transactions.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "Are there any charges applicable for mandate registration?",
+    "answer": "<p>Yes, the charges vary from bank to bank. We recommend you either get in touch with the customer care of your bank or check your net banking/bank mobile app for such charges.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "Does Bajaj Finance Limited charge any fee in case my mandate is not registered?",
+    "answer": "<p>Yes, a service charge of Rs. 450 will be applicable if your mandate registration fails.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "How can I register my e-mandate with Bajaj Finserv?",
+    "answer": "You can update your e-mandate by clicking the link below. CTA Label: Mandate management, Android CTA Link: bajajsuperapp://documenation/mandatemanagement , IOS CTA Link: bajajsuperapp://documenation/mandatemanagement , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Mandate,"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "How many banks can I use for the mandate registration?",
+    "answer": "<p>For a single loan or fixed deposit under the systematic deposit plan (SDP), you need to set up the mandate with only one bank. You can register a single mandate for multiple EMIs and deposits under the systematic deposit plan.</p><p>However, remember that you must maintain sufficient funds in that account for all your EMIs. You can change the mandates anytime and register separate repayment bank accounts for different loans.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why has money been deducted from my account?",
+    "answer": "To find out why money has been deducted, refer to your statement of account. It provides details of all transactions. Please click the below given link to go to document center where you will find your statement of account. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can you explain the recent deduction from my account?",
+    "answer": "To find out why money has been deducted, refer to your statement of account. It provides details of all transactions. Please click the below given link to go to document center where you will find your statement of account. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "how can i apply credit card",
+    "answer": "Thank you for your interest. We would like to inform you that we do not offer credit cards. Please let us know if you have any other inquiries.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Apply credit card",
+    "answer": "Thank you for your interest. We would like to inform you that we do not offer credit cards. Please let us know if you have any other inquiries.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Credit card",
+    "answer": "Thank you for your interest. We would like to inform you that we do not offer credit cards. Please let us know if you have any other inquiries.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I check the transactions made into my account?",
+    "answer": "To check the transactions made in your account, refer to your statement of account. It provides details of all transactions. Please click the below given link to go to document center where you will find your statement of account. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I find details of deductions from my account?",
+    "answer": "To find out why money has been deducted, refer to your statement of account. It provides details of all transactions. Please click the below given link to go to document center where you will find your statement of account. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why was this amount deducted from my account?",
+    "answer": "To find out why money has been deducted, refer to your statement of account. It provides details of all transactions. Please click the below given link to go to document center where you will find your statement of account. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Why do I see an unexpected deduction in my account?",
+    "answer": "To find out why money has been deducted, refer to your statement of account. It provides details of all transactions. Please click the below given link to go to document center where you will find your statement of account. CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=Document",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "What should I do If my mandate gets rejected?",
+    "answer": "<p>If your mandate gets rejected, you will receive a call from our customer service team within 3 business days, and they will help you to resubmit the details for mandate registration. You can also try registering through another bank. </p><p>If you prefer doing this offline, visit the nearest Bajaj Finance Limited Branch</a> along with a cancelled cheque and allow our representatives to help you.</p><p>Please note: A service charge of Rs. 450 will be applicable if your mandate registration fails.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "Why is my mandate not approved?",
+    "answer": "<p>Though e-mandate registration is an instant service, at times, there could be delays as your bank has to verify the mandate details. Typically, this could take up to 3 business days. Rest assured, we will notify you once we receive an update from your registered bank.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Mandate Registration",
+    "question": "Will my drawdown bank account also change if I have changed my bank account details via e-mandate?",
+    "answer": "<p>No, changing bank details using an e-mandate will not affect your Flexi drawdown bank account. If you want to change your Flexi drawdown bank account, please follow these simple steps:</p><p>1. Go to  and select 'Loans'</p><p>2. Select the loan account number for which you want to change your Flexi drawdown bank account</p><p>3. Click on the 'Flexi drawdown Bank Change' option</p><p>4. Enter the relevant details like IFSC, bank account number, and click on 'Verify'</p><p>5. Check new bank details and click on 'Proceed'</p><p>6. Login to DigiLocker and select Aadhaar card or Driving License</p><p>7. Click on 'Confirm'.</p> CTA Label: Loan details page, Android CTA Link: bajajsuperapp://relations/loan , IOS CTA Link: bajajsuperapp://relations/loan , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Documents",
+    "question": "What can I find in the Document Centre?",
+    "answer": "<p>You can find all the BFL generated documents related to your relationships. For example, Statement Of Accounts, Repayment Schedule, No Due Certificate etc.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Documents",
+    "question": "I couldn't find the documents I was looking for in the document centre. What should I do?",
+    "answer": "Please follow these steps to view all your documents:</p>- Go to Your relationships</p>- Click on the 'Filter' icon</p>- Select your relationship status from Active/Closed</p>- Select the relationship against which you are looking for the document</p>To proceed now, please visit loan relations page. CTA Label: Loan details page, Android CTA Link: bajajsuperapp://relations/loan , IOS CTA Link: bajajsuperapp://relations/loan , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Loan"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Documents",
+    "question": "I am looking for documents related to my closed relations. What should I do?",
+    "answer": "<p>To view documents related to your closed relations, please follow these steps:</p><p>- Click on 'Menu' button at the top left of home page</p><p>- Click on 'Document Centre'</p><p>- Click on the 'Filter' icon</p><p>- Select your relationship status as 'Closed'</p><p>- Click on 'Apply'</p><p>- Select and view your document</p><p>To proceed now, please visit document center page. CTA Label: Document center, Android CTA Link:bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Documents",
+    "question": "How can I share my documents?",
+    "answer": "<p>To share or download your documents, please click on the 'Share' /'Download' icon located next to the document name.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Documents",
+    "question": "Where can I find the Document Centre?",
+    "answer": "To access the Document Centre, please click the button below., CTA Label: Document center, Android CTA Link: bajajsuperapp://documenation/documentcenter, IOS CTA Link: bajajsuperapp://documenation/documentcenter, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Document"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Can I do shopping in bajaj app?",
+    "answer": "<p>You can visit &quot;Bajaj Mall&quot; to see variety of products and brands. CTA Label: Bajaj Mall, Android CTA Link: bajajsuperapp://openbrowser/https://www.bajajmall.in, IOS CTA Link: bajajsuperapp://openbrowser/https://www.bajajmall.in, Web CTA Link: https:https://www.bajajmall.in</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to buy product on EMI or I want to buy products like mattress , mobile or electronics, equipments",
+    "answer": "<p>You can visit &quot;Bajaj Mall&quot; to see variety of products and brands. CTA Label: Bajaj Mall, Android CTA Link: bajajsuperapp://openbrowser/https://www.bajajmall.in, IOS CTA Link: bajajsuperapp://openbrowser/https://www.bajajmall.in, Web CTA Link: https:https://www.bajajmall.in</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to see near by two wheeler stores",
+    "answer": "<p>Please visit our Store Locator page. Here you can find nearby Two wheerler stores. CTA Label: Store Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLTWH , IOS CTA Link: bajajsuperapp://storeLocator/BFLTWH , Web CTA Link:https://www.bajajfinserv.in/two-wheeler-loan-store-locator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Where can I see Bajaj collection centers near me",
+    "answer": "<p>To see bajaj service branches near you please visit Branch Loacator page. CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLCLC , IOS CTA Link:bajajsuperapp://storeLocator/BFLCLC , Web CTA Link: https://www.bajajfinserv.in/collection-center-locator</p>",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "I want to calculate EMI/Eligibility",
+    "answer": "You can check your eligibility from eligibility calculator page. CTA Label: Eligibility calculator, Android CTA Link: bajajsuperapp://trycalculator/, IOS CTA Link: bajajsuperapp://trycalculator/, Web CTA Link: https://bajajfinserv.in/blu/jid=pl&utm_Template=generic&platform=3in1app&flowId=3in1&utm_Template=generic&utm_source=ssotesting&utm_medium=dheeraj-eligibility-calculator</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the expense manager?",
+    "answer": "The expense manager helps you track and manage your spending. You can add, categorize, and analyse your expenses, set budgets, and get insights into your financial habits. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What information does the expense manager provide?",
+    "answer": "The expense manager provides information on your total expenses, spending patterns, categorized expenses, budget status, and allows you to generate reports for a comprehensive overview of your financial activities. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I get a monthly report of my expenses?",
+    "answer": "To view a summary of your expenses, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will provide a quick overview of your recent spending, categorized by different expense types. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How does the budget feature work?",
+    "answer": "The budget feature allows you to set spending limits for specific categories. Use 'Set budget' and the budget amount. The system will notify you when you approach or exceed the set limit.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I view a specific expense from last week?",
+    "answer": "To check your specific expenses from last week, click on the “View All” button in the Recent Transaction section >> Click on “View By: Weekly” >> Select the week of your choice >> Click on “Apply” button. The system will calculate and display the expenses happened in that week.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Please call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Urgent call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What is my CIBIL score and how does it work? ",
+    "answer": "CIBIL score is a three-digit number, ranging from 300 to 900, that represents your creditworthiness. This score is derived after taking into consideration the credit history and details found in your CIBIL report, which is maintained as a record by TransUnion CIBIL.</p><p>Your lender checks your CIBIL score, before approving a loan, to verify your ability to repay the loan. The closer you are to a credit score of 900, the better are your chances of getting a loan. A score closer to 300 is considered poor and lowers your possibility of getting easy approvals.</p>"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I see my expenses?",
+    "answer": "For insights into your spending habits, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will analyse your historical data and provide information on trends, helping you make informed financial decisions. To visit expense manager please search expence manager on home screen of App"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I see a summary of my expenses?",
+    "answer": "To view a summary of your expenses, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will provide a quick overview of your recent spending, categorized by different expense types. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Tell me about my spending habits.",
+    "answer": "For insights into your spending habits, simply click on the Analytics & Transaction Trend icon on the top right corner of the Expense Manager. The system will analyse your historical data and provide information on trends, helping you make informed financial decisions. To visit expense manager please search expence manager on home screen of App.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I will raise this to RBI",
+    "answer": "We apologize for any in convenience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Bajaj is a fraud",
+    "answer": "We apologize for any in convenience that you have face. We request you to please raise a request with us with the details of issue that you are facing. We will look into the matter and resolve your queries. We thank you for your understanding. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest , IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Ask your agent to call me",
+    "answer": "Thanks for reaching out! I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me customer care number",
+    "answer": "Thanks for reaching out!   I’m here to help you with your queries through chat. While I can’t share a direct customer care number,email or connect you to a human agent, I’ll do my best to assist you right here with accurate information and guidance.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Transactions And Actions",
+    "question": "Give me Bajaj email ID",
+    "answer": "<p>Sorry I am unable to provide you Bajaj email ID, I can provide resolution to your queries on text messages.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is EMI Card?",
+    "answer": "The EMI Card, also known as the EMI Card, is an existing member identification number that allows cardholders to shop for 1 million+ products on No Cost EMIs. The EMI Card comes with a pre-approved card loan offer amount of up to Rs. 2 lakh. You can use this card to shop from our 1.5 lakh+ offline partner stores in 4,000+ locations in India.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the benefits of EMI Card?",
+    "answer": "The benefits you can enjoy with your EMI Card are: - It is a 100% end-to-end digital process. - Quick and easy access to finance, with zero down payment on select products. - Minimal documentation is required to activate the card. - Flexible repayment tenures and low-EMI special schemes - Transact using your mobile number or your EMI card number. - Get all card-related details, usage, and transaction information in one place. - Access to 1 million+ product & services across 1.5 lakh+ partner stores in 4,000+ cities, Get regular updates on exclusive offers and promotions.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What does EMI Card status 'In-progress' mean?",
+    "answer": "The status 'In-progress' means that your card activation is in process, post-payment success. You need to check again after 24 business hours, and the card status would be revised to 'Issued'.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I apply for an add-on EMI Card?",
+    "answer": "Currently, Bajaj Finserv does not offer the functionality to issue or apply for an add-on Insta EMI Card.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What should I do if I have applied and paid for EMI Card, but haven't received it yet?",
+    "answer": "We regret the inconvenience caused. If you have already paid for the EMI Card but it has not yet been generated, please raise a request with us. Our team will review the issue and get back to you shortly. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I apply for EMI Card?",
+    "answer": "You can apply for EMI Card by visiting the below given link and follow the instructions provided.Alternatively, you can also visit a partner store near you and apply for the Insta EMI Card. Our store representative will guide you through the process. CTA Label: Apply EMI Card, Android CTA Link: bajajsuperapp://emicard, IOS CTA Link: bajajsuperapp://emicard, Web CTA Link:https://www.bajajfinserv.in/insta-emi-card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I apply for Health EMI Card?",
+    "answer": "We would like to inform you that we have stopped sourcing Health EMI Cards. However, you can still apply for our EMI Card, which can be used for shopping on various platforms. Thank you for your understanding!",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Apply Health EMI card.",
+    "answer": "We would like to inform you that we have stopped sourcing Health EMI Cards. However, you can still apply for our EMI Card, which can be used for shopping on various platforms. Thank you for your understanding!",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Apply for EMI Network Card",
+    "answer": "You can apply for EMI Card by visiting the below given link and follow the instructions provided.Alternatively, you can also visit a partner store near you and apply for the Insta EMI Card. Our store representative will guide you through the process. CTA Label: Apply EMI Card, Android CTA Link: bajajsuperapp://emicard, IOS CTA Link: bajajsuperapp://emicard, Web CTA Link: https://www.bajajfinserv.in/insta-emi-card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What documents are required to get EMI card?",
+    "answer": "The information and documents required when applying for the Bajaj Finserv EMI Network card are&nbsp; standard KYC document 1. For identity proof, you need to provide any one of the following documents: PAN- Valid Passport</p><p>- Aadhaar (First 8 digits to be masked/blackened/hidden)</p><p>- Valid Driving license</p><p>- Voter's ID card</p><p>- NREGA Job Card</p><p>- Letter issued by National population Register*</p><p>2. For address proof, you can submit any of the above-given documents, except the PAN card</p><p>3. Bank Account Number, IFSC code, Branch name or 1 Cancelled Cheque",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the eligibility criteria to get EMI Card ?",
+    "answer": "To be eligible for the EMI Card, you must: - Be a resident of India. - Be between 21 to 65 years of age. - Have a regular source of Income. - Have a good CIBIL Score.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What are the documents & information that I need to submit to get a EMI Card?",
+    "answer": "You don't have to submit any physical documents when applying for the EMI Card. You only need to keep the following documents handy: - PAN card - Address proof* for KYC verification - Bank account number and IFSC code for e-mandate registration. *We accept a valid Passport, Aadhaar Card (first 8 digits to be masked/hidden), driving license, voter ID card, NREGA Job Card, or a letter issued by the National Population Register as address proof.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I have applied for EMI card When will I receive it?",
+    "answer": "We’re excited to inform you that your EMI Card is now digital! This means no more physical cards—your EMI Card is now easily accessible online. All you need to shop at our authorized partner stores is your EMI Card number and registered mobile number. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. Note: If you already have a physical card, you can continue using it until its expiry. CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I need physical EMI card.",
+    "answer": "We’re excited to inform you that your EMI Card is now digital! This means no more physical cards—your EMI Card is now easily accessible online. All you need to shop at our authorized partner stores is your EMI Card number and registered mobile number. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. Note: If you already have a physical card, you can continue using it until its expiry. CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How can I receive physical EMI card?",
+    "answer": "We’re excited to inform you that your EMI Card is now digital! This means no more physical cards—your EMI Card is now easily accessible online. All you need to shop at our authorized partner stores is your EMI Card number and registered mobile number. If you wish to view your EMI Network Card number, kindly follow the steps outlined below: Navigate to 'Your Relations' and choose the specific EMI Card whose details you wish to view. Proceed by clicking on the 'View' option. Authenticate by verifying the OTP sent to your registered mobile number. Once verified, your 16-digit EMI Card number will be displayed for your viewing. Note: If you already have a physical card, you can continue using it until its expiry. CTA label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I avail discounts and offers while using the EMI Card?",
+    "answer": "Absolutely; besides the benefits you already enjoy on your EMI Card, we have special offers, discounts, and promotions provided by our authorised dealers, partner stores.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I allow someone else to use my EMI Card?",
+    "answer": "We do not suggest or encourage our customers to use the Bajaj Finserv Insta EMI Card to make purchases in the name of their relatives or friends. As the card is in your name, any products purchased using it will be billed against your name. For safety and security purposes, we recommend that only the cardholder should use the Bajaj Finserv Insta EMI Card for making purchases. Note: The liability of the loan taken using the Bajaj Finserv Insta EMI Card rests solely with the cardholder.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I use my EMI Card as a credit card?",
+    "answer": "Your EMI Card is not a credit card, smart card, stored value card, or charge card. It is a digital EMI card using which you can shop for electronics, gadgets, home décor, furnishing, fashion products, and more on No Cost EMIs.\n\nThe EMI Card is accepted across 1.5 lakh+ offline stores in more than 4,000+ large and small cities.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I buy a product in my friend's or relatives' name using EMI Card?",
+    "answer": "We do not suggest or encourage our customers to use the Bajaj Finserv Insta EMI Card to make purchases in the name of their relatives or friends. As the card is in your name, any products purchased using it will be billed against your name. For safety and security purposes, we recommend that only the cardholder should use the Bajaj Finserv Insta EMI Card for making purchases. Note: The liability of the loan taken using the Bajaj Finserv Insta EMI Card rests solely with the cardholder.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where can I use my EMI Card?",
+    "answer": "You can use the Bajaj Finserv Insta EMI Card for both online and offline transactions at over 1.5 lakh partner stores across India. For online purchases, you can shop on platforms such as Amazon, Flipkart, MakeMyTrip, Goibibo, Reliance Digital, and more. For offline purchases, the card can be used at stores like Croma, Vijay Sales, Reliance Digital, Sargam Electronics, and others. With this card, you can buy a wide variety of products — from mobiles, computing devices, and retail fashion to travel packages, education expenses, and much more. Note: If your EMI Card has been recently activated, you are advised to make an offline transaction first before using it for online purchases. To find partner stores near you, click on the button below., CTA Label: Branch Locator, Android CTA Link: bajajsuperapp://storelocator/storelocatorlaun, IOS CTA Link: bajajsuperapp://storelocator/storelocatorlaun, Web CTA Link: https://www.bajajfinserv.in/branch-locator",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Does EMI Card attract any annual charges?",
+    "answer": "No annual charges are levied on the Insta EMI Card. You only have to pay a one-time joining fee of Rs. 530 while purchasing the card.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What interest and processing fees do I get charged for loans availed through EMI Card?",
+    "answer": "If you want to view the processing fee and interest charged on your availed loans, please visit ‘Your relations’, select your loan account, and scroll to the ‘fees and charges’ section.\n\nThe amount for processing fee varies based on dealer, product purchased, etc.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Do I need to pay any charges to the retailer/merchant/dealer for transactions I make using EMI Card?",
+    "answer": "This depends on the offers and schemes available to you at partner stores. Also, there could be a processing fee that might be applicable. This varies with products, schemes, and deals.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Do I need to pay any joining fee to get the EMI Card?",
+    "answer": "Yes, you need to pay a nominal joining fee ofRs. 530 (inclusive of applicable taxes).Note: The fees and charges are subject to change as per Bajaj Finance Limited policies. Click here to know the updated charges associated with your Insta EMI Card.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What should I do if I appled for EMI Card but it is not activated yet?",
+    "answer": "Card activation is governed by our internal policies and it may take some time for your card to get activated. You will receive an SMS on your registered mobile number once your card is activated.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What do I do if I do not receive OTP or my phone does not auto detect the OTP?",
+    "answer": "It usually takes around 30 seconds to receive an OTP on your registered mobile number. You can even try resending the OTP if you have not received it the first time. Request you to have the SIM of your Registered Mobile number inserted in your mobile. Adding further, if you have Vivo Smartphone then please make sure you have enabled the auto read functionality of your SMS, so that the app can auto-read the OTP SMS.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How to use EMI card to shop on Ecomm websites like Amazon?",
+    "answer": "To shop on e-commerce platforms like Flipkart, Amazon, and more, simply follow these steps: Select the product and click on 'Buy Now’ to proceed with payment. Select your EMI option. Select 'Bajaj Finserv No Cost EMI' as your payment option. Choose your preferred EMI plan. Add your Bajaj Finserv EMI Network Card number. Click on 'Place Order'. Click on the SMS link to 'View & Accept Key Fact Statement (KFS)'. After accepting KFS, enter the OTP to authenticate and complete the transaction. Please note that while these steps are generally followed, they may vary slightly depending on the specific e-commerce partner.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is the minimum transaction amount applicable on Health Card?",
+    "answer": "The minimum transaction amount across Bajaj Finserv network hospitals is Rs. 7,000. Also, to avail this EMI facility, the EMI amount needs to be a minimum of Rs. 1,500.\n\nFor example – if your transaction amount is Rs. 7,000, to avail of the EMI facility, the same must be divided into EMIs equal to or higher than Rs. 1,500. In this case, your monthly instalment would be Rs. 1,750 with a tenure of 4 months. However, you are not required to pay any amount as a down payment.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Do I have to pay some interest amount when availing services at network hospitals, diagnostic centres or pharmacies?",
+    "answer": "In most cases, since interest on the loan is borne by the select business associates, no interest is charged to you. However, depending on the schemes, tenure, and offers available at network partners at the time of the transaction, the interest rate can be charged.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Do I get any offers and discounts on using Health Card for treatments and paying bills at pharmacies?",
+    "answer": "Yes, our select business associates provide the offers and discounts as and when available.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Block EMI card",
+    "question": "I want to close my emi card",
+    "answer": "if card_status is 'Inactive', inform the customer that the selected card is already blocked. If the card_status is 'Active', attempt to convince the customer not to block their card by highlighting the benefits of the EMI card like convenience of splitting medical bills into affordable instalments, getting discounts on health check-ups, and having access to emergency assistance around the clock. Card is the key to a healthier future with financial security. If the customer is convinced not to block their card, express gratitude for choosing to stay with the Bajaj EMI card. If the customer still wants to block the card, provide the following response direct user to EMI Card page. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Can I use Health Card for shopping?",
+    "answer": "You can only use this card to purchase medicines or pay bills for hospitals or clinics.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How do I verify that the person coming to collect my documents is authorised for the same?",
+    "answer": "We advise you to please verify the identity card of the executive before submitting your documents.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "What is retail outstanding?",
+    "answer": "All retail purchases excluding cash withdrawals on your Credit Card are considered as retail outstanding.",
+    "chatbot-flag": "yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I block my Bajaj Finserv Insta EMI Card?",
+    "answer": "You can self-block your Bajaj Finserv Insta EMI Card by following the steps below: 1. Go to 'Your relations', scroll to the 'Cards' section, and select the EMI Card you want to block 2. Click on 'Block Card' 3. Select the reason for blocking your card 4. Enter the OTP sent to your registered mobile number and click on 'Submit'. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What should I do if I do not receive an OTP while doing a transaction through my card?",
+    "answer": "In case you do not receive an OTP, you can click on the 'Resend' option to get the OTP. If you still do not receive the OTP, please click here to raise a request with us.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What should I do if my card shows an error while making a purchase at a partner store?",
+    "answer": "If you want to make a transaction but facing issues, you can speak to our representatives at the partner store about card usage/transaction-related issues.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What interest and processing fees do I get charged for loans availed through my Bajaj Finserv Insta EMI Card?",
+    "answer": "If you want to view the processing fee and interest charged on your availed loans, please visit 'Your relations', select your loan account, and scroll to the 'fees and charges' section. The amount for processing fee varies based on dealer, product purchased, etc. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Why is my Bajaj Finserv Insta EMI Card blocked and how can I unblock it?",
+    "answer": "Your EMI Network Card could be blocked in line with the credit policies of Bajaj Finance Limited. There are several factors that determine this, such as: - If you do not maintain a good CIBIL Score - In case you failed to repay your due EMIs or your EMI bounced - Your card can also be blocked if your payment record is inconsistent - If we observe any suspicious or fraudulent activities on your card, we will block it for security purposes As a quarterly practice, we review the pre-approved offers available for our customers and make changes if needed. This gets communicated to you on your registered mobile number through an SMS. If we have blocked your card as per our credit policy, you cannot unblock it at your end. However, you can view the reason for this and the criteria to unblock it. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What should I do if I have blocked my Bajaj Finserv Insta EMI Card by mistake and want to unblock it?",
+    "answer": "To unblock the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Why is my Bajaj Finserv EMI Network Card blocked and how can I unblock it?",
+    "answer": "Your EMI Network Card may be blocked due to reasons like low CIBIL Score, missed or bounced EMIs, inconsistent payment records, or suspicious activities. We review pre-approved offers quarterly and notify you via SMS. If your card is blocked due to our credit policy, you cannot unblock it yourself. You can, however, check the reason and criteria to unblock it. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What is an MPIN",
+    "answer": "An MPIN, or Mobile Banking Personal Identification Number, is a 4-digit passcode created during registration to secure your banking app. It ensures convenient logins and authenticates transactions, reducing fraud risks. Sharing your MPIN could lead to unauthorized access and financial losses, so keep it confidential at all times.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I enter the incorrect MPIN?",
+    "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the ‘Forgot MPIN’ option on your app screen and follow the instructions to reset it.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Why is setting MPIN important?",
+    "answer": "To improve security, MPIN provides an additional layer of protection beyond just using a password, reducing the risk of unauthorized access. Anyone with the Bajaj Finserv App can set MPIN as their 2FA method to strengthen their security against cyber threats and unauthorized access. It is mandatory to set an MPIN after successfully signing up with SIM card authentication for new installations and updates.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What is 2FA (Two-Factor Authentication)?",
+    "answer": "2FA stands for Two-Factor Authentication. It is a security process that requires two methods of verification to access an account.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How is the app MPIN different from the UPI PIN?",
+    "answer": "To set up your MPIN , please follow these steps: 1. Open Bajaj Finserv App 2.After Signup, Enter your 4-digit desired MPIN (choose a strong combination) 3. Re-enter your 4-digit desired MPIN 4. Choose a security question for future verification 5. Answer the security question 6. Click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "When will I need to use the MPIN?",
+    "answer": "You will be required to use the MPIN in the following circumstances: - Once activated, you will be prompted to enter your MPIN on every signup on Bajaj Finserv App. - If you don't have biometrics enabled for app login, you will be prompted to enter MPIN on every login",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What should I keep in mind while setting MPIN, and are there any criteria?",
+    "answer": "While setting up your 4-digit MPIN, you can consider choosing a code that is easier for you to remember, but difficult for anyone else to guess. Please ensure that your MPIN is not shared with anyone (not even a Bajaj Finance Limited employee), and do not write it down anywhere. It is also a good practice to keep changing your MPIN from time to time, to keep fraudsters at bay.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I enter the incorrect MPIN?  ",
+    "answer": "You have 3 attempts to enter the correct MPIN. After 3 failed attempts, your device will be locked for 30 seconds. Once the device is locked, you can retry entering your MPIN after the 30-second period. If you have forgotten your  MPIN, you can click on the ‘Forgot MPIN’ option on your app screen and follow the instructions to reset it.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I forget my MPIN?",
+    "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Click on 'Forgot MPIN?' 2. Answer the security question (you will get only 3 attempts to answer) 3. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 4. Click on 'Confirm' In case you answer the security question incorrectly then, please follow this process: 1. Click on 'Try Another Method' 2. Choose 'PAN' as your mode of authentication 3. Enter your PAN details 4. Click on 'Confirm' and repeat the steps shared above to reset MPIN",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I change my security question?",
+    "answer": "To change your security question, please follow these steps: 1. Open App and Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset Security Question' 4. Enter the OTP received on your registered mobile number 5. Choose a security question 6. Answer the security question and click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "What happens if I forget my MPIN? (If Already logged in with Biometric)",
+    "answer": "If you forget your MPIN, you can always reset it. Please follow these steps to reset your MPIN: 1. Go to the 'Settings' option from 'Menu' 2. Click on 'Security Settings' 3. Click on 'Reset/Forgot MPIN' 4. Answer the security question (you will get only 3 attempts to answer) 5. Enter and re-enter your 4-digit desired MPIN (choose a strong combination) 6. Click on 'Confirm'",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "product cancelled",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Product return for online shopping",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "My amount is debited but I'm not received product cancel my loan and return our amount",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Product return",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Product returned",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Product returned to Amazon",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "product cancel",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "Product returned to seller",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "product reject",
+    "answer": "Thank you for reaching out! If you’ve returned your product and cancelled the order, but the loan is still showing as active or an EMI has been created with Bajaj Finance, please raise a request with us. We're here to help and will make sure everything gets sorted out for you. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Unblock EMI card",
+    "question": "I want to unblock my emi card",
+    "answer": "To unblock the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Unblock EMI card",
+    "question": "When will my EMI card unblock",
+    "answer": "To unblock the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Block EMI card",
+    "question": "I want to block my emi card",
+    "answer": "To block the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Block EMI card",
+    "question": "Why my EMI card is blocked?",
+    "answer": "To block the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Card Information",
+    "question": "How can I view my Bajaj Finserv Insta EMI Card number?",
+    "answer": "Your Bajaj Finserv Insta EMI Card number is visible on the face of your digital card. To view your EMI Network Card number, please follow these steps: - 1. Go to Your relations and select the EMI Card for which you want to see the details 2. Click on the 'View' option </p>3. Verify the OTP sent to your registered mobile number 4. Your 16-digit EMI Card number will be ready to view. Click on below View EMI Card Button. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "financial transactions and actions",
+    "question": "I want to see my EMI card number",
+    "answer": "The number of your Bajaj Finserv Insta EMI Card can be found on the front of your digital card. If you wish to view your EMI Network Card number, kindly follow the steps outlined below:Navigate to 'Your relations' and choose the specific EMI Card whose details you wish to view. · Proceed by clicking on the 'View' option. · Authenticate by verifying the OTP sent to your registered mobile number. · Once verified, your 16-digit EMI Card number will be displayed for your viewing. · Click on below View EMI Card Button. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Card blocked",
+    "answer": "To unblock the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your Relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your Relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "I am unable to transact with my EMI Card",
+    "answer": "You can visit the ‘Your Relations’ page by clicking the button below. Then, select your active EMI Network Card, click on ‘Manage Card,’ scroll down, and view the reason for any failed transactions under the transaction history section. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Unlock card",
+    "answer": "To unblock the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your Relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your Relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "Where is my Bajaj card",
+    "answer": "Please visit the ‘Your Relations’ page by clicking the button below and select your active EMI Network Card. If you have recently applied for a new card, it may take 48 to 72 hours for it to reflect in the Bajaj app or website. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial transactions and Actions",
+    "question": "How to activate my card",
+    "answer": "To unblock the Bajaj Finserv Insta EMI Card yourself, follow the steps below: 1. Go to 'Your Relations', then scroll to the 'Cards' section 2. Select the 'EMI Card' and click on 'Unblock Card' 3. Enter the OTP sent to your registered mobile number and click on 'Submit' You can also click here to visit 'Your Relations' directly and unblock your card now. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How long does it take for my Health EMI Card to get activated?",
+    "answer": "Your Health Card gets activated within a short time. To view your card details, please go to 'Your relations' and select your Health EMI Card number.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Financial Actions and Transactions",
+    "question": "How can I unblock my Bajaj Finserv Health EMI Network Card?",
+    "answer": "To unblock the Bajaj Finserv Health EMI Network Card yourself, please follow the steps below: 1. Go to 'Your relations', scroll to the 'Cards' section 2. Select the Health EMI Network Card you want to unblock 3. Click on 'Unblock Card' 4. Enter the OTP sent to your registered mobile number and click 'Submit' Note: In case you are blocking the card from Bajaj Finserv App, then you do not need to enter the OTP.",
+    "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "card limit",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "I would like to know the limit on my card. Could you please help?",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I check my card limit?",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What is Bajaj Prime?",
+    "answer": "Bajaj Prime offers an exclusive membership program through which you get rewarded with cashbacks for payments and purchases on your favourite brands. With Bajaj Prime you can enjoy access to a diverse array of welcome benefits, including free subscriptions, deals on popular OTT platforms and offers on a variety of brands across multiple categories.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What are the benefits of Bajaj Prime membership?",
+    "answer": "Bajaj Prime member shall get the following exclusive benefits:- Rs. 1,000 Cashback upon in-store purchases made after availing finance facility using Bajaj Finserv EMI Network Card within 90 days of availing Bajaj Prime Membership. 5% Cashback on Bill payments using Bajaj Pay UPI Free & Discounted Subscriptions worth Rs. 1,200 - 5% Cashback on PVR movie tickets, Zomato, and Ajio orders using Bajaj Pay UPI Discounted vouchers for 50+ Brands. Note: Rewards can be redeemed in accordance with the Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What are the available payment options for availing Bajaj Prime Membership?",
+    "answer": "You can use the following payment modes to avail Bajaj Prime membership:- UPI, Credit card, Debit card, Net banking.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the Bajaj Prime subscription remains pending?",
+    "answer": "In most cases, the issue regarding the pending payments gets resolved within 48 hours. You may raise a service request with us if the payment is still pending. Please follow these simple steps to :- 1. Go to the ‘Main Menu’ and click on 'Help and Support' 2. Click on 'New Request' and select the relation 3. Select your 'Query type' and 'Sub-query type', then click on 'Proceed' 4. Share details about your query and attach the supporting documents (if required) 5. Click on 'Submit'. Once you have submitted your request, you will receive a 'Service Request Number', which will help you track your request.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the transaction is unsuccessful for Bajaj Prime subscription?",
+    "answer": "If your payment fails and funds are deducted from your bank account or credit card, there is no need to worry about the safety of your money. Usually, your bank will refund the amount within 3 to 5 business days.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How do I earn cashback as a Bajaj Prime member?",
+    "answer": "As a Bajaj Prime member, you will be rewarded with cashback for making the following transactions:- Earn 5% Cashback by paying utility bills (electricity, mobile postpaid, mobile prepaid, DTH, broadband postpaid, piped gas, LPG gas cylinder, and Fastag). Earn 5% Cashback on movie ticket bookings through the PVR app (once a month). Earn 5% Cashback on Zomato, and Ajio app (only for the first three orders in a month). Earn Rs. 1,000 cashback on in-store EMI transactions at 15+ Brands till 90 days from purchase of Bajaj Prime. Please note: The cashback shall be rewarded only when the above transactions are carried out using Bajaj Pay UPI as a payment mode, subject to Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I access the Bajaj Prime exclusive voucher catalogue?",
+    "answer": "As a Bajaj Prime member, you can access the Bajaj Prime exclusive voucher catalogue by following the steps below:- 1. Click on the bajaj prime section 2. Navigate to the 'Exclusive Vouchers for Prime Members' section 3. Click on 'Claim' to avail the respective voucher 4. Click on 'View Code', and copy the code or click on 'Redeem' 5. Follow the instructions provided in the 'How to Use' section to redeem your voucher.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Cancel my BAJAJ PRIME Membership",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Once purchased, can I cancel my Bajaj Prime Membership?",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "card limit",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "I would like to know the limit on my card. Could you please help?",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I check my card limit?",
+    "answer": "Please visit the EMI Card Details Page to view your EMI Card Loan Offer Amount. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards , IOS CTA Link: bajajsuperapp://relations/cards , Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What is Bajaj Prime?",
+    "answer": "Bajaj Prime offers an exclusive membership program through which you get rewarded with cashbacks for payments and purchases on your favourite brands. With Bajaj Prime you can enjoy access to a diverse array of welcome benefits, including free subscriptions, deals on popular OTT platforms and offers on a variety of brands across multiple categories.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What are the benefits of Bajaj Prime membership?",
+    "answer": "Bajaj Prime member shall get the following exclusive benefits:- Rs. 1,000 Cashback upon in-store purchases made after availing finance facility using Bajaj Finserv EMI Network Card within 90 days of availing Bajaj Prime Membership. 5% Cashback on Bill payments using Bajaj Pay UPI Free & Discounted Subscriptions worth Rs. 1,200- 5% Cashback on PVR movie tickets, Zomato, and Ajio orders using Bajaj Pay UPI Discounted vouchers for 50+ Brands Note: Rewards can be redeemed in accordance with the Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I become a Bajaj Prime member?",
+    "answer": "Please follow the steps to become a Bajaj Prime member:- 1. Click on the bajaj prime section 2. Click on 'Join Bajaj Prime' button 3. View your membership plan and click on 'Make Payment' 4. Select a suitable payment method to complete the payment After successful payment, your Bajaj Prime membership will be activated.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What are the available payment options for availing Bajaj Prime Membership?",
+    "answer": "You can use the following payment modes to avail Bajaj Prime membership:- UPI Credit card - Debit card - Net banking",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the Bajaj Prime subscription remains pending?",
+    "answer": "In most cases, the issue regarding the pending payments gets resolved within 48 hours. You may raise a service request with us if the payment is still pending. Please follow these simple steps to :-1. Go to the ‘Main Menu’ and click on 'Help and Support' 2. Click on 'New Request' and select the relation 3. Select your 'Query type' and 'Sub-query type', then click on 'Proceed' 4. Share details about your query and attach the supporting documents (if required) 5. Click on 'Submit'  Once you have submitted your request, you will receive a 'Service Request Number', which will help you track your request.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "What happens if the payment is deducted, but the transaction is unsuccessful for Bajaj Prime subscription?",
+    "answer": "If your payment fails and funds are deducted from your bank account or credit card, there is no need to worry about the safety of your money. Usually, your bank will refund the amount within 3 to 5 business days.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How do I earn cashback as a Bajaj Prime member?",
+    "answer": "As a Bajaj Prime member, you will be rewarded with cashback for making the following transactions:- Earn 5% Cashback by paying utility bills (electricity, mobile postpaid, mobile prepaid, DTH, broadband postpaid, piped gas, LPG gas cylinder, and Fastag). Earn 5% Cashback on movie ticket bookings through the PVR app (once a month). Earn 5% Cashback on Zomato, and Ajio app (only for the first three orders in a month). Earn Rs. 1,000 cashback on in-store EMI transactions at 15+ Brands till 90 days from purchase of Bajaj Prime.Please note: The cashback shall be rewarded only when the above transactions are carried out using Bajaj Pay UPI as a payment mode, subject to Bajaj Prime Terms and Conditions.",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I access the Bajaj Prime exclusive voucher catalogue?",
+    "answer": "As a Bajaj Prime member, you can access the Bajaj Prime exclusive voucher catalogue by following the steps below:- 1. Click on the bajaj prime section 2. Navigate to the 'Exclusive Vouchers for Prime Members' section 3. Click on 'Claim' to avail the respective voucher 4. Click on 'View Code', and copy the code or click on 'Redeem' 5. Follow the instructions provided in the 'How to Use' section to redeem your voucher",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Cancel my BAJAJ PRIME Membership",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Once purchased, can I cancel my Bajaj Prime Membership?",
+    "answer": "Yes, cancellation will only be approved if it is initiated within 3 days of purchase, no vouchers have been viewed or claimed, and no cashback has been availed. Please raise a request with us by clicking the link below, where you can select the Bajaj Prime tab under the Help and Support section. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "RBI",
+    "answer": "If you are experiencing any issues or concerns, we kindly request you to click the button below to raise a request with us. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Police station",
+    "answer": "If you are experiencing any issues or concerns, we kindly request you to click the button below to raise a request with us. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Police complaint",
+    "answer": "If you are experiencing any issues or concerns, we kindly request you to click the button below to raise a request with us. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "court",
+    "answer": "If you are experiencing any issues or concerns, we kindly request you to click the button below to raise a request with us. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "suicide",
+    "answer": "We're truly sorry to hear that you're feeling this way. Your well-being is very important to us. We strongly encourage you to raise a request with us so that one of our trained executives can reach out to you and provide the right support and resolution. If you're feeling overwhelmed, please also consider speaking with a mental health professional — you're not alone, and help is available. CTA Label: Raise a Request, Android CTA Link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA Link: bajajsuperapp://helpsupport/raisedrequest, Web CTA Link:https://bajajfinserv.in/myaccountlogin?Source=RAR",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Increase credit limit",
+    "answer": "You can explore a higher EMI Card Loan Offer amount by visiting the EMI Card page and using the quick actions link. Simply select your active EMI Network Card. If you don’t have one yet, you can apply first. If eligible, your limit may increase based on your CIBIL score, payment history, and overall credit profile. Please note, the final decision rests with Bajaj Finance Limited as per their policies. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "I want to increase my card limit",
+    "answer": "You can explore a higher EMI Card Loan Offer amount by visiting the EMI Card page and using the quick actions link. Simply select your active EMI Network Card. If you don’t have one yet, you can apply first. If eligible, your limit may increase based on your CIBIL score, payment history, and overall credit profile. Please note, the final decision rests with Bajaj Finance Limited as per their policies. CTA Label: EMI Card Details, Android CTA Link: bajajsuperapp://relations/cards, IOS CTA Link: bajajsuperapp://relations/cards, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Card",
+    "Chat Flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Can I use my EMI card to book flight tickets, train tickets, and hotel reservations?",
+    "answer": "Yes, you can book your flights, train tickets, and hotel stays using your EMI card. This convenient facility is available on popular travel platforms such as Goibibo and MakeMyTrip.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How to unblock credit card?",
+    "answer": "If you need assistance for your credit card, please feel free to contact RBL Bank at cardservices@rblbank.com or call +91 22 6232 7777 . for DBS Band credit card to contact DBS Bank at SuperCardCare@dbs.com or call 1860 267 6789. They'll be happy to assist you with your concerns.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "Can you help me unblock my credit card?",
+    "answer": "If you need assistance for your credit card, please feel free to contact RBL Bank at cardservices@rblbank.com or call +91 22 6232 7777 . for DBS Band credit card to contact DBS Bank at SuperCardCare@dbs.com or call 1860 267 6789. They'll be happy to assist you with your concerns.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Application related",
+    "question": "How many card types are available in Bajaj?",
+    "answer": "Bajaj offers one unique type of card: 1. Insta EMI Network Card.",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Application related",
+    "question": "I want to update my address details",
+    "answer": "To update your address, please follow these simple steps: Go to the 'Saved Address' section, Click 'Edit' next to the address you want to update, Follow the steps to update your address. CTA Label: Profile Details, Android CTA link: bajajsuperapp://profile/Address_Update, IOS CTA Link: bajajsuperapp://profile/Address_Update, Web CTA Link: https://bajajfinserv.in/myaccountlogin?Source=Profile",
+  "chatbot-flag": "Yes"
+  },
+  {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "Application related",
+    "question": "I want to update my name details",
+    "answer": "Due to recent changes in regulatory guidelines, we are unable to process name correction requests through our online platforms (app and website). To rectify the mistake in your name, please visit the nearest Bajaj Finance branch with any of the following valid documents which are required for Name Updation: PAN Card, Aadhar Card, or Valid Passport. CTA label: Branch Locator, Android CTA Link: bajajsuperapp://storeLocator/BFLBRN, IOS CTA Link: bajajsuperapp://storeLocator/BFLBRN, Web CTA link: https://www.bajajfinserv.in/branch-locator",
+  "chatbot-flag": "Yes"
+  },
+   {
+    "l1category": "Cards",
+    "l2category": "GenericCardsQueries",
+    "l3category": "General Queries",
+    "question": "How can I complete my V-KYC process?",
+    "answer": "You can raise a request with us for Video KYC (V‑KYC) by clicking on the button below. You will receive a callback within 2 working days. Alternatively, you can also visit your nearest Bajaj Finance branch to complete the KYC process in person., CTA Label: Raise a Request, Android CTA link: bajajsuperapp://helpsupport/raisedrequest, IOS CTA link: bajajsuperapp://helpsupport/raisedrequest, Web CTA link: https://bajajfinserv.in/myaccountlogin?Source=RAR",
+  "chatbot-flag": "Yes"
+  }
+  
+]
