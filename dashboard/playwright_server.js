@@ -486,14 +486,25 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
       const chipCountBefore = await page.evaluate(() =>
         document.querySelectorAll('div.blu-bot-message').length
       ).catch(() => 0)
-      await page.evaluate((text) => {
+      // Wait for relation cards to be fully rendered before clicking
+      await page.waitForTimeout(500)
+      const chipClicked = await page.evaluate((text) => {
+        // Try quick reply button first
         let el = Array.from(document.querySelectorAll('button.overlap:not([disabled])')).find(b=>b.innerText.trim()===text)
         if (!el) {
-          const t = Array.from(document.querySelectorAll('.blu-relationshipcard__title')).find(b=>b.innerText.trim()===text)
-          el = t?.closest('.blu-relationshipcard') || t?.parentElement || t
+          // Try relation card title — walk up to find clickable parent
+          const titles = Array.from(document.querySelectorAll('.blu-relationshipcard__title'))
+          const title  = titles.find(b=>b.innerText.trim()===text)
+          if (title) {
+            // Click the arrow/chevron button inside the card if present
+            const arrow = title.closest('[class*="relationshipcard"]')?.querySelector('button, [role="button"], svg')
+            el = arrow || title.closest('[class*="relationshipcard"]') || title.parentElement
+          }
         }
-        if (el) el.click()
+        if (el) { el.click(); return true }
+        return false
       }, selectedChip)
+      console.log(`  ↳ Chip click result: ${chipClicked ? 'clicked' : 'element not found'}`)
       await waitForBotToSettle(chipCountBefore)
       const chipResult = await getNewBotResponses(chipCountBefore)
       result.response    = chipResult.response
@@ -743,15 +754,13 @@ async function handleMessage(msg, ws) {
     console.log('🗑️  Run state cleared')
   }
   else if (msg.type === 'CHIP_SELECTED') {
-    // User clicked a chip in the inline multi-turn panel
     if (pendingChipResolve) {
       console.log('🖱️  Chip selected by user: ' + msg.chip)
       const resolve = pendingChipResolve
-      pendingChipResolve = null
+      pendingChipResolve = null  // clear immediately — prevents duplicate fires
       resolve(msg.chip)
-    } else {
-      console.log('⚠️  CHIP_SELECTED but no pending resolve — ignored')
     }
+    // Silently ignore duplicates — no log spam
   }
   else if (msg.type === 'PARITY_CHECK') {
     if (parityBusy) {

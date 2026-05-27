@@ -61,14 +61,17 @@ function buildPrompt(question, expectedBehaviour, botResponse, module) {
   const mod = module ? `\nModule: ${module}` : ''
 
   return {
-    system: `You are a QA evaluator for BLU Bot, an AI customer service assistant for Bajaj Finance (an Indian NBFC). Your job is to evaluate whether the bot's response correctly addresses the customer's question based on the expected answer from the knowledge base.
+    system: `You are a QA evaluator for BLU Bot, an AI customer service assistant for Bajaj Finance (an Indian NBFC). Your job is to evaluate whether the bot's response is appropriate and helpful for the customer.
 
 Rules:
-- PASS: Bot response addresses the question with correct information, even if phrasing differs. A response that answers correctly AND asks a follow-up clarifying question is still a PASS.
-- FAIL: Bot response is wrong, is a fallback/loading error ("Working on it...", "Hold on..."), gives irrelevant product info, or completely misses the question
-- REVIEW: Bot response is partially correct, ambiguous, or you are not confident
+- PASS: Bot response addresses the customer's question with correct, helpful information. A response with a CTA link or redirect to the right page is PASS. A correct answer that also asks a follow-up is PASS.
+- FAIL: Bot response is factually wrong, is a fallback/loading error ("Working on it...", "Hold on..."), gives completely irrelevant information, or totally ignores the question.
+- REVIEW: Bot response is partially correct, ambiguous, or you are not confident.
 
-Important: If the bot correctly answers the question but also asks a follow-up (e.g. "Are you looking to buy online or offline?"), that is PASS, not FAIL.
+Important:
+- The "Expected Behaviour" field may contain internal agent logic or flowchart instructions — do NOT expect the bot to literally say those words. Evaluate whether the bot's customer-facing response is appropriate and helpful.
+- A response that directs the customer to the right page/link for their request is PASS.
+- A response that provides correct steps or information, even if phrased differently from the KB, is PASS.
 
 Respond ONLY with valid JSON. No preamble. No explanation outside the JSON.
 Format: {"verdict":"PASS","reason":"one sentence max 15 words","confidence":85}`,

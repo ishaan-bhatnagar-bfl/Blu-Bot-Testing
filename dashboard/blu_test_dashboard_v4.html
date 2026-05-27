@@ -1086,15 +1086,18 @@ function onAwaitChip(msg){
 function selectMTChip(e,id,chip){
   e.stopPropagation()
   clearInterval(_mtTimers[id]);delete _mtTimers[id]
-  // Update overlay to show selected state
-  const inner=document.getElementById('mtchips-inner-'+id)
-  if(inner){
-    inner.querySelectorAll('button').forEach(b=>{b.disabled=true})
+  // Prevent duplicate sends
+  if(window['_chipShown_'+id]){window['_chipShown_'+id]();delete window['_chipShown_'+id]}
+  // Remove overlay immediately to prevent double-click
+  const overlay=document.getElementById('float-mtchips-'+id)
+  if(overlay){
+    overlay.querySelectorAll('button').forEach(b=>{b.disabled=true})
     const msg=document.createElement('div')
     msg.className='mt-resolved'
     msg.style.marginTop='6px'
     msg.textContent='✓ Selected: '+chip+' — waiting for bot response…'
-    inner.parentElement.appendChild(msg)
+    overlay.appendChild(msg)
+    setTimeout(()=>overlay.remove(),2000)
   }
   sendToPlaywright({type:'CHIP_SELECTED',chip,caseId:id})
   addLog({type:'test',q:'Chip selected: '+chip,r:''})
@@ -1294,21 +1297,19 @@ function connectWS(){
         else if(msg.type==='RUN_STATE'){onRunState(msg.state)}
         else if(msg.type==='PARITY_RESULT'){onParityResult(msg)}
         else if(msg.type==='AWAIT_CHIP'){
-          // Server is waiting for chip selection — RESPONSE won't arrive until chip is picked
-          // Show overlay immediately, with retries to ensure it stays visible
           const chipMsg=msg
+          let chipShown=false
           function showChipOverlay(){
+            if(chipShown)return  // already selected — don't recreate
             document.getElementById('float-mtchips-'+chipMsg.caseId)?.remove()
             onAwaitChip(chipMsg)
             console.log('WS AWAIT_CHIP: overlay shown for case',chipMsg.caseId,'chips:',chipMsg.chips)
           }
           showChipOverlay()
-          // Retry after 1s and 2s in case something removes it
-          setTimeout(showChipOverlay,1000)
-          setTimeout(()=>{
-            if(document.getElementById('float-mtchips-'+chipMsg.caseId))return
-            showChipOverlay()
-          },2000)
+          // Single retry after 1s only if not yet shown
+          setTimeout(()=>{if(!chipShown)showChipOverlay()},1000)
+          // Store chipShown flag on window for selectMTChip to set
+          window['_chipShown_'+chipMsg.caseId]=()=>{chipShown=true}
         }
         else if(msg.type==='CHIP_RESOLVED'){onChipResolved(msg)}
         else if(msg.type==='CHIP_TIMEOUT'){onChipTimeout(msg)}
