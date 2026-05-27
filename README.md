@@ -2,8 +2,6 @@
 
 Automated + manual testing framework for **BLU Bot** (Bajaj Finance AI assistant) across N2P and UAT environments.
 
-Built by the CAI Team. Maintainer: **Ishaan Bhatnagar** (Flexi Loans PL/SME, Flexi Wheels, LAFD, EMI Card, FD/SDP, Help & Support).
-
 ---
 
 ## Architecture
