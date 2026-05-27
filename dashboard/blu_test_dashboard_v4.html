@@ -78,6 +78,27 @@ input,textarea{font-family:var(--font)}
 .retry-banner{display:none;align-items:center;gap:8px;padding:6px 18px;background:var(--amber-dim);border-bottom:1px solid rgba(245,158,11,0.3);font-size:11px;color:var(--amber)}
 .retry-banner.show{display:flex}
 .reauth-banner-show{display:flex!important}
+/* BULK PROGRESS BAR */
+.bulk-progress{display:none;padding:8px 16px;background:var(--bg-surface);border-bottom:1px solid var(--border);gap:12px;align-items:center}
+.bulk-progress.show{display:flex}
+.bp-track{flex:1;height:4px;background:var(--bg-active);border-radius:2px;overflow:hidden}
+.bp-fill{height:100%;background:var(--accent);border-radius:2px;transition:width 0.3s ease}
+.bp-label{font-size:11px;color:var(--text-secondary);font-variant-numeric:tabular-nums;white-space:nowrap;min-width:160px}
+.bp-counts{display:flex;gap:10px;font-size:11px;font-variant-numeric:tabular-nums}
+.bp-pass{color:var(--green);font-weight:600}.bp-fail{color:var(--red);font-weight:600}.bp-review{color:var(--amber);font-weight:600}
+.bp-stop{font-size:11px;padding:3px 10px;border-radius:4px;border:1px solid var(--red-border);background:var(--red-dim);color:var(--red);cursor:pointer;margin-left:auto}
+/* ACTIVE ROW */
+.test-item.running{background:var(--accent-dim)!important;border-left:2px solid var(--accent)}
+.test-item.running .t-question{color:var(--text-primary);font-weight:500}
+/* DIRECT INPUT */
+.direct-in-wrap{flex:1;min-width:200px;position:relative}
+.direct-in{width:100%;min-height:36px;max-height:120px;padding:7px 12px;border-radius:var(--radius-sm);border:1px solid var(--border-md);background:var(--bg-raised);color:var(--text-primary);font-size:13px;outline:none;transition:all var(--transition);resize:none;overflow-y:auto;line-height:1.5;font-family:var(--font)}
+.direct-in:focus{border-color:var(--accent);background:var(--bg-hover)}
+.direct-in::placeholder{color:var(--text-quaternary)}
+/* CTA CHIPS */
+.cta-chip{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-family:var(--font-mono);padding:2px 8px;border-radius:20px;border:1px solid var(--green-border);background:var(--green-dim);color:var(--green);cursor:pointer;transition:all var(--transition);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cta-chip:hover{opacity:0.8}
+.cta-chips-row{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
 .toolbar{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg-surface);border-bottom:1px solid var(--border);flex-wrap:wrap}
 .filter-pills{display:flex;gap:4px}
 .fpill{font-size:11px;font-weight:500;padding:4px 11px;border-radius:20px;border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer;transition:all var(--transition);white-space:nowrap}
@@ -334,6 +355,17 @@ input,textarea{font-family:var(--font)}
     <div class="retry-banner" id="retryBanner">
       ⏳ <span id="retryCountdown">Bot retry countdown active — waiting…</span>
     </div>
+    <!-- BULK PROGRESS BAR -->
+    <div class="bulk-progress" id="bulkProgress">
+      <div class="bp-track"><div class="bp-fill" id="bpFill" style="width:0%"></div></div>
+      <span class="bp-label" id="bpLabel">0 / 0</span>
+      <div class="bp-counts">
+        <span class="bp-pass" id="bpPass">0 ✓</span>
+        <span class="bp-fail" id="bpFail">0 ✗</span>
+        <span class="bp-review" id="bpReview">0 ~</span>
+      </div>
+      <button class="bp-stop" onclick="stopBulkRun()">■ Stop</button>
+    </div>
     <!-- REAUTH BANNER -->
     <div class="retry-banner" id="reauthBanner" style="background:rgba(99,102,241,0.12);border-bottom-color:rgba(99,102,241,0.3);color:var(--accent);display:none">
       🔑 <span>Session reset — re-authenticating</span>
@@ -365,7 +397,9 @@ input,textarea{font-family:var(--font)}
 
     <div class="direct-bar">
       <span class="direct-label">Direct</span>
-      <input class="direct-in" id="directIn" placeholder="Send any message directly to the bot…" onkeydown="if(event.key==='Enter')sendDirect()">
+      <div class="direct-in-wrap">
+        <textarea class="direct-in" id="directIn" rows="1" placeholder="Send any message directly to the bot…" oninput="autoGrow(this)" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendDirect()}"></textarea>
+      </div>
       <button class="send-btn" onclick="sendDirect()">Send</button>
       <div class="direct-response" id="directResponse">
         <div class="dr-meta" id="drMeta"></div>
@@ -642,6 +676,7 @@ function rowHTML(c, i){
           <div class="diff-col diff-actual"><div class="diff-col-label">Actual</div>${esc(resp)}</div>
         </div>`:''}
         ${v?`<div class="resp-section-title" style="margin-top:14px">Verdict Breakdown</div>${verdictRulesHTML(v)}`:''}        <div class="resp-meta" id="meta-${c.id}"></div>
+        <div class="cta-chips-row" id="ctachips-${c.id}"></div>
         ${ss?`<div class="resp-screenshot"><img src="data:image/png;base64,${ss.b64}" onclick="window.open('data:image/png;base64,${ss.b64}')"></div>`:''}        `:`<div class="resp-text loading" id="resp-${c.id}">—</div>`}
       </div>
     </div>`
@@ -731,6 +766,9 @@ function runCase(e,id){
   document.getElementById('panel-'+id)?.classList.add('open')
   const re=document.getElementById('resp-'+id)
   if(re){re.textContent='Running…';re.className='resp-text loading'}
+  document.querySelectorAll('.test-item.running').forEach(el=>el.classList.remove('running'))
+  const ai=document.getElementById('row-'+id)?.closest('.test-item')
+  if(ai){ai.classList.add('running');ai.scrollIntoView({behavior:'smooth',block:'nearest'})}
   // PATCH: pass module
   sendToPlaywright({type:'RUN_CASE',id,question:c['Test Question'],expectedBehaviour:c['Expected Behaviour']||'',module:c['Module']||''})
 }
@@ -768,11 +806,49 @@ function metaHTML(msg){
 }
 
 // ── BULK RUN (PATCH: pass module per case) ──
+let bulkRunning=false,bulkTotal=0,bulkDone=0,bulkPassC=0,bulkFailC=0,bulkReviewC=0
+
+function stopBulkRun(){
+  bulkRunning=false
+  sendToPlaywright({type:'END_SESSION'})
+  endBulkProgress()
+  addLog({type:'login',q:'Bulk run stopped by user',r:''})
+}
+function startBulkProgress(total){
+  bulkRunning=true;bulkTotal=total;bulkDone=0;bulkPassC=0;bulkFailC=0;bulkReviewC=0
+  document.getElementById('bulkProgress').classList.add('show')
+  document.getElementById('bpFill').style.width='0%'
+  document.getElementById('bpLabel').textContent='0 / '+total
+  document.getElementById('bpPass').textContent='0 ✓'
+  document.getElementById('bpFail').textContent='0 ✗'
+  document.getElementById('bpReview').textContent='0 ~'
+}
+function updateBulkProgress(verdict){
+  bulkDone++
+  if(verdict==='PASS')bulkPassC++
+  else if(verdict==='FAIL')bulkFailC++
+  else bulkReviewC++
+  const pct=Math.round((bulkDone/bulkTotal)*100)
+  document.getElementById('bpFill').style.width=pct+'%'
+  document.getElementById('bpLabel').textContent=bulkDone+' / '+bulkTotal+' ('+pct+'%)'
+  document.getElementById('bpPass').textContent=bulkPassC+' ✓'
+  document.getElementById('bpFail').textContent=bulkFailC+' ✗'
+  document.getElementById('bpReview').textContent=bulkReviewC+' ~'
+}
+function endBulkProgress(){
+  bulkRunning=false
+  setTimeout(()=>document.getElementById('bulkProgress').classList.remove('show'),3000)
+  document.getElementById('bulkBtn').textContent='⚡ Bulk Run'
+  document.getElementById('bulkBtn').disabled=false
+  document.querySelectorAll('.test-item.running').forEach(el=>el.classList.remove('running'))
+}
 async function bulkRun(){
   if(!sessionActive||!filteredCases.length)return
   const delay=parseInt(prompt('Delay between messages (ms)?','3000')||'3000')
   const cases=filteredCases.slice(0,50).map(c=>({id:c.id,question:c['Test Question'],expectedBehaviour:c['Expected Behaviour']||'',module:c['Module']||''}))
-  document.getElementById('bulkBtn').textContent=`Running ${cases.length}…`;document.getElementById('bulkBtn').disabled=true
+  startBulkProgress(cases.length)
+  document.getElementById('bulkBtn').textContent='Running…'
+  document.getElementById('bulkBtn').disabled=true
   sendToPlaywright({type:'BULK_RUN',cases,delay})
 }
 
@@ -902,7 +978,7 @@ function connectWS(){
         else if(msg.type==='RESPONSE')onResponse(msg)
         else if(msg.type==='DIRECT_RESPONSE')onDirectResponse(msg)
         else if(msg.type==='CHAT_ID')updateChatId(msg.chatId,msg.chatInfo)
-        else if(msg.type==='BULK_RUN_DONE'){document.getElementById('bulkBtn').textContent='⚡ Bulk Run';document.getElementById('bulkBtn').disabled=false}
+        else if(msg.type==='BULK_RUN_DONE'){endBulkProgress()}
         // PATCH: RETRY_WAIT banner
         else if(msg.type==='RETRY_WAIT'){
           const b=document.getElementById('retryBanner');b.classList.add('show')
@@ -960,7 +1036,7 @@ function submitReauthOTP(){
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 document.getElementById('otpInput').addEventListener('keydown',e=>{if(e.key==='Enter')otpAction()})
 document.getElementById('mobileInput').addEventListener('keydown',e=>{if(e.key==='Enter')otpAction()})
-document.getElementById('directIn').addEventListener('keydown',e=>{if(e.key==='Enter')sendDirect()})
+function autoGrow(el){el.style.height='auto';el.style.height=Math.min(el.scrollHeight,120)+'px'}
 </script>
 </body>
 </html>

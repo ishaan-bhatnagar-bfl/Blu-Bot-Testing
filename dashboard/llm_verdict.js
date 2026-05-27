@@ -209,29 +209,7 @@ async function runLLMVerdict({ question, expectedBehaviour, botResponse, module 
     }
   }
 
-  // Detect follow-up questions — bot answered but also asked a clarifying question
-  // These are valid responses, not failures. Mark PASS if substantive content present.
-  const FOLLOWUP = [
-    /are you looking to (buy|purchase|get|apply)/i,
-    /would you like (me to|to|more)/i,
-    /do you (need|want|have)/i,
-    /can (i|you) (help|assist|know)/i,
-    /is there anything (else|more|specific)/i,
-    /please (let me know|share|provide) (if|which|what|more)/i,
-    /which (type|kind|product|plan|option)/i,
-  ]
-  const hasFollowUp = FOLLOWUP.some(p => p.test(botResponse))
-
-  // If response has follow-up BUT also has substantive content (>80 chars before the ?),
-  // it's a valid answer — don't penalise for being helpful
-  if (hasFollowUp) {
-    const beforeQuestion = botResponse.split('?')[0] || ''
-    const isSubstantive  = beforeQuestion.trim().length > 80
-    if (isSubstantive) {
-      // Let LLM evaluate but hint that follow-up questions are acceptable
-      // by appending context to the user prompt — handled below via flag
-    }
-  }
+  // Note: follow-up questions in bot responses are handled by the LLM system prompt
 
   // Check Ollama availability
   const available = await isOllamaAvailable()
