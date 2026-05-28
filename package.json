@@ -1,0 +1,23 @@
+{
+  "name": "blu-automation",
+  "version": "1.0.0",
+  "description": "Automated + manual testing framework for **BLU Bot** (Bajaj Finance AI assistant) across N2P and UAT environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishaan-bhatnagar-bfl/BLU-Bot-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishaan-bhatnagar-bfl/BLU-Bot-Testing/issues"
+  },
+  "homepage": "https://github.com/ishaan-bhatnagar-bfl/BLU-Bot-Testing#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
