@@ -62,7 +62,7 @@ BLU-Automation/
 - **Python 3.10+**
 - **Ollama** — `brew install ollama` (optional but recommended for LLM scoring)
 - **Llama 3.1 8B model** — see LLM Setup below
-- Access to N2P/UAT test mobile + OTP — get from Ishaan Bhatnagar
+- Access to N2P/UAT test mobile + OTP
 
 ---
 
