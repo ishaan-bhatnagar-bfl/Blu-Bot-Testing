@@ -17,19 +17,13 @@ BLU-Automation/
 │   ├── semantic_scorer.js              ← TF-IDF cosine similarity scoring
 │   └── package.json                    ← Node dependencies
 │
-├── test-cases/
+├── test-cases/                         ← Gitignored — generate locally (see Quick Start)
 │   ├── v7/
-│   │   ├── blu_test_cases_v7.csv           ← Primary (2,351 cases — 2,321 KB + 30 negative)
-│   │   └── blu_test_cases_v7_realistic.csv ← Realistic phrasing variants (generate when needed)
+│   │   ├── blu_test_cases_v7.csv           ← Primary (2,321 KB cases + 30 negative = 2,351)
+│   │   └── blu_test_cases_v7_realistic.csv ← Realistic phrasing variants (generate separately)
 │   ├── supplementary/
-│   │   ├── blu_negative_test_cases.csv     ← 30 negative cases (cross-product, PII, sourcing)
-│   │   ├── blu_regression_suite.csv        ← 50 critical regression cases
-│   │   ├── blu_edge_cases.csv              ← Stress: typos, Hinglish, truncated
-│   │   ├── blu_multiturn_test_cases.csv    ← Multi-turn flows
-│   │   └── blu_test_cases_v3_paraphrased.csv ← 129K real user utterances
-│   └── gaps/
-│       ├── gaps_excel_not_in_json.csv      ← KB diff: in Excel, not in JSON
-│       └── gaps_json_not_in_excel.csv      ← KB diff: in JSON, not in Excel
+│   │   └── blu_negative_test_cases.csv     ← 30 negative cases (cross-product, PII, sourcing)
+│   └── gaps/                               ← KB diff CSVs (generate via compare_kb.js)
 │
 ├── scripts/
 │   ├── generate/
@@ -76,13 +70,13 @@ BLU-Automation/
 
 ### 1. Clone
 ```bash
-git clone https://github.com/ishaan-bhatnagar-bfl/BLU-Bot-Testing.git
-cd BLU-Bot-Testing
+git clone https://github.com/ishaan-bhatnagar-bfl/Blu-Bot-Testing.git
+cd Blu-Bot-Testing
 ```
 
 ### 2. Install Node dependencies
 ```bash
-cd dashboard && npm install playwright ws
+cd dashboard && npm install && cd ..
 ```
 
 ### 3. LLM Setup (one-time, optional)
@@ -99,11 +93,8 @@ ollama create llama3.1-local -f ~/Desktop/Modelfile
 
 ### 4. Generate test cases (first-time setup)
 ```bash
-# Generate V7 from KB JSONs
-node scripts/generate/generate_test_cases_v7.js
-
-# Append negative test cases
-node scripts/generate/generate_negative_cases.js
+node scripts/generate/generate_test_cases_v7.js    # 2,321 cases from KB JSONs
+node scripts/generate/generate_negative_cases.js   # appends 30 negative cases → 2,351 total
 ```
 
 ### 5. Start services (3 terminals)
@@ -132,7 +123,7 @@ open dashboard/blu_test_dashboard_v4.html
 ### 6. Connect and test
 1. Select env: **N2P** or **UAT**
 2. Click **Connect to Bot** → enter mobile → OTP
-3. Load test CSV → filter by module → **⚡ Bulk Run**
+3. Load `test-cases/v7/blu_test_cases_v7.csv` → filter by module → **⚡ Bulk Run**
 
 ---
 
@@ -149,13 +140,11 @@ open dashboard/blu_test_dashboard_v4.html
 
 | File | Cases | Use for |
 |------|-------|---------|
-| `test-cases/v7/blu_test_cases_v7.csv` | 2,351 | Daily runs — KB-verbatim + negative cases |
-| `test-cases/v7/blu_test_cases_v7_realistic.csv` | 2,321 | Realistic phrasing benchmark |
-| `test-cases/supplementary/blu_negative_test_cases.csv` | 30 | Cross-product, PII, sourcing guard tests |
-| `test-cases/supplementary/blu_regression_suite.csv` | 50 | Post-deploy sanity check |
-| `test-cases/supplementary/blu_edge_cases.csv` | 4,479 | Stress: typos, Hinglish, truncated |
-| `test-cases/supplementary/blu_multiturn_test_cases.csv` | 66 flows | Multi-turn manual testing |
-| `test-cases/supplementary/blu_test_cases_v3_paraphrased.csv` | 129K | Full coverage — real user utterances |
+| `test-cases/v7/blu_test_cases_v7.csv` | 2,351 | Primary — daily runs, all modules |
+| `test-cases/supplementary/blu_negative_test_cases.csv` | 30 | Cross-product, PII, sourcing guard validation |
+| `test-cases/v7/blu_test_cases_v7_realistic.csv` | 2,321 | Realistic phrasing benchmark (generate separately) |
+
+> All CSVs are gitignored. Generate them locally using the scripts in `scripts/generate/`.
 
 ---
 
@@ -176,10 +165,7 @@ open dashboard/blu_test_dashboard_v4.html
 
 ### Bulk Run Resume
 If a bulk run is interrupted, `.run_state.json` is written after every case.
-Next session, on login an accent banner appears:
-```
-⏮ Last run: EMI Card · Block related — 45/112 (27 May 11:23 AM)  [Resume]  [Dismiss]
-```
+On next login, a banner shows the last tested module + topic with a Resume option.
 
 ### UAT Parity Check
 After running any case, **⚖ Check on UAT** compares N2P vs UAT verdict.
@@ -254,13 +240,13 @@ python3 scripts/analysis/aggregate_results.py <exported_results.csv>
 ollama serve
 node scripts/generate/generate_realistic_variants.js
 
-# Step 2 — run V7 baseline in dashboard, export as blu_results_N2P_v7_baseline.csv
-# Step 3 — run realistic CSV in dashboard, export as blu_results_N2P_v7_realistic.csv
+# Step 2 — run V7 baseline in dashboard, export
+# Step 3 — run realistic CSV in dashboard, export
 
-# Step 4 — benchmark
+# Step 4 — compare
 node scripts/analysis/benchmark_realistic.js \
-  test-cases/v7/blu_results_N2P_v7_baseline.csv \
-  test-cases/v7/blu_results_N2P_v7_realistic.csv
+  <path/to/v7_baseline_export.csv> \
+  <path/to/v7_realistic_export.csv>
 ```
 
 ---
@@ -322,7 +308,7 @@ SME Flexi Loan, Home Loan, Loan Payments, Rewards, Help & Support — `chatbot-f
 |-------|--------|-------------|
 | Phase 1 | ✅ Done | Retry lock, re-auth, virtual scroll |
 | Phase 2 | ✅ Done | LLM verdict, disambiguation fix |
-| Phase 3 | ✅ Done | Progress bar, active row, CTA chips, export fix |
+| Phase 3 | ✅ Done | Progress bar, active row, CTA chips, export |
 | Phase 4 | ✅ Done | Bulk resume, UAT parity, semantic scoring |
 | P4.1 | ✅ Done | Multi-turn automated runner |
 | Realistic variants | 🔜 Pending | Run benchmark after Ollama generation |
