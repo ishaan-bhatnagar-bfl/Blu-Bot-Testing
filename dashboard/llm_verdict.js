@@ -1,6 +1,6 @@
 /**
  * BLU Bot — LLM Verdict Module
- * Uses local Ollama (Mistral 7B) for per-response semantic scoring.
+ * Uses local Ollama (Llama 3.1 8B Q4_K_M) for per-response semantic scoring.
  * Falls back silently to null if Ollama is not running.
  *
  * Usage:

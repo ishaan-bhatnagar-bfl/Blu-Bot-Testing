@@ -28,3 +28,12 @@ node_modules/
 run_config.json
 .DS_Store
 test-results/
+
+# Backup files
+*.bak
+*.bak[0-9]
+*.bak[0-9][0-9]
+
+# Rotating session logs
+automation/test-output/session_log_*.json
+dashboard/session_log_*.json

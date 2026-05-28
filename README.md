@@ -295,7 +295,7 @@ node scripts/generate_test_cases_v7.js
 | Phase 2 | ✅ Done | LLM verdict, disambiguation fix |
 | Phase 3 | ✅ Done | Progress bar, active row, CTA chips, export fix |
 | Phase 4 | ✅ Done | Bulk resume, UAT parity, semantic scoring |
-| P4.1 | 🔜 Next | Multi-turn automated runner |
+| P4.1 | ✅ Done | Multi-turn automated runner |
 | Content gaps | ⛔ Blocked | Sourcing JSONs + chatbot-flag=yes for 5 modules |
 
 ---
