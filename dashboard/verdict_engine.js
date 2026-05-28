@@ -130,9 +130,14 @@ function ruleLanguage({ response, question, isHinglish }) {
   return { rule: ruleName, status: 'PASS', reason: 'Response in English as expected' }
 }
 
-function ruleNoFallback({ response }) {
+function ruleNoFallback({ response, expectedBehaviour }) {
   const ruleName = 'NO_FALLBACK'
   const text = response || ''
+  // FIX #4: if KB expects escalation, /please contact.../ patterns are valid — skip fallback check
+  const kbExpectsEscalation = /raise a request|raisedrequest|contact (support|team|agent)/i.test(expectedBehaviour || '')
+  if (kbExpectsEscalation) {
+    return { rule: ruleName, status: 'PASS', reason: 'Escalation expected by KB — fallback check skipped' }
+  }
   const matched = FALLBACK_PATTERNS.find(p => p.test(text))
   if (matched) {
     return {
@@ -141,7 +146,6 @@ function ruleNoFallback({ response }) {
       reason: `Fallback response detected: "${text.substring(0, 80)}..."`
     }
   }
-  // Retry card specifically
   if (/we.re facing a temporary issue/i.test(text) || /please click on retry/i.test(text)) {
     return { rule: ruleName, status: 'FAIL', reason: 'Retry/error card shown instead of answer' }
   }
@@ -191,15 +195,20 @@ function ruleNoCrossProduct({ response, module }) {
   return { rule: ruleName, status: 'PASS', reason: 'No cross-product contamination detected' }
 }
 
-function ruleMinLength({ response, module }) {
+function ruleMinLength({ response, module, expectedBehaviour }) {
   const ruleName = 'MIN_LENGTH'
   const minLen = MODULE_MIN_LENGTH[module] || MODULE_MIN_LENGTH['DEFAULT']
   const len = (response || '').length
   if (len < minLen) {
+    // FIX #2: if KB answer itself is short (CTA redirect or brief answer), don't penalise short bot response
+    const kbLen = (expectedBehaviour || '').replace(/CTA label:.*$/gim, '').replace(/bajajsuperapp:.*$/gim, '').trim().length
+    if (kbLen < minLen) {
+      return { rule: ruleName, status: 'PASS', reason: `KB answer is also short (${kbLen} chars) — short response acceptable` }
+    }
     return {
       rule: ruleName,
-      status: 'FAIL',
-      reason: `Response too short: ${len} chars (min ${minLen} for ${module || 'this module'})`
+      status: 'REVIEW',  // FIX #2: REVIEW not FAIL — hybrid logic should decide, not MIN_LENGTH alone
+      reason: `Response short: ${len} chars (min ${minLen} for ${module || 'this module'}) — LLM to confirm`
     }
   }
   return { rule: ruleName, status: 'PASS', reason: `Response length ${len} chars ≥ min ${minLen}` }
@@ -300,9 +309,9 @@ function runVerdict(input) {
 
   const rules = [
     ruleSourcingGuard({ question }),
-    ruleNoFallback({ response }),
+    ruleNoFallback({ response, expectedBehaviour }),
     ruleLanguage({ response, question, isHinglish }),
-    ruleMinLength({ response, module }),
+    ruleMinLength({ response, module, expectedBehaviour }),
     ruleCTA({ hasCTA, ctaLabels, expectedBehaviour, module }),
     ruleNoCrossProduct({ response, module }),
     ruleEscalationCorrectness({ response, expectedBehaviour }),

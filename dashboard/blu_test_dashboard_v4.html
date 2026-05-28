@@ -545,7 +545,7 @@ input,textarea{font-family:var(--font)}
 </div>
 
 <script>
-let allCases=[],filteredCases=[],results={},responses={},verdicts={},screenshots={},ctaData={}
+let allCases=[],filteredCases=[],results={},responses={},verdicts={},screenshots={},ctaData={},testedAt={}
 let activeMaster='Service',activeModule='All',activeType='All'
 let sessionActive=false,currentEnv='N2P',isDark=true
 let playwrightWS=null,currentChatId=null,currentBugId=null,logOpen=false
@@ -656,7 +656,11 @@ function buildSidebar(){
     for(const m of items){
       const pct=modTotal[m]?Math.round((modPass[m]||0)/modTotal[m]*100):0
       const _circ=2*Math.PI*7,_off=_circ*(1-(pct/100))
-      const _rc=pct===0?'var(--border-md)':pct<50?'var(--amber)':pct<80?'var(--accent)':'var(--green)'
+      // FIX #13: 4-band PASS rate colour (not coverage). red<50, amber50-74, blue75-89, green>=90
+      const tested=Object.keys(verdicts).filter(id=>{
+        const c=allCases.find(x=>x.id==id);return c&&c['Module']===m
+      }).length
+      const _rc=tested===0?'var(--border-md)':pct<50?'var(--red)':pct<75?'var(--amber)':pct<90?'var(--accent)':'var(--green)'
       h+=`<div class="mod-row ${activeModule===m?'active':''}" onclick="setModule('${m}')">
         <div class="mod-ring"><svg width="18" height="18" viewBox="0 0 20 20">
           <circle class="mod-ring-bg" cx="10" cy="10" r="7"/>
@@ -970,8 +974,8 @@ function onResponse(msg){
   const id=msg.id,c=allCases.find(x=>x.id===id)
   if(msg.msgCount!==undefined){const n=msg.msgCount,el=document.getElementById('msgCounter'),ct=document.getElementById('msgCountEl');if(el&&ct){ct.textContent=n;el.classList.add('show');el.classList.toggle('warn',n>=20&&n<27);el.classList.toggle('danger',n>=27)}}
   responses[id]=msg.response
+  testedAt[id]=new Date().toISOString()
   if(msg.ctaLabels||msg.ctaLinks)ctaData[id]={labels:msg.ctaLabels||[],links:msg.ctaLinks||[]}
-  // Show parity button when response is loaded
   const pb=document.getElementById('paritybtn-'+id)
   if(pb)pb.classList.add('show')
   if(msg.verdict)verdicts[id]=msg.verdict
@@ -1083,7 +1087,7 @@ async function bulkRun(){
   const delay=parseInt(prompt('Delay between messages (ms)?','3000')||'3000')
   const maxCases=parseInt(prompt(`How many cases to run? (${filteredCases.length} available)`,'50')||'50')
   if(isNaN(maxCases)||maxCases<1)return
-  const cases=filteredCases.slice(0,maxCases).map(c=>({id:c.id,question:c['Test Question'],expectedBehaviour:c['Expected Behaviour']||'',module:c['Module']||''}))
+  const cases=filteredCases.slice(0,maxCases).map(c=>({id:c.id,question:c['Test Question'],expectedBehaviour:c['Expected Behaviour']||'',module:c['Module']||'',l3:c['L3']||''}))
   startBulkProgress(cases.length)
   document.getElementById('bulkBtn').textContent='Running…'
   document.getElementById('bulkBtn').disabled=true
@@ -1279,7 +1283,7 @@ function onRunState(state){
   const dateStr = d.toLocaleDateString('en-IN',{day:'numeric',month:'short'})
   const timeStr = d.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'})
   document.getElementById('resumeText').textContent =
-    `Last run: ${state.done}/${state.total} cases on ${dateStr} ${timeStr} (last: ${state.lastTcId})`
+    `Last run: ${state.done}/${state.total} — ${state.lastModule||''} · ${state.lastL3||state.lastTcId} (${dateStr} ${timeStr})`
   document.getElementById('resumeBanner').classList.add('show')
 }
 
@@ -1309,7 +1313,7 @@ function exportResults(){
   const hdr=[
     'Module','L3','Test Question','In-KB or Gap',
     'Bot Response','Manual Result','Expected Behaviour',
-    'Verdict','Verdict_Detail','CTA_Labels','CTA_Links','Chat ID'
+    'Verdict','Verdict_Detail','CTA_Labels','CTA_Links','Chat ID','Tested_At'
   ]
   const tested=allCases.filter(c=>responses[c.id]||results[c.id]||verdicts[c.id])
   if(!tested.length){alert('No tested cases to export. Run some tests first.');return}
@@ -1330,7 +1334,8 @@ function exportResults(){
       v?.verdict||'', detail,
       (cta.labels||[]).join(' | '),
       (cta.links||[]).filter(Boolean).join(' | '),
-      currentChatId||''
+      currentChatId||'',
+      testedAt[c.id]||''
     ]
   })
   const esc = v => `"${String(v||'').replace(/"/g,'""')}"`

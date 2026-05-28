@@ -739,7 +739,8 @@ async function handleMessage(msg, ws) {
             lastTcId:    c.id,
             done,
             total,
-            module:      c.module || '',
+            lastModule:  c.module || '',
+            lastL3:      c.l3 || '',
             env:         currentEnv,
             ts:          new Date().toISOString(),
           })
