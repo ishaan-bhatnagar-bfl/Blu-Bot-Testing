@@ -252,7 +252,6 @@ async function main() {
   console.log(`📋 ${rows.length} cases to rewrite (after filters)\n`)
 
   if (!DRY_RUN) {
-    const up = await isOllamaUp()
     if (!up) {
       console.error('❌ Ollama not running. Start it with: ollama serve')
       console.error('   Or use --dry-run to test without LLM.')
