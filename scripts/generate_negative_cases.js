@@ -62,8 +62,8 @@ function makeRow(tcNum, module, l1, l2, l3, question, expectedBehaviour, keyPhra
     'Expected Behaviour':   expectedBehaviour,
     'Expected Key Phrases': keyPhrases || '',
     'CTA Expected':         ctaExpected || 'No',
-    'Type':                 'Negative',
-    'In-KB or Gap':         'Negative',
+    'Type':                 'Service',  // stays in Service master filter
+    'In-KB or Gap':         'Negative', // ⚠ Negative pill filters on this
     'Scoring Type':         'manual',
     'Source':               'negative_v1',
   }

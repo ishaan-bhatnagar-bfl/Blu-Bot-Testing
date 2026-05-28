@@ -737,7 +737,7 @@ function applyFilters(){
     if(activeType==='Paraphrase'&&!kg.includes('Paraphrase')&&!kg.includes('Natural'))return false
     if(activeType==='Untested'&&(results[c.id]||verdicts[c.id]))return false
     if(activeType==='Failed'){const v=verdicts[c.id];if(results[c.id]!=='fail'&&(!v||v.verdict!=='FAIL'))return false}
-    if(activeType==='Negative'&&(c['Type']||'')!=='Negative')return false
+    if(activeType==='Negative'&&(c['In-KB or Gap']||'')!=='Negative')return false
     if(q&&!c['Test Question'].toLowerCase().includes(q))return false
     return true
   })
@@ -792,7 +792,7 @@ function dotClass(id){
 function typeTags(c){
   const ct=getCaseType(c),kg=c['In-KB or Gap']||''
   const tm={Service:'tt-service',Sourcing:'tt-sourcing',Payments:'tt-payments',Rewards:'tt-rewards'}
-  if(c['Type']==='Negative')return `<span class="t-tag" style="background:var(--red-dim);color:var(--red)">⚠ Neg</span><span class="t-tag tt-l3">${esc(c['L3']||'').substring(0,22)}</span>`
+  if((c['In-KB or Gap']||'')==='Negative')return `<span class="t-tag" style="background:var(--red-dim);color:var(--red)">⚠ Neg</span><span class="t-tag tt-l3">${esc(c['L3']||'').substring(0,22)}</span>`
   let h=`<span class="t-tag ${tm[ct]||'tt-service'}">${ct}</span>`
   if(kg==='In-KB')h+=`<span class="t-tag tt-inkb">In-KB</span>`
   else if(kg.includes('Gap'))h+=`<span class="t-tag tt-gap">Gap</span>`
