@@ -65,8 +65,16 @@ input,textarea,select{font-family:var(--font)}
 .mod-check-inner{width:8px;height:8px;background:#fff;border-radius:1px;display:none}
 .mod-item.selected .mod-check-inner{display:block}
 .mod-item-name{font-size:12px;color:var(--text-secondary)}
-.mod-item.selected .mod-item-name{color:var(--text-primary);font-weight:500}
-.mod-item-count{margin-left:auto;font-size:10px;color:var(--text-quaternary);font-variant-numeric:tabular-nums}
+/* module resume state */
+.mod-item-meta{display:flex;flex-direction:column;flex:1;min-width:0}
+.mod-item-progress{height:3px;border-radius:2px;background:var(--border);margin-top:4px;overflow:hidden}
+.mod-item-progress-fill{height:100%;border-radius:2px;background:var(--accent);transition:width 0.3s ease}
+.mod-item-status{font-size:10px;color:var(--text-quaternary);margin-top:2px;font-variant-numeric:tabular-nums}
+.mod-item-status.has-progress{color:var(--text-tertiary)}
+.mod-resume-toggle{display:flex;gap:2px;margin-left:auto;flex-shrink:0}
+.mod-resume-btn{font-size:9px;font-weight:600;padding:2px 7px;border-radius:3px;border:1px solid var(--border-md);background:transparent;color:var(--text-quaternary);cursor:pointer;transition:all var(--transition);letter-spacing:0.3px}
+.mod-resume-btn.active{background:var(--accent-dim);color:var(--accent);border-color:var(--accent-border)}
+.mod-resume-btn:hover:not(.active){color:var(--text-secondary);background:var(--bg-hover)}
 .mod-actions{display:flex;gap:6px;margin-bottom:6px}
 .mod-action-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:var(--radius-sm);border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer;transition:all var(--transition)}
 .mod-action-btn:hover{color:var(--text-secondary);background:var(--bg-hover)}
@@ -220,6 +228,15 @@ input,textarea,select{font-family:var(--font)}
           </select>
         </div>
 
+        <!-- SESSION CAP -->
+        <div class="section">
+          <div class="section-label">Session Limit <span style="color:var(--text-quaternary);font-weight:400;text-transform:none;letter-spacing:0">— re-auth every N cases</span></div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <input class="field-input" id="sessionCapInput" type="number" value="18" min="5" max="28" style="width:70px;text-align:center">
+            <span style="font-size:11px;color:var(--text-tertiary)">Bot resets after ~18-20 turns. Agent re-auths automatically.</span>
+          </div>
+        </div>
+
         <!-- MODULE SELECTOR -->
         <div class="section">
           <div class="section-label">Modules <span id="modCount" style="color:var(--accent);font-variant-numeric:tabular-nums"></span></div>
@@ -309,9 +326,11 @@ const API = 'http://localhost:3002'
 let selectedEnv      = 'N2P'
 let selectedModules  = new Set()
 let allModules       = []
+let moduleState      = {}   // per-module run history from /module-state
+let resumeDecisions  = {}   // module → 'resume' | 'restart'
 let pollInterval     = null
 let lastLogLength    = 0
-let moduleStats      = {}  // module → { pass, fail, review, total }
+let moduleStats      = {}
 let exportPath       = null
 
 // ── OWNER MAP ─────────────────────────────────────────────────────────────────
@@ -329,28 +348,72 @@ window.onload = () => { loadModules(); applyTheme() }
 async function loadModules() {
   const suite = document.getElementById('suiteSelect').value
   try {
-    const res  = await fetch(`${API}/modules?suite=${suite}`)
-    const data = await res.json()
-    allModules = data.modules || []
+    const [modRes, stateRes] = await Promise.all([
+      fetch(`${API}/modules?suite=${suite}`),
+      fetch(`${API}/module-state`).catch(() => ({ json: () => ({}) }))
+    ])
+    const modData   = await modRes.json()
+    const stateData = await stateRes.json().catch(() => ({}))
+    allModules  = modData.modules || []
+    moduleState = stateData || {}
     renderModList()
   } catch {
     document.getElementById('modList').innerHTML =
-      `<div style="padding:12px;color:var(--red);font-size:12px">⚠ Agent server not running.<br>Start with: cd agent && node agent_server.js</div>`
+      `<div style="padding:12px;color:var(--red);font-size:12px">⚠ Agent server not running.<br>Start with: node agent/agent_server.js</div>`
   }
 }
 
 function renderModList() {
   const list = document.getElementById('modList')
   if (!allModules.length) { list.innerHTML = '<div style="padding:12px;color:var(--text-tertiary);font-size:12px">No modules found</div>'; return }
+
   list.innerHTML = allModules.map(m => {
-    const name = m.replace(/_Service$/, '').replace(/_/g, ' ')
-    const sel  = selectedModules.has(m)
+    const name   = m.replace(/_Service$/, '').replace(/_/g, ' ')
+    const sel    = selectedModules.has(m)
+    const ms     = moduleState[m]
+    const hasPrg = ms && ms.done > 0 && ms.total > 0
+    const pct    = hasPrg ? Math.round((ms.done / ms.total) * 100) : 0
+    const resume = resumeDecisions[m] || (hasPrg ? 'resume' : 'restart')
+    const tsLabel = hasPrg ? relTime(ms.timestamp) : ''
+
+    const progressBar = hasPrg ? `
+      <div class="mod-item-progress"><div class="mod-item-progress-fill" style="width:${pct}%"></div></div>
+      <div class="mod-item-status has-progress">${ms.done}/${ms.total} tested · ${ms.pass||0}✓ ${ms.fail||0}✗ · ${tsLabel}</div>` : ''
+
+    const resumeToggle = hasPrg && sel ? `
+      <div class="mod-resume-toggle">
+        <button class="mod-resume-btn ${resume==='resume'?'active':''}" onclick="setResume(event,'${m}','resume')">Resume</button>
+        <button class="mod-resume-btn ${resume==='restart'?'active':''}" onclick="setResume(event,'${m}','restart')">Restart</button>
+      </div>` : ''
+
     return `<div class="mod-item ${sel?'selected':''}" onclick="toggleMod('${m}',this)">
       <div class="mod-check"><div class="mod-check-inner"></div></div>
-      <span class="mod-item-name">${name}</span>
+      <div class="mod-item-meta">
+        <span class="mod-item-name">${name}</span>
+        ${progressBar}
+      </div>
+      ${resumeToggle}
     </div>`
   }).join('')
   updateModCount()
+}
+
+function relTime(ts) {
+  if (!ts) return ''
+  const diff = Date.now() - new Date(ts).getTime()
+  const m = Math.floor(diff / 60000)
+  if (m < 1)  return 'just now'
+  if (m < 60) return `${m}m ago`
+  const h = Math.floor(m / 60)
+  if (h < 24) return `${h}h ago`
+  return `${Math.floor(h/24)}d ago`
+}
+
+function setResume(e, mod, decision) {
+  e.stopPropagation()
+  resumeDecisions[mod] = decision
+  renderModList()
+  updateStartButton()
 }
 
 function toggleMod(mod, el) {
@@ -362,6 +425,21 @@ function toggleMod(mod, el) {
 
 function updateModCount() {
   document.getElementById('modCount').textContent = selectedModules.size ? `(${selectedModules.size} selected)` : ''
+  updateStartButton()
+}
+
+function updateStartButton() {
+  const btn = document.getElementById('btnStart')
+  if (!btn) return
+  const resumingMods = [...selectedModules].filter(m => {
+    const ms = moduleState[m]
+    const hasPrg = ms && ms.done > 0 && ms.total > 0 && ms.done < ms.total
+    return hasPrg && (resumeDecisions[m] || 'resume') === 'resume'
+  })
+  const total = selectedModules.size
+  if (resumingMods.length === total && total > 0) btn.innerHTML = '<span>⏭️</span> Resume Run'
+  else if (resumingMods.length > 0) btn.innerHTML = '<span>▶</span> Resume + Start Run'
+  else btn.innerHTML = '<span>▶</span> Start Agent Run'
 }
 
 function selectAll()  { allModules.forEach(m => selectedModules.add(m)); renderModList(); updateOwnerButtons() }
@@ -399,6 +477,16 @@ async function startRun() {
   if (!selectedModules.size) { alert('Select at least one module'); return }
   const mobile = document.getElementById('mobileInput').value.trim()
   if (!/^\d{10}$/.test(mobile)) { alert('Enter a valid 10-digit mobile number'); return }
+  const sessionCap = parseInt(document.getElementById('sessionCapInput').value) || 18
+
+  // Build resumeMap: module → lastTcId for modules set to resume
+  const resumeMap = {}
+  selectedModules.forEach(m => {
+    const ms = moduleState[m]
+    const hasPrg = ms && ms.done > 0 && ms.total > 0 && ms.done < ms.total
+    const decision = resumeDecisions[m] || (hasPrg ? 'resume' : 'restart')
+    if (hasPrg && decision === 'resume') resumeMap[m] = ms.lastTcId
+  })
 
   // Reset UI
   lastLogLength = 0
@@ -427,6 +515,8 @@ async function startRun() {
         modules:        [...selectedModules],
         suite:          document.getElementById('suiteSelect').value,
         casesPerModule: document.getElementById('capsSelect').value,
+        sessionCap,
+        resumeMap,
       })
     })
     pollInterval = setInterval(pollStatus, 1200)

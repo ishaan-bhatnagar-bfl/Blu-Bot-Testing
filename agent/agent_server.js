@@ -29,6 +29,21 @@ const V7_CSV         = path.join(__dirname, '..', 'test-cases', 'v7', 'blu_test_
 const REALISTIC_CSV  = path.join(__dirname, '..', 'test-cases', 'v7', 'blu_test_cases_v7_realistic.csv')
 const LOGS_DIR       = path.join(__dirname, '..', 'logs', 'agent_runs')
 const SCREENSHOTS_DIR= path.join(__dirname, '..', 'logs', 'screenshots')
+const MODULE_STATE_PATH = path.join(__dirname, '..', 'logs', '.module_run_state.json')
+
+// ── MODULE RUN STATE ──────────────────────────────────────────────────────────
+// Persists per-module: { lastTcId, done, total, timestamp, suite, env }
+function loadModuleState() {
+  try { return JSON.parse(fs.readFileSync(MODULE_STATE_PATH, 'utf8')) } catch { return {} }
+}
+function saveModuleState(state) {
+  try { fs.writeFileSync(MODULE_STATE_PATH, JSON.stringify(state, null, 2)) } catch {}
+}
+function updateModuleState(module, data) {
+  const state = loadModuleState()
+  state[module] = { ...( state[module] || {}), ...data, timestamp: new Date().toISOString() }
+  saveModuleState(state)
+}
 
 const BOT_URLS = {
   N2P:  'https://bflaiassist-n2p.bajajfinserv.in/blu/?jid=blu',
@@ -40,15 +55,17 @@ const PORT = 3002
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let browser, ctx, page
 let agentState = {
-  status:        'idle',     // idle | logging_in | awaiting_otp | running | awaiting_reauth_otp | done | stopped | error
+  status:        'idle',
   env:           'N2P',
   mobile:        '9953333141',
   modules:       [],
   suite:         'v7',
   casesPerModule:'all',
+  sessionCap:    18,   // re-auth every N cases
+  resumeMap:     {},   // module → startFromTcId
   progress:      { done: 0, total: 0, pass: 0, fail: 0, review: 0, currentModule: '', currentCase: '' },
-  results:       [],         // all test results
-  log:           [],         // terminal-style log lines
+  results:       [],
+  log:           [],
   error:         null,
   exportPath:    null,
   startedAt:     null,
@@ -63,6 +80,7 @@ function resetState() {
   agentState = {
     status: 'idle', env: 'N2P', mobile: '9953333141',
     modules: [], suite: 'v7', casesPerModule: 'all',
+    sessionCap: 18, resumeMap: {},
     progress: { done: 0, total: 0, pass: 0, fail: 0, review: 0, currentModule: '', currentCase: '' },
     results: [], log: [], error: null, exportPath: null, startedAt: null, finishedAt: null,
   }
@@ -93,7 +111,7 @@ function parseCSVLine(line) {
   return res
 }
 
-function loadCases(suite, modules, casesPerModule) {
+function loadCases(suite, modules, casesPerModule, resumeMap = {}) {
   const csvPath = suite === 'realistic' ? REALISTIC_CSV : V7_CSV
   if (!fs.existsSync(csvPath)) throw new Error(`CSV not found: ${csvPath}`)
   const lines  = fs.readFileSync(csvPath, 'utf8').split('\n')
@@ -106,22 +124,31 @@ function loadCases(suite, modules, casesPerModule) {
     header.forEach((h, idx) => { row[h] = (vals[idx] || '').trim() })
     if (row['Test Question']) allRows.push(row)
   }
-  // Filter to selected modules, skip Negative/Gap if not explicitly requested
-  let filtered = allRows.filter(r => {
-    if (!modules.includes(r['Module'])) return false
-    if ((r['In-KB or Gap'] || '') === 'Negative') return false
-    return true
+
+  // Group by module, apply cap and resume offset
+  const byModule = {}
+  allRows.forEach(r => {
+    if (!modules.includes(r['Module'])) return
+    if ((r['In-KB or Gap'] || '') === 'Negative') return
+    if (!byModule[r['Module']]) byModule[r['Module']] = []
+    byModule[r['Module']].push(r)
   })
-  // Cap per module
-  if (casesPerModule && casesPerModule !== 'all') {
-    const cap = parseInt(casesPerModule)
-    const byModule = {}
-    filtered.forEach(r => {
-      if (!byModule[r['Module']]) byModule[r['Module']] = []
-      if (byModule[r['Module']].length < cap) byModule[r['Module']].push(r)
-    })
-    filtered = Object.values(byModule).flat()
-  }
+
+  const filtered = []
+  Object.entries(byModule).forEach(([mod, rows]) => {
+    let startIdx = 0
+    const resumeTcId = resumeMap[mod]
+    if (resumeTcId) {
+      const idx = rows.findIndex(r => r['TC ID'] === resumeTcId)
+      startIdx = idx >= 0 ? idx + 1 : 0  // start after last completed case
+    }
+    let modRows = rows.slice(startIdx)
+    if (casesPerModule && casesPerModule !== 'all') {
+      modRows = modRows.slice(0, parseInt(casesPerModule))
+    }
+    filtered.push(...modRows)
+  })
+
   return filtered
 }
 
@@ -642,8 +669,10 @@ async function runAgent(config) {
 
     // Load cases
     addLog(`📋 Loading cases for ${modules.length} module(s) from ${suite === 'realistic' ? 'realistic' : 'V7'} suite`)
-    const cases = loadCases(suite, modules, casesPerModule)
+    const cases = loadCases(suite, modules, casesPerModule, agentState.resumeMap)
     agentState.progress.total = cases.length
+    const resumedCount = Object.keys(agentState.resumeMap).length
+    if (resumedCount > 0) addLog(`⏭ Resuming ${resumedCount} module(s) from last position`)
     addLog(`📊 ${cases.length} cases to run`)
 
     if (cases.length === 0) {
@@ -656,8 +685,8 @@ async function runAgent(config) {
     for (const row of cases) {
       if (stopRequested) { addLog('🛑 Stop requested — halting run'); break }
 
-      // 30-message re-auth guard
-      if (msgCount >= 28) {
+      // Session cap re-auth — proactive, before hitting the bot limit
+      if (msgCount >= (agentState.sessionCap || 18)) {
         addLog('🔄 Approaching session limit — re-auth now')
         await page.goto(BOT_URLS[env], { waitUntil: 'domcontentloaded' })
         await page.waitForTimeout(3000)
@@ -671,11 +700,21 @@ async function runAgent(config) {
 
       const result = await runCase(row)
       agentState.results.push(result)
-
       agentState.progress.done++
       if (result.verdict === 'PASS')        agentState.progress.pass++
       else if (result.verdict === 'FAIL')   agentState.progress.fail++
       else                                  agentState.progress.review++
+
+      // Save per-module state after every case for resume support
+      updateModuleState(row['Module'], {
+        lastTcId:  result.tcId,
+        done:      agentState.results.filter(r => r.module === row['Module']).length,
+        total:     cases.filter(c => c['Module'] === row['Module']).length,
+        suite,
+        env,
+        pass:      agentState.results.filter(r => r.module === row['Module'] && r.verdict === 'PASS').length,
+        fail:      agentState.results.filter(r => r.module === row['Module'] && r.verdict === 'FAIL').length,
+      })
 
       // FIX #3: stop run if rate limited
       if (stopRequested) {
@@ -758,7 +797,7 @@ app.post('/start', async (req, res) => {
   if (!['idle','done','stopped','error'].includes(agentState.status)) {
     return res.status(409).json({ error: 'Agent already running' })
   }
-  const { env, mobile, modules, suite, casesPerModule } = req.body
+  const { env, mobile, modules, suite, casesPerModule, sessionCap, resumeMap } = req.body
   if (!env || !mobile || !modules || !modules.length) {
     return res.status(400).json({ error: 'env, mobile, and modules[] required' })
   }
@@ -768,12 +807,26 @@ app.post('/start', async (req, res) => {
   agentState.modules        = modules
   agentState.suite          = suite || 'v7'
   agentState.casesPerModule = casesPerModule || 'all'
+  agentState.sessionCap     = sessionCap || 18
+  agentState.resumeMap      = resumeMap || {}
   agentState.status         = 'starting'
-  addLog(`🚀 Agent starting: ${env} | ${modules.length} modules | suite=${suite || 'v7'} | cap=${casesPerModule || 'all'}`)
+  addLog(`🚀 Agent starting: ${env} | ${modules.length} modules | suite=${suite || 'v7'} | cap=${casesPerModule || 'all'} | session=${sessionCap || 18}`)
   res.json({ ok: true })
-  // Run async — don't await
   runAgent({ env, mobile, modules, suite: suite || 'v7', casesPerModule: casesPerModule || 'all' })
     .catch(e => { agentState.status = 'error'; agentState.error = e.message; addLog('💥 ' + e.message) })
+})
+
+// GET /module-state — per-module run history for resume UI
+app.get('/module-state', (req, res) => {
+  res.json(loadModuleState())
+})
+
+// DELETE /module-state/:module — clear a module's run history
+app.delete('/module-state/:module', (req, res) => {
+  const state = loadModuleState()
+  delete state[req.params.module]
+  saveModuleState(state)
+  res.json({ ok: true })
 })
 
 // POST /otp — submit OTP (login or re-auth)
