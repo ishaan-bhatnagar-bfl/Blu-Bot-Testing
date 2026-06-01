@@ -388,11 +388,12 @@ async function reAuthIfNeeded() {
 
 // ── RUN ONE CASE ──────────────────────────────────────────────────────────────
 async function runCase(row) {
-  const question         = row['Test Question']
-  const expectedBehaviour= row['Expected Behaviour'] || ''
-  const module           = row['Module'] || ''
-  const l3               = row['L3'] || ''
-  const tcId             = row['TC ID'] || ''
+  const question          = row['Test Question']
+  const expectedBehaviour = row['Expected Behaviour'] || ''
+  const module            = row['Module'] || ''
+  const l3                = row['L3'] || ''
+  const tcId              = row['TC ID'] || ''
+  const sendStart         = Date.now()
 
   await reAuthIfNeeded()
 
@@ -403,17 +404,76 @@ async function runCase(row) {
   const ok = await typeAndSend(question, true)
   if (!ok) {
     const verdict = runVerdict({ question, response: '', module, expectedBehaviour })
-    return { tcId, module, l3, question, expectedBehaviour, response: '(send failed)', verdict: verdict.verdict, verdictDetail: 'Send failed', failedRules: [], chatId: currentChatId, testedAt: new Date().toISOString() }
+    return makeResult({ tcId, module, l3, question, expectedBehaviour, response: '(send failed)', verdict, failedRules: ['SEND_FAILED'] })
   }
 
-  const result = await getNewBotResponses(countBefore)
+  let result = await getNewBotResponses(countBefore)
 
-  // Loading state — wait for real response
-  const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching/i
+  // FIX #3: detect "number of attempts exceeded" — stop entire run
+  if (/number of attempts exceeded|cannot proceed with your request/i.test(result.response)) {
+    addLog('🚫 Bot rate-limited: "Number of attempts exceeded" — stopping run')
+    stopRequested = true
+    return makeResult({ tcId, module, l3, question, expectedBehaviour, response: result.response, verdict: runVerdict({ question, response: result.response, module, expectedBehaviour }), failedRules: ['RATE_LIMITED'] })
+  }
+
+  // Loading state — poll up to 3x with 4s gaps
+  const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching|just a moment|one moment|processing/i
   if (LOADING_PAT.test(result.response)) {
-    await page.waitForTimeout(4000)
-    const real = await getNewBotResponses(countBefore)
-    if (real.response && !LOADING_PAT.test(real.response)) Object.assign(result, real)
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      await page.waitForTimeout(4000)
+      const real = await getNewBotResponses(countBefore)
+      if (real.response && !LOADING_PAT.test(real.response)) { Object.assign(result, real); break }
+    }
+  }
+
+  // FIX #1: disambiguation — auto-select the most relevant chip
+  const DISAMBIG_PAT = [
+    /please select the relation to move further/i,
+    /select (a |the )?(product|relation|loan|card|account)/i,
+    /which (loan|product|account|card|relation)/i,
+    /you have multiple (product|relation|loan)/i,
+    /please (choose|select|pick) (your |a )?(product|loan|card|relation|account)/i,
+  ]
+  const isDisambig = DISAMBIG_PAT.some(p => p.test(result.response))
+
+  if (isDisambig && result.chips && result.chips.length > 0) {
+    // Pick chip: prefer module-relevant match, else first chip
+    const modKeyword = module.replace(/_Service$/, '').replace(/_/g, ' ').toLowerCase()
+    const best = result.chips.find(c => c.toLowerCase().includes(modKeyword.split(' ')[0])) || result.chips[0]
+    addLog(`  ↳ Disambiguation — auto-selecting: ${best}`)
+
+    const chipCountBefore = await page.evaluate(() =>
+      document.querySelectorAll('div.blu-bot-message').length
+    ).catch(() => 0)
+
+    await page.waitForTimeout(500)
+    const chipClicked = await page.evaluate((text) => {
+      let el = Array.from(document.querySelectorAll('button.overlap:not([disabled])')).find(b => b.innerText.trim() === text)
+      if (!el) {
+        const title = Array.from(document.querySelectorAll('.blu-relationshipcard__title')).find(b => b.innerText.trim() === text)
+        if (title) {
+          const arrow = title.closest('[class*="relationshipcard"]')?.querySelector('button,[role="button"],svg')
+          el = arrow || title.closest('[class*="relationshipcard"]') || title.parentElement
+        }
+      }
+      if (el) { el.click(); return true }
+      return false
+    }, best)
+
+    if (chipClicked) {
+      addLog(`  ↳ Chip click: ${best}`)
+      await waitForBotToSettle(chipCountBefore)
+      const chipResult = await getNewBotResponses(chipCountBefore)
+      // FIX #3: check rate limit after chip click too
+      if (/number of attempts exceeded|cannot proceed with your request/i.test(chipResult.response)) {
+        addLog('🚫 Bot rate-limited after chip click — stopping run')
+        stopRequested = true
+      } else {
+        Object.assign(result, chipResult)
+      }
+    } else {
+      addLog(`  ↳ Chip click failed — element not found for: ${best}`)
+    }
   }
 
   // Structural verdict
@@ -423,21 +483,28 @@ async function runCase(row) {
     isHinglish: result.isHinglish, module, expectedBehaviour,
   })
 
-  // LLM verdict — 9s timeout, never blocks
+  // FIX #2: LLM verdict with lower hybrid threshold — 70% sufficient to override REVIEW
   const llmResult = await Promise.race([
     runLLMVerdict({ question, expectedBehaviour, botResponse: result.response, module }),
     new Promise(r => setTimeout(() => r(null), 9000))
   ])
 
   if (llmResult) {
-    const hybrid = hybridVerdict(verdictObj, llmResult)
-    verdictObj.verdict      = hybrid
-    verdictObj.verdictColor = hybrid === 'PASS' ? '#22c55e' : hybrid === 'FAIL' ? '#ef4444' : '#f59e0b'
+    // Lower threshold: 70% (was 80%) — reduces false REVIEWs on clear PASS responses
+    const effectiveLLM = { ...llmResult }
+    if (effectiveLLM.verdict === 'PASS' && effectiveLLM.confidence >= 70 && verdictObj.verdict === 'REVIEW') {
+      verdictObj.verdict = 'PASS'
+    } else {
+      verdictObj.verdict = hybridVerdict(verdictObj, effectiveLLM)
+    }
+    verdictObj.verdictColor = verdictObj.verdict === 'PASS' ? '#22c55e' : verdictObj.verdict === 'FAIL' ? '#ef4444' : '#f59e0b'
     verdictObj.rules.push({ rule: 'LLM_VERDICT', status: llmResult.verdict, reason: `${llmResult.reason} (${llmResult.confidence}%)` })
   }
 
-  const failedRules   = verdictObj.rules.filter(r => r.status === 'FAIL' || r.status === 'REVIEW').map(r => r.rule)
-  const verdictDetail = verdictObj.rules.map(r => `${r.rule}: ${r.status}`).join(' | ')
+  const elapsed     = ((Date.now() - sendStart) / 1000).toFixed(1)
+  const failedRules = verdictObj.rules.filter(r => r.status === 'FAIL' || r.status === 'REVIEW').map(r => r.rule)
+  const icon        = verdictObj.verdict === 'PASS' ? '✅' : verdictObj.verdict === 'FAIL' ? '❌' : '⚠️'
+  addLog(`  ${icon} ${verdictObj.verdict} (${elapsed}s)${failedRules.length ? ' — ' + failedRules.join(', ') : ''}`)
 
   // Screenshot on FAIL
   if (verdictObj.verdict === 'FAIL') {
@@ -449,14 +516,18 @@ async function runCase(row) {
     } catch {}
   }
 
+  return makeResult({ tcId, module, l3, question, expectedBehaviour, result, verdict: verdictObj, failedRules })
+}
+
+function makeResult({ tcId, module, l3, question, expectedBehaviour, result = {}, verdict, failedRules = [] }) {
   return {
     tcId, module, l3, question, expectedBehaviour,
-    response:      result.response,
-    verdict:       verdictObj.verdict,
-    verdictDetail,
+    response:      result.response || '',
+    verdict:       verdict.verdict || 'REVIEW',
+    verdictDetail: (verdict.rules || []).map(r => `${r.rule}: ${r.status}`).join(' | '),
     failedRules,
-    ctaLabels:     result.ctaLabels,
-    ctaLinks:      result.ctaLinks,
+    ctaLabels:     result.ctaLabels || [],
+    ctaLinks:      result.ctaLinks  || [],
     chatId:        currentChatId,
     testedAt:      new Date().toISOString(),
   }
@@ -537,14 +608,16 @@ async function runAgent(config) {
       agentState.results.push(result)
 
       agentState.progress.done++
-      if (result.verdict === 'PASS')   agentState.progress.pass++
-      else if (result.verdict === 'FAIL') agentState.progress.fail++
-      else                              agentState.progress.review++
+      if (result.verdict === 'PASS')        agentState.progress.pass++
+      else if (result.verdict === 'FAIL')   agentState.progress.fail++
+      else                                  agentState.progress.review++
 
-      const icon = result.verdict === 'PASS' ? '✅' : result.verdict === 'FAIL' ? '❌' : '⚠️'
-      addLog(`  ${icon} ${result.verdict} — ${result.failedRules.length ? result.failedRules.join(', ') : 'all rules passed'}`)
+      // FIX #3: stop run if rate limited
+      if (stopRequested) {
+        addLog('🚫 Rate limit detected — exporting results so far')
+        break
+      }
 
-      // Brief pause between cases
       await page.waitForTimeout(2500)
     }
 
