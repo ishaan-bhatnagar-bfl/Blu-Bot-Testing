@@ -136,7 +136,21 @@ input,textarea{font-family:var(--font)}
 .cta-chip{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-family:var(--font-mono);padding:2px 8px;border-radius:20px;border:1px solid var(--green-border);background:var(--green-dim);color:var(--green);cursor:pointer;transition:all var(--transition);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cta-chip:hover{opacity:0.8}
 .cta-chips-row{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
-/* DISAMBIGUATION CHIP PANEL - floating card design */
+/* ONBOARDING OVERLAY */
+.onboard-overlay{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.onboard-card{background:var(--bg-surface);border:1px solid var(--border-lg);border-radius:var(--radius-lg);padding:28px 32px;width:440px;box-shadow:var(--shadow-lg)}
+.onboard-badge{font-size:10px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.onboard-title{font-size:18px;font-weight:700;color:var(--text-primary);margin-bottom:6px;letter-spacing:-0.4px}
+.onboard-sub{font-size:13px;color:var(--text-secondary);margin-bottom:20px;line-height:1.5}
+.onboard-steps{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.onboard-step{display:flex;align-items:flex-start;gap:12px}
+.onboard-step-num{width:22px;height:22px;border-radius:50%;background:var(--accent-dim);border:1px solid var(--accent-border);color:var(--accent);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.onboard-step-text{font-size:12px;color:var(--text-secondary);line-height:1.5}
+.onboard-step-text strong{color:var(--text-primary);font-weight:600}
+.onboard-footer{display:flex;align-items:center;justify-content:space-between}
+.onboard-note{font-size:11px;color:var(--text-quaternary)}
+.onboard-btn{font-size:13px;font-weight:600;padding:8px 20px;border-radius:var(--radius-sm);border:none;background:var(--accent);color:#fff;cursor:pointer;transition:opacity var(--transition)}
+.onboard-btn:hover{opacity:0.9}
 .disambig-overlay{position:fixed;inset:0;z-index:300;pointer-events:none}
 .disambig-overlay.active{pointer-events:all}
 .disambig-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.45);opacity:0;transition:opacity 0.2s ease}
@@ -360,6 +374,26 @@ input,textarea{font-family:var(--font)}
     <div class="kbdiff-body" id="kbDiffBody"></div>
     <div class="modal-footer">
       <button class="mf-btn cancel" onclick="closeKbDiff()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Onboarding overlay (first-time users) -->
+<div class="onboard-overlay" id="onboardOverlay" style="display:none">
+  <div class="onboard-card">
+    <div class="onboard-badge">👋 Getting started</div>
+    <div class="onboard-title">Welcome to BLU Test Dashboard</div>
+    <div class="onboard-sub">Automated testing for BLU Bot across N2P and UAT. Here's how to run your first test:</div>
+    <div class="onboard-steps">
+      <div class="onboard-step"><div class="onboard-step-num">1</div><div class="onboard-step-text"><strong>Load CSV</strong> — click Load CSV in the topbar and select <code>test-cases/v7/blu_test_cases_v7.csv</code></div></div>
+      <div class="onboard-step"><div class="onboard-step-num">2</div><div class="onboard-step-text"><strong>Filter your module</strong> — select your module in the left sidebar (e.g. EMI Card)</div></div>
+      <div class="onboard-step"><div class="onboard-step-num">3</div><div class="onboard-step-text"><strong>Connect to Bot</strong> — select N2P or UAT, click Connect to Bot, enter mobile number and OTP</div></div>
+      <div class="onboard-step"><div class="onboard-step-num">4</div><div class="onboard-step-text"><strong>Run tests</strong> — click ⚡ Bulk Run, enter number of cases (start with 25), confirm</div></div>
+      <div class="onboard-step"><div class="onboard-step-num">5</div><div class="onboard-step-text"><strong>Review results</strong> — FAIL and REVIEW cases need manual check. Export CSV saves your results automatically on completion.</div></div>
+    </div>
+    <div class="onboard-footer">
+      <span class="onboard-note">This guide won't show again</span>
+      <button class="onboard-btn" onclick="dismissOnboarding()">Got it →</button>
     </div>
   </div>
 </div>
@@ -1571,6 +1605,14 @@ function connectWS(){
           addLog({type:'chip',q:msg.userAction||'(chip/action)',r:msg.response,t:msg.elapsed})
         }
         else if(msg.type==='LOG_ENTRY'){const v=msg.entry?.verdict;addLog({type:v==='FAIL'?'fail':'test',q:msg.entry?.question,r:msg.entry?.response,t:msg.entry?.elapsed,s:v||msg.entry?.autoScore})}
+        else if(msg.type==='BULK_RUN_DONE'){
+          bulkRunning=false
+          if(document.getElementById('btnBulkRun'))document.getElementById('btnBulkRun').style.display=''
+          if(document.getElementById('btnStop'))document.getElementById('btnStop').style.display='none'
+          // Auto-export on completion — prevents result loss if browser closes
+          try{ exportCSV() }catch(e){}
+          showToast('✅ Run complete — results auto-saved')
+        }
         else if(msg.type==='SESSION_RESET')addLog({type:'login',q:'Auto-reset (30 msg limit)',r:''})
         else if(msg.type==='RUN_STATE'){onRunState(msg.state)}
         else if(msg.type==='PARITY_RESULT'){onParityResult(msg)}
@@ -1623,6 +1665,14 @@ connectWS()
 // Check for recent agent runs every 30s
 checkAgentRuns()
 setInterval(checkAgentRuns, 30000)
+// Show onboarding on first visit
+if (!localStorage.getItem('blu-onboarded')) {
+  document.getElementById('onboardOverlay').style.display = 'flex'
+}
+function dismissOnboarding() {
+  document.getElementById('onboardOverlay').style.display = 'none'
+  localStorage.setItem('blu-onboarded', '1')
+}
 function checkAgentRuns(){
   fetch('http://localhost:3002/recent-runs')
     .then(r=>r.json())

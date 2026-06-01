@@ -91,11 +91,49 @@ function cosineSim(v1, v2, vocab) {
 }
 
 /**
+ * Strip KB metadata from expectedBehaviour before scoring.
+ * Removes: CTA labels/links, deeplinks, JSON field refs, Android/iOS prefixes,
+ * KB internal references (e.g. "Refer to EMI_Network_Card_..."),
+ * instruction fragments ("Check customer_data", "if card_status is").
+ * Leaves only the human-readable answer text.
+ */
+function cleanExpectedBehaviour(text) {
+  if (!text) return ''
+  return text
+    // Remove CTA label/link blocks
+    .replace(/CTA\s*label\s*:\s*[^\n]*/gi, '')
+    .replace(/CTA\s*link\s*:\s*[^\n]*/gi, '')
+    .replace(/Web\s*CTA\s*[^:]*:\s*[^\n]*/gi, '')
+    .replace(/Android\s*CTA\s*[^:]*:\s*[^\n]*/gi, '')
+    .replace(/IOS\s*CTA\s*[^:]*:\s*[^\n]*/gi, '')
+    // Remove deeplinks
+    .replace(/bajajsuperapp:\/\/[^\s,\."')]+/gi, '')
+    .replace(/https?:\/\/[^\s,\."')]+/gi, '')
+    // Remove KB internal references
+    .replace(/Refer to [A-Za-z_]+\s+for [^.]+\./gi, '')
+    .replace(/refer to the [A-Za-z_]+ (sheet|table|section|column)[^.]*\./gi, '')
+    // Remove JSON-like field references
+    .replace(/[a-z]+_[a-z_]+ (field|column|value|status|data)[^.]*\./gi, '')
+    .replace(/if [a-z]+_[a-z_]+ (is|are|was) ['"[{][^.]*\./gi, '')
+    .replace(/Check [a-z]+_[a-z_]+[^.]*\./gi, '')
+    // Remove format instructions
+    .replace(/Answer should be in the [^.]+\./gi, '')
+    .replace(/format[:\s]+[^.]{0,100}\./gi, '')
+    // Remove condition markers
+    .replace(/Condition \d+[:\s][^.]*\./gi, '')
+    // Collapse whitespace
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+}
+
+/**
  * Score bot response against KB expected behaviour.
  * Returns: { score: 0-1, confidence: 0-100, verdict: 'PASS'|'REVIEW'|'FAIL', reason }
  */
 function semanticScore(expectedBehaviour, botResponse) {
-  const t1   = tokenize(expectedBehaviour)
+  // Clean KB metadata before scoring
+  const cleanedExpected = cleanExpectedBehaviour(expectedBehaviour)
+  const t1   = tokenize(cleanedExpected)
   const t2   = tokenize(botResponse)
 
   // Edge cases
@@ -156,4 +194,4 @@ if (require.main === module) {
   console.log(`\n  ${pass}/${tests.length} correct\n`)
 }
 
-module.exports = { semanticScore, tokenize }
+module.exports = { semanticScore, tokenize, cleanExpectedBehaviour }

@@ -10,6 +10,8 @@
  */
 
 const http = require('http')
+let _cleanExpectedBehaviour
+try { ({ cleanExpectedBehaviour: _cleanExpectedBehaviour } = require('./semantic_scorer')) } catch { _cleanExpectedBehaviour = s => s }
 
 const OLLAMA_HOST    = 'localhost'
 const OLLAMA_PORT    = 11434
@@ -52,11 +54,7 @@ async function isOllamaAvailable() {
 
 // ── PROMPT BUILDER ────────────────────────────────────────────────────────────
 function buildPrompt(question, expectedBehaviour, botResponse, module) {
-  // Truncate long KB answers to avoid prompt bloat
-  const truncated = s => (s || '').substring(0, MAX_RESP_CHARS)
-    .replace(/CTA Label:.*$/gm, '[CTA]')   // strip CTA label lines
-    .replace(/Click here.*$/gm, '[LINK]')  // strip link text
-    .trim()
+  const truncated = s => (_cleanExpectedBehaviour(s) || '').substring(0, MAX_RESP_CHARS).trim()
 
   const mod = module ? `\nModule: ${module}` : ''
 
@@ -183,11 +181,22 @@ function hybridVerdict(keywordVerdict, llmResult) {
 }
 
 // ── MAIN EXPORT ───────────────────────────────────────────────────────────────
-async function runLLMVerdict({ question, expectedBehaviour, botResponse, module }) {
+async function runLLMVerdict({ question, expectedBehaviour, botResponse, module, structuralVerdict }) {
   const start = Date.now()
 
   // Skip if no expected behaviour to evaluate against
   if (!expectedBehaviour || !botResponse) return null
+
+  // PRE-LLM CONFIDENCE GATE
+  // If structural rules all PASS and semantic score is high — skip LLM entirely
+  if (structuralVerdict) {
+    const allRulesPass = structuralVerdict.rules &&
+      structuralVerdict.rules.every(r => r.status === 'PASS')
+    const highConfidence = (structuralVerdict.confidence || 0) >= 60
+    if (allRulesPass && highConfidence) {
+      return null  // skip LLM — structural verdict is sufficient
+    }
+  }
 
   // Skip sourcing queries
   const SOURCING = /apply|apply karna|loan lena|naya loan|insta emi|application form/i

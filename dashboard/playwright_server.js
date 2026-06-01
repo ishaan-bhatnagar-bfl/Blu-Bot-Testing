@@ -623,8 +623,8 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
   // ── LLM VERDICT (Ollama Llama 3.1 8B) ────────────
   // Runs in parallel — never blocks test run
   const llmResult = await Promise.race([
-    runLLMVerdict({ question, expectedBehaviour, botResponse: result.response, module }),
-    new Promise(resolve => setTimeout(() => resolve(null), 9000))  // 9s hard timeout
+    runLLMVerdict({ question, expectedBehaviour, botResponse: result.response, module, structuralVerdict: verdict }),
+    new Promise(resolve => setTimeout(() => resolve(null), 9000))
   ])
 
   if (llmResult) {

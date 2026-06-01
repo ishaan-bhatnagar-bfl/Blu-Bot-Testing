@@ -392,6 +392,28 @@ async function reAuthIfNeeded() {
   return true
 }
 
+// ── BOT IDLE CHECK ───────────────────────────────────────────────────────────
+// Waits until textarea is enabled and no loading indicator visible.
+// minMs = minimum wait regardless of idle state (prevents hammering).
+async function waitForBotIdle(minMs = 1000) {
+  await page.waitForTimeout(minMs)
+  const maxWait = 20000
+  const start   = Date.now()
+  while (Date.now() - start < maxWait) {
+    const idle = await page.evaluate(() => {
+      const ta = document.querySelector('textarea')
+      if (!ta) return false
+      const disabled = ta.disabled || ta.readOnly || ta.getAttribute('aria-disabled') === 'true'
+      if (disabled) return false
+      const bodyText = (document.body.innerText || '').toLowerCase()
+      const loading  = ['working on it','hold on','please wait','checking','fetching','confirming']
+      return !loading.some(p => bodyText.includes(p))
+    }).catch(() => false)
+    if (idle) return
+    await page.waitForTimeout(500)
+  }
+}
+
 // ── RUN ONE CASE ──────────────────────────────────────────────────────────────
 async function runCase(row) {
   const question          = row['Test Question']
@@ -528,7 +550,7 @@ async function runCase(row) {
 
   // FIX #2: LLM verdict with lower hybrid threshold — 70% sufficient to override REVIEW
   const llmResult = await Promise.race([
-    runLLMVerdict({ question, expectedBehaviour, botResponse: result.response, module }),
+    runLLMVerdict({ question, expectedBehaviour, botResponse: result.response, module, structuralVerdict: verdictObj }),
     new Promise(r => setTimeout(() => r(null), 9000))
   ])
 
@@ -661,7 +683,7 @@ async function runAgent(config) {
         break
       }
 
-      await page.waitForTimeout(2500)
+      await waitForBotIdle(3000)  // adaptive gap — wait until bot is idle, min 1s
     }
 
     // Always export if we have results — even on stop/rate-limit
