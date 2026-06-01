@@ -64,8 +64,10 @@ let msgCount      = 0
 let parityCtx  = null
 let parityPage = null
 let parityBusy = false
-let pendingChipResolve = null  // resolves when user clicks a chip in dashboard
-let awaitingChip       = false  // FIX #1: suppresses passive observer during chip wait
+let pendingChipResolve = null
+let awaitingChip       = false
+let loginComplete      = false  // suppress passive observer noise during login flow
+let lastWsConnectTime  = 0     // debounce double-connect log
 
 // ── CONCURRENCY CONTROL ────────────────────────────
 // Single mutex — only one operation touches the bot at a time.
@@ -454,8 +456,27 @@ async function startLogin(env, url, mobile) {
   await scrollToComposer()
   await page.waitForTimeout(500)
   console.log('📱 Sending mobile:', MOBILE)
-  await typeAndSend(MOBILE, true)
-  console.log('📲 Mobile sent — requesting OTP')
+  // Send mobile number
+  const sel = await getVisibleTextarea()
+  await page.click(sel)
+  await page.waitForTimeout(150)
+  await page.fill(sel, MOBILE)
+  await page.waitForTimeout(150)
+  await page.keyboard.press('Enter')
+  msgCount++
+  // Poll for OTP prompt instead of full settle — faster and more reliable
+  console.log('📲 Waiting for OTP prompt...')
+  let otpPrompted = false
+  for (let i = 0; i < 15; i++) {
+    await page.waitForTimeout(1000)
+    const botText = await page.evaluate(() => {
+      const msgs = document.querySelectorAll('div.blu-bot-message')
+      return msgs[msgs.length-1]?.innerText?.trim().toLowerCase() || ''
+    }).catch(() => '')
+    if (/otp|6.digit|one.time/i.test(botText)) { otpPrompted = true; break }
+  }
+  if (otpPrompted) console.log('✅ OTP prompt received')
+  else console.log('⚠️ OTP prompt not detected — proceeding anyway')
   if (activeWs) activeWs.send(JSON.stringify({ type: 'REQUEST_OTP', mobile: MOBILE }))
 }
 
@@ -465,6 +486,7 @@ async function submitOTP(otp) {
   await typeAndSend(otp, true)
   await page.waitForTimeout(2000)
   await captureChatId()
+  loginComplete = true
   console.log('✅ Login complete')
   if (activeWs) activeWs.send(JSON.stringify({ type: 'LOGIN_OK', sessionRestored: false }))
   logEntry({ type: 'LOGIN', env: currentEnv, mobile: MOBILE })
@@ -709,7 +731,7 @@ async function startMessageObserver() {
   console.log('👁️  Message observer started')
 
   const interval = setInterval(async () => {
-    if (!page || !activeWs || botLock || awaitingChip) return  // FIX #1: don't fire during chip selection
+    if (!page || !activeWs || botLock || awaitingChip || !loginComplete) return  // suppress during login
     try {
       const result = await page.evaluate(() => {
         const msgs     = Array.from(document.querySelectorAll('div.blu-bot-message'))
@@ -728,13 +750,14 @@ async function startMessageObserver() {
         const loading = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
         if (!loading.some(p => result.text.toLowerCase().startsWith(p))) {
           if (result.lastUser) {
-            // Only log USER ACTION if it's not just echoing the sent query
-            if (result.lastUser.toLowerCase().trim() !== lastSentQuery) {
-              console.log(`👆 USER ACTION: ${result.lastUser}`)
-            }
+            // Suppress: echoes of sent query, numeric-only (OTP), single words
+            const u = result.lastUser.trim()
+            const isOtp     = /^\d{4,8}$/.test(u)
+            const isEcho    = u.toLowerCase() === lastSentQuery
+            if (!isOtp && !isEcho) console.log(`👆 USER ACTION: ${u}`)
           }
-          // Only log passive if genuinely different from active capture
-          if (result.text !== lastActiveResponse) {
+          // Only log passive if genuinely different from active capture and not welcome message
+          if (result.text !== lastActiveResponse && !/hi .* welcome to blu/i.test(result.text)) {
             console.log(`👁️  PASSIVE BOT RESPONSE (msg ${result.count}): ${result.text.substring(0,80)}`)
           }
           lastText  = result.text
@@ -983,12 +1006,18 @@ async function startServer() {
     sessionLog = []
     msgQueue   = []
     botLock    = false
-    rotateSessionLogs()  // enforce keep-last-5 on every new session
-    console.log('🔌 Dashboard connected')
+    loginComplete = false
+    rotateSessionLogs()
+    // Debounce: only log connect if >2s since last connection (suppresses double-connect on hard refresh)
+    const now = Date.now()
+    if (now - lastWsConnectTime > 2000) console.log('🔌 Dashboard connected')
+    lastWsConnectTime = now
 
     ws.on('message', async raw => {
       let msg
       try { msg = JSON.parse(raw) } catch { return }
+      // Suppress noisy internal message types from log
+      if (msg.type === 'GET_RUN_STATE') { await handleMessage(msg, ws); return }
       console.log('📨', msg.type==='RUN_CASE'?'TEST':msg.type, msg.env || '', msg.id ? `#${msg.id}` : '')
       await handleMessage(msg, ws)
     })
