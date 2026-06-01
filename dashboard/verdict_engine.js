@@ -171,8 +171,8 @@ function ruleCTA({ hasCTA, ctaLabels, expectedBehaviour, module }) {
   }
   return {
     rule: ruleName,
-    status: 'FAIL',
-    reason: 'KB expects CTA but none detected in bot response'
+    status: 'REVIEW',  // REVIEW not FAIL — CTA capture can miss deeplinks; LLM decides
+    reason: 'KB expects CTA but none detected — verify bot response manually'
   }
 }
 

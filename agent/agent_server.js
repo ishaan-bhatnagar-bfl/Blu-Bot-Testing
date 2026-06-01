@@ -466,16 +466,16 @@ async function runCase(row) {
   const isDisambig = DISAMBIG_PAT.some(p => p.test(result.response))
 
   if (isDisambig && result.chips && result.chips.length > 0) {
-    // Pick chip: prefer module-relevant match, else first chip
     const modKeyword = module.replace(/_Service$/, '').replace(/_/g, ' ').toLowerCase()
     const best = result.chips.find(c => c.toLowerCase().includes(modKeyword.split(' ')[0])) || result.chips[0]
     addLog(`  ↳ Disambiguation — auto-selecting: ${best}`)
 
+    // Wait for relation cards to fully render before clicking
+    await page.waitForTimeout(800)
     const chipCountBefore = await page.evaluate(() =>
       document.querySelectorAll('div.blu-bot-message').length
     ).catch(() => 0)
 
-    await page.waitForTimeout(500)
     const chipClicked = await page.evaluate((text) => {
       let el = Array.from(document.querySelectorAll('button.overlap:not([disabled])')).find(b => b.innerText.trim() === text)
       if (!el) {
@@ -491,14 +491,28 @@ async function runCase(row) {
 
     if (chipClicked) {
       addLog(`  ↳ Chip click: ${best}`)
-      await waitForBotToSettle(chipCountBefore)
+      // FIX #1: wait for NEW bot message after chip click (not just settle)
+      // Use a longer settle to ensure the post-chip response fully loads
+      await page.waitForTimeout(1000)
+      await waitForBotToSettle(chipCountBefore, 45000)
       const chipResult = await getNewBotResponses(chipCountBefore)
-      // FIX #3: check rate limit after chip click too
-      if (/number of attempts exceeded|cannot proceed with your request/i.test(chipResult.response)) {
-        addLog('🚫 Bot rate-limited after chip click — stopping run')
-        stopRequested = true
+
+      // FIX #1: verify we got a real response, not the pre-chip disambiguation message
+      const isStillDisambig = DISAMBIG_PAT.some(p => p.test(chipResult.response))
+      if (isStillDisambig || !chipResult.response || chipResult.response === result.response) {
+        addLog(`  ↳ Post-chip response same as pre-chip — waiting 4s more...`)
+        await page.waitForTimeout(4000)
+        const retryResult = await getNewBotResponses(chipCountBefore)
+        if (!DISAMBIG_PAT.some(p => p.test(retryResult.response))) {
+          Object.assign(result, retryResult)
+        }
       } else {
         Object.assign(result, chipResult)
+      }
+      // Check rate limit after chip click
+      if (/number of attempts exceeded|cannot proceed with your request/i.test(result.response)) {
+        addLog('🚫 Bot rate-limited after chip click — stopping run')
+        stopRequested = true
       }
     } else {
       addLog(`  ↳ Chip click failed — element not found for: ${best}`)

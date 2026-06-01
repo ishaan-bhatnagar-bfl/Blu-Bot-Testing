@@ -94,6 +94,42 @@ async function exportBugs(results, env) {
 
   XLSX.utils.book_append_sheet(wb, bugSheet, 'Bug Report')
 
+  // ── Sheet 2: All Results ────────────────────────────────────────────────────────────
+  // All cases — complete audit trail
+  const allData = [
+    ['Verdict', 'Module', 'L3', 'TC ID', 'Test Question', 'Bot Response', 'Expected Behaviour', 'Failed Rules', 'Chat ID', 'Environment', 'Tested At'],
+    ...results.map(r => [
+      r.verdict || '',
+      (r.module || '').replace(/_Service$/, '').replace(/_/g, ' '),
+      r.l3 || '',
+      r.tcId || '',
+      r.question || '',
+      r.response || '',
+      r.expectedBehaviour || '',
+      (r.failedRules || []).join(', '),
+      r.chatId || '',
+      env,
+      r.testedAt || '',
+    ])
+  ]
+
+  const allSheet = XLSX.utils.aoa_to_sheet(allData)
+  allSheet['!cols'] = [
+    { wch: 10 },  // Verdict
+    { wch: 28 },  // Module
+    { wch: 28 },  // L3
+    { wch: 12 },  // TC ID
+    { wch: 60 },  // Test Question
+    { wch: 80 },  // Bot Response
+    { wch: 80 },  // Expected Behaviour
+    { wch: 40 },  // Failed Rules
+    { wch: 22 },  // Chat ID
+    { wch: 8  },  // Environment
+    { wch: 22 },  // Tested At
+  ]
+  allSheet['!freeze'] = { xSplit: 0, ySplit: 1 }
+  XLSX.utils.book_append_sheet(wb, allSheet, 'All Results')
+
   // ── Sheet 2: Summary ──────────────────────────────────────────────────────
   const moduleStats = {}
   results.forEach(r => {
