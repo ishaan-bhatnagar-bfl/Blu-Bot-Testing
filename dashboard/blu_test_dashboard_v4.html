@@ -136,17 +136,34 @@ input,textarea{font-family:var(--font)}
 .cta-chip{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-family:var(--font-mono);padding:2px 8px;border-radius:20px;border:1px solid var(--green-border);background:var(--green-dim);color:var(--green);cursor:pointer;transition:all var(--transition);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cta-chip:hover{opacity:0.8}
 .cta-chips-row{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
-.mt-chip-section{margin-top:10px;padding:10px 12px;border-radius:var(--radius-sm);border:1px solid var(--accent-border);background:var(--accent-dim)}
-.mt-chip-label{font-size:10px;font-weight:700;letter-spacing:0.6px;text-transform:uppercase;color:var(--accent);margin-bottom:8px;display:flex;align-items:center;gap:6px}
-.mt-chip-countdown{font-size:10px;font-family:var(--font-mono);color:var(--text-tertiary);margin-left:auto}
-.mt-chip-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
-.mt-chip-btn{padding:5px 14px;border-radius:20px;border:1px solid var(--accent-border);background:var(--bg-raised);color:var(--accent);font-size:12px;font-weight:500;cursor:pointer;transition:all var(--transition)}
-.mt-chip-btn:hover{background:var(--accent);color:#fff}
-.mt-chip-btn:disabled{opacity:0.4;cursor:not-allowed}
-.mt-chip-skip{padding:5px 12px;border-radius:20px;border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);font-size:11px;cursor:pointer}
-.mt-chip-skip:hover{color:var(--text-secondary)}
-.mt-resolved{font-size:11px;color:var(--green);margin-top:6px}
-.mt-timeout{font-size:11px;color:var(--amber);margin-top:6px}
+/* DISAMBIGUATION CHIP PANEL - floating card design */
+.disambig-overlay{position:fixed;inset:0;z-index:300;pointer-events:none}
+.disambig-overlay.active{pointer-events:all}
+.disambig-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.45);opacity:0;transition:opacity 0.2s ease}
+.disambig-overlay.active .disambig-backdrop{opacity:1}
+.disambig-card{position:absolute;top:50%;left:calc(248px + 50%);transform:translate(-50%,-50%);width:380px;background:var(--bg-surface);border:1px solid var(--border-lg);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);padding:0;overflow:hidden;opacity:0;transform:translate(-50%,-48%);transition:opacity 0.2s ease,transform 0.2s ease}
+.disambig-overlay.active .disambig-card{opacity:1;transform:translate(-50%,-50%)}
+.disambig-header{padding:14px 16px 10px;border-bottom:1px solid var(--border)}
+.disambig-label{font-size:10px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;color:var(--accent);margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.disambig-label-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 1.5s ease infinite}
+.disambig-title{font-size:13px;font-weight:600;color:var(--text-primary);line-height:1.3}
+.disambig-sub{font-size:11px;color:var(--text-tertiary);margin-top:2px}
+.disambig-chips{padding:12px 16px;display:flex;flex-direction:column;gap:6px}
+.disambig-chip-btn{width:100%;padding:10px 14px;border-radius:var(--radius-sm);border:1px solid var(--border-md);background:var(--bg-raised);color:var(--text-primary);font-size:13px;font-weight:500;cursor:pointer;transition:all var(--transition);text-align:left;display:flex;align-items:center;justify-content:space-between}
+.disambig-chip-btn:hover{background:var(--accent-dim);border-color:var(--accent-border);color:var(--accent)}
+.disambig-chip-btn:disabled{opacity:0.4;cursor:not-allowed}
+.disambig-chip-arrow{opacity:0.4;font-size:12px}
+.disambig-chip-btn:hover .disambig-chip-arrow{opacity:1}
+.disambig-footer{padding:10px 16px 14px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border)}
+.disambig-skip{font-size:11px;color:var(--text-tertiary);cursor:pointer;border:none;background:transparent;padding:4px 8px;border-radius:4px;transition:all var(--transition)}
+.disambig-skip:hover{color:var(--text-secondary);background:var(--bg-hover)}
+.disambig-timer{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--text-tertiary)}
+.disambig-timer-ring{width:20px;height:20px;flex-shrink:0}
+.disambig-timer-ring circle{fill:none;stroke-width:2.5;stroke-linecap:round}
+.disambig-timer-track{stroke:var(--border-md)}
+.disambig-timer-fill{stroke:var(--accent);transition:stroke-dashoffset 1s linear;transform:rotate(-90deg);transform-origin:50% 50%}
+.disambig-resolved{padding:14px 16px;display:flex;align-items:center;gap:10px;font-size:12px;color:var(--green)}
+.disambig-resolved-icon{width:20px;height:20px;border-radius:50%;background:var(--green-dim);display:flex;align-items:center;justify-content:center;font-size:11px;flex-shrink:0}
 /* TESTING GUIDE */
 .guide-banner{border-bottom:1px solid var(--border);background:var(--bg-surface);font-size:12px}
 .guide-header{display:flex;align-items:center;gap:8px;padding:8px 18px;cursor:pointer;user-select:none;color:var(--text-secondary)}
@@ -343,6 +360,30 @@ input,textarea{font-family:var(--font)}
     <div class="kbdiff-body" id="kbDiffBody"></div>
     <div class="modal-footer">
       <button class="mf-btn cancel" onclick="closeKbDiff()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Disambiguation Chip Overlay -->
+<div class="disambig-overlay" id="disambigOverlay">
+  <div class="disambig-backdrop" onclick="skipMTChip(window._disambigCaseId)"></div>
+  <div class="disambig-card">
+    <div class="disambig-header">
+      <div class="disambig-label"><span class="disambig-label-dot"></span>Disambiguation</div>
+      <div class="disambig-title" id="disambigTitle">Select product to continue</div>
+      <div class="disambig-sub" id="disambigSub"></div>
+    </div>
+    <div class="disambig-chips" id="disambigChips"></div>
+    <div class="disambig-footer">
+      <button class="disambig-skip" onclick="skipMTChip(window._disambigCaseId)">Skip — mark REVIEW</button>
+      <div class="disambig-timer">
+        <svg class="disambig-timer-ring" viewBox="0 0 20 20">
+          <circle class="disambig-timer-track" cx="10" cy="10" r="8"/>
+          <circle class="disambig-timer-fill" id="disambigTimerRing" cx="10" cy="10" r="8"
+            stroke-dasharray="50.3" stroke-dashoffset="0"/>
+        </svg>
+        <span id="disambigTimerText">60s</span>
+      </div>
     </div>
   </div>
 </div>
@@ -1218,122 +1259,65 @@ function verdictBadgeStr(s){
 }
 
 // ── MULTI-TURN CHIP HANDLER ─────────────────────────────────────────────────
+// ── MULTI-TURN CHIP HANDLER ─────────────────────────────────────────────────────
 let _mtTimers = {}
-let _pendingChip = null  // store AWAIT_CHIP msg until after RESPONSE renders
 
 function onAwaitChip(msg){
   const id=msg.caseId, chips=msg.chips||[], timeout=msg.timeout||60000
+  window._disambigCaseId = id
 
-  // Force scroll to case and open panel — works even if row is below virtual scroll
-  const item=document.querySelector('.test-item[data-id="'+id+'"]')||document.getElementById('row-'+id)?.closest('.test-item')
-  if(item){
-    item.scrollIntoView({behavior:'smooth',block:'center'})
-    item.classList.add('running')
-    // Force open the response panel
-    const panel=document.getElementById('panel-'+id)
-    if(panel)panel.classList.add('open')
-  }
+  const caseNum = String(id).replace(/^TC_0*/,'')
+  document.getElementById('disambigTitle').textContent = 'Select product to continue'
+  document.getElementById('disambigSub').textContent = ('Case #'+caseNum+(msg.originalQuestion?' — '+msg.originalQuestion.substring(0,45):'')).substring(0,60)
 
-  const section=document.getElementById('mtchips-'+id)
-  if(!section){
-    // Fallback — show a floating notification at top of test list
-    console.warn('mtchips section not found for case',id,'— showing fallback banner')
-    showChipFallback(id, chips, timeout)
-    return
-  }
-
-  section.classList.add('show');section.innerHTML=''
-  section.setAttribute('role','region')
-  section.setAttribute('aria-label','Select product to continue test')
-  section.setAttribute('aria-live','polite')
-
-  const labelDiv=document.createElement('div');labelDiv.className='inline-chip-label'
-  labelDiv.innerHTML='🔀 Select product to continue <span class="inline-chip-countdown" id="mtcount-'+id+'">'+Math.round(timeout/1000)+'s</span>'
-  section.appendChild(labelDiv)
-
-  const chipRow=document.createElement('div');chipRow.className='inline-chip-row';chipRow.id='mtchips-inner-'+id
-  chips.forEach(chip=>{
-    const btn=document.createElement('button');btn.className='inline-chip-btn';btn.textContent=chip
-    btn.onclick=(e)=>selectMTChip(e,id,chip);chipRow.appendChild(btn)
+  const chipsEl = document.getElementById('disambigChips')
+  chipsEl.innerHTML = ''
+  chips.forEach(chip => {
+    const btn = document.createElement('button')
+    btn.className = 'disambig-chip-btn'
+    btn.innerHTML = `<span>${esc(chip)}</span><span class="disambig-chip-arrow">→</span>`
+    btn.onclick = () => selectMTChip(id, chip)
+    chipsEl.appendChild(btn)
   })
-  const skip=document.createElement('button');skip.className='inline-chip-skip';skip.textContent='Skip (REVIEW)';skip.onclick=()=>skipMTChip(id);chipRow.appendChild(skip)
-  section.appendChild(chipRow)
 
-  let timer=Math.round(timeout/1000)
-  _mtTimers[id]=setInterval(()=>{
-    timer--;const el=document.getElementById('mtcount-'+id);if(el)el.textContent=timer+'s'
-    if(timer<=0){clearInterval(_mtTimers[id]);delete _mtTimers[id];skipMTChip(id)}
-  },1000)
+  const totalSecs = Math.round(timeout/1000)
+  const circ = 50.3
+  let remaining = totalSecs
+  document.getElementById('disambigTimerText').textContent = remaining+'s'
+  document.getElementById('disambigTimerRing').style.strokeDashoffset = '0'
+  document.getElementById('disambigOverlay').classList.add('active')
+
+  _mtTimers[id] = setInterval(() => {
+    remaining--
+    const el   = document.getElementById('disambigTimerText')
+    const ring = document.getElementById('disambigTimerRing')
+    if(el)   el.textContent = remaining+'s'
+    if(ring) ring.style.strokeDashoffset = (circ*(1-remaining/totalSecs)).toFixed(1)
+    if(remaining <= 0){ clearInterval(_mtTimers[id]); delete _mtTimers[id]; skipMTChip(id) }
+  }, 1000)
 }
 
-function showChipFallback(id, chips, timeout){
-  // Creates a sticky banner at top of main content area when the test row isn't in DOM
-  const existing=document.getElementById('chipFallback')
-  if(existing)existing.remove()
-  const banner=document.createElement('div')
-  banner.id='chipFallback'
-  banner.style.cssText='position:fixed;top:108px;left:248px;right:0;z-index:200;background:var(--bg-raised);border-bottom:2px solid var(--accent);padding:8px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;box-shadow:var(--shadow-md)'
-  banner.innerHTML=`<span style="font-size:12px;font-weight:600;color:var(--amber)">🔀 Case #${id} — select product:</span>`
-  chips.forEach(chip=>{
-    const btn=document.createElement('button')
-    btn.style.cssText='font-size:11px;padding:4px 12px;border-radius:4px;border:1px solid var(--accent-border);background:var(--accent-dim);color:var(--accent);cursor:pointer;font-family:var(--font)'
-    btn.textContent=chip
-    btn.onclick=(e)=>{ banner.remove(); selectMTChip(e,id,chip) }
-    banner.appendChild(btn)
-  })
-  const skip=document.createElement('button')
-  skip.style.cssText='font-size:11px;padding:4px 12px;border-radius:4px;border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer;font-family:var(--font)'
-  skip.textContent='Skip'
-  skip.onclick=()=>{ banner.remove(); skipMTChip(id) }
-  banner.appendChild(skip)
-  const countdown=document.createElement('span')
-  countdown.style.cssText='font-size:11px;color:var(--text-tertiary);margin-left:auto;font-family:var(--font-mono)'
-  countdown.id='chipFallbackCount'
-  countdown.textContent=Math.round(timeout/1000)+'s'
-  banner.appendChild(countdown)
-  document.body.appendChild(banner)
-  let timer=Math.round(timeout/1000)
-  _mtTimers[id]=setInterval(()=>{
-    timer--
-    const el=document.getElementById('chipFallbackCount');if(el)el.textContent=timer+'s'
-    if(timer<=0){clearInterval(_mtTimers[id]);delete _mtTimers[id];banner.remove();skipMTChip(id)}
-  },1000)
+function closeDisambigOverlay(){
+  document.getElementById('disambigOverlay').classList.remove('active')
+  document.getElementById('disambigChips').innerHTML = ''
+  const id = window._disambigCaseId
+  if(id && _mtTimers[id]){ clearInterval(_mtTimers[id]); delete _mtTimers[id] }
 }
-function selectMTChip(e,id,chip){
-  e.stopPropagation()
-  clearInterval(_mtTimers[id]);delete _mtTimers[id]
-  // Mark inline chip panel as resolved
-  const section=document.getElementById('mtchips-'+id)
-  if(section){
-    section.querySelectorAll('button').forEach(b=>{b.disabled=true})
-    const resolved=document.createElement('div')
-    resolved.className='mt-resolved'
-    resolved.textContent='✓ Selected: '+chip+' — waiting for bot response…'
-    section.appendChild(resolved)
-  }
-  sendToPlaywright({type:'CHIP_SELECTED',chip,caseId:id})
-  addLog({type:'test',q:'Chip selected: '+chip,r:''})
+
+function selectMTChip(id, chip){
+  closeDisambigOverlay()
+  sendToPlaywright({type:'CHIP_SELECTED', chip, caseId:id})
+  addLog({type:'test', q:'Chip selected: '+chip, r:''})
 }
 
 function skipMTChip(id){
-  clearInterval(_mtTimers[id]);delete _mtTimers[id]
-  const inner=document.getElementById('mtchips-inner-'+id)
-  if(inner)inner.querySelectorAll('button').forEach(b=>{b.disabled=true})
-  const section=document.getElementById('mtchips-'+id)
-  if(section){const to=document.createElement('div');to.className='inline-chip-timeout';to.textContent='⚠ No chip selected — case marked REVIEW';section.appendChild(to)}
-  sendToPlaywright({type:'CHIP_SELECTED',chip:null,caseId:id})
+  closeDisambigOverlay()
+  sendToPlaywright({type:'CHIP_SELECTED', chip:null, caseId:id})
 }
 
-function onChipResolved(msg){
-  const res=document.querySelector('#mtchips-'+msg.id+' .inline-chip-resolved')
-  if(res)res.textContent='✓ '+msg.chip+' — response received'
-  setTimeout(()=>{const s=document.getElementById('mtchips-'+msg.id);if(s)s.classList.remove('show')},2000)
-}
-
-function onChipTimeout(msg){
-  const s=document.getElementById('mtchips-'+msg.id)
-  if(s)setTimeout(()=>s.classList.remove('show'),2000)
-}
+function onChipResolved(msg){ closeDisambigOverlay() }
+function onChipTimeout(msg){ closeDisambigOverlay() }
+function showChipFallback(id, chips, timeout){ onAwaitChip({caseId:id, chips, timeout, originalQuestion:''}) }
 
 // ── UAT PARITY CHECK ─────────────────────────────────────────────────────────
 function runParityCheck(e,id){

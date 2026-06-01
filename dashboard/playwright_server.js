@@ -73,6 +73,7 @@ let awaitingChip       = false  // FIX #1: suppresses passive observer during ch
 let botLock    = false   // true = bot is busy (test running OR retry in progress)
 let msgQueue   = []      // queued {msg, ws} pairs waiting for lock
 let lastActiveResponse = ''  // suppress passive log when observer sees same text as active capture
+let lastSentQuery      = ''  // suppress USER ACTION echoing the sent query
 
 function acquireLock() { botLock = true }
 function releaseLock() {
@@ -473,6 +474,8 @@ async function submitOTP(otp) {
 // ── SEND MESSAGE ─────────────────────────────────────────────────────────────
 async function sendMessage(question, caseId = null, expectedBehaviour = '', module = '') {
   console.log('📋 QUERY:', question.substring(0, 70))
+  lastSentQuery = question.toLowerCase().trim()
+  const sendStart = Date.now()  // measure total elapsed from send to verdict
 
   // Check for re-auth need before every message
   await reAuthIfNeeded()
@@ -489,6 +492,8 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
   }
 
   const result  = await getNewBotResponses(countBefore)
+  const totalElapsed = ((Date.now() - sendStart) / 1000).toFixed(1)
+  console.log(`  ↳ Total response time: ${totalElapsed}s`)
 
   // If response is a loading state, wait for the real response
   const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching|just a moment|one moment|processing/i
@@ -532,7 +537,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
     })
     awaitingChip = false  // FIX #1: re-enable observer
     if (selectedChip) {
-      console.log('User selected chip: ' + selectedChip)
+      console.log(`  ↳ Chip: ${selectedChip} selected`)
       const chipCountBefore = await page.evaluate(() =>
         document.querySelectorAll('div.blu-bot-message').length
       ).catch(() => 0)
@@ -554,7 +559,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
         if (el) { el.click(); return true }
         return false
       }, selectedChip)
-      console.log(`  ↳ Chip click result: ${chipClicked ? 'clicked' : 'element not found'}`)
+      console.log(`  ↳ Chip click: ${chipClicked ? 'clicked' : 'element not found'}`)
       await waitForBotToSettle(chipCountBefore)
       const chipResult = await getNewBotResponses(chipCountBefore)
       result.response    = chipResult.response
@@ -566,7 +571,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
       result.bubbleCount = chipResult.bubbleCount
       result.elapsed     = chipResult.elapsed
       result.multiTurnChip = selectedChip
-      console.log('Multi-turn final: ' + result.response.substring(0, 80))
+      console.log(`  ↳ Final: ${result.response.substring(0, 80)}`)
       if (activeWs) activeWs.send(JSON.stringify({ type: 'CHIP_RESOLVED', caseId, chip: selectedChip }))
     } else {
       console.log('No chip selected in 60s — marking REVIEW')
@@ -722,8 +727,13 @@ async function startMessageObserver() {
       if (result.count > lastCount && result.text !== lastText && result.text.length > 5) {
         const loading = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
         if (!loading.some(p => result.text.toLowerCase().startsWith(p))) {
-          if (result.lastUser) console.log(`👆 USER ACTION: ${result.lastUser}`)
-          // Only log passive if it's genuinely different from what the active framework already captured
+          if (result.lastUser) {
+            // Only log USER ACTION if it's not just echoing the sent query
+            if (result.lastUser.toLowerCase().trim() !== lastSentQuery) {
+              console.log(`👆 USER ACTION: ${result.lastUser}`)
+            }
+          }
+          // Only log passive if genuinely different from active capture
           if (result.text !== lastActiveResponse) {
             console.log(`👁️  PASSIVE BOT RESPONSE (msg ${result.count}): ${result.text.substring(0,80)}`)
           }
