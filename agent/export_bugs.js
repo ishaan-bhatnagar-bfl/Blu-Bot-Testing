@@ -50,7 +50,7 @@ async function exportBugs(results, env) {
     // Data rows
     ...bugRows.map(r => {
       const shortModule = (r.module || '').replace(/_Service$/, '').replace(/_/g, ' ')
-      const shortDesc   = (r.l3 || r.question || '').substring(0, 60)
+      const shortDesc   = (r.question || '').substring(0, 60)
       const adoTitle    = `CAI Team || WEB || ${env} || ${shortModule} — ${shortDesc}`
       return [
         adoTitle,

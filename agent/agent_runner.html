@@ -498,17 +498,23 @@ async function pollStatus() {
   // Done / stopped / error
   if (['done','stopped','error'].includes(data.status)) {
     stopPolling()
+    const doneBanner = document.getElementById('doneBanner')
+    doneBanner.classList.add('show')
+    if (data.status === 'stopped') {
+      document.getElementById('doneBannerText').textContent =
+        `🛑 Run stopped — ${p.done} tested · ${p.pass} pass · ${p.fail} fail · ${p.review} review`
+    } else if (data.status === 'error') {
+      document.getElementById('doneBannerText').textContent = `💥 Error: ${data.error || 'unknown'}`
+    } else {
+      document.getElementById('doneBannerText').textContent =
+        `✅ Run complete — ${p.pass} pass · ${p.fail} fail · ${p.review} review`
+    }
     if (data.exportPath) {
       exportPath = data.exportPath
       document.getElementById('logExport').classList.add('show')
-      const short = data.exportPath.split('/').pop()
-      const doneBanner = document.getElementById('doneBanner')
-      doneBanner.classList.add('show')
-      document.getElementById('doneBannerText').textContent =
-        data.status === 'done'
-          ? `✅ Run complete — ${p.pass} pass · ${p.fail} fail · ${p.review} review`
-          : data.status === 'stopped' ? '🛑 Run stopped' : `💥 Error: ${data.error||''}`
-      document.getElementById('donePath').textContent = short
+      document.getElementById('donePath').textContent = data.exportPath.split('/').pop()
+    } else {
+      document.getElementById('donePath').textContent = data.status === 'stopped' ? 'No results to export' : ''
     }
   }
 }
@@ -625,6 +631,10 @@ function toggleTheme() {
   const html = document.documentElement
   const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'
   html.setAttribute('data-theme', next)
+  // Force repaint — needed when opened as file:// rather than localhost
+  document.body.style.display = 'none'
+  document.body.offsetHeight  // trigger reflow
+  document.body.style.display = ''
   localStorage.setItem('agent-theme', next)
 }
 function applyTheme() {

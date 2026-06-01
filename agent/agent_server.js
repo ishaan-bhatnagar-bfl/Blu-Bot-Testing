@@ -313,7 +313,13 @@ async function getNewBotResponses(countBefore) {
       }).filter(Boolean)
       return { text, hasCTA: ctaItems.length>0, ctaLabels: ctaItems.map(c=>c.label), ctaLinks: ctaItems.map(c=>c.link) }
     }, countBefore)
-    return { response: result.text || '(response not captured)', hasCTA: result.hasCTA, ctaLabels: result.ctaLabels, ctaLinks: result.ctaLinks, isHinglish: detectHinglish(result.text) }
+    // Capture chips: quick-reply buttons + relation card titles (outside bot bubbles)
+    const chips = await page.evaluate(() => {
+      const quickChips = Array.from(document.querySelectorAll('button.overlap:not([disabled])')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
+      const relCards   = Array.from(document.querySelectorAll('.blu-relationshipcard__title')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
+      return [...new Set([...quickChips,...relCards])].slice(0,10)
+    }).catch(() => [])
+    return { response: result.text || '(response not captured)', hasCTA: result.hasCTA, ctaLabels: result.ctaLabels, ctaLinks: result.ctaLinks, isHinglish: detectHinglish(result.text), chips }
   } catch (e) { addLog('⚠️ Response capture error: ' + e.message) }
   return { response: '(response not captured)', hasCTA: false, ctaLabels: [], ctaLinks: [], isHinglish: false }
 }
@@ -411,13 +417,36 @@ async function runCase(row) {
 
   // FIX #3: detect "number of attempts exceeded" — stop entire run
   if (/number of attempts exceeded|cannot proceed with your request/i.test(result.response)) {
-    addLog('🚫 Bot rate-limited: "Number of attempts exceeded" — stopping run')
-    stopRequested = true
-    return makeResult({ tcId, module, l3, question, expectedBehaviour, response: result.response, verdict: runVerdict({ question, response: result.response, module, expectedBehaviour }), failedRules: ['RATE_LIMITED'] })
+  addLog('🚫 Bot rate-limited: "Number of attempts exceeded" — stopping run')
+  stopRequested = true
+  return makeResult({ tcId, module, l3, question, expectedBehaviour, response: result.response, verdict: runVerdict({ question, response: result.response, module, expectedBehaviour }), failedRules: ['RATE_LIMITED'] })
+  }
+
+  // Detect retry card — mark as SKIP, not FAIL
+  if (/we.re facing a temporary issue|please click on retry/i.test(result.response)) {
+    addLog('  ⚠️ Retry card shown — waiting up to 60s for dismissal...')
+    let dismissed = false
+    for (let i = 0; i < 12; i++) {
+      await page.waitForTimeout(5000)
+      const still = await page.evaluate(() => /we.re facing a temporary issue/i.test(document.body.innerText || '')).catch(() => false)
+      if (!still) { dismissed = true; break }
+      // Try clicking retry
+      await page.evaluate(() => {
+        const b = Array.from(document.querySelectorAll('button')).find(b => /^retry$/i.test(b.innerText.trim()) && !b.disabled && b.offsetParent !== null)
+        if (b) b.click()
+      }).catch(() => {})
+    }
+    if (!dismissed) {
+      addLog('  ⚠️ Retry card did not dismiss — marking SKIP')
+      return makeResult({ tcId, module, l3, question, expectedBehaviour, response: '(retry card shown — skipped)', verdict: { verdict: 'REVIEW', rules: [{ rule: 'RETRY_CARD', status: 'REVIEW', reason: 'Retry card shown — bot temporarily unavailable' }] }, failedRules: ['RETRY_CARD'] })
+    }
+    // Retry card dismissed — re-capture response
+    const retryResult = await getNewBotResponses(countBefore)
+    Object.assign(result, retryResult)
   }
 
   // Loading state — poll up to 3x with 4s gaps
-  const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching|just a moment|one moment|processing/i
+  const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching|just a moment|one moment|processing|confirming\.\.\.?/i
   if (LOADING_PAT.test(result.response)) {
     for (let attempt = 1; attempt <= 3; attempt++) {
       await page.waitForTimeout(4000)
@@ -506,12 +535,12 @@ async function runCase(row) {
   const icon        = verdictObj.verdict === 'PASS' ? '✅' : verdictObj.verdict === 'FAIL' ? '❌' : '⚠️'
   addLog(`  ${icon} ${verdictObj.verdict} (${elapsed}s)${failedRules.length ? ' — ' + failedRules.join(', ') : ''}`)
 
-  // Screenshot on FAIL
-  if (verdictObj.verdict === 'FAIL') {
+  // Screenshot on FAIL or REVIEW
+  if (verdictObj.verdict === 'FAIL' || verdictObj.verdict === 'REVIEW') {
     try {
       if (!fs.existsSync(SCREENSHOTS_DIR)) fs.mkdirSync(SCREENSHOTS_DIR, { recursive: true })
       const buf   = await page.screenshot({ fullPage: false })
-      const fname = `agent_fail_${tcId}_${Date.now()}.png`
+      const fname = `agent_${verdictObj.verdict.toLowerCase()}_${tcId}_${Date.now()}.png`
       fs.writeFileSync(path.join(SCREENSHOTS_DIR, fname), buf)
     } catch {}
   }
