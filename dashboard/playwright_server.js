@@ -440,7 +440,13 @@ async function startLogin(env, url, mobile) {
   const botUrl = url || BOT_URLS[env]
   if (!botUrl) { console.log('⚠️  No URL for', env); return }
   console.log('🌐 Navigating to', botUrl)
-  await page.goto(botUrl, { waitUntil: 'domcontentloaded' })
+  try {
+    await page.goto(botUrl, { waitUntil: 'domcontentloaded', timeout: 30000 })
+  } catch (e) {
+    console.log('⚠️  Navigation timeout/error:', e.message.split('\n')[0])
+    if (activeWs) activeWs.send(JSON.stringify({ type: 'NAV_ERROR', message: 'Could not load BLU Bot — check network/VPN' }))
+    return
+  }
   await page.waitForTimeout(4000)
   await scrollToComposer()
   await page.waitForTimeout(500)
