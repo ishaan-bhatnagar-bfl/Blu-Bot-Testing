@@ -1272,7 +1272,7 @@ function showChipFallback(id, chips, timeout){
   if(existing)existing.remove()
   const banner=document.createElement('div')
   banner.id='chipFallback'
-  banner.style.cssText='position:fixed;top:54px;left:248px;right:0;z-index:200;background:var(--amber-dim);border-bottom:1px solid var(--amber-border);padding:10px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap'
+  banner.style.cssText='position:fixed;top:108px;left:248px;right:0;z-index:200;background:var(--bg-raised);border-bottom:2px solid var(--accent);padding:8px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;box-shadow:var(--shadow-md)'
   banner.innerHTML=`<span style="font-size:12px;font-weight:600;color:var(--amber)">🔀 Case #${id} — select product:</span>`
   chips.forEach(chip=>{
     const btn=document.createElement('button')

@@ -395,8 +395,8 @@ async function getNewBotResponses(countBefore) {
 
     const elapsed    = ((Date.now() - start) / 1000).toFixed(1)
     const isHinglish = detectHinglish(result.text)
-    if (result.bubbleCount > 1) console.log(`🤖 ${result.bubbleCount} bubbles (${elapsed}s): ${result.text.substring(0,100)}`)
-    else console.log(`🤖 Response (${elapsed}s): ${result.text.substring(0,100)}`)
+    if (result.bubbleCount > 1) console.log(`🤖 BOT RESPONSE (${elapsed}s, ${result.bubbleCount} bubbles): ${result.text.substring(0,100)}`)
+    else console.log(`🤖 BOT RESPONSE (${elapsed}s): ${result.text.substring(0,100)}`)
     if (result.chips.length) console.log(`  💬 Chips: ${result.chips.join(' | ')}`)
     if (result.hasCTA) {
       const ctaDisplay = result.ctaLabels.map((l,i) => result.ctaLinks?.[i] ? `${l} → ${result.ctaLinks[i]}` : l).join(' | ')
@@ -470,7 +470,7 @@ async function submitOTP(otp) {
 
 // ── SEND MESSAGE ─────────────────────────────────────────────────────────────
 async function sendMessage(question, caseId = null, expectedBehaviour = '', module = '') {
-  console.log('💬 Sending:', question.substring(0, 70))
+  console.log('📋 QUERY:', question.substring(0, 70))
 
   // Check for re-auth need before every message
   await reAuthIfNeeded()
@@ -489,21 +489,19 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
   const result  = await getNewBotResponses(countBefore)
 
   // If response is a loading state, wait for the real response
-  const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching/i
+  const LOADING_PAT = /working on it|hold on|please wait|kindly wait|checking|fetching|just a moment|one moment|processing/i
   if (LOADING_PAT.test(result.response)) {
     console.log('⏳ Loading response detected — waiting for real response...')
-    await page.waitForTimeout(4000)
-    const realResult = await getNewBotResponses(countBefore)
-    if (realResult.response && !LOADING_PAT.test(realResult.response)) {
-      result.response    = realResult.response
-      result.chips       = realResult.chips
-      result.hasCTA      = realResult.hasCTA
-      result.ctaLabels   = realResult.ctaLabels
-      result.ctaLinks    = realResult.ctaLinks
-      result.isHinglish  = realResult.isHinglish
-      result.bubbleCount = realResult.bubbleCount
-      result.elapsed     = realResult.elapsed
-      console.log('✅ Real response captured: ' + result.response.substring(0,60))
+    // Poll up to 3 times with 4s gaps before giving up
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      await page.waitForTimeout(4000)
+      const realResult = await getNewBotResponses(countBefore)
+      if (realResult.response && !LOADING_PAT.test(realResult.response)) {
+        Object.assign(result, realResult)
+        console.log(`✅ Real response captured (attempt ${attempt}): ` + result.response.substring(0,60))
+        break
+      }
+      console.log(`⏳ Still loading (attempt ${attempt}/3)...`)
     }
   }
 
@@ -722,8 +720,8 @@ async function startMessageObserver() {
       if (result.count > lastCount && result.text !== lastText && result.text.length > 5) {
         const loading = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
         if (!loading.some(p => result.text.toLowerCase().startsWith(p))) {
-          if (result.lastUser) console.log(`👆 User selected: ${result.lastUser}`)
-          console.log(`👁️  Observer (${result.count}): ${result.text.substring(0,80)}`)
+          if (result.lastUser) console.log(`👆 USER ACTION: ${result.lastUser}`)
+          console.log(`👁️  PASSIVE BOT RESPONSE (msg ${result.count}): ${result.text.substring(0,80)}`)
           lastText  = result.text
           lastCount = result.count
           activeWs.send(JSON.stringify({
@@ -976,7 +974,7 @@ async function startServer() {
     ws.on('message', async raw => {
       let msg
       try { msg = JSON.parse(raw) } catch { return }
-      console.log('📨', msg.type, msg.env || '', msg.id ? `#${msg.id}` : '')
+      console.log('📨', msg.type==='RUN_CASE'?'TEST':msg.type, msg.env || '', msg.id ? `#${msg.id}` : '')
       await handleMessage(msg, ws)
     })
 
