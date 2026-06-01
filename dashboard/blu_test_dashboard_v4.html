@@ -1223,19 +1223,34 @@ let _pendingChip = null  // store AWAIT_CHIP msg until after RESPONSE renders
 
 function onAwaitChip(msg){
   const id=msg.caseId, chips=msg.chips||[], timeout=msg.timeout||60000
-  // Scroll to case, open response panel
-  const row=document.getElementById('row-'+id)
-  const item=row?.closest('.test-item')
-  if(item){item.scrollIntoView({behavior:'smooth',block:'center'});item.classList.add('running')}
-  document.getElementById('panel-'+id)?.classList.add('open')
-  // Render inline
+
+  // Force scroll to case and open panel — works even if row is below virtual scroll
+  const item=document.querySelector('.test-item[data-id="'+id+'"]')||document.getElementById('row-'+id)?.closest('.test-item')
+  if(item){
+    item.scrollIntoView({behavior:'smooth',block:'center'})
+    item.classList.add('running')
+    // Force open the response panel
+    const panel=document.getElementById('panel-'+id)
+    if(panel)panel.classList.add('open')
+  }
+
   const section=document.getElementById('mtchips-'+id)
-  if(!section)return
+  if(!section){
+    // Fallback — show a floating notification at top of test list
+    console.warn('mtchips section not found for case',id,'— showing fallback banner')
+    showChipFallback(id, chips, timeout)
+    return
+  }
+
   section.classList.add('show');section.innerHTML=''
-  section.setAttribute('role','region');section.setAttribute('aria-label','Select product to continue test');section.setAttribute('aria-live','polite')
+  section.setAttribute('role','region')
+  section.setAttribute('aria-label','Select product to continue test')
+  section.setAttribute('aria-live','polite')
+
   const labelDiv=document.createElement('div');labelDiv.className='inline-chip-label'
   labelDiv.innerHTML='🔀 Select product to continue <span class="inline-chip-countdown" id="mtcount-'+id+'">'+Math.round(timeout/1000)+'s</span>'
   section.appendChild(labelDiv)
+
   const chipRow=document.createElement('div');chipRow.className='inline-chip-row';chipRow.id='mtchips-inner-'+id
   chips.forEach(chip=>{
     const btn=document.createElement('button');btn.className='inline-chip-btn';btn.textContent=chip
@@ -1243,27 +1258,58 @@ function onAwaitChip(msg){
   })
   const skip=document.createElement('button');skip.className='inline-chip-skip';skip.textContent='Skip (REVIEW)';skip.onclick=()=>skipMTChip(id);chipRow.appendChild(skip)
   section.appendChild(chipRow)
+
   let timer=Math.round(timeout/1000)
   _mtTimers[id]=setInterval(()=>{
     timer--;const el=document.getElementById('mtcount-'+id);if(el)el.textContent=timer+'s'
     if(timer<=0){clearInterval(_mtTimers[id]);delete _mtTimers[id];skipMTChip(id)}
   },1000)
 }
+
+function showChipFallback(id, chips, timeout){
+  // Creates a sticky banner at top of main content area when the test row isn't in DOM
+  const existing=document.getElementById('chipFallback')
+  if(existing)existing.remove()
+  const banner=document.createElement('div')
+  banner.id='chipFallback'
+  banner.style.cssText='position:fixed;top:54px;left:248px;right:0;z-index:200;background:var(--amber-dim);border-bottom:1px solid var(--amber-border);padding:10px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap'
+  banner.innerHTML=`<span style="font-size:12px;font-weight:600;color:var(--amber)">🔀 Case #${id} — select product:</span>`
+  chips.forEach(chip=>{
+    const btn=document.createElement('button')
+    btn.style.cssText='font-size:11px;padding:4px 12px;border-radius:4px;border:1px solid var(--accent-border);background:var(--accent-dim);color:var(--accent);cursor:pointer;font-family:var(--font)'
+    btn.textContent=chip
+    btn.onclick=(e)=>{ banner.remove(); selectMTChip(e,id,chip) }
+    banner.appendChild(btn)
+  })
+  const skip=document.createElement('button')
+  skip.style.cssText='font-size:11px;padding:4px 12px;border-radius:4px;border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer;font-family:var(--font)'
+  skip.textContent='Skip'
+  skip.onclick=()=>{ banner.remove(); skipMTChip(id) }
+  banner.appendChild(skip)
+  const countdown=document.createElement('span')
+  countdown.style.cssText='font-size:11px;color:var(--text-tertiary);margin-left:auto;font-family:var(--font-mono)'
+  countdown.id='chipFallbackCount'
+  countdown.textContent=Math.round(timeout/1000)+'s'
+  banner.appendChild(countdown)
+  document.body.appendChild(banner)
+  let timer=Math.round(timeout/1000)
+  _mtTimers[id]=setInterval(()=>{
+    timer--
+    const el=document.getElementById('chipFallbackCount');if(el)el.textContent=timer+'s'
+    if(timer<=0){clearInterval(_mtTimers[id]);delete _mtTimers[id];banner.remove();skipMTChip(id)}
+  },1000)
+}
 function selectMTChip(e,id,chip){
   e.stopPropagation()
   clearInterval(_mtTimers[id]);delete _mtTimers[id]
-  // Prevent duplicate sends
-  if(window['_chipShown_'+id]){window['_chipShown_'+id]();delete window['_chipShown_'+id]}
-  // Remove overlay immediately to prevent double-click
-  const overlay=document.getElementById('float-mtchips-'+id)
-  if(overlay){
-    overlay.querySelectorAll('button').forEach(b=>{b.disabled=true})
-    const msg=document.createElement('div')
-    msg.className='mt-resolved'
-    msg.style.marginTop='6px'
-    msg.textContent='✓ Selected: '+chip+' — waiting for bot response…'
-    overlay.appendChild(msg)
-    setTimeout(()=>overlay.remove(),2000)
+  // Mark inline chip panel as resolved
+  const section=document.getElementById('mtchips-'+id)
+  if(section){
+    section.querySelectorAll('button').forEach(b=>{b.disabled=true})
+    const resolved=document.createElement('div')
+    resolved.className='mt-resolved'
+    resolved.textContent='✓ Selected: '+chip+' — waiting for bot response…'
+    section.appendChild(resolved)
   }
   sendToPlaywright({type:'CHIP_SELECTED',chip,caseId:id})
   addLog({type:'test',q:'Chip selected: '+chip,r:''})
@@ -1535,18 +1581,7 @@ function connectWS(){
         else if(msg.type==='RUN_STATE'){onRunState(msg.state)}
         else if(msg.type==='PARITY_RESULT'){onParityResult(msg)}
         else if(msg.type==='AWAIT_CHIP'){
-          const chipMsg=msg
-          let chipShown=false
-          function showChipOverlay(){
-            if(chipShown)return  // already selected — don't recreate
-            document.getElementById('float-mtchips-'+chipMsg.caseId)?.remove()
-            onAwaitChip(chipMsg)
-          }
-          showChipOverlay()
-          // Single retry after 1s only if not yet shown
-          setTimeout(()=>{if(!chipShown)showChipOverlay()},1000)
-          // Store chipShown flag on window for selectMTChip to set
-          window['_chipShown_'+chipMsg.caseId]=()=>{chipShown=true}
+          onAwaitChip(msg)
         }
         else if(msg.type==='CHIP_RESOLVED'){onChipResolved(msg)}
         else if(msg.type==='CHIP_TIMEOUT'){onChipTimeout(msg)}
