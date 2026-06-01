@@ -621,6 +621,16 @@ input,textarea{font-family:var(--font)}
   </main>
 </div>
 
+<!-- Agent runs nudge banner -->
+<div id="agentNudge" style="display:none;position:fixed;bottom:16px;right:16px;z-index:500;background:var(--bg-surface);border:1px solid var(--accent-border);border-radius:var(--radius);padding:10px 14px;box-shadow:var(--shadow-md);max-width:320px">
+  <div style="font-size:11px;font-weight:600;color:var(--accent);margin-bottom:4px">🤖 Agent run complete</div>
+  <div style="font-size:11px;color:var(--text-secondary);margin-bottom:8px" id="agentNudgeText"></div>
+  <div style="display:flex;gap:6px">
+    <button onclick="document.getElementById('agentNudge').style.display='none'" style="font-size:11px;padding:3px 10px;border-radius:4px;border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer">Dismiss</button>
+    <button onclick="window.open('http://localhost:3002/agent_runner.html')" style="font-size:11px;padding:3px 10px;border-radius:4px;border:none;background:var(--accent);color:#fff;cursor:pointer">Open Agent ↗</button>
+  </div>
+</div>
+
 <script>
 let allCases=[],filteredCases=[],results={},responses={},verdicts={},screenshots={},ctaData={},testedAt={}
 let kbDiffData={added:[],removed:[]}  // loaded from gaps CSVs
@@ -1610,6 +1620,25 @@ document.getElementById('otpInput').addEventListener('keydown',e=>{if(e.key==='E
 document.getElementById('mobileInput').addEventListener('keydown',e=>{if(e.key==='Enter')otpAction()})
 // Auto-connect WS on page load so onmessage is always attached
 connectWS()
+// Check for recent agent runs every 30s
+checkAgentRuns()
+setInterval(checkAgentRuns, 30000)
+function checkAgentRuns(){
+  fetch('http://localhost:3002/recent-runs')
+    .then(r=>r.json())
+    .then(data=>{
+      if(!data.runs||!data.runs.length)return
+      const latest=data.runs[0]
+      const nudge=document.getElementById('agentNudge')
+      const text=document.getElementById('agentNudgeText')
+      if(nudge.style.display==='none'||!nudge._lastName||nudge._lastName!==latest.name){
+        text.textContent=latest.name
+        nudge.style.display='block'
+        nudge._lastName=latest.name
+      }
+    })
+    .catch(()=>{})  // agent server not running — silent
+}
 function autoGrow(el){el.style.height='auto';el.style.height=Math.min(el.scrollHeight,120)+'px'}
 </script>
 </body>

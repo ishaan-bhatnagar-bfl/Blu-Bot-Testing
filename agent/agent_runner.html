@@ -163,7 +163,7 @@ input,textarea,select{font-family:var(--font)}
     <div class="topbar-sep"></div>
     <span class="topbar-sub">Autonomous test execution</span>
     <div class="tb-actions">
-      <button class="tb-btn" onclick="window.open('../dashboard/blu_test_dashboard_v4.html')">Dashboard ↗</button>
+      <button class="tb-btn" onclick="openDashboard()" title="Open test dashboard">Dashboard ↗</button>
       <button class="tb-btn icon" onclick="toggleTheme()" title="Toggle theme">◑</button>
     </div>
   </div>
@@ -613,6 +613,11 @@ document.addEventListener('keydown', e => {
 // ── EXPORT ────────────────────────────────────────────────────────────────────
 function openExport() {
   if (exportPath) alert(`Bug report saved at:\n${exportPath}\n\nOpen in Excel to review and copy to ADO.`)
+}
+
+// ── DASHBOARD LINK ───────────────────────────────────────────────────────────
+function openDashboard() {
+  window.open('http://localhost:3002/dashboard/blu_test_dashboard_v4.html')
 }
 
 // ── THEME ─────────────────────────────────────────────────────────────────────

@@ -621,15 +621,19 @@ async function runAgent(config) {
       await page.waitForTimeout(2500)
     }
 
-    // Export bugs
-    agentState.status = 'done'
+    // Always export if we have results — even on stop/rate-limit
+    agentState.status    = stopRequested ? 'stopped' : 'done'
     agentState.finishedAt = new Date().toISOString()
     const { done, total, pass, fail, review } = agentState.progress
-    addLog(`\n📊 Run complete: ${done}/${total} tested | ✅ ${pass} PASS | ❌ ${fail} FAIL | ⚠️ ${review} REVIEW`)
+    addLog(`\n📊 Run ${stopRequested?'stopped':'complete'}: ${done}/${total} tested | ✅ ${pass} PASS | ❌ ${fail} FAIL | ⚠️ ${review} REVIEW`)
 
-    const exportedPath = await exportBugs(agentState.results, env)
-    agentState.exportPath = exportedPath
-    addLog(`📁 Bug report exported → ${exportedPath}`)
+    if (agentState.results.length > 0) {
+      const exportedPath = await exportBugs(agentState.results, env)
+      agentState.exportPath = exportedPath
+      addLog(`📁 Bug report exported → ${exportedPath}`)
+    } else {
+      addLog('⚠️ No results to export')
+    }
 
   } catch (e) {
     agentState.status = 'error'
@@ -644,7 +648,21 @@ async function runAgent(config) {
 const app = express()
 app.use(cors())
 app.use(express.json())
-app.use(express.static(path.join(__dirname)))  // serve agent_runner.html
+app.use(express.static(path.join(__dirname)))              // agent_runner.html
+app.use('/dashboard', express.static(path.join(__dirname, '..', 'dashboard')))  // serve dashboard too
+
+// GET /recent-runs — list recent agent run exports for dashboard nudge
+app.get('/recent-runs', (req, res) => {
+  try {
+    if (!fs.existsSync(LOGS_DIR)) return res.json({ runs: [] })
+    const files = fs.readdirSync(LOGS_DIR)
+      .filter(f => f.startsWith('bugs_') && f.endsWith('.xlsx'))
+      .map(f => ({ name: f, path: path.join(LOGS_DIR, f), mtime: fs.statSync(path.join(LOGS_DIR, f)).mtime }))
+      .sort((a, b) => b.mtime - a.mtime)
+      .slice(0, 3)
+    res.json({ runs: files.map(f => ({ name: f.name, path: f.path })) })
+  } catch (e) { res.json({ runs: [] }) }
+})
 
 // GET /modules — list available modules
 app.get('/modules', (req, res) => {
