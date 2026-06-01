@@ -1586,6 +1586,11 @@ function connectWS(){
           document.getElementById('reauthOtpIn').value=''
           addLog({type:'login',q:'Re-auth complete — session resumed',r:''})
         }
+        else if(msg.type==='NAV_ERROR'){
+          alert('⚠️ ' + (msg.message||'Navigation failed') + '\n\nPlease check your network and click Connect to Bot again.')
+          sessionActive=false
+          document.getElementById('sessionBanner').classList.remove('show')
+        }
         else if(msg.type==='QUEUED'){
           addLog({type:'login',q:`Queued (bot busy): ${msg.msgType}${msg.id?' #'+msg.id:''}`,r:''})
         }

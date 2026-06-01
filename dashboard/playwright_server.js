@@ -445,11 +445,23 @@ async function startLogin(env, url, mobile) {
   const botUrl = url || BOT_URLS[env]
   if (!botUrl) { console.log('⚠️  No URL for', env); return }
   console.log('🌐 Navigating to', botUrl)
-  try {
-    await page.goto(botUrl, { waitUntil: 'domcontentloaded', timeout: 30000 })
-  } catch (e) {
-    console.log('⚠️  Navigation timeout/error:', e.message.split('\n')[0])
-    if (activeWs) activeWs.send(JSON.stringify({ type: 'NAV_ERROR', message: 'Could not load BLU Bot — check network/VPN' }))
+  let navOk = false
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      await page.goto(botUrl, { waitUntil: 'domcontentloaded', timeout: 60000 })
+      navOk = true
+      break
+    } catch (e) {
+      console.log(`⚠️ Navigation attempt ${attempt}/2 failed: ${e.message.split('\n')[0]}`)
+      if (attempt < 2) {
+        console.log('🔄 Retrying in 3s...')
+        await page.waitForTimeout(3000)
+      }
+    }
+  }
+  if (!navOk) {
+    console.log('❌ Navigation failed after 2 attempts — check network and retry')
+    if (activeWs) activeWs.send(JSON.stringify({ type: 'NAV_ERROR', message: 'Could not load BLU Bot — check network and click Connect again' }))
     return
   }
   await page.waitForTimeout(4000)
