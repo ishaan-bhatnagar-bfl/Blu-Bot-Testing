@@ -65,6 +65,7 @@ let parityCtx  = null
 let parityPage = null
 let parityBusy = false
 let pendingChipResolve = null  // resolves when user clicks a chip in dashboard
+let awaitingChip       = false  // FIX #1: suppresses passive observer during chip wait
 
 // ── CONCURRENCY CONTROL ────────────────────────────
 // Single mutex — only one operation touches the bot at a time.
@@ -364,9 +365,16 @@ async function getNewBotResponses(countBefore) {
         return ps.length ? ps : [bubble.innerText.trim()]
       }).filter(Boolean)
       const text = texts.join('\n\n')
-      const quickChips = Array.from(document.querySelectorAll('button.overlap:not([disabled])')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
-      const relCards   = Array.from(document.querySelectorAll('.blu-relationshipcard__title')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
-      const chips = [...new Set([...quickChips,...relCards])].slice(0,10)
+      // FIX #2: capture chips ONLY from new bubbles, not global DOM
+      // Relation cards from previous turns stay in DOM — global capture pollutes every subsequent result
+      const newBubbleChips = newBubbles.flatMap(b => {
+        const btns = Array.from(b.querySelectorAll('button.overlap:not([disabled])')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
+        const cards = Array.from(b.querySelectorAll('.blu-relationshipcard__title')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
+        return [...btns,...cards]
+      })
+      // Also capture global quick-reply chips (outside bubbles) but NOT relation cards from past turns
+      const globalQuickChips = Array.from(document.querySelectorAll('button.overlap:not([disabled])')).filter(el=>el.offsetParent!==null).map(el=>el.innerText.trim()).filter(Boolean)
+      const chips = [...new Set([...newBubbleChips,...globalQuickChips])].slice(0,10)
       const ctaEls = newBubbles.flatMap(b =>
         Array.from(b.querySelectorAll('a, button[class*="cta"], div[class*="cta"], [onclick*="bajaj"], [href]'))
       )
@@ -505,6 +513,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
 
   if (isDisambig && caseId && result.chips.length > 0) {
     console.log('Multi-turn disambig for case ' + caseId + ' — awaiting chip (60s)')
+    awaitingChip = true  // FIX #1: suppress passive observer
     if (activeWs) activeWs.send(JSON.stringify({
       type: 'AWAIT_CHIP', caseId, chips: result.chips,
       originalQuestion: question, module, expectedBehaviour, timeout: 60000,
@@ -515,6 +524,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
         if (pendingChipResolve) { pendingChipResolve(null); pendingChipResolve = null }
       }, 60000)
     })
+    awaitingChip = false  // FIX #1: re-enable observer
     if (selectedChip) {
       console.log('User selected chip: ' + selectedChip)
       const chipCountBefore = await page.evaluate(() =>
@@ -554,6 +564,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
       if (activeWs) activeWs.send(JSON.stringify({ type: 'CHIP_RESOLVED', caseId, chip: selectedChip }))
     } else {
       console.log('No chip selected in 60s — marking REVIEW')
+      awaitingChip = false  // FIX #1: ensure observer re-enabled even on timeout
       if (activeWs) activeWs.send(JSON.stringify({ type: 'CHIP_TIMEOUT', caseId }))
     }
   }
@@ -647,6 +658,28 @@ async function clickChip(chipText, caseId = null) {
       await waitForBotToSettle(countBefore)
       const result = await getNewBotResponses(countBefore)
       logEntry({ type: 'CHIP_CLICK', caseId, chip: chipText, response: result.response, chatId: currentChatId })
+
+      // FIX #5: run full verdict + LLM on chip response
+      const verdictObj = runVerdict({
+        question: question || chipText, response: result.response,
+        hasCTA: result.hasCTA, ctaLabels: result.ctaLabels, ctaLinks: result.ctaLinks,
+        isHinglish: result.isHinglish, module, expectedBehaviour,
+      })
+      const llmResult = await Promise.race([
+        runLLMVerdict({ question: question || chipText, expectedBehaviour, botResponse: result.response, module }),
+        new Promise(r => setTimeout(() => r(null), 9000))
+      ])
+      if (llmResult) {
+        const hybrid = hybridVerdict(verdictObj, llmResult)
+        console.log(`🧠 LLM (chip): ${hybrid} (${llmResult.confidence}%) — ${llmResult.reason}`)
+        verdictObj.verdict      = hybrid
+        verdictObj.verdictColor = hybrid === 'PASS' ? '#22c55e' : hybrid === 'FAIL' ? '#ef4444' : '#f59e0b'
+        verdictObj.rules.push({ rule: 'LLM_VERDICT', status: llmResult.verdict, reason: `${llmResult.reason} (${llmResult.confidence}%)` })
+        verdictObj.llm = llmResult
+      } else {
+        console.log('🧠 LLM (chip): unavailable — keyword verdict used')
+      }
+      result.verdict = verdictObj
       return result
     }
   } catch (e) { console.log('⚠️  Chip click failed:', e.message) }
@@ -665,7 +698,7 @@ async function startMessageObserver() {
   console.log('👁️  Message observer started')
 
   const interval = setInterval(async () => {
-    if (!page || !activeWs || botLock) return  // respect lock
+    if (!page || !activeWs || botLock || awaitingChip) return  // FIX #1: don't fire during chip selection
     try {
       const result = await page.evaluate(() => {
         const msgs     = Array.from(document.querySelectorAll('div.blu-bot-message'))
@@ -721,7 +754,7 @@ async function handleMessage(msg, ws) {
         ws.send(JSON.stringify({ type: 'DIRECT_RESPONSE', ...result, ts: msg.ts }))
       }
       else if (msg.type === 'CLICK_CHIP') {
-        const result = await clickChip(msg.chip, msg.caseId || null)
+        const result = await clickChip(msg.chip, msg.caseId || null, msg.question || '', msg.expectedBehaviour || '', msg.module || '')
         ws.send(JSON.stringify({ type: 'CHIP_RESPONSE', chip: msg.chip, caseId: msg.caseId, ...result }))
       }
       else if (msg.type === 'BULK_RUN') {

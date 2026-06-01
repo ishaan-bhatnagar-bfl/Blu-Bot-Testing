@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLU — Agent Runner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--radius:8px;--radius-sm:5px;--radius-lg:12px;--transition:150ms cubic-bezier(0.4,0,0.2,1);--font:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono',monospace}
+[data-theme="dark"]{--bg-base:#0a0a0b;--bg-surface:#111113;--bg-raised:#18181b;--bg-hover:#1f1f24;--bg-active:#27272d;--border:rgba(255,255,255,0.07);--border-md:rgba(255,255,255,0.11);--border-lg:rgba(255,255,255,0.16);--text-primary:#f4f4f5;--text-secondary:#a1a1aa;--text-tertiary:#71717a;--text-quaternary:#52525b;--accent:#6366f1;--accent-dim:rgba(99,102,241,0.15);--accent-border:rgba(99,102,241,0.35);--green:#22c55e;--green-dim:rgba(34,197,94,0.12);--green-border:rgba(34,197,94,0.3);--red:#ef4444;--red-dim:rgba(239,68,68,0.12);--red-border:rgba(239,68,68,0.3);--amber:#f59e0b;--amber-dim:rgba(245,158,11,0.12);--amber-border:rgba(245,158,11,0.3);--cyan:#06b6d4;--cyan-dim:rgba(6,182,212,0.12);--shadow-sm:0 1px 3px rgba(0,0,0,0.4);--shadow-md:0 4px 12px rgba(0,0,0,0.5);--shadow-lg:0 8px 32px rgba(0,0,0,0.6)}
+[data-theme="light"]{--bg-base:#fafafa;--bg-surface:#ffffff;--bg-raised:#f4f4f5;--bg-hover:#f0f0f1;--bg-active:#e8e8ea;--border:rgba(0,0,0,0.07);--border-md:rgba(0,0,0,0.11);--border-lg:rgba(0,0,0,0.16);--text-primary:#09090b;--text-secondary:#52525b;--text-tertiary:#a1a1aa;--text-quaternary:#d4d4d8;--accent:#4f46e5;--accent-dim:rgba(79,70,229,0.08);--accent-border:rgba(79,70,229,0.25);--green:#16a34a;--green-dim:rgba(22,163,74,0.08);--green-border:rgba(22,163,74,0.25);--red:#dc2626;--red-dim:rgba(220,38,38,0.08);--red-border:rgba(220,38,38,0.25);--amber:#d97706;--amber-dim:rgba(217,119,6,0.08);--amber-border:rgba(217,119,6,0.25);--cyan:#0891b2;--cyan-dim:rgba(8,145,178,0.08);--shadow-sm:0 1px 3px rgba(0,0,0,0.08);--shadow-md:0 4px 12px rgba(0,0,0,0.1);--shadow-lg:0 8px 32px rgba(0,0,0,0.12)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:focus-visible{outline:2px solid var(--accent)!important;outline-offset:2px;border-radius:2px}
+:focus:not(:focus-visible){outline:none}
+html,body{height:100%;overflow:hidden}
+body{font-family:var(--font);font-size:14px;line-height:1.6;background:var(--bg-base);color:var(--text-primary);-webkit-font-smoothing:antialiased}
+button{font-family:var(--font);cursor:pointer}
+input,textarea,select{font-family:var(--font)}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border-md);border-radius:4px}
+
+/* ── LAYOUT ── */
+.shell{display:grid;grid-template-rows:54px 1fr;height:100vh;overflow:hidden}
+.topbar{display:flex;align-items:center;gap:10px;padding:0 20px;background:var(--bg-surface);border-bottom:1px solid var(--border);z-index:10}
+.logo-mark{width:28px;height:28px;border-radius:7px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;letter-spacing:-0.5px;flex-shrink:0}
+.topbar-title{font-size:14px;font-weight:600;color:var(--text-primary);letter-spacing:-0.3px}
+.topbar-sub{font-size:12px;color:var(--text-tertiary)}
+.topbar-sep{width:1px;height:18px;background:var(--border-md);margin:0 4px}
+.tb-actions{margin-left:auto;display:flex;align-items:center;gap:6px}
+.tb-btn{font-size:12px;font-weight:500;padding:5px 14px;border-radius:var(--radius-sm);border:1px solid var(--border-md);background:transparent;color:var(--text-secondary);transition:all var(--transition);white-space:nowrap}
+.tb-btn:hover{background:var(--bg-raised);color:var(--text-primary);border-color:var(--border-lg)}
+.tb-btn.icon{padding:5px 9px}
+
+.body{display:grid;grid-template-columns:340px 1fr;height:calc(100vh - 54px);overflow:hidden}
+
+/* ── LEFT PANEL — CONFIG ── */
+.config-panel{background:var(--bg-surface);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden}
+.config-inner{flex:1;overflow-y:auto;padding:16px}
+.section{margin-bottom:20px}
+.section-label{font-size:11px;font-weight:600;letter-spacing:0.6px;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:8px}
+.field-row{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}
+.field-label{font-size:12px;color:var(--text-secondary);font-weight:500}
+.field-input{background:var(--bg-raised);border:1px solid var(--border-md);border-radius:var(--radius-sm);padding:7px 10px;font-size:13px;color:var(--text-primary);width:100%;transition:border-color var(--transition)}
+.field-input:focus{outline:none;border-color:var(--accent)}
+.field-select{background:var(--bg-raised);border:1px solid var(--border-md);border-radius:var(--radius-sm);padding:7px 10px;font-size:13px;color:var(--text-primary);width:100%;transition:border-color var(--transition);cursor:pointer}
+.field-select:focus{outline:none;border-color:var(--accent)}
+
+/* env toggle */
+.env-group{display:flex;gap:2px;background:var(--bg-raised);border-radius:var(--radius-sm);padding:2px}
+.env-pill{flex:1;font-size:11px;font-weight:600;padding:6px 0;text-align:center;border-radius:4px;cursor:pointer;color:var(--text-tertiary);letter-spacing:0.4px;border:none;background:transparent;transition:all var(--transition)}
+.env-pill:hover{color:var(--text-secondary)}
+.env-pill.active{background:var(--bg-surface);color:var(--text-primary);box-shadow:var(--shadow-sm)}
+.env-pill.active[data-env="N2P"]{color:var(--accent)}
+.env-pill.active[data-env="UAT"]{color:var(--green)}
+
+/* module list */
+.mod-list{display:flex;flex-direction:column;gap:2px;max-height:340px;overflow-y:auto;border:1px solid var(--border);border-radius:var(--radius-sm);padding:4px}
+.mod-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:4px;cursor:pointer;transition:background var(--transition)}
+.mod-item:hover{background:var(--bg-hover)}
+.mod-item.selected{background:var(--accent-dim)}
+.mod-check{width:14px;height:14px;border-radius:3px;border:1.5px solid var(--border-md);background:transparent;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all var(--transition)}
+.mod-item.selected .mod-check{background:var(--accent);border-color:var(--accent)}
+.mod-check-inner{width:8px;height:8px;background:#fff;border-radius:1px;display:none}
+.mod-item.selected .mod-check-inner{display:block}
+.mod-item-name{font-size:12px;color:var(--text-secondary)}
+.mod-item.selected .mod-item-name{color:var(--text-primary);font-weight:500}
+.mod-item-count{margin-left:auto;font-size:10px;color:var(--text-quaternary);font-variant-numeric:tabular-nums}
+.mod-actions{display:flex;gap:6px;margin-bottom:6px}
+.mod-action-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:var(--radius-sm);border:1px solid var(--border-md);background:transparent;color:var(--text-tertiary);cursor:pointer;transition:all var(--transition)}
+.mod-action-btn:hover{color:var(--text-secondary);background:var(--bg-hover)}
+.mod-action-btn.owner-active{background:var(--accent-dim);color:var(--accent);border-color:var(--accent-border)}
+
+/* start / stop buttons */
+.config-footer{padding:14px 16px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:8px}
+.btn-start{width:100%;padding:10px;border-radius:var(--radius-sm);border:none;background:var(--accent);color:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:opacity var(--transition);display:flex;align-items:center;justify-content:center;gap:8px}
+.btn-start:hover{opacity:0.9}
+.btn-start:disabled{opacity:0.4;cursor:not-allowed}
+.btn-stop{width:100%;padding:8px;border-radius:var(--radius-sm);border:1px solid var(--red-border);background:var(--red-dim);color:var(--red);font-size:12px;font-weight:600;cursor:pointer;transition:opacity var(--transition);display:none}
+.btn-stop:hover{opacity:0.8}
+.btn-stop.show{display:block}
+
+/* OTP banner */
+.otp-banner{background:var(--amber-dim);border:1px solid var(--amber-border);border-radius:var(--radius-sm);padding:10px 12px;display:none;flex-direction:column;gap:8px}
+.otp-banner.show{display:flex}
+.otp-banner-title{font-size:12px;font-weight:600;color:var(--amber)}
+.otp-banner-sub{font-size:11px;color:var(--text-secondary)}
+.otp-row{display:flex;gap:6px}
+.otp-input{flex:1;background:var(--bg-raised);border:1px solid var(--amber-border);border-radius:var(--radius-sm);padding:7px 10px;font-size:14px;font-weight:600;color:var(--text-primary);font-family:var(--font-mono);letter-spacing:3px}
+.otp-input:focus{outline:none;border-color:var(--amber)}
+.otp-submit{padding:7px 14px;border-radius:var(--radius-sm);border:none;background:var(--amber);color:#fff;font-size:12px;font-weight:600;cursor:pointer;transition:opacity var(--transition)}
+.otp-submit:hover{opacity:0.9}
+
+/* ── RIGHT PANEL — PROGRESS ── */
+.progress-panel{display:flex;flex-direction:column;overflow:hidden}
+
+/* progress bar strip */
+.progress-strip{height:3px;background:var(--border);position:relative;flex-shrink:0}
+.progress-fill{height:100%;background:var(--accent);transition:width 0.4s ease;width:0%}
+
+/* stats bar */
+.stats-bar{display:flex;align-items:center;gap:16px;padding:10px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+.stat-block{display:flex;flex-direction:column;gap:1px}
+.stat-val{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat-val.pass{color:var(--green)}
+.stat-val.fail{color:var(--red)}
+.stat-val.review{color:var(--amber)}
+.stat-val.total{color:var(--text-primary)}
+.stat-name{font-size:10px;color:var(--text-tertiary);text-transform:uppercase;letter-spacing:0.5px}
+.stats-divider{width:1px;height:32px;background:var(--border-md)}
+.current-case{margin-left:auto;text-align:right;max-width:360px}
+.current-module{font-size:11px;color:var(--accent);font-weight:600;margin-bottom:1px}
+.current-q{font-size:11px;color:var(--text-tertiary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* module progress rings */
+.mod-progress-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;padding:16px 20px;flex-shrink:0;border-bottom:1px solid var(--border)}
+.mod-progress-card{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 12px;display:flex;align-items:center;gap:10px}
+.ring-wrap{width:36px;height:36px;flex-shrink:0}
+.ring-wrap svg{transform:rotate(-90deg)}
+.ring-bg{fill:none;stroke:var(--border-md);stroke-width:3}
+.ring-fill{fill:none;stroke-width:3;stroke-linecap:round;transition:stroke-dashoffset 0.5s ease}
+.mod-card-info{min-width:0}
+.mod-card-name{font-size:11px;font-weight:500;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mod-card-stats{font-size:10px;color:var(--text-tertiary);font-variant-numeric:tabular-nums}
+
+/* terminal log */
+.log-wrap{flex:1;overflow:hidden;display:flex;flex-direction:column}
+.log-header{display:flex;align-items:center;padding:8px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+.log-title{font-size:11px;font-weight:600;letter-spacing:0.6px;text-transform:uppercase;color:var(--text-tertiary)}
+.log-export{margin-left:auto;font-size:11px;font-weight:500;padding:3px 10px;border-radius:var(--radius-sm);border:1px solid var(--green-border);background:var(--green-dim);color:var(--green);cursor:pointer;transition:opacity var(--transition);display:none}
+.log-export.show{display:block}
+.log-export:hover{opacity:0.8}
+.log-body{flex:1;overflow-y:auto;padding:10px 20px;font-family:var(--font-mono);font-size:11px;color:var(--text-secondary);line-height:1.7}
+.log-line{white-space:pre-wrap;word-break:break-all}
+.log-line.pass{color:var(--green)}
+.log-line.fail{color:var(--red)}
+.log-line.review{color:var(--amber)}
+.log-line.info{color:var(--accent)}
+.log-line.warn{color:var(--amber)}
+.log-line.error{color:var(--red)}
+
+/* done overlay */
+.done-banner{display:none;align-items:center;gap:10px;padding:10px 20px;background:var(--green-dim);border-bottom:1px solid var(--green-border);flex-shrink:0}
+.done-banner.show{display:flex}
+.done-banner-text{font-size:12px;font-weight:500;color:var(--green)}
+.done-path{font-size:11px;font-family:var(--font-mono);color:var(--text-tertiary);margin-left:auto}
+
+/* idle state */
+.idle-state{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--text-tertiary)}
+.idle-icon{font-size:40px;opacity:0.4}
+.idle-title{font-size:14px;font-weight:500;color:var(--text-secondary)}
+.idle-sub{font-size:12px}
+</style>
+</head>
+<body data-theme="dark">
+
+<div class="shell">
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="logo-mark">B</div>
+    <span class="topbar-title">BLU Agent Runner</span>
+    <div class="topbar-sep"></div>
+    <span class="topbar-sub">Autonomous test execution</span>
+    <div class="tb-actions">
+      <button class="tb-btn" onclick="window.open('../dashboard/blu_test_dashboard_v4.html')">Dashboard ↗</button>
+      <button class="tb-btn icon" onclick="toggleTheme()" title="Toggle theme">◑</button>
+    </div>
+  </div>
+
+  <div class="body">
+    <!-- LEFT: CONFIG PANEL -->
+    <div class="config-panel">
+      <div class="config-inner">
+
+        <!-- OTP BANNER -->
+        <div class="otp-banner" id="otpBanner">
+          <div class="otp-banner-title">⏳ OTP Required</div>
+          <div class="otp-banner-sub">Enter the OTP sent to <span id="otpMobile"></span>, or type directly in the browser.</div>
+          <div class="otp-row">
+            <input class="otp-input" id="otpInput" type="tel" maxlength="6" placeholder="——————" autocomplete="one-time-code">
+            <button class="otp-submit" onclick="submitOTP()">Submit</button>
+          </div>
+        </div>
+
+        <!-- ENV -->
+        <div class="section">
+          <div class="section-label">Environment</div>
+          <div class="env-group">
+            <button class="env-pill active" data-env="N2P" onclick="setEnv('N2P',this)">N2P</button>
+            <button class="env-pill" data-env="UAT" onclick="setEnv('UAT',this)">UAT</button>
+          </div>
+        </div>
+
+        <!-- MOBILE -->
+        <div class="section">
+          <div class="section-label">Mobile Number</div>
+          <div class="field-row">
+            <input class="field-input" id="mobileInput" type="tel" value="9953333141" maxlength="10" placeholder="10-digit mobile">
+          </div>
+        </div>
+
+        <!-- SUITE -->
+        <div class="section">
+          <div class="section-label">Test Suite</div>
+          <select class="field-select" id="suiteSelect" onchange="loadModules()">
+            <option value="v7">V7 — KB Verbatim (2,321 cases)</option>
+            <option value="realistic">Realistic — Real-user phrasing (2,425 cases)</option>
+          </select>
+        </div>
+
+        <!-- CASES PER MODULE -->
+        <div class="section">
+          <div class="section-label">Cases Per Module</div>
+          <select class="field-select" id="capsSelect">
+            <option value="all">All cases</option>
+            <option value="25">25 per module</option>
+            <option value="50">50 per module</option>
+            <option value="100">100 per module</option>
+          </select>
+        </div>
+
+        <!-- MODULE SELECTOR -->
+        <div class="section">
+          <div class="section-label">Modules <span id="modCount" style="color:var(--accent);font-variant-numeric:tabular-nums"></span></div>
+          <div class="mod-actions">
+            <button class="mod-action-btn" onclick="selectAll()">Select All</button>
+            <button class="mod-action-btn" onclick="clearAll()">Clear</button>
+            <button class="mod-action-btn" data-owner="ishaan" onclick="selectOwner('ishaan')">Ishaan</button>
+            <button class="mod-action-btn" data-owner="ayushi" onclick="selectOwner('ayushi')">Ayushi</button>
+          </div>
+          <div class="mod-actions" style="margin-top:-2px">
+            <button class="mod-action-btn" data-owner="irfan" onclick="selectOwner('irfan')">Irfan</button>
+            <button class="mod-action-btn" data-owner="mekhala" onclick="selectOwner('mekhala')">Mekhala</button>
+            <button class="mod-action-btn" data-owner="punit" onclick="selectOwner('punit')">Punit</button>
+          </div>
+          <div class="mod-list" id="modList">
+            <div style="padding:12px;text-align:center;color:var(--text-tertiary);font-size:12px">Loading modules...</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="config-footer">
+        <div id="btnGroup">
+          <button class="btn-start" id="btnStart" onclick="startRun()">
+            <span>▶</span> Start Agent Run
+          </button>
+          <button class="btn-stop show" id="btnStop" onclick="stopRun()" style="display:none;margin-top:6px">
+            ■ Stop Run
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: PROGRESS PANEL -->
+    <div class="progress-panel" id="progressPanel">
+
+      <!-- Progress strip -->
+      <div class="progress-strip"><div class="progress-fill" id="progressFill"></div></div>
+
+      <!-- Done banner -->
+      <div class="done-banner" id="doneBanner">
+        <span class="done-banner-text" id="doneBannerText"></span>
+        <span class="done-path" id="donePath"></span>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="stats-bar" id="statsBar" style="display:none">
+        <div class="stat-block"><div class="stat-val total" id="statTotal">0</div><div class="stat-name">Tested</div></div>
+        <div class="stats-divider"></div>
+        <div class="stat-block"><div class="stat-val pass" id="statPass">0</div><div class="stat-name">Pass</div></div>
+        <div class="stat-block"><div class="stat-val fail" id="statFail">0</div><div class="stat-name">Fail</div></div>
+        <div class="stat-block"><div class="stat-val review" id="statReview">0</div><div class="stat-name">Review</div></div>
+        <div class="stats-divider"></div>
+        <div class="current-case">
+          <div class="current-module" id="currentModule"></div>
+          <div class="current-q" id="currentQ"></div>
+        </div>
+      </div>
+
+      <!-- Module progress rings -->
+      <div class="mod-progress-grid" id="modProgressGrid" style="display:none"></div>
+
+      <!-- Idle state -->
+      <div class="idle-state" id="idleState">
+        <div class="idle-icon">🤖</div>
+        <div class="idle-title">Agent ready</div>
+        <div class="idle-sub">Configure modules and hit Start</div>
+      </div>
+
+      <!-- Terminal log -->
+      <div class="log-wrap" id="logWrap" style="display:none">
+        <div class="log-header">
+          <span class="log-title">Run Log</span>
+          <button class="log-export" id="logExport" onclick="openExport()">📁 Open Bug Report</button>
+        </div>
+        <div class="log-body" id="logBody"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+const API = 'http://localhost:3002'
+
+// ── STATE ─────────────────────────────────────────────────────────────────────
+let selectedEnv      = 'N2P'
+let selectedModules  = new Set()
+let allModules       = []
+let pollInterval     = null
+let lastLogLength    = 0
+let moduleStats      = {}  // module → { pass, fail, review, total }
+let exportPath       = null
+
+// ── OWNER MAP ─────────────────────────────────────────────────────────────────
+const OWNER_MAP = {
+  ishaan:  ['Flexi_Loan_PL_Service','Flexi_Loan_SME_Service','Flexi_Wheels_Service','Flexi_Loan_Wheels_Service','LAFD_Service','EMI_Card_Service','Health_EMI_Card_Service','FD_SDP_Service','Help_Support'],
+  ayushi:  ['Term_Loan_PL_Service','Term_Loan_PB_Service','Flexi_Loan_Wheels_Service','LAS_Service','Insurance_Service'],
+  irfan:   ['Business_Secured_Loan_Service','Home_Loan_Service','Microfinance_Service'],
+  mekhala: ['Gold_Loan_Service','Profile_Service','Credit_Card_Service'],
+  punit:   ['Payments_BBPS_Service','Payments_Wallets_Service','Payments_UPI_Service','Fastag_Service'],
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+window.onload = () => { loadModules(); applyTheme() }
+
+async function loadModules() {
+  const suite = document.getElementById('suiteSelect').value
+  try {
+    const res  = await fetch(`${API}/modules?suite=${suite}`)
+    const data = await res.json()
+    allModules = data.modules || []
+    renderModList()
+  } catch {
+    document.getElementById('modList').innerHTML =
+      `<div style="padding:12px;color:var(--red);font-size:12px">⚠ Agent server not running.<br>Start with: cd agent && node agent_server.js</div>`
+  }
+}
+
+function renderModList() {
+  const list = document.getElementById('modList')
+  if (!allModules.length) { list.innerHTML = '<div style="padding:12px;color:var(--text-tertiary);font-size:12px">No modules found</div>'; return }
+  list.innerHTML = allModules.map(m => {
+    const name = m.replace(/_Service$/, '').replace(/_/g, ' ')
+    const sel  = selectedModules.has(m)
+    return `<div class="mod-item ${sel?'selected':''}" onclick="toggleMod('${m}',this)">
+      <div class="mod-check"><div class="mod-check-inner"></div></div>
+      <span class="mod-item-name">${name}</span>
+    </div>`
+  }).join('')
+  updateModCount()
+}
+
+function toggleMod(mod, el) {
+  if (selectedModules.has(mod)) { selectedModules.delete(mod); el.classList.remove('selected') }
+  else { selectedModules.add(mod); el.classList.add('selected') }
+  updateModCount()
+  updateOwnerButtons()
+}
+
+function updateModCount() {
+  document.getElementById('modCount').textContent = selectedModules.size ? `(${selectedModules.size} selected)` : ''
+}
+
+function selectAll()  { allModules.forEach(m => selectedModules.add(m)); renderModList(); updateOwnerButtons() }
+function clearAll()   { selectedModules.clear(); renderModList(); updateOwnerButtons() }
+
+function selectOwner(owner) {
+  const mods = OWNER_MAP[owner] || []
+  const ownerMods = mods.map(m => allModules.find(am => am === m || am.toLowerCase().includes(m.toLowerCase().replace(/_service$/,'')))).filter(Boolean)
+  // Toggle: if all owner mods selected → deselect all; else select all
+  const allSelected = ownerMods.every(m => selectedModules.has(m))
+  if (allSelected) ownerMods.forEach(m => selectedModules.delete(m))
+  else ownerMods.forEach(m => selectedModules.add(m))
+  renderModList()
+  updateOwnerButtons()
+}
+
+function updateOwnerButtons() {
+  Object.keys(OWNER_MAP).forEach(owner => {
+    const btn = document.querySelector(`button[data-owner="${owner}"]`)
+    if (!btn) return
+    const mods = OWNER_MAP[owner].map(m => allModules.find(am => am === m || am.toLowerCase().includes(m.toLowerCase().replace(/_service$/,'')))).filter(Boolean)
+    const allSel = mods.length > 0 && mods.every(m => selectedModules.has(m))
+    btn.classList.toggle('owner-active', allSel)
+  })
+}
+
+function setEnv(env, btn) {
+  selectedEnv = env
+  document.querySelectorAll('.env-pill').forEach(b => b.classList.remove('active'))
+  btn.classList.add('active')
+}
+
+// ── RUN ───────────────────────────────────────────────────────────────────────
+async function startRun() {
+  if (!selectedModules.size) { alert('Select at least one module'); return }
+  const mobile = document.getElementById('mobileInput').value.trim()
+  if (!/^\d{10}$/.test(mobile)) { alert('Enter a valid 10-digit mobile number'); return }
+
+  // Reset UI
+  lastLogLength = 0
+  moduleStats   = {}
+  exportPath    = null
+  document.getElementById('logBody').innerHTML = ''
+  document.getElementById('idleState').style.display  = 'none'
+  document.getElementById('logWrap').style.display    = 'flex'
+  document.getElementById('statsBar').style.display   = 'flex'
+  document.getElementById('modProgressGrid').style.display = 'grid'
+  document.getElementById('doneBanner').classList.remove('show')
+  document.getElementById('logExport').classList.remove('show')
+  document.getElementById('btnStop').style.display   = 'block'
+  document.getElementById('btnStart').disabled        = true
+
+  // Init module progress cards
+  initModProgressGrid()
+
+  try {
+    await fetch(`${API}/start`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        env:            selectedEnv,
+        mobile,
+        modules:        [...selectedModules],
+        suite:          document.getElementById('suiteSelect').value,
+        casesPerModule: document.getElementById('capsSelect').value,
+      })
+    })
+    pollInterval = setInterval(pollStatus, 1200)
+  } catch {
+    alert('Cannot connect to agent server.\nStart with: cd agent && node agent_server.js')
+    document.getElementById('btnStart').disabled = false
+  }
+}
+
+async function stopRun() {
+  await fetch(`${API}/stop`, { method: 'POST' }).catch(() => {})
+  stopPolling()
+}
+
+function stopPolling() {
+  if (pollInterval) { clearInterval(pollInterval); pollInterval = null }
+  document.getElementById('btnStart').disabled = false
+  document.getElementById('btnStop').style.display = 'none'
+}
+
+// ── POLL STATUS ───────────────────────────────────────────────────────────────
+async function pollStatus() {
+  let data
+  try { const r = await fetch(`${API}/status`); data = await r.json() }
+  catch { return }
+
+  // OTP banner
+  const needOtp = data.status === 'awaiting_otp' || data.status === 'awaiting_reauth_otp'
+  const otpBanner = document.getElementById('otpBanner')
+  if (needOtp && !otpBanner.classList.contains('show')) {
+    otpBanner.classList.add('show')
+    document.getElementById('otpMobile').textContent = document.getElementById('mobileInput').value
+    document.getElementById('otpInput').focus()
+  } else if (!needOtp) {
+    otpBanner.classList.remove('show')
+  }
+
+  // Stats
+  const p = data.progress || {}
+  document.getElementById('statTotal').textContent  = p.done  || 0
+  document.getElementById('statPass').textContent   = p.pass  || 0
+  document.getElementById('statFail').textContent   = p.fail  || 0
+  document.getElementById('statReview').textContent = p.review|| 0
+  document.getElementById('currentModule').textContent = (p.currentModule||'').replace(/_Service$/,'').replace(/_/g,' ')
+  document.getElementById('currentQ').textContent   = (p.currentCase||'').substring(0, 70)
+
+  // Progress bar
+  const pct = p.total ? Math.round((p.done / p.total) * 100) : 0
+  document.getElementById('progressFill').style.width = pct + '%'
+
+  // Log lines
+  const log = data.log || []
+  if (log.length > lastLogLength) {
+    const newLines = log.slice(lastLogLength)
+    const body     = document.getElementById('logBody')
+    newLines.forEach(line => {
+      const div = document.createElement('div')
+      div.className = 'log-line ' + classifyLog(line)
+      div.textContent = line
+      body.appendChild(div)
+    })
+    body.scrollTop = body.scrollHeight
+    lastLogLength = log.length
+    // Update per-module rings from log
+    parseLogForModuleStats(newLines)
+    updateModProgressGrid()
+  }
+
+  // Done / stopped / error
+  if (['done','stopped','error'].includes(data.status)) {
+    stopPolling()
+    if (data.exportPath) {
+      exportPath = data.exportPath
+      document.getElementById('logExport').classList.add('show')
+      const short = data.exportPath.split('/').pop()
+      const doneBanner = document.getElementById('doneBanner')
+      doneBanner.classList.add('show')
+      document.getElementById('doneBannerText').textContent =
+        data.status === 'done'
+          ? `✅ Run complete — ${p.pass} pass · ${p.fail} fail · ${p.review} review`
+          : data.status === 'stopped' ? '🛑 Run stopped' : `💥 Error: ${data.error||''}`
+      document.getElementById('donePath').textContent = short
+    }
+  }
+}
+
+function classifyLog(line) {
+  if (/✅|PASS/.test(line)) return 'pass'
+  if (/❌|FAIL/.test(line)) return 'fail'
+  if (/⚠|REVIEW/.test(line)) return 'review'
+  if (/🚀|✅ Browser|🧠|📋|📊|🤖/.test(line)) return 'info'
+  if (/⚠️|💥|⚠ /.test(line)) return 'warn'
+  return ''
+}
+
+// ── MODULE PROGRESS ───────────────────────────────────────────────────────────
+function initModProgressGrid() {
+  const grid = document.getElementById('modProgressGrid')
+  moduleStats = {}
+  selectedModules.forEach(m => { moduleStats[m] = { pass:0, fail:0, review:0, total:0 } })
+  grid.innerHTML = [...selectedModules].map(m => {
+    const name = m.replace(/_Service$/,'').replace(/_/g,' ')
+    const circ = 2*Math.PI*14, id = 'ring_'+m.replace(/[^a-z0-9]/gi,'_')
+    return `<div class="mod-progress-card" id="card_${id}">
+      <div class="ring-wrap">
+        <svg width="36" height="36" viewBox="0 0 36 36">
+          <circle class="ring-bg" cx="18" cy="18" r="14"/>
+          <circle class="ring-fill" cx="18" cy="18" r="14" id="${id}"
+            stroke="var(--border-md)"
+            stroke-dasharray="${circ.toFixed(1)}"
+            stroke-dashoffset="${circ.toFixed(1)}"/>
+        </svg>
+      </div>
+      <div class="mod-card-info">
+        <div class="mod-card-name" title="${name}">${name}</div>
+        <div class="mod-card-stats" id="stats_${id}">—</div>
+      </div>
+    </div>`
+  }).join('')
+}
+
+function parseLogForModuleStats(lines) {
+  lines.forEach(line => {
+    // Match: ▶ [N/T] ModuleName — question
+    const modMatch = line.match(/▶ \[\d+\/\d+\] ([A-Za-z_]+Service[A-Za-z_]*) —/)
+    if (modMatch) {
+      const m = modMatch[1]
+      if (!moduleStats[m]) moduleStats[m] = { pass:0, fail:0, review:0, total:0 }
+      return  // don't count ▶ lines as results
+    }
+    // Match verdict lines: ✅ PASS / ❌ FAIL / ⚠️ REVIEW
+    // We track the last-seen module from ▶ lines
+    // Simpler: parse progress from status endpoint directly
+  })
+}
+
+function updateModProgressGrid() {
+  // Re-derive module stats from all log lines
+  const allLog = document.getElementById('logBody').innerText.split('\n')
+  let lastMod = null
+  const stats = {}
+  selectedModules.forEach(m => { stats[m] = { pass:0, fail:0, review:0, total:0 } })
+  allLog.forEach(line => {
+    const modMatch = line.match(/▶ \[\d+\/\d+\] ([^\s—]+) —/)
+    if (modMatch) { lastMod = modMatch[1]; return }
+    if (!lastMod || !stats[lastMod]) return
+    if (/✅ PASS/.test(line))   { stats[lastMod].pass++; stats[lastMod].total++ }
+    else if (/❌ FAIL/.test(line))  { stats[lastMod].fail++; stats[lastMod].total++ }
+    else if (/⚠️? REVIEW/.test(line)) { stats[lastMod].review++; stats[lastMod].total++ }
+  })
+  const circ = 2*Math.PI*14
+  selectedModules.forEach(m => {
+    const s   = stats[m] || { pass:0, fail:0, review:0, total:0 }
+    const id  = 'ring_'+m.replace(/[^a-z0-9]/gi,'_')
+    const ring = document.getElementById(id)
+    const statEl = document.getElementById('stats_'+id)
+    if (!ring || !statEl) return
+    const pct = s.total ? s.pass/s.total : 0
+    const off = circ * (1 - pct)
+    const col = s.total === 0 ? 'var(--border-md)' : pct < 0.5 ? 'var(--red)' : pct < 0.75 ? 'var(--amber)' : pct < 0.9 ? 'var(--accent)' : 'var(--green)'
+    ring.setAttribute('stroke', col)
+    ring.setAttribute('stroke-dashoffset', off.toFixed(1))
+    statEl.textContent = s.total ? `${s.pass}✓ ${s.fail}✗ ${s.review}~` : '—'
+  })
+}
+
+// ── OTP ───────────────────────────────────────────────────────────────────────
+async function submitOTP() {
+  const otp = document.getElementById('otpInput').value.trim()
+  if (!otp) return
+  await fetch(`${API}/otp`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ otp })
+  }).catch(() => {})
+  document.getElementById('otpInput').value = ''
+  document.getElementById('otpBanner').classList.remove('show')
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && document.activeElement.id === 'otpInput') submitOTP()
+})
+
+// ── EXPORT ────────────────────────────────────────────────────────────────────
+function openExport() {
+  if (exportPath) alert(`Bug report saved at:\n${exportPath}\n\nOpen in Excel to review and copy to ADO.`)
+}
+
+// ── THEME ─────────────────────────────────────────────────────────────────────
+function toggleTheme() {
+  const html = document.documentElement
+  const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'
+  html.setAttribute('data-theme', next)
+  localStorage.setItem('agent-theme', next)
+}
+function applyTheme() {
+  const saved = localStorage.getItem('agent-theme')
+  if (saved) document.documentElement.setAttribute('data-theme', saved)
+}
+</script>
+</body>
+</html>
