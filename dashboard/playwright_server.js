@@ -72,6 +72,7 @@ let awaitingChip       = false  // FIX #1: suppresses passive observer during ch
 // Queued messages wait their turn instead of colliding.
 let botLock    = false   // true = bot is busy (test running OR retry in progress)
 let msgQueue   = []      // queued {msg, ws} pairs waiting for lock
+let lastActiveResponse = ''  // suppress passive log when observer sees same text as active capture
 
 function acquireLock() { botLock = true }
 function releaseLock() {
@@ -397,6 +398,7 @@ async function getNewBotResponses(countBefore) {
     const isHinglish = detectHinglish(result.text)
     if (result.bubbleCount > 1) console.log(`🤖 BOT RESPONSE (${elapsed}s, ${result.bubbleCount} bubbles): ${result.text.substring(0,100)}`)
     else console.log(`🤖 BOT RESPONSE (${elapsed}s): ${result.text.substring(0,100)}`)
+    lastActiveResponse = result.text  // suppress duplicate passive log
     if (result.chips.length) console.log(`  💬 Chips: ${result.chips.join(' | ')}`)
     if (result.hasCTA) {
       const ctaDisplay = result.ctaLabels.map((l,i) => result.ctaLinks?.[i] ? `${l} → ${result.ctaLinks[i]}` : l).join(' | ')
@@ -721,7 +723,10 @@ async function startMessageObserver() {
         const loading = ['hold on','please wait','checking','just a moment','fetching','kindly wait']
         if (!loading.some(p => result.text.toLowerCase().startsWith(p))) {
           if (result.lastUser) console.log(`👆 USER ACTION: ${result.lastUser}`)
-          console.log(`👁️  PASSIVE BOT RESPONSE (msg ${result.count}): ${result.text.substring(0,80)}`)
+          // Only log passive if it's genuinely different from what the active framework already captured
+          if (result.text !== lastActiveResponse) {
+            console.log(`👁️  PASSIVE BOT RESPONSE (msg ${result.count}): ${result.text.substring(0,80)}`)
+          }
           lastText  = result.text
           lastCount = result.count
           activeWs.send(JSON.stringify({
