@@ -399,8 +399,8 @@ async function getNewBotResponses(countBefore) {
 
     const elapsed    = ((Date.now() - start) / 1000).toFixed(1)
     const isHinglish = detectHinglish(result.text)
-    if (result.bubbleCount > 1) console.log(`🤖 BOT RESPONSE (${elapsed}s, ${result.bubbleCount} bubbles): ${result.text.substring(0,100)}`)
-    else console.log(`🤖 BOT RESPONSE (${elapsed}s): ${result.text.substring(0,100)}`)
+    if (result.bubbleCount > 1) console.log(`🤖 BOT RESPONSE (${result.bubbleCount} bubbles): ${result.text.substring(0,100)}`)
+    else console.log(`🤖 BOT RESPONSE: ${result.text.substring(0,100)}`)
     lastActiveResponse = result.text  // suppress duplicate passive log
     if (result.chips.length) console.log(`  💬 Chips: ${result.chips.join(' | ')}`)
     if (result.hasCTA) {
@@ -557,7 +557,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
   const isDisambig = DISAMBIG_PAT.some(p => p.test(result.response))
 
   if (isDisambig && caseId && result.chips.length > 0) {
-    console.log('Multi-turn disambig for case ' + caseId + ' — awaiting chip (60s)')
+    console.log(`  ↳ Disambiguation — waiting for chip (60s)`)
     awaitingChip = true  // FIX #1: suppress passive observer
     if (activeWs) activeWs.send(JSON.stringify({
       type: 'AWAIT_CHIP', caseId, chips: result.chips,
@@ -629,8 +629,8 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
 
   if (llmResult) {
     const hybrid = hybridVerdict(verdict, llmResult)
-    const icon   = hybrid === 'PASS' ? '✅' : hybrid === 'FAIL' ? '❌' : '⚠️'
-    console.log(`🧠 LLM: ${icon} ${llmResult.verdict} (${llmResult.confidence}%) — ${llmResult.reason}`)
+    const icon   = hybrid === 'PASS' ? '✅' : hybrid === 'FAIL' ? '❌' : '~'
+    console.log(`🧠 VERDICT: ${icon} ${hybrid} (${llmResult.confidence}%) — ${llmResult.reason}`)
     if (hybrid !== verdict.verdict) {
       console.log(`   ↳ Hybrid override: keyword=${verdict.verdict} → LLM=${llmResult.verdict} → final=${hybrid}`)
     }
@@ -646,7 +646,7 @@ async function sendMessage(question, caseId = null, expectedBehaviour = '', modu
       confidence: llmResult.confidence,
     })
   } else {
-    console.log('🧠 LLM: unavailable — keyword verdict used')
+    console.log(`🧠 VERDICT: keyword-only (Ollama not running)`)
   }
 
   result.verdict   = verdict
@@ -768,8 +768,10 @@ async function startMessageObserver() {
             const isEcho    = u.toLowerCase() === lastSentQuery
             if (!isOtp && !isEcho) console.log(`👆 USER ACTION: ${u}`)
           }
-          // Only log passive if genuinely different from active capture and not welcome message
-          if (result.text !== lastActiveResponse && !/hi .* welcome to blu/i.test(result.text)) {
+          // Only log passive if genuinely different from active capture and not welcome/metadata
+          const isWelcome  = /hi .* welcome to blu/i.test(result.text)
+          const isMetadata = /^(total loan limit|available loan limit|loan limit)/i.test(result.text)
+          if (result.text !== lastActiveResponse && !isWelcome && !isMetadata) {
             console.log(`👁️  PASSIVE BOT RESPONSE (msg ${result.count}): ${result.text.substring(0,80)}`)
           }
           lastText  = result.text
@@ -1030,7 +1032,9 @@ async function startServer() {
       try { msg = JSON.parse(raw) } catch { return }
       // Suppress noisy internal message types from log
       if (msg.type === 'GET_RUN_STATE') { await handleMessage(msg, ws); return }
-      console.log('📨', msg.type==='RUN_CASE'?'TEST':msg.type, msg.env || '', msg.id ? `#${msg.id}` : '')
+      if (msg.type === 'CHIP_SELECTED') { await handleMessage(msg, ws); return }
+      const label = msg.type === 'RUN_CASE' ? `TEST #${msg.id}` : msg.type
+      console.log(`📨 ${label}${msg.env ? ' '+msg.env : ''}`)
       await handleMessage(msg, ws)
     })
 
