@@ -14,27 +14,29 @@ BLU-Automation/
 │   ├── playwright_server.js            ← WebSocket bridge on ws://localhost:3001
 │   ├── verdict_engine.js               ← 8-rule structural verdict engine
 │   ├── llm_verdict.js                  ← LLM verdict via Ollama Llama 3.1 8B
-│   ├── semantic_scorer.js              ← TF-IDF cosine similarity scoring
+│   ├── semantic_scorer.js              ← TF-IDF cosine similarity + KB text cleaning
 │   └── package.json                    ← Node dependencies
 │
 ├── agent/                              ← Fully autonomous testing (zero human input after OTP)
 │   ├── agent_runner.html               ← Agent launcher UI (open via localhost:3002)
 │   ├── agent_server.js                 ← Express server on :3002, shares verdict pipeline
-│   └── export_bugs.js                  ← Excel bug report generator (FAIL + REVIEW cases)
+│   └── export_bugs.js                  ← Excel bug report (3 sheets: Bug Report, All Results, Summary)
 │
 ├── test-cases/                         ← Gitignored — generate locally (see Quick Start)
 │   ├── v7/
 │   │   ├── blu_test_cases_v7.csv           ← Primary (2,321 KB cases + 30 negative = 2,351)
-│   │   └── blu_test_cases_v7_realistic.csv ← Realistic phrasing variants (generate separately)
+│   │   └── blu_test_cases_v7_realistic.csv ← Realistic phrasing variants (~2,321 cases)
 │   ├── supplementary/
-│   │   └── blu_negative_test_cases.csv     ← 30 negative cases (cross-product, PII, sourcing)
+│   │   ├── blu_negative_test_cases.csv     ← 30 negative cases (cross-product, PII, sourcing)
+│   │   └── blu_stress_test_cases.csv       ← 4,045 stress cases (typo, abbrev, compound, past tense, terse)
 │   └── gaps/                               ← KB diff CSVs (generate via compare_kb.js)
 │
 ├── scripts/
 │   ├── generate/
 │   │   ├── generate_test_cases_v7.js       ← Regenerate V7 from KB JSONs
-│   │   ├── generate_realistic_variants.js  ← Rewrite V7 questions in real-user phrasing
-│   │   └── generate_negative_cases.js      ← Generate cross-product/PII/sourcing test cases
+│   │   ├── generate_realistic_variants.js  ← Rewrite V7 in real-user phrasing (~45 min, Ollama)
+│   │   ├── generate_negative_cases.js      ← Cross-product/PII/sourcing test cases
+│   │   └── generate_stress_variants.js     ← Stress variants: typos, abbreviations, compound, past tense, terse
 │   ├── analysis/
 │   │   ├── benchmark_realistic.js          ← Compare pass rates: V7 vs realistic
 │   │   ├── compare_kb.js                   ← Diff two KB versions, output gap CSVs
@@ -50,7 +52,8 @@ BLU-Automation/
 │
 ├── logs/                               ← Gitignored — auto-created on first server run
 │   ├── session_log_<date>.json         ← Dashboard session logs (keep last 5)
-│   ├── .run_state.json                 ← Bulk run resume state
+│   ├── .run_state.json                 ← Dashboard bulk run resume state
+│   ├── .module_run_state.json          ← Agent per-module run state (resume support)
 │   ├── screenshots/                    ← FAIL/REVIEW screenshots
 │   └── agent_runs/                     ← Agent Excel bug reports
 │
@@ -68,9 +71,11 @@ BLU-Automation/
 |---|---|---|
 | **Human input** | OTP + chip selection on disambiguation | OTP only (N2P), none (UAT) |
 | **Module selection** | Filter in sidebar | Checkbox UI with owner shortcuts |
-| **Disambiguation** | User selects chip in dashboard panel | Auto-selects best chip |
+| **Disambiguation** | User selects chip in floating modal | Auto-selects best chip |
+| **Session cap** | Manual awareness | Configurable (default 18), auto re-auth |
+| **Resume** | Per-bulk-run banner | Per-module progress bar + Resume/Restart toggle |
 | **Verdicts** | Live in dashboard | In agent log + Excel export |
-| **Bug output** | Export CSV | Excel with ADO-ready titles |
+| **Bug output** | Export CSV | Excel (3 sheets) with ADO-ready titles |
 | **Port** | ws://localhost:3001 | http://localhost:3002 |
 
 ---
@@ -95,29 +100,24 @@ cd Blu-Bot-Testing
 
 ### 2. Install dependencies
 ```bash
-# Dashboard
 cd dashboard && npm install && cd ..
-
-# Root (agent + scripts)
 npm install
 ```
 
 ### 3. LLM Setup (one-time, optional but recommended)
 ```bash
-# Download Llama 3.1 8B Q4_K_M (~4.6GB)
 curl -L --retry 10 --retry-delay 15 -C - \
   "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf" \
   -o ~/Desktop/llama3.1-8b-q4.gguf
 
-# Register with Ollama
 echo 'FROM /Users/<your-username>/Desktop/llama3.1-8b-q4.gguf' > ~/Desktop/Modelfile
 ollama create llama3.1-local -f ~/Desktop/Modelfile
 ```
 
-### 4. Generate test cases (first-time setup)
+### 4. Generate test cases (first-time)
 ```bash
 node scripts/generate/generate_test_cases_v7.js    # 2,321 cases from KB JSONs
-node scripts/generate/generate_negative_cases.js   # appends 30 negative cases → 2,351 total
+node scripts/generate/generate_negative_cases.js   # appends 30 negative → 2,351 total
 ```
 
 ---
@@ -127,54 +127,47 @@ node scripts/generate/generate_negative_cases.js   # appends 30 negative cases �
 Best for: reviewing verdicts live, investigating failures, manual override of REVIEW cases.
 
 ```bash
-# Terminal 1 — LLM (optional)
-ollama serve
-
-# Terminal 2 — Bridge
-cd dashboard && node playwright_server.js
-
-# Terminal 3 — Open dashboard
-open dashboard/blu_test_dashboard_v4.html
+ollama serve                                      # Terminal 1 (optional)
+cd dashboard && node playwright_server.js         # Terminal 2
+open dashboard/blu_test_dashboard_v4.html         # Terminal 3
 ```
 
-1. Select **N2P** or **UAT** in topbar
-2. Click **Connect to Bot** → enter mobile → enter OTP
-3. Click **Load CSV** → select `test-cases/v7/blu_test_cases_v7.csv`
-4. Filter to your module in the sidebar
-5. Click **⚡ Bulk Run** → enter number of cases → confirm
-6. On disambiguation prompts → select product in the chip panel that appears
-7. Review FAIL/REVIEW cases → mark Pass/Fail manually → **Export CSV**
+1. Select **N2P** or **UAT** → **Connect to Bot** → mobile → OTP
+2. **Load CSV** → `test-cases/v7/blu_test_cases_v7.csv`
+3. Filter to your module in sidebar
+4. **⚡ Bulk Run** → enter number of cases → confirm
+5. On disambiguation → select product in the floating chip panel
+6. Review FAIL/REVIEW cases → mark manually
+7. Results auto-exported on bulk run completion (also available via **Export CSV**)
+
+**First time?** An onboarding overlay walks you through the 5 steps above. Dismisses permanently after "Got it".
 
 ---
 
 ## Method B — Agent (Fully autonomous)
 
-Best for: running large batches unattended, overnight runs, team-wide module coverage.
+Best for: large batches unattended, overnight runs, team-wide coverage.
 
 ```bash
-# Terminal 1 — LLM (optional)
-ollama serve
-
-# Terminal 2 — Agent server
-node agent/agent_server.js
-
-# Browser
+ollama serve                    # Terminal 1 (optional)
+node agent/agent_server.js      # Terminal 2
 open http://localhost:3002/agent_runner.html
 ```
 
-1. Select environment, mobile number, test suite, cases per module
-2. Check modules to test (or use owner shortcuts: Ishaan / Ayushi / Irfan / Mekhala / Punit)
-3. Click **▶ Start Agent Run**
-4. **N2P only:** enter OTP when the banner appears (UAT is fully automatic)
-5. Watch live progress — module rings, pass/fail/review counts, run log
-6. On completion → **📁 Open Bug Report** → Excel file in `logs/agent_runs/`
+1. Select environment, mobile, test suite, cases per module
+2. Set **Session Limit** (default 18 — bot resets after ~18-20 turns, agent re-auths automatically)
+3. Select modules (owner shortcuts: Ishaan / Ayushi / Irfan / Mekhala / Punit)
+4. **Modules with prior runs show a progress bar** — choose Resume or Restart per module
+5. Start button adapts: **▶ Start** / **▶ Resume + Start** / **⏭ Resume Run**
+6. **N2P:** enter OTP in the banner when prompted (UAT is fully automatic)
+7. On completion → **📁 Open Bug Report** → `logs/agent_runs/bugs_<ENV>_<timestamp>.xlsx`
 
 **Agent behaviour:**
-- Auto-selects the most relevant chip on disambiguation prompts
-- Waits up to 60s for retry cards to clear before marking SKIP
-- Detects "Number of attempts exceeded" → stops run, exports partial results
-- Screenshots taken on FAIL and REVIEW cases
-- Re-auth handled automatically (UAT: auto OTP; N2P: prompts via UI banner)
+- Auto-selects most relevant chip on disambiguation
+- Waits up to 60s for retry cards; marks SKIP if card doesn't clear
+- Detects "Number of attempts exceeded" → stops, exports partial results
+- Screenshots on FAIL and REVIEW
+- Re-auth every N cases (session cap) — N2P prompts OTP, UAT auto-fills
 
 ---
 
@@ -193,20 +186,28 @@ open http://localhost:3002/agent_runner.html
 |------|-------|---------|
 | `test-cases/v7/blu_test_cases_v7.csv` | 2,351 | Primary — daily runs, all modules |
 | `test-cases/supplementary/blu_negative_test_cases.csv` | 30 | Cross-product, PII, sourcing guard |
-| `test-cases/v7/blu_test_cases_v7_realistic.csv` | 2,321 | Realistic phrasing benchmark |
+| `test-cases/v7/blu_test_cases_v7_realistic.csv` | ~2,321 | Realistic phrasing benchmark |
+| `test-cases/supplementary/blu_stress_test_cases.csv` | 4,045 | Stress testing — typos, abbreviations, compound queries |
 
 > All CSVs are gitignored. Generate locally using scripts in `scripts/generate/`.
 
 **Negative case categories:**
-- **Cross-product** — asking module A about module B's product (e.g. home loan from EMI Card context)
-- **PII Guard** — requesting sensitive data (CVV, PAN, account number, OTP)
+- **Cross-product** — asking module A about module B (e.g. home loan enquiry in EMI Card context)
+- **PII Guard** — requesting CVV, PAN, account number, OTP
 - **Sourcing Guard** — apply/new product intent inside a service conversation
+
+**Stress case categories:**
+- **Typo** — character swaps, missing letters (`"emi crd blck karo"`)
+- **Abbreviation** — shorthand (`"txn failed"`, `"mandate chng"`)
+- **Compound** — two questions in one (`"block card and how to unblock later"`)
+- **Past tense** — describing past events (`"my transaction had failed yesterday on Amazon"`)
+- **Terse** — extremely short queries (`"mandate change"`, `"card blocked"`)
 
 ---
 
 ## Verdict Engine
 
-Every bot response passes through three layers — identical in both dashboard and agent.
+Every bot response passes through three layers — identical in dashboard and agent.
 
 ### Layer 1 — Structural Rules (`verdict_engine.js`, ~0ms)
 
@@ -215,23 +216,31 @@ Every bot response passes through three layers — identical in both dashboard a
 | `SOURCING_GUARD` | Query is not a new product/apply intent |
 | `NO_FALLBACK` | Response is not a fallback/retry/error card |
 | `LANGUAGE` | Response language matches query language |
-| `MIN_LENGTH` | Response length meets module minimum |
-| `CTA_PRESENT` | CTA present when KB expects one |
-| `NO_CROSS_PRODUCT` | No unrelated product mentions |
+| `MIN_LENGTH` | Response meets module minimum length |
+| `CTA_PRESENT` | CTA present when KB expects one (REVIEW if missing, not FAIL) |
+| `NO_CROSS_PRODUCT` | No unrelated product contamination |
 | `ESCALATION_CHECK` | Escalation matches KB expectation |
 | `KEYWORD_MATCH` | TF-IDF cosine similarity (Layer 2) |
 
 **Special verdicts:**
-- `GAP_CASE` — auto-REVIEW, no KB entry exists
-- `RETRY_CARD` — bot showed error card, test skipped (not FAIL)
-- `RATE_LIMITED` — bot rate-limited, run stopped
+- `GAP_CASE` — auto-REVIEW, no KB entry
+- `RETRY_CARD` — bot showed error card, test marked REVIEW (not FAIL)
+- `RATE_LIMITED` — bot rate-limited, run stopped and exported
 
 ### Layer 2 — Semantic Scoring (`semantic_scorer.js`, ~1ms)
-TF-IDF cosine similarity with financial domain stopwords and synonym expansion.
-Thresholds: >25% = PASS, 10–25% = REVIEW, <10% = FAIL.
+TF-IDF cosine similarity. KB `Expected Behaviour` is cleaned before scoring — strips CTA blocks, deeplinks, JSON field references, KB-internal instructions. Leaves only human-readable answer text.
+
+Thresholds: >25% = PASS · 10–25% = REVIEW · <10% = FAIL
+
+Financial synonym expansion: `network↔emi↔insta`, `card↔cards`, `transaction↔purchase↔buy`, `block↔freeze`, `foreclose↔closure`, and more.
 
 ### Layer 3 — LLM Verdict (`llm_verdict.js`, ~3s)
-Ollama Llama 3.1 8B Q4_K_M. Hybrid override: LLM ≥70% confidence can promote REVIEW → PASS.
+Ollama Llama 3.1 8B Q4_K_M.
+
+**Pre-LLM confidence gate:** if all structural rules pass and semantic confidence ≥60%, LLM is skipped — structural verdict is sufficient. Reduces LLM calls by ~40-50% on well-covered modules.
+
+**Hybrid override:** LLM ≥70% confidence can promote REVIEW → PASS.
+
 Silent fallback to structural-only if Ollama not running.
 
 ---
@@ -239,23 +248,25 @@ Silent fallback to structural-only if Ollama not running.
 ## Dashboard Features
 
 ### Filter Pills
-- **In-KB** — KB-verbatim cases only
-- **Gap** — cases with no KB entry
-- **⚠ Negative** — cross-product, PII, sourcing guard cases
-- **Untested** — cases not yet run
-- **Failed** — FAIL verdict cases
+- **In-KB** — KB-verbatim cases
+- **Gap** — no KB entry (auto-REVIEW)
+- **⚠ Negative** — cross-product, PII, sourcing guard
+- **Untested** — not yet run
+- **Failed** — FAIL verdict
 - **⏭ First** — sorts untested to top
 
-### Bulk Run Resume
-`.run_state.json` written after every case. On next login a banner shows last tested module + topic with a Resume option.
+### Bulk Run
+- Progress bar with live PASS ✓ / FAIL ✗ / REVIEW ~ counts
+- Results **auto-exported on completion** — no manual export needed
+- `.run_state.json` written after every case for resume support
 
 ### Disambiguation Chip Panel
-When bot asks to select a product, a floating modal appears with the available chips, a 60s countdown ring, and a Skip option.
+Floating modal with product chip buttons, 60s countdown ring, Skip option. Appears automatically when bot asks to select a product/relation.
 
 ### KB Diff
-**KB Diff** button → load both gap CSVs → tabbed view of added/removed entries since last KB version. Modules with changes show **Δn** amber badge in sidebar.
+**KB Diff** → load both gap CSVs → tabbed diff view. Modules with changes show **Δn** amber badge.
 
-### Coverage Rings (per module)
+### Coverage Rings
 
 | Colour | PASS rate |
 |--------|-----------|
@@ -264,21 +275,35 @@ When bot asks to select a product, a floating modal appears with the available c
 | 🟡 Amber | 50–74% |
 | 🔵 Blue | 75–89% |
 | 🟢 Green | ≥ 90% |
-| ⛔ | Blocked — missing `chatbot-flag=yes` in KB |
+| ⛔ | Blocked — `chatbot-flag=yes` missing in KB |
 
 ### UAT Parity Check
-**⚖ Check on UAT** on any case — compares N2P vs UAT verdict side by side.
+**⚖ Check on UAT** — compares N2P vs UAT verdict on the same case side by side.
 
-### Export CSV
-`Module → L3 → Test Question → In-KB or Gap → Bot Response → Manual Result → Expected Behaviour → Verdict → Verdict_Detail → CTA_Labels → CTA_Links → Chat ID → Tested_At`
+---
+
+## Agent — Per-Module Resume
+
+The agent saves run state per module after every case to `logs/.module_run_state.json`.
+
+On the next run:
+- Modules with prior progress show a **progress bar** (done/total · pass/fail · time ago)
+- A **Resume / Restart toggle** appears when the module is selected
+- **Resume** — continues from the last completed case
+- **Restart** — starts from the beginning, overwrites prior state
+
+The **Start button** adapts:
+- All fresh → `▶ Start Agent Run`
+- Some resuming → `▶ Resume + Start Run`
+- All resuming → `⏭ Resume Run`
 
 ---
 
 ## Agent Bug Report (Excel)
 
-Saved to `logs/agent_runs/bugs_<ENV>_<timestamp>.xlsx` after every run (including stopped/rate-limited runs).
+3 sheets, saved to `logs/agent_runs/bugs_<ENV>_<timestamp>.xlsx` after every run.
 
-**Sheet 1 — Bug Report**
+**Sheet 1 — Bug Report** (FAIL + REVIEW only, ADO-ready)
 
 | Column | Content |
 |--------|---------|
@@ -286,22 +311,36 @@ Saved to `logs/agent_runs/bugs_<ENV>_<timestamp>.xlsx` after every run (includin
 | Verdict | FAIL / REVIEW |
 | Module, L3, TC ID | Case identifiers |
 | Test Question | Exact question sent |
-| Bot Response | Full response captured |
+| Bot Response | Full captured response |
 | Expected Behaviour | KB expected behaviour |
-| Failed Rules | Rules that failed |
-| Chat ID | For reproduction |
-| Notes | Empty — fill manually |
+| Failed Rules | Which rules failed |
+| Chat ID | For ADO reproduction steps |
+| Notes | Blank — fill manually before filing |
 
-**Sheet 2 — Summary**: per-module pass/fail/review totals and pass rate.
+**Sheet 2 — All Results** (every tested case — full audit trail)
+
+**Sheet 3 — Summary** (per-module pass/fail/review totals + pass rate %)
 
 ---
 
-## Session Behaviour
+## Stress Variant Generation
 
-- **Auto-reset at 30 messages** — bot returns to login screen
-- **Re-auth** — UAT auto-fills `123465`; N2P shows inline OTP banner in dashboard or agent UI
-- **Retry cards** — agent waits up to 60s for dismissal; dashboard queues messages during countdown
-- **Ollama off** — falls back to structural + semantic scoring only
+```bash
+# All modules — samples every 3rd V7 case (~45-60 min, Ollama required)
+ollama serve
+node scripts/generate/generate_stress_variants.js
+
+# Single module
+node scripts/generate/generate_stress_variants.js --module EMI_Card_Service
+
+# Limited run
+node scripts/generate/generate_stress_variants.js --limit 100
+
+# Dry run (no LLM, test pipeline only)
+node scripts/generate/generate_stress_variants.js --dry-run
+```
+
+Output: `test-cases/supplementary/blu_stress_test_cases.csv` (~4,045 cases across 5 categories)
 
 ---
 
@@ -312,16 +351,24 @@ Saved to `logs/agent_runs/bugs_<ENV>_<timestamp>.xlsx` after every run (includin
 ollama serve
 node scripts/generate/generate_realistic_variants.js
 
-# Step 2 — run V7 baseline in dashboard, export results
-# Step 3 — run realistic CSV in dashboard, export results
+# Step 2 — run V7 baseline in dashboard/agent, export
+# Step 3 — run realistic CSV, export
 
 # Step 4 — compare
-node scripts/analysis/benchmark_realistic.js \
-  <v7_baseline_export.csv> \
-  <v7_realistic_export.csv>
+node scripts/analysis/benchmark_realistic.js <v7_baseline.csv> <v7_realistic.csv>
 ```
 
-The pass rate gap between V7 (KB-verbatim) and realistic (real-user phrasing) identifies where the bot fails on natural language.
+The pass rate gap between V7 (KB-verbatim) and realistic (real-user phrasing) shows where the bot fails on natural language. A 20%+ gap on a module warrants KB or prompt improvements.
+
+---
+
+## Session Behaviour
+
+- **Session cap** (agent) — re-auth every N cases (default 18). Configurable in launcher UI. Prevents hitting the bot's ~18-20 turn reset limit.
+- **Auto-reset** (dashboard) — bot navigates to login after 30 messages, re-auth triggered automatically
+- **Re-auth** — UAT: auto-fills `123465` · N2P: shows OTP input banner
+- **Retry cards** — agent waits up to 60s for dismissal, marks REVIEW with `RETRY_CARD` rule if card persists
+- **Ollama off** — falls back to structural + semantic scoring only (~40-50% faster per case)
 
 ---
 
@@ -331,7 +378,7 @@ The pass rate gap between V7 (KB-verbatim) and realistic (real-user phrasing) id
 python3 scripts/kb/kb_update_trigger.py --new-folder "June 01 - Latest Content"
 node scripts/generate/generate_test_cases_v7.js
 node scripts/generate/generate_negative_cases.js
-node scripts/analysis/compare_kb.js  # regenerate gap CSVs
+node scripts/analysis/compare_kb.js
 ```
 
 ---
@@ -372,21 +419,20 @@ SME Flexi Loan, Home Loan, Loan Payments, Rewards, Help & Support — `chatbot-f
 
 | Item | Status |
 |------|--------|
-| Phase 1 — Stability (retry lock, re-auth, virtual scroll) | ✅ Done |
-| Phase 2 — LLM verdict, disambiguation | ✅ Done |
-| Phase 3 — Dashboard (progress bar, CTA chips, export) | ✅ Done |
-| Phase 4 — Bulk resume, UAT parity, semantic scoring | ✅ Done |
-| Phase 4.1 — Multi-turn runner, chip panel | ✅ Done |
-| Verdict engine fixes (fallback/escalation overlap, MIN_LENGTH) | ✅ Done |
-| Negative test cases (cross-product, PII, sourcing) | ✅ Done |
-| KB Diff dashboard (Δ badge, tabbed modal) | ✅ Done |
-| Realistic variant generator (100% rewrite rate) | ✅ Done |
-| Terminal log cleanup (clean output, elapsed timing) | ✅ Done |
-| Agent runner (autonomous, Excel export, OTP pause) | ✅ Done |
-| Realistic variant benchmark | 🔜 Pending — run after module baselines established |
-| UAT parity bulk run | 🔜 Pending — module-level N2P vs UAT sweep |
-| Multi-agent (parallel per owner, coordinator) | 🔜 Pending — needs multiple test mobiles |
-| Content gaps (chatbot-flag=yes for 5 modules) | ⛔ Blocked — content team |
+| Phase 1–4 (stability, LLM, dashboard, semantic) | ✅ Done |
+| Agent runner (autonomous, OTP pause, Excel export) | ✅ Done |
+| Per-module resume + session cap | ✅ Done |
+| Pre-LLM confidence gate | ✅ Done |
+| KB text cleaning before scoring | ✅ Done |
+| Adaptive gap between cases | ✅ Done |
+| Dashboard onboarding + auto-export | ✅ Done |
+| Stress variant generator (4,045 cases, 5 categories) | ✅ Done |
+| Realistic variants (2,321, 100% rewrite rate) | ✅ Done |
+| Run module baselines before team share | 🔜 Next |
+| Realistic variant benchmark | 🔜 Pending — after baselines |
+| UAT parity bulk run | 🔜 Pending |
+| Multi-agent (parallel per owner) | 🔜 Pending — needs multiple test mobiles |
+| Content gaps (chatbot-flag=yes, 5 modules) | ⛔ Blocked — content team |
 
 ---
 
